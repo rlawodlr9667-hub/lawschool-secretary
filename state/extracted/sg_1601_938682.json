@@ -1,0 +1,34 @@
+{
+  "board": "학사공지",
+  "events": [
+    {
+      "all_day": true,
+      "confidence": "high",
+      "evidence": "신청기간 : 2026.7.27.(월) ~ 8.7.(금) 17:00까지(휴무일에는 이메일 접수만 가능함)",
+      "slug": "apply-start",
+      "start_date": "2026-07-27",
+      "start_time": null,
+      "summary": "2학기 장학금 신청 시작",
+      "uid": "ce583622e2ee9a31ce4d9f159b7e0f6b@law-secretary"
+    },
+    {
+      "all_day": false,
+      "confidence": "high",
+      "evidence": "신청기간 : 2026.7.27.(월) ~ 8.7.(금) 17:00까지(휴무일에는 이메일 접수만 가능함)",
+      "slug": "apply-close",
+      "start_date": "2026-08-07",
+      "start_time": "17:00",
+      "summary": "2학기 장학금 신청 마감",
+      "uid": "9c6a658c99997fe2066df6bc008b9964@law-secretary"
+    }
+  ],
+  "extracted_at": "2026-07-27T01:37:41+09:00",
+  "needs_manual": false,
+  "no_events_reason": null,
+  "post_id": "sg_1601:938682",
+  "posted_date": "2026-07-23",
+  "revision": 0,
+  "tab": "sogang",
+  "title": "2026학년도 2학기 법학전문대학원 장학금 신청 안내",
+  "url": "https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1601&siteId=lawschool&pkid=938682"
+}

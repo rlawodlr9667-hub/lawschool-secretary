@@ -128,4 +128,106 @@ URL:https://leet.uwayapply.com/board/BoardView.htm?board_id=82&board_seqnum
  =86344
 TRANSP:TRANSPARENT
 END:VEVENT
+BEGIN:VEVENT
+UID:dab1c37acc0e229299b26b827470c077@law-secretary
+DTSTAMP:20260726T163741Z
+DTSTART;VALUE=DATE:20260727
+DTEND;VALUE=DATE:20260728
+SEQUENCE:0
+SUMMARY:하계 집중휴무 시작
+DESCRIPTION:[학사공지] 2026학년도 하계 집중휴무 시행 안내\
+ n근거: 휴무기간 : 2026년 7월 27일(월) ∼ 7월 31일(금) 『5
+ 일간』\nhttps://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigF
+ K=1601&siteId=lawschool&pkid=938567
+URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1601&s
+ iteId=lawschool&pkid=938567
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:오늘 하계 집중휴무 시작
+TRIGGER:PT9H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:85bd9e657a69b66c9460cbd847c9db31@law-secretary
+DTSTAMP:20260726T163741Z
+DTSTART;VALUE=DATE:20260731
+DTEND;VALUE=DATE:20260801
+SEQUENCE:0
+SUMMARY:하계 집중휴무 종료
+DESCRIPTION:[학사공지] 2026학년도 하계 집중휴무 시행 안내\
+ n근거: 휴무기간 : 2026년 7월 27일(월) ∼ 7월 31일(금) 『5
+ 일간』\nhttps://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigF
+ K=1601&siteId=lawschool&pkid=938567
+URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1601&s
+ iteId=lawschool&pkid=938567
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:D-3 하계 집중휴무 종료
+TRIGGER:-P2DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:D-1 하계 집중휴무 종료
+TRIGGER:-PT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:오늘 하계 집중휴무 종료
+TRIGGER:PT9H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ce583622e2ee9a31ce4d9f159b7e0f6b@law-secretary
+DTSTAMP:20260726T163741Z
+DTSTART;VALUE=DATE:20260727
+DTEND;VALUE=DATE:20260728
+SEQUENCE:0
+SUMMARY:2학기 장학금 신청 시작
+DESCRIPTION:[학사공지] 2026학년도 2학기 법학전문대학원 장
+ 학금 신청 안내\n근거: 신청기간 : 2026.7.27.(월) ~ 8.7.(금) 1
+ 7:00까지(휴무일에는 이메일 접수만 가능함)\nhttps://lawscho
+ ol.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1601&siteId=lawschool&pk
+ id=938682
+URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1601&s
+ iteId=lawschool&pkid=938682
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:오늘 2학기 장학금 신청 시작
+TRIGGER:PT9H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:9c6a658c99997fe2066df6bc008b9964@law-secretary
+DTSTAMP:20260726T163741Z
+DTSTART:20260807T080000Z
+DTEND:20260807T083000Z
+SEQUENCE:0
+SUMMARY:2학기 장학금 신청 마감
+DESCRIPTION:[학사공지] 2026학년도 2학기 법학전문대학원 장
+ 학금 신청 안내\n근거: 신청기간 : 2026.7.27.(월) ~ 8.7.(금) 1
+ 7:00까지(휴무일에는 이메일 접수만 가능함)\nhttps://lawscho
+ ol.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1601&siteId=lawschool&pk
+ id=938682
+URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1601&s
+ iteId=lawschool&pkid=938682
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:D-3 2학기 장학금 신청 마감
+TRIGGER:-P3D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:D-1 2학기 장학금 신청 마감
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:오늘 2학기 장학금 신청 마감
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
 END:VCALENDAR

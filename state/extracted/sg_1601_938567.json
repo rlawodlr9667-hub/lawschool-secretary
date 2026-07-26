@@ -1,0 +1,34 @@
+{
+  "board": "학사공지",
+  "events": [
+    {
+      "all_day": true,
+      "confidence": "low",
+      "evidence": "휴무기간 : 2026년 7월 27일(월) ∼ 7월 31일(금) 『5일간』",
+      "slug": "office-closure-start",
+      "start_date": "2026-07-27",
+      "start_time": null,
+      "summary": "하계 집중휴무 시작",
+      "uid": "dab1c37acc0e229299b26b827470c077@law-secretary"
+    },
+    {
+      "all_day": true,
+      "confidence": "low",
+      "evidence": "휴무기간 : 2026년 7월 27일(월) ∼ 7월 31일(금) 『5일간』",
+      "slug": "office-closure-end",
+      "start_date": "2026-07-31",
+      "start_time": null,
+      "summary": "하계 집중휴무 종료",
+      "uid": "85bd9e657a69b66c9460cbd847c9db31@law-secretary"
+    }
+  ],
+  "extracted_at": "2026-07-27T01:37:41+09:00",
+  "needs_manual": false,
+  "no_events_reason": null,
+  "post_id": "sg_1601:938567",
+  "posted_date": "2026-07-20",
+  "revision": 0,
+  "tab": "sogang",
+  "title": "2026학년도 하계 집중휴무 시행 안내",
+  "url": "https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1601&siteId=lawschool&pkid=938567"
+}
