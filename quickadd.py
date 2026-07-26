@@ -174,20 +174,23 @@ def force_foreground(hwnd):
 # ---------------------------------------------------------------------------
 PLACEHOLDER = "일정을 추가하세요."
 
-BG = "#1f2126"
-CARD = "#272a30"
-FG = "#f0f2f5"
-HINT = "#828a96"
-DIM = "#4a505a"          # 이번 달이 아닌 날
-HOVER = "#363b44"        # 마우스를 올린 날
-OK = "#93d19a"
-BAD = "#e8918f"
-ACCENT = "#7ea6f0"
-SUN = "#e08b8b"
-SAT = "#8fa8dc"
+# macOS 스포트라이트의 어두운 판을 따라갑니다. 회색 판 위에 흰 글씨,
+# 고른 것 하나만 파란 알약으로 칠하는 방식입니다.
+BG = "#3a3a3c"           # 창 바탕
+DIVIDER = "#4c4c4e"      # 검색줄 아래 가는 선
+PILL = "#5a5a5e"         # 오른쪽 작은 표지
+FG = "#f2f2f7"           # 본문 글씨
+HINT = "#98989d"         # 흐린 글씨
+DIM = "#6d6d72"          # 이번 달이 아닌 날
+HOVER = "#4c4c50"        # 마우스를 올린 날
+BLUE = "#0a6cf5"         # 고른 것 / 오늘
+OK = "#7ee08a"
+BAD = "#ff7b72"
+SUN = "#ff8a80"
+SAT = "#8ab4ff"
 
 WIDTH = 660
-RADIUS = 18
+RADIUS = 20
 
 # 부드러운 순서대로 찾습니다. 맑은 고딕 Semilight 는 윈도우에 들어 있는
 # 가는 획 글꼴이라 같은 맑은 고딕이라도 훨씬 부드럽게 보입니다.
@@ -217,111 +220,123 @@ def three_weeks(today):
             for week in (-1, 0, 1)]
 
 
+def round_rect(canvas, x1, y1, x2, y2, radius, **options):
+    """캔버스에 모서리가 둥근 사각형. 고른 날을 칠하는 알약 모양입니다.
+
+    tkinter 캔버스에는 둥근 사각형이 없습니다. 모서리에 점을 촘촘히 두고
+    smooth 로 이어 붙이면 곡선이 됩니다.
+    """
+    points = [
+        x1 + radius, y1, x2 - radius, y1, x2, y1,
+        x2, y1 + radius, x2, y2 - radius, x2, y2,
+        x2 - radius, y2, x1 + radius, y2, x1, y2,
+        x1, y2 - radius, x1, y1 + radius, x1, y1,
+    ]
+    return canvas.create_polygon(points, smooth=True, **options)
+
+
 class MiniCalendar:
     """입력창 아래 붙는 3주짜리 달력.
 
-    일정이 있는 날에는 점을 찍고, 마우스를 올리면 그 날이 밝아지면서
-    제목을 알려 줍니다(알려 주는 곳은 바깥에서 정합니다).
+    칸마다 위젯을 두지 않고 캔버스에 직접 그립니다. 위젯으로 만들면
+    네모난 칸밖에 칠할 수 없는데, 스포트라이트처럼 고른 것을 둥근 알약으로
+    칠하려면 직접 그리는 수밖에 없습니다. 덤으로, 마우스가 칸과 글자
+    사이를 오갈 때 효과가 깜빡이던 문제도 사라집니다 — 캔버스 하나 안에서는
+    마우스가 나간 적이 없기 때문입니다.
     """
+
+    HEAD_H = 26              # 요일 줄 높이
+    CELL_H = 38
+    PILL_W = 58              # 열 너비(약 89) 안에서 넉넉하게
+    PILL_H = 32
 
     def __init__(self, parent, today, font_name, on_hover=None):
         self.today = today
+        self.font = font_name
         self.on_hover = on_hover or (lambda _day: None)
-        self.cells = {}                    # 날짜 -> (칸, 숫자, 점)
+        self.weeks = three_weeks(today)
+        self.titles = {}
         self.hovered = None
-        self._clear_job = None
 
-        wrap = tk.Frame(parent, bg=BG)
-        wrap.pack(fill="x", padx=14, pady=(2, 4))
+        width = WIDTH - 36
+        self.col_w = width / 7
+        height = self.HEAD_H + self.CELL_H * len(self.weeks)
 
-        head = tk.Label(wrap, text=f"{today.year}년 {today.month}월",
-                        font=(font_name, 9), bg=BG, fg=HINT)
-        head.grid(row=0, column=0, columnspan=7, pady=(0, 4))
+        self.cv = tk.Canvas(parent, width=width, height=height, bg=BG,
+                            highlightthickness=0, bd=0)
+        self.cv.pack(padx=18, pady=(2, 2))
+        self.cv.bind("<Motion>", self._motion)
+        self.cv.bind("<Leave>", lambda _e: self._hover(None))
+
+        self._draw()
+
+    # -- 그리기 ------------------------------------------------------------
+    def _center(self, row, col):
+        return (col + 0.5) * self.col_w, self.HEAD_H + (row + 0.5) * self.CELL_H
+
+    def _draw(self):
+        cv = self.cv
+        cv.delete("all")
 
         for col, name in enumerate(WEEKDAY_LABELS):
             color = SUN if col == 0 else (SAT if col == 6 else HINT)
-            tk.Label(wrap, text=name, font=(font_name, 9), bg=BG, fg=color) \
-                .grid(row=1, column=col, sticky="nsew")
+            cv.create_text((col + 0.5) * self.col_w, self.HEAD_H / 2,
+                           text=name, fill=color, font=(self.font, 9))
 
-        for row, week in enumerate(three_weeks(today), start=2):
+        for row, week in enumerate(self.weeks):
             for col, day in enumerate(week):
-                cell = tk.Frame(wrap, bg=BG)
-                cell.grid(row=row, column=col, sticky="nsew", pady=1)
+                cx, cy = self._center(row, col)
+                this_month = day.month == self.today.month
+                is_today = day == self.today
 
-                if day.month == today.month:
-                    color = SUN if col == 0 else (SAT if col == 6 else FG)
+                if is_today or day == self.hovered:
+                    round_rect(cv, cx - self.PILL_W / 2, cy - self.PILL_H / 2,
+                               cx + self.PILL_W / 2, cy + self.PILL_H / 2,
+                               10, fill=BLUE if is_today else HOVER, outline="")
+
+                if is_today:
+                    color = "#ffffff"
+                elif not this_month:
+                    color = DIM
+                elif col == 0:
+                    color = SUN
+                elif col == 6:
+                    color = SAT
                 else:
-                    color = DIM                     # 이번 달이 아닌 날은 흐리게
+                    color = FG
 
-                weight = "bold" if day == today else "normal"
-                if day == today:
-                    color = ACCENT
+                weight = "bold" if is_today else "normal"
+                cv.create_text(cx, cy - 4, text=str(day.day), fill=color,
+                               font=(self.font, 11, weight))
 
-                num = tk.Label(cell, text=str(day.day), font=(font_name, 10, weight),
-                               bg=BG, fg=color)
-                num.pack()
-                # 점 자리는 비어 있어도 미리 잡아 둡니다. 나중에 글자만
-                # 채우면 달력이 위아래로 덜컹거리지 않습니다.
-                dot = tk.Label(cell, text="", font=(font_name, 8), bg=BG, fg=ACCENT)
-                dot.pack()
-                self.cells[day] = (cell, num, dot)
+                if self.titles.get(day):
+                    dot = "#ffffff" if is_today else (BLUE if this_month else DIM)
+                    cv.create_oval(cx - 2, cy + 8, cx + 2, cy + 12,
+                                   fill=dot, outline="")
 
-                # 칸과 그 안의 글자에 모두 걸어야 합니다. Tk 는 마우스가
-                # 칸에서 숫자로 넘어가는 것도 '칸에서 나갔다'로 세기 때문에,
-                # 칸에만 걸면 숫자 위에 있을 때 효과가 풀립니다.
-                for widget in (cell, num, dot):
-                    widget.bind("<Enter>", lambda _e, d=day: self._enter(d))
-                    widget.bind("<Leave>", lambda _e, d=day: self._leave(d))
-
-        for col in range(7):
-            wrap.grid_columnconfigure(col, weight=1, uniform="day")
-
-        self.wrap = wrap
-
+    # -- 바깥에서 쓰는 것 ---------------------------------------------------
     def span(self):
-        days = sorted(self.cells)
-        return days[0], days[-1]
+        return self.weeks[0][0], self.weeks[-1][-1]
 
     def mark(self, titles):
-        """일정이 있는 날에 점을 켭니다. titles 는 {날짜: [제목, ...]}."""
-        for day, (_cell, _num, dot) in self.cells.items():
-            has = bool(titles.get(day))
-            dot.configure(text="•" if has else "",
-                          fg=ACCENT if day.month == self.today.month else DIM)
+        self.titles = titles or {}
+        self._draw()
 
     # -- 마우스 ------------------------------------------------------------
-    def _paint(self, day, background):
-        parts = self.cells.get(day)
-        if not parts:
-            return
-        for widget in parts:
-            widget.configure(bg=background)
+    def _motion(self, event):
+        col = int(event.x // self.col_w)
+        row = int((event.y - self.HEAD_H) // self.CELL_H)
+        if 0 <= col < 7 and 0 <= row < len(self.weeks):
+            self._hover(self.weeks[row][col])
+        else:
+            self._hover(None)
 
-    def _enter(self, day):
-        # 칸 안에서 숫자로 옮겨가는 순간 잠깐 '나감'이 끼어듭니다.
-        # 예약된 지우기를 취소해서 깜빡이지 않게 합니다.
-        if self._clear_job is not None:
-            self.wrap.after_cancel(self._clear_job)
-            self._clear_job = None
-        if self.hovered == day:
+    def _hover(self, day):
+        if day == self.hovered:
             return
-        if self.hovered is not None:
-            self._paint(self.hovered, BG)
         self.hovered = day
-        self._paint(day, HOVER)
+        self._draw()
         self.on_hover(day)
-
-    def _leave(self, _day):
-        if self._clear_job is not None:
-            self.wrap.after_cancel(self._clear_job)
-        self._clear_job = self.wrap.after(40, self._clear)
-
-    def _clear(self):
-        self._clear_job = None
-        if self.hovered is not None:
-            self._paint(self.hovered, BG)
-            self.hovered = None
-        self.on_hover(None)
 
 
 class QuickAdd:
@@ -337,6 +352,7 @@ class QuickAdd:
         self.calendar = None
         self.tip = None
         self.tip_font = None
+        self.badge = None
         self.titles = None           # 아직 안 가져옴 (빈 dict 와 구분합니다)
         self.pending = None          # 확인 대기 중인 일정
         self.busy = False
@@ -356,24 +372,36 @@ class QuickAdd:
         win.configure(bg=BG)
         win.attributes("-topmost", True)
 
+        today = datetime.now(self.nlp.KST).date()
+
         frame = tk.Frame(win, bg=BG)
         frame.pack(fill="both", expand=True)
 
-        # 입력칸은 조금 밝은 판 위에 올려 눈에 띄게 합니다.
-        card = tk.Frame(frame, bg=CARD)
-        card.pack(fill="x", padx=14, pady=(14, 8))
+        # --- 검색줄 -------------------------------------------------------
+        row = tk.Frame(frame, bg=BG)
+        row.pack(fill="x", padx=20, pady=(16, 12))
+
+        glass = tk.Canvas(row, width=26, height=26, bg=BG,
+                          highlightthickness=0, bd=0)
+        glass.create_oval(4, 4, 18, 18, outline=HINT, width=2)
+        glass.create_line(17, 17, 23, 23, fill=HINT, width=2, capstyle="round")
+        glass.pack(side="left", padx=(0, 12))
+
+        # 오른쪽 작은 표지. 지금 Enter 를 누르면 무슨 일이 일어나는지 알려 줍니다.
+        self.badge = tk.Label(row, text="확인", font=(self.font, 10), bg=PILL,
+                              fg=FG, padx=10, pady=2)
+        self.badge.pack(side="right", padx=(12, 0))
 
         text = tk.StringVar()
-        entry = tk.Entry(card, textvariable=text, font=(self.font, 15), bg=CARD,
+        entry = tk.Entry(row, textvariable=text, font=(self.font, 20), bg=BG,
                          fg=FG, insertbackground=FG, relief="flat", borderwidth=0)
-        entry.pack(fill="x", padx=12, pady=10)
+        entry.pack(side="left", fill="x", expand=True)
 
         # 회색 안내글은 입력칸 '위에 겹쳐 놓은 라벨'입니다.
         # 입력칸에 실제 글자로 넣어 두면, 한글 입력기로 첫 글자를 칠 때
         # 지워지지 않고 "일정을 추가하세요.가나다" 처럼 뒤에 붙어 버립니다.
         # (입력기는 보통의 키 이벤트를 거치지 않고 완성된 글자를 넣습니다)
-        hint = tk.Label(card, text=PLACEHOLDER, font=(self.font, 15),
-                        bg=CARD, fg=HINT)
+        hint = tk.Label(row, text=PLACEHOLDER, font=(self.font, 20), bg=BG, fg=HINT)
         hint.place(in_=entry, x=2, y=0)
         hint.bind("<Button-1>", lambda _e: entry.focus_set())
 
@@ -385,9 +413,17 @@ class QuickAdd:
 
         text.trace_add("write", toggle_hint)
 
+        # --- 구분선 -------------------------------------------------------
+        tk.Frame(frame, bg=DIVIDER, height=1).pack(fill="x")
+
         status = tk.Label(frame, text="Enter 로 확인 · Esc 로 닫기",
                           font=(self.font, 9), bg=BG, fg=HINT, anchor="w")
-        status.pack(fill="x", padx=18, pady=(0, 6))
+        status.pack(fill="x", padx=20, pady=(10, 8))
+
+        # 스포트라이트의 '시스템 설정' 같은 작은 구역 이름입니다.
+        tk.Label(frame, text=f"{today.year}년 {today.month}월",
+                 font=(self.font, 9, "bold"), bg=BG, fg=HINT,
+                 anchor="w").pack(fill="x", padx=20, pady=(0, 2))
 
         entry.bind("<Return>", self._on_enter)
         entry.bind("<Escape>", self._on_escape)
@@ -397,15 +433,14 @@ class QuickAdd:
         self.pending = None
         self.busy = False
 
-        today = datetime.now(self.nlp.KST).date()
         self.calendar = MiniCalendar(frame, today, self.font, self._on_hover)
 
         # 마우스를 올린 날의 일정 제목이 여기 뜹니다. 비어 있어도 자리를
         # 남겨 둡니다. 글이 들어올 때마다 창 높이가 바뀌면 눈이 피곤합니다.
         self.tip_font = tkfont.Font(family=self.font, size=9)
-        self.tip = tk.Label(frame, textvariable=None, text=" ", font=self.tip_font,
+        self.tip = tk.Label(frame, text=" ", font=self.tip_font,
                             bg=BG, fg=HINT, anchor="w")
-        self.tip.pack(fill="x", padx=18, pady=(0, 12))
+        self.tip.pack(fill="x", padx=20, pady=(2, 14))
 
         # 창을 화면 한가운데에. 높이는 내용이 정해진 뒤에야 알 수 있어서
         # 다 그려 놓고 마지막에 자리를 잡습니다.
@@ -427,6 +462,7 @@ class QuickAdd:
         if self.win is not None and self.win.winfo_exists():
             self.win.destroy()
         self.win = self.entry = self.status = self.calendar = self.tip = None
+        self.badge = None
         self.titles = None
         self.pending = None
         self.busy = False
@@ -485,9 +521,13 @@ class QuickAdd:
         threading.Thread(target=worker, daemon=True).start()
 
     # -- 입력 처리 ---------------------------------------------------------
-    def _say(self, text, color=HINT):
+    def _say(self, text, color=HINT, badge=None):
         if self.status is not None:
             self.status.configure(text=text, fg=color)
+        if self.badge is not None and badge is not None:
+            # 지금 Enter 를 누르면 무슨 일이 생기는지를 표지에 적어 둡니다.
+            self.badge.configure(text=badge,
+                                 bg=BLUE if badge == "확정" else PILL)
 
     def _on_focus_out(self, _event=None):
         """다른 프로그램으로 넘어가면 창을 닫습니다.
@@ -513,7 +553,7 @@ class QuickAdd:
     def _on_escape(self, _event=None):
         if self.pending is not None:        # 확인 화면에서는 고치던 글로 돌아갑니다
             self.pending = None
-            self._say("Enter 로 확인 · Esc 로 닫기")
+            self._say("Enter 로 확인 · Esc 로 닫기", HINT, badge="확인")
             return "break"
         self.hide()
         return "break"
@@ -533,17 +573,19 @@ class QuickAdd:
         try:
             event = self.nlp.parse(text)
         except self.nlp.ParseError as exc:
-            self._say(f"{exc} — 날짜를 넣어 주세요 (예: 내일, 8월 8일)", BAD)
+            self._say(f"{exc} — 날짜를 넣어 주세요 (예: 내일, 8월 8일)", BAD,
+                      badge="확인")
             return "break"
 
         self.pending = event
-        self._say(f"{self.nlp.describe(event)}      Enter 확정 · Esc 수정", OK)
+        self._say(f"{self.nlp.describe(event)}      Enter 확정 · Esc 수정", OK,
+                  badge="확정")
         return "break"
 
     # -- 보내기 -----------------------------------------------------------
     def _send(self, event):
         self.busy = True
-        self._say("넣는 중...", HINT)
+        self._say("넣는 중...", HINT, badge="전송 중")
 
         def worker():
             import icloud_cal
@@ -583,14 +625,15 @@ class QuickAdd:
             return
 
         if kind == "ok":
-            self._say(f"[{detail}] 에 넣었습니다 — {self.nlp.describe(event)}", OK)
+            self._say(f"[{detail}] 에 넣었습니다 — {self.nlp.describe(event)}", OK,
+                      badge="완료")
             # 방금 넣은 날에 점이 찍히는 것을 보여 주고 닫습니다.
             self._fetch_dots(fresh=True)
             self.win.after(1400, self.hide)
         else:
             self.pending = event            # 다시 Enter 로 재시도할 수 있게
             first_line = detail.strip().splitlines()[0]
-            self._say(f"실패: {first_line}   Enter 로 다시 시도", BAD)
+            self._say(f"실패: {first_line}   Enter 로 다시 시도", BAD, badge="재시도")
 
 
 # ---------------------------------------------------------------------------
