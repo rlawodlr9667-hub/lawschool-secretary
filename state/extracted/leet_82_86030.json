@@ -1,0 +1,74 @@
+{
+  "board": "법학적성시험 공지사항",
+  "events": [
+    {
+      "all_day": false,
+      "confidence": "high",
+      "evidence": "원 서 접 수 : 2026. 5. 26.(화) 09시 ~ 2026. 6. 4.(목) 18시까지",
+      "slug": "apply-start",
+      "start_date": "2026-05-26",
+      "start_time": "09:00",
+      "summary": "법학적성시험 원서접수 시작",
+      "uid": "bcbdfb8d4a78643433053b9a1e765f7e@law-secretary"
+    },
+    {
+      "all_day": false,
+      "confidence": "high",
+      "evidence": "원 서 접 수 : 2026. 5. 26.(화) 09시 ~ 2026. 6. 4.(목) 18시까지",
+      "slug": "apply-close",
+      "start_date": "2026-06-04",
+      "start_time": "18:00",
+      "summary": "법학적성시험 원서접수 마감",
+      "uid": "56758be0475dee829673a29dde9f9c55@law-secretary"
+    },
+    {
+      "all_day": true,
+      "confidence": "low",
+      "evidence": "수험표교부 : 2026. 7. 1.(화) ~ 7. 19.(일)",
+      "slug": "ticket-issue-start",
+      "start_date": "2026-07-01",
+      "start_time": null,
+      "summary": "수험표 교부 시작",
+      "uid": "73a78ed57b63db4416e4c2eaf00afed4@law-secretary"
+    },
+    {
+      "all_day": true,
+      "confidence": "high",
+      "evidence": "수험표교부 : 2026. 7. 1.(화) ~ 7. 19.(일)",
+      "slug": "ticket-issue-end",
+      "start_date": "2026-07-19",
+      "start_time": null,
+      "summary": "수험표 교부 종료",
+      "uid": "546d777a86f0742e4f08cd59aa42e9f9@law-secretary"
+    },
+    {
+      "all_day": true,
+      "confidence": "high",
+      "evidence": "시 험 실 시 : 2026. 7. 19.(일)",
+      "slug": "exam-day",
+      "start_date": "2026-07-19",
+      "start_time": null,
+      "summary": "법학적성시험 시행일",
+      "uid": "459015417051ebad11200abdc9e6f0da@law-secretary"
+    },
+    {
+      "all_day": false,
+      "confidence": "high",
+      "evidence": "성 적 발 표 : 2026. 8. 18.(화) 10시 ~",
+      "slug": "score-announce",
+      "start_date": "2026-08-18",
+      "start_time": "10:00",
+      "summary": "법학적성시험 성적 발표",
+      "uid": "feac97eeb26be26be45569504d0ca090@law-secretary"
+    }
+  ],
+  "extracted_at": "2026-07-26T22:45:00+09:00",
+  "needs_manual": false,
+  "no_events_reason": null,
+  "post_id": "leet_82:86030",
+  "posted_date": "2026-01-19",
+  "revision": 0,
+  "tab": "leet",
+  "title": "2027학년도 법학적성시험 시행계획 공고",
+  "url": "https://leet.uwayapply.com/board/BoardView.htm?board_id=82&board_seqnum=86030"
+}

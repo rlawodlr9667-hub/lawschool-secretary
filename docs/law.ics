@@ -9,4 +9,123 @@ X-WR-CALDESC:서강대 로스쿨·LEET 공지에서 자동으로 뽑아낸
 X-WR-TIMEZONE:Asia/Seoul
 REFRESH-INTERVAL;VALUE=DURATION:PT1H
 X-PUBLISHED-TTL:PT1H
+BEGIN:VEVENT
+UID:bcbdfb8d4a78643433053b9a1e765f7e@law-secretary
+DTSTAMP:20260726T134500Z
+DTSTART:20260526T000000Z
+DTEND:20260526T003000Z
+SEQUENCE:0
+SUMMARY:법학적성시험 원서접수 시작
+DESCRIPTION:[법학적성시험 공지사항] 2027학년도 법학적성시
+ 험 시행계획 공고\n근거: 원 서 접 수 : 2026. 5. 26.(화) 09시
+  ~ 2026. 6. 4.(목) 18시까지\nhttps://leet.uwayapply.com/board/BoardVie
+ w.htm?board_id=82&board_seqnum=86030
+URL:https://leet.uwayapply.com/board/BoardView.htm?board_id=82&board_seqnum
+ =86030
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:56758be0475dee829673a29dde9f9c55@law-secretary
+DTSTAMP:20260726T134500Z
+DTSTART:20260604T090000Z
+DTEND:20260604T093000Z
+SEQUENCE:0
+SUMMARY:법학적성시험 원서접수 마감
+DESCRIPTION:[법학적성시험 공지사항] 2027학년도 법학적성시
+ 험 시행계획 공고\n근거: 원 서 접 수 : 2026. 5. 26.(화) 09시
+  ~ 2026. 6. 4.(목) 18시까지\nhttps://leet.uwayapply.com/board/BoardVie
+ w.htm?board_id=82&board_seqnum=86030
+URL:https://leet.uwayapply.com/board/BoardView.htm?board_id=82&board_seqnum
+ =86030
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:73a78ed57b63db4416e4c2eaf00afed4@law-secretary
+DTSTAMP:20260726T134500Z
+DTSTART;VALUE=DATE:20260701
+DTEND;VALUE=DATE:20260702
+SEQUENCE:0
+SUMMARY:수험표 교부 시작
+DESCRIPTION:[법학적성시험 공지사항] 2027학년도 법학적성시
+ 험 시행계획 공고\n근거: 수험표교부 : 2026. 7. 1.(화) ~ 7. 1
+ 9.(일)\nhttps://leet.uwayapply.com/board/BoardView.htm?board_id=82&board_
+ seqnum=86030
+URL:https://leet.uwayapply.com/board/BoardView.htm?board_id=82&board_seqnum
+ =86030
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:546d777a86f0742e4f08cd59aa42e9f9@law-secretary
+DTSTAMP:20260726T134500Z
+DTSTART;VALUE=DATE:20260719
+DTEND;VALUE=DATE:20260720
+SEQUENCE:0
+SUMMARY:수험표 교부 종료
+DESCRIPTION:[법학적성시험 공지사항] 2027학년도 법학적성시
+ 험 시행계획 공고\n근거: 수험표교부 : 2026. 7. 1.(화) ~ 7. 1
+ 9.(일)\nhttps://leet.uwayapply.com/board/BoardView.htm?board_id=82&board_
+ seqnum=86030
+URL:https://leet.uwayapply.com/board/BoardView.htm?board_id=82&board_seqnum
+ =86030
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:459015417051ebad11200abdc9e6f0da@law-secretary
+DTSTAMP:20260726T134500Z
+DTSTART;VALUE=DATE:20260719
+DTEND;VALUE=DATE:20260720
+SEQUENCE:0
+SUMMARY:법학적성시험 시행일
+DESCRIPTION:[법학적성시험 공지사항] 2027학년도 법학적성시
+ 험 시행계획 공고\n근거: 시 험 실 시 : 2026. 7. 19.(일)\nhttp
+ s://leet.uwayapply.com/board/BoardView.htm?board_id=82&board_seqnum=86030
+URL:https://leet.uwayapply.com/board/BoardView.htm?board_id=82&board_seqnum
+ =86030
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:feac97eeb26be26be45569504d0ca090@law-secretary
+DTSTAMP:20260726T134500Z
+DTSTART:20260818T010000Z
+DTEND:20260818T013000Z
+SEQUENCE:0
+SUMMARY:법학적성시험 성적 발표
+DESCRIPTION:[법학적성시험 공지사항] 2027학년도 법학적성시
+ 험 시행계획 공고\n근거: 성 적 발 표 : 2026. 8. 18.(화) 10시
+  ~\nhttps://leet.uwayapply.com/board/BoardView.htm?board_id=82&board_seqnu
+ m=86030
+URL:https://leet.uwayapply.com/board/BoardView.htm?board_id=82&board_seqnum
+ =86030
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:D-3 법학적성시험 성적 발표
+TRIGGER:-P3D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:D-1 법학적성시험 성적 발표
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:오늘 법학적성시험 성적 발표
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:8a7a714982c69505f433c32f51523e99@law-secretary
+DTSTAMP:20260726T134500Z
+DTSTART:20260719T000000Z
+DTEND:20260719T003000Z
+SEQUENCE:0
+SUMMARY:법학적성시험 시행일
+DESCRIPTION:[법학적성시험 공지사항] 2027학년도 법학적성시
+ 험 원서접수 마감 현황\n근거: 시험일시 : 2026. 7. 19.(일)\,
+  09:00~15:50\nhttps://leet.uwayapply.com/board/BoardView.htm?board_id=82&b
+ oard_seqnum=86344
+URL:https://leet.uwayapply.com/board/BoardView.htm?board_id=82&board_seqnum
+ =86344
+TRANSP:TRANSPARENT
+END:VEVENT
 END:VCALENDAR

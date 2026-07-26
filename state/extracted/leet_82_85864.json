@@ -1,0 +1,34 @@
+{
+  "board": "법학적성시험 공지사항",
+  "events": [
+    {
+      "all_day": false,
+      "confidence": "high",
+      "evidence": "일시: 2025년 8월 21일(목)~22일(금) 10:00~17:00",
+      "slug": "info-session-start",
+      "start_date": "2025-08-21",
+      "start_time": "10:00",
+      "summary": "공동입학설명회 시작",
+      "uid": "b8433c91321604a0490454522ebdd4fa@law-secretary"
+    },
+    {
+      "all_day": false,
+      "confidence": "high",
+      "evidence": "일시: 2025년 8월 21일(목)~22일(금) 10:00~17:00",
+      "slug": "info-session-end",
+      "start_date": "2025-08-22",
+      "start_time": "17:00",
+      "summary": "공동입학설명회 종료",
+      "uid": "9fee33a1ff87bed49b0fc2eef0f21347@law-secretary"
+    }
+  ],
+  "extracted_at": "2026-07-26T22:45:00+09:00",
+  "needs_manual": false,
+  "no_events_reason": null,
+  "post_id": "leet_82:85864",
+  "posted_date": "2025-07-25",
+  "revision": 0,
+  "tab": "leet",
+  "title": "2026학년도 법학전문대학원 공동입학설명회 개최",
+  "url": "https://leet.uwayapply.com/board/BoardView.htm?board_id=82&board_seqnum=85864"
+}

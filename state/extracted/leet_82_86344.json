@@ -1,0 +1,24 @@
+{
+  "board": "법학적성시험 공지사항",
+  "events": [
+    {
+      "all_day": false,
+      "confidence": "high",
+      "evidence": "시험일시 : 2026. 7. 19.(일), 09:00~15:50",
+      "slug": "exam-day",
+      "start_date": "2026-07-19",
+      "start_time": "09:00",
+      "summary": "법학적성시험 시행일",
+      "uid": "8a7a714982c69505f433c32f51523e99@law-secretary"
+    }
+  ],
+  "extracted_at": "2026-07-26T22:45:00+09:00",
+  "needs_manual": false,
+  "no_events_reason": null,
+  "post_id": "leet_82:86344",
+  "posted_date": "2026-06-08",
+  "revision": 0,
+  "tab": "leet",
+  "title": "2027학년도 법학적성시험 원서접수 마감 현황",
+  "url": "https://leet.uwayapply.com/board/BoardView.htm?board_id=82&board_seqnum=86344"
+}
