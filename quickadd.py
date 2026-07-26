@@ -662,7 +662,14 @@ def install_startup():
     )
     path = startup_path()
     os.makedirs(os.path.dirname(path), exist_ok=True)
-    with open(path, "w", encoding="utf-8") as fp:
+
+    # ★ UTF-16 으로 써야 합니다 ★
+    # 이 폴더의 경로에는 '바탕 화면'이 들어 있습니다. UTF-8 로 저장하면
+    # 윈도우 스크립트 호스트가 그것을 옛날 한국어 인코딩으로 잘못 읽어
+    # 경로가 깨지고, 부팅해도 아무 일이 일어나지 않습니다(오류도 안 납니다).
+    # 파이썬의 "utf-16" 은 맨 앞에 표식(BOM)을 붙여 주는데, 스크립트 호스트는
+    # 그 표식을 보고 유니코드로 읽습니다.
+    with open(path, "w", encoding="utf-16") as fp:
         fp.write(content)
     print(f"등록했습니다: {path}")
     print("다음 부팅부터 자동으로 켜집니다. 지금 켜려면: python quickadd.py")
