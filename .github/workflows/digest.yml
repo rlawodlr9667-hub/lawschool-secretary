@@ -1,0 +1,80 @@
+name: 아침 브리핑
+
+# 매일 한국시간 08:00 (= UTC 23:00 전날).
+#   1) 다가온 마감을 텔레그램으로 알립니다  <- 이게 본체입니다
+#   2) 탭 버튼 메뉴를 보냅니다
+#
+# 마감 알림을 캘린더가 아니라 텔레그램으로 보내는 이유:
+# 아이폰에서 구독 캘린더는 '알림 제거' 설정이 켜져 있으면 캘린더 파일 안의
+# 알림을 통째로 지웁니다. 새로고침 주기도 사용자 설정에 달려 있어서,
+# 캘린더 알림만 믿고 있으면 마감 당일에 아무 소리도 안 날 수 있습니다.
+on:
+  schedule:
+    - cron: '0 23 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write           # 보낸 알림을 기록해 두 번 보내지 않습니다
+
+concurrency:
+  group: digest
+  cancel-in-progress: false
+
+jobs:
+  digest:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    env:
+      TZ: Asia/Seoul
+      TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+      TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+      PYTHONIOENCODING: utf-8
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: 시크릿 공백 제거
+        run: |
+          for v in TELEGRAM_BOT_TOKEN TELEGRAM_CHAT_ID; do
+            raw="${!v}"
+            if [ -z "$raw" ]; then
+              echo "::error::$v 시크릿이 비어 있습니다."
+              exit 1
+            fi
+            clean=$(printf '%s' "$raw" | tr -d '[:space:]')
+            echo "::add-mask::$clean"
+            echo "$v=$clean" >> "$GITHUB_ENV"
+          done
+
+      - name: 마감 알림
+        run: python remind.py
+
+      - name: 탭 버튼 메뉴
+        run: python bot_server.py --send-menu
+
+      - name: 보낸 기록 저장
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A state
+          if git diff --cached --quiet; then
+            echo "바뀐 것 없음"
+          else
+            git commit -m "마감 알림 기록 $(date +%F)"
+            git pull --rebase --autostash origin "${GITHUB_REF_NAME}" || true
+            git push
+          fi
+
+      - name: 실패 알림
+        if: failure()
+        run: |
+          curl -s -X POST "https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/sendMessage" \
+            -d "chat_id=${TELEGRAM_CHAT_ID}" \
+            -d "parse_mode=HTML" \
+            --data-urlencode "text=<b>⚠️ 아침 브리핑 실패</b>
+          GitHub 저장소의 Actions 탭에서 기록을 확인해 주세요." || true

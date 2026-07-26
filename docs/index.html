@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>로스쿨 일정 캘린더</title>
+<style>
+  :root {
+    --bg: #ffffff; --fg: #1a1a1a; --muted: #5f6470;
+    --card: #f6f7f9; --line: #e3e6ea; --accent: #2f5fd8;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #14161a; --fg: #e8eaed; --muted: #9aa1ac;
+      --card: #1d2026; --line: #2c313a; --accent: #7aa2f7;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; padding: 2.5rem 1.25rem 4rem;
+    background: var(--bg); color: var(--fg);
+    font-family: -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo",
+                 "Malgun Gothic", "Segoe UI", sans-serif;
+    line-height: 1.65; -webkit-text-size-adjust: 100%;
+  }
+  main { max-width: 34rem; margin: 0 auto; }
+  h1 { font-size: 1.5rem; margin: 0 0 .35rem; letter-spacing: -.01em; }
+  .sub { color: var(--muted); margin: 0 0 2rem; font-size: .95rem; }
+  .cta {
+    display: block; text-align: center; text-decoration: none;
+    background: var(--accent); color: #fff; font-weight: 600;
+    padding: .95rem 1rem; border-radius: .7rem; font-size: 1.05rem;
+    margin-bottom: .6rem;
+  }
+  .hint { text-align: center; color: var(--muted); font-size: .85rem; margin: 0 0 2.25rem; }
+  h2 { font-size: 1rem; margin: 2rem 0 .6rem; }
+  ol, ul { padding-left: 1.25rem; margin: .4rem 0; }
+  li { margin: .3rem 0; }
+  code, .url {
+    background: var(--card); border: 1px solid var(--line);
+    border-radius: .35rem; padding: .12rem .38rem;
+    font-family: ui-monospace, SFMono-Regular, Consolas, monospace;
+    font-size: .85em; word-break: break-all;
+  }
+  .url { display: block; padding: .7rem .8rem; margin: .5rem 0; }
+  .note {
+    background: var(--card); border: 1px solid var(--line);
+    border-left: 3px solid var(--accent);
+    border-radius: .5rem; padding: .8rem 1rem; margin: 1.5rem 0;
+    font-size: .9rem;
+  }
+  footer { margin-top: 3rem; color: var(--muted); font-size: .8rem; text-align: center; }
+</style>
+</head>
+<body>
+<main>
+  <h1>⚖️ 로스쿨 일정 캘린더</h1>
+  <p class="sub">서강대 로스쿨과 LEET 공지에서 자동으로 뽑아낸 일정입니다.</p>
+
+  <a class="cta" id="subscribe" href="#">📅 아이폰에 캘린더 추가하기</a>
+  <p class="hint">아이폰 사파리에서 눌러 주세요. 캘린더 앱이 열립니다.</p>
+
+  <h2>추가한 뒤 꼭 확인할 것</h2>
+  <ol>
+    <li><b>설정 → 캘린더 → 계정 → 로스쿨 일정</b> 으로 들어갑니다.</li>
+    <li><b>"알림 제거"가 꺼져 있는지</b> 확인합니다.
+        켜져 있으면 마감 알림이 전부 사라집니다.</li>
+    <li>같은 화면에서 새로고침 주기를 <b>1시간마다</b>로 맞춥니다.</li>
+  </ol>
+  <p>minical 앱은 아이폰 기본 캘린더를 그대로 읽기 때문에, 따로 설정할 것이 없습니다.</p>
+
+  <div class="note">
+    캘린더 알림은 보조 수단입니다. <b>마감 알림은 텔레그램으로도 따로 갑니다.</b>
+    아이폰 설정에 따라 캘린더 알림이 조용히 무시될 수 있어서, 서로 다른 방식
+    두 가지를 함께 씁니다.
+  </div>
+
+  <h2>노트북에서 보기</h2>
+  <p>아래 주소를 구글 캘린더의 <b>"URL로 캘린더 추가"</b> 또는 아웃룩의
+     <b>"인터넷 일정 구독"</b> 에 넣으면 됩니다.</p>
+  <span class="url" id="plain">…</span>
+
+  <h2>이 캘린더에 들어오는 것</h2>
+  <ul>
+    <li>신청·접수·제출 마감일</li>
+    <li>시험일, 성적 발표일</li>
+    <li>설명회·행사 일시</li>
+  </ul>
+  <p style="color:var(--muted);font-size:.9rem">
+    공지 내용이 첨부된 한글 파일(.hwp) 안에만 있는 경우에는 일정을 자동으로
+    넣지 못합니다. 그럴 때는 텔레그램 알림에 "직접 확인하세요"라고 표시됩니다.
+  </p>
+
+  <footer>자동 생성 · 원문은 각 일정의 메모에 링크로 들어 있습니다</footer>
+</main>
+
+<script>
+  // 이 페이지가 놓인 주소에서 캘린더 주소를 스스로 계산합니다.
+  // 사용자 이름을 손으로 적어 넣을 필요가 없습니다.
+  var base = location.href.split('#')[0].split('?')[0]
+                     .replace(/index\.html$/, '')
+                     .replace(/\/?$/, '/');
+  var ics = base + 'law.ics';
+  document.getElementById('plain').textContent = ics;
+  document.getElementById('subscribe').href = ics.replace(/^https?:/, 'webcal:');
+</script>
+</body>
+</html>

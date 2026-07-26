@@ -1,0 +1,143 @@
+name: 공지 수집
+
+# 한국시간 07:00~23:00 에 30분마다 돌립니다.
+# GitHub 의 cron 은 UTC 기준이라 한국시간보다 9시간 빠릅니다.
+#   KST 07:00 = UTC 22:00 (전날)   /   KST 23:00 = UTC 14:00
+#
+# 30분 간격인 이유: GitHub Pages 는 시간당 빌드 10회 제한이 있습니다.
+# 5분마다 커밋하면 거기에 걸립니다.
+on:
+  schedule:
+    - cron: '*/30 22,23,0,1,2,3,4,5,6,7,8,9,10,11,12,13,14 * * *'
+  workflow_dispatch:        # Actions 탭에서 손으로 돌리는 버튼
+
+permissions:
+  contents: write           # 기억한 내용과 캘린더를 저장소에 남겨야 합니다
+
+concurrency:
+  group: scrape
+  cancel-in-progress: false
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+
+    env:
+      TZ: Asia/Seoul
+      TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+      TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+      CLAUDE_CODE_OAUTH_TOKEN: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+      PYTHONIOENCODING: utf-8
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Claude Code 설치
+        run: npm install -g @anthropic-ai/claude-code
+
+      - name: 설정 확인
+        run: |
+          for v in TELEGRAM_BOT_TOKEN TELEGRAM_CHAT_ID; do
+            if [ -z "${!v}" ]; then
+              echo "::error::$v 시크릿이 비어 있습니다. 저장소 Settings > Secrets 에서 등록하세요."
+              exit 1
+            fi
+          done
+          if [ -z "$CLAUDE_CODE_OAUTH_TOKEN" ]; then
+            echo "::warning::CLAUDE_CODE_OAUTH_TOKEN 이 없습니다. 공지 알림은 되지만 일정 추출은 건너뜁니다."
+          fi
+          echo "시크릿 확인 완료"
+
+      # 시크릿에 섞여 들어간 공백·줄바꿈을 제거합니다.
+      #
+      # 왜 필요한가: 터미널에 출력된 토큰이 화면 폭을 넘어 두 줄로 표시되면,
+      # 마우스로 복사할 때 줄바꿈이 함께 딸려옵니다. 토큰은 HTTP 헤더로 전송되는데
+      # 헤더에는 줄바꿈이 들어갈 수 없어서 'Header has invalid value' 로 실패합니다.
+      # 토큰 자체에는 공백이 없으므로 전부 제거해도 안전합니다.
+      - name: 시크릿 공백 제거
+        run: |
+          for v in TELEGRAM_BOT_TOKEN TELEGRAM_CHAT_ID CLAUDE_CODE_OAUTH_TOKEN; do
+            raw="${!v}"
+            [ -z "$raw" ] && continue
+            clean=$(printf '%s' "$raw" | tr -d '[:space:]')
+            # 공백을 뺀 값은 등록된 시크릿과 다른 문자열이라 GitHub 이 자동으로
+            # 가려주지 않습니다. 로그에 새어나가지 않도록 직접 가리기를 요청합니다.
+            echo "::add-mask::$clean"
+            if [ "$raw" != "$clean" ]; then
+              echo "$v 에서 공백/줄바꿈을 제거했습니다."
+            fi
+            echo "$v=$clean" >> "$GITHUB_ENV"
+          done
+
+      # 1단계 — 게시판 확인, 새 글이 있으면 여기서 텔레그램 알림까지 끝납니다.
+      # Claude 보다 먼저 하는 것이 중요합니다. Claude 가 실패해도 알림은 갑니다.
+      - name: 공지 수집·알림
+        run: python scrape.py
+
+      - name: 기억 저장 (1차)
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A state
+          if git diff --cached --quiet; then
+            echo "바뀐 것 없음"
+          else
+            git commit -m "공지 기록 $(date +%F' '%H:%M)"
+            git pull --rebase --autostash origin "${GITHUB_REF_NAME}" || true
+            git push
+          fi
+
+      # 2단계 — 본문에서 일정 뽑기.
+      # 발송은 하지 않으므로 파일 읽기·쓰기 권한만 줍니다 (Bash 없음).
+      # continue-on-error: 여기가 실패해도 공지 알림은 이미 나갔고,
+      # 캘린더도 기존 일정으로 정상 생성됩니다.
+      - name: 일정 추출 (Claude)
+        continue-on-error: true
+        if: env.CLAUDE_CODE_OAUTH_TOKEN != ''
+        run: |
+          if [ -z "$(ls -A work/pending 2>/dev/null)" ]; then
+            echo "일정을 뽑을 새 글이 없습니다."
+            exit 0
+          fi
+          echo "대기 중인 글 $(ls -1 work/pending | wc -l)건"
+          claude -p "$(cat automation/extract_prompt.txt)" \
+            --permission-mode acceptEdits \
+            --allowedTools Read Write Glob Grep
+
+      # 3단계 — 캘린더 파일 만들기. 검사를 통과하지 못하면 여기서 멈춥니다.
+      - name: 캘린더 생성
+        run: |
+          python build_ics.py
+          python build_ics.py --selftest
+
+      - name: 캘린더·일정 저장 (2차)
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A state docs
+          if git diff --cached --quiet; then
+            echo "바뀐 것 없음"
+          else
+            git commit -m "일정·캘린더 갱신 $(date +%F' '%H:%M)"
+            git pull --rebase --autostash origin "${GITHUB_REF_NAME}" || true
+            git push
+          fi
+
+      - name: 실패 알림
+        if: failure()
+        run: |
+          curl -s -X POST "https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/sendMessage" \
+            -d "chat_id=${TELEGRAM_CHAT_ID}" \
+            -d "parse_mode=HTML" \
+            --data-urlencode "text=<b>⚠️ 공지 수집 실패</b>
+          로스쿨 공지를 확인하지 못했습니다.
+          GitHub 저장소의 Actions 탭에서 기록을 확인해 주세요." || true

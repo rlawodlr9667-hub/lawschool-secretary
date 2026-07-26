@@ -1,0 +1,18 @@
+* text=auto eol=lf
+
+*.py   text eol=lf
+*.yml  text eol=lf
+*.yaml text eol=lf
+*.md   text eol=lf
+*.txt  text eol=lf
+*.json text eol=lf
+*.html text eol=lf
+
+# 윈도우 PowerShell 5.1 은 스크립트 파일이 CRLF 여야 잘 동작합니다.
+*.ps1  text eol=crlf
+
+# ★ 캘린더 파일은 git 이 절대 건드리면 안 됩니다. ★
+# iCalendar 규격(RFC 5545)은 모든 줄이 CRLF 로 끝나야 한다고 정하고 있습니다.
+# 위의 'text=auto eol=lf' 가 적용되면 CRLF 가 LF 로 바뀌면서 규격 위반이 되고,
+# 일부 캘린더 앱이 파일 전체를 거부합니다. -text 는 "손대지 마라"는 뜻입니다.
+*.ics  -text
