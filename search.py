@@ -212,10 +212,16 @@ def find(keyword, today=None, limit=MAX_RESULTS):
         hits.append(item)
 
     def order(item):
-        # 마감이 임박한 것부터. 마감을 모르는 것은 뒤로 보내되 최신순으로.
+        """마감이 임박한 것부터. 마감을 모르는 것은 뒤로 보내되 최신 게시순.
+
+        마감을 모르는 글끼리 순서를 정해 주지 않으면 파일을 읽은 순서대로
+        나옵니다. 그러면 같은 낱말인데도 실행할 때마다 순서가 달라 보이고,
+        챗봇(Worker)의 답과도 어긋납니다.
+        """
         if item["status"] == "live":
-            return (0, -item["score"], item["upcoming"][0][0], "")
-        return (1, -item["score"], date.max, "")
+            return (0, -item["score"], item["upcoming"][0][0].toordinal())
+        posted = item["posted"] or date.min
+        return (1, -item["score"], -posted.toordinal())
 
     hits.sort(key=order)
     return hits[:limit]

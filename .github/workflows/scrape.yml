@@ -123,6 +123,13 @@ jobs:
           python build_ics.py
           python build_ics.py --selftest
 
+      # 챗봇(Cloudflare Worker)이 읽을 검색 파일. 캘린더와 같은 곳에 올라가
+      # GitHub Pages 로 공개됩니다. 여기 실려야 낱말 검색이 최신 공지를 봅니다.
+      - name: 챗봇 검색 파일 생성
+        run: |
+          python build_index.py
+          python build_index.py --selftest
+
       - name: 캘린더·일정 저장 (2차)
         run: |
           git config user.name  "github-actions[bot]"
