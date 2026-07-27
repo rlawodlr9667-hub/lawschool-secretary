@@ -1,0 +1,23 @@
+{
+  "board": "서강대 학사일정",
+  "events": [
+    {
+      "all_day": true,
+      "confidence": "high",
+      "evidence": "학사일정: 3,4학년 수강신청 (2026-08-20 ~ 2026-08-20)",
+      "slug": "20260820-6b88f88516",
+      "start_date": "2026-08-20",
+      "start_time": null,
+      "summary": "3,4학년 수강신청",
+      "uid": "31e393d15c8ce9e6fe77c52db4b0b977@law-secretary"
+    }
+  ],
+  "needs_manual": false,
+  "no_events_reason": null,
+  "post_id": "academic:20260820-6b88f88516",
+  "posted_date": "2026-08-20",
+  "revision": 0,
+  "tab": "academic",
+  "title": "3,4학년 수강신청",
+  "url": "https://www.sogang.ac.kr/ko/academic-support/calendar"
+}

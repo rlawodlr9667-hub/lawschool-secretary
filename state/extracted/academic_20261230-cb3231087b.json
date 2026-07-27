@@ -1,0 +1,33 @@
+{
+  "board": "서강대 학사일정",
+  "events": [
+    {
+      "all_day": true,
+      "confidence": "high",
+      "evidence": "학사일정: 학기말성적 확인 (2026-12-30 ~ 2027-01-02)",
+      "slug": "20261230-cb3231087b-start",
+      "start_date": "2026-12-30",
+      "start_time": null,
+      "summary": "학기말성적 확인 시작",
+      "uid": "ba0be3a99a6583e2e83963e22144a199@law-secretary"
+    },
+    {
+      "all_day": true,
+      "confidence": "high",
+      "evidence": "학사일정: 학기말성적 확인 (2026-12-30 ~ 2027-01-02)",
+      "slug": "20261230-cb3231087b-end",
+      "start_date": "2027-01-02",
+      "start_time": null,
+      "summary": "학기말성적 확인 마감",
+      "uid": "373b942285357188b95e2c55f4ab1e82@law-secretary"
+    }
+  ],
+  "needs_manual": false,
+  "no_events_reason": null,
+  "post_id": "academic:20261230-cb3231087b",
+  "posted_date": "2026-12-30",
+  "revision": 0,
+  "tab": "academic",
+  "title": "학기말성적 확인",
+  "url": "https://www.sogang.ac.kr/ko/academic-support/calendar"
+}

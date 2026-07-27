@@ -1,0 +1,23 @@
+{
+  "board": "서강대 학사일정",
+  "events": [
+    {
+      "all_day": true,
+      "confidence": "high",
+      "evidence": "학사일정: 입학식, 입학축복예식(오후 3시) (2027-02-18 ~ 2027-02-18)",
+      "slug": "20270218-b9172d93eb",
+      "start_date": "2027-02-18",
+      "start_time": null,
+      "summary": "입학식, 입학축복예식(오후 3시)",
+      "uid": "923fc870b442447a30d6384f48ee3b7c@law-secretary"
+    }
+  ],
+  "needs_manual": false,
+  "no_events_reason": null,
+  "post_id": "academic:20270218-b9172d93eb",
+  "posted_date": "2027-02-18",
+  "revision": 0,
+  "tab": "academic",
+  "title": "입학식, 입학축복예식(오후 3시)",
+  "url": "https://www.sogang.ac.kr/ko/academic-support/calendar"
+}

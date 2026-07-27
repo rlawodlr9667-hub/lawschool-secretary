@@ -1,0 +1,23 @@
+{
+  "board": "서강대 학사일정",
+  "events": [
+    {
+      "all_day": true,
+      "confidence": "high",
+      "evidence": "학사일정: 수강과목 취소 마감 (2026-09-28 ~ 2026-09-28)",
+      "slug": "20260928-15d6df1f36",
+      "start_date": "2026-09-28",
+      "start_time": null,
+      "summary": "수강과목 취소 마감",
+      "uid": "26fc3f3bb97da393fb11f8fe849b0c95@law-secretary"
+    }
+  ],
+  "needs_manual": false,
+  "no_events_reason": null,
+  "post_id": "academic:20260928-15d6df1f36",
+  "posted_date": "2026-09-28",
+  "revision": 0,
+  "tab": "academic",
+  "title": "수강과목 취소 마감",
+  "url": "https://www.sogang.ac.kr/ko/academic-support/calendar"
+}

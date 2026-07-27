@@ -1,0 +1,23 @@
+{
+  "board": "서강대 학사일정",
+  "events": [
+    {
+      "all_day": true,
+      "confidence": "high",
+      "evidence": "학사일정: 계절수업 종강 (2027-01-14 ~ 2027-01-14)",
+      "slug": "20270114-46e48a35a5",
+      "start_date": "2027-01-14",
+      "start_time": null,
+      "summary": "계절수업 종강",
+      "uid": "355f6f2026c3ae8f08b9db28668b77c5@law-secretary"
+    }
+  ],
+  "needs_manual": false,
+  "no_events_reason": null,
+  "post_id": "academic:20270114-46e48a35a5",
+  "posted_date": "2027-01-14",
+  "revision": 0,
+  "tab": "academic",
+  "title": "계절수업 종강",
+  "url": "https://www.sogang.ac.kr/ko/academic-support/calendar"
+}

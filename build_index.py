@@ -52,11 +52,17 @@ def build(today=None):
 
     # 일정을 뽑아 둔 글: 일정 전부(지난 것 포함)를 그대로 싣습니다.
     # 지난 일정도 있어야 Worker 가 '언제까지 유효한가'를 스스로 판단합니다.
+    # 열쇠는 주소가 아니라 post_id 입니다. 학사일정은 수십 건이 전부
+    # 학사일정 페이지라는 같은 주소를 가리키므로, 주소를 열쇠로 쓰면
+    # 하나만 남고 나머지가 조용히 사라집니다.
     detailed = {}
+    by_url = {}
     for _name, data in store.all_extracted():
         url = data.get("url") or ""
-        if not url:
+        key = data.get("post_id") or url
+        if not url or not key:
             continue
+        by_url.setdefault(url, key)
         events = []
         for event in data.get("events") or []:
             when = search._parse_date(event.get("start_date"))
@@ -66,8 +72,9 @@ def build(today=None):
                            event.get("start_time") or "",
                            event.get("summary") or ""])
         events.sort()
-        detailed[url] = {
+        detailed[key] = {
             "title": data.get("title") or "(제목 없음)",
+            "url": url,
             "board": data.get("board") or "",
             "posted": data.get("posted_date") or "",
             "events": events,
@@ -86,7 +93,7 @@ def build(today=None):
                 continue
             seen.add(url)
 
-            extra = detailed.pop(url, None)
+            extra = detailed.pop(by_url.get(url, ""), None)
             title = (extra or post).get("title") or post.get("title") or "(제목 없음)"
             posted = search._parse_date((extra or {}).get("posted")
                                         or post.get("date"))
@@ -96,9 +103,9 @@ def build(today=None):
                                 post.get("board_name") or board["name"],
                                 posted, events, (extra or {}).get("evidence")))
 
-    # 게시판 목록에서는 밀려났지만 일정은 뽑아 둔 글도 함께 싣습니다.
-    for url, extra in detailed.items():
-        posts.append(_shape(extra["title"], url, extra["board"],
+    # 게시판 목록에는 없지만 일정은 갖고 있는 것들(학사일정, 밀려난 옛 공지).
+    for extra in detailed.values():
+        posts.append(_shape(extra["title"], extra["url"], extra["board"],
                             search._parse_date(extra["posted"]),
                             extra["events"], extra.get("evidence")))
 

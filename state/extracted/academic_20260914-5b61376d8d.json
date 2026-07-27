@@ -1,0 +1,33 @@
+{
+  "board": "서강대 학사일정",
+  "events": [
+    {
+      "all_day": true,
+      "confidence": "high",
+      "evidence": "학사일정: 서강문화제: CARDINAL (2026-09-14 ~ 2026-09-18)",
+      "slug": "20260914-5b61376d8d-start",
+      "start_date": "2026-09-14",
+      "start_time": null,
+      "summary": "서강문화제: CARDINAL 시작",
+      "uid": "2198552ee89bcfa49da7044cc867ecf2@law-secretary"
+    },
+    {
+      "all_day": true,
+      "confidence": "high",
+      "evidence": "학사일정: 서강문화제: CARDINAL (2026-09-14 ~ 2026-09-18)",
+      "slug": "20260914-5b61376d8d-end",
+      "start_date": "2026-09-18",
+      "start_time": null,
+      "summary": "서강문화제: CARDINAL 마감",
+      "uid": "8f0074b36a866473cf9701b999b10aae@law-secretary"
+    }
+  ],
+  "needs_manual": false,
+  "no_events_reason": null,
+  "post_id": "academic:20260914-5b61376d8d",
+  "posted_date": "2026-09-14",
+  "revision": 0,
+  "tab": "academic",
+  "title": "서강문화제: CARDINAL",
+  "url": "https://www.sogang.ac.kr/ko/academic-support/calendar"
+}

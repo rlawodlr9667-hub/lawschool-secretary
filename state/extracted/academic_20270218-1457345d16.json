@@ -1,0 +1,23 @@
+{
+  "board": "서강대 학사일정",
+  "events": [
+    {
+      "all_day": true,
+      "confidence": "high",
+      "evidence": "학사일정: 제64회 학위수여식(오전 10시) (2027-02-18 ~ 2027-02-18)",
+      "slug": "20270218-1457345d16",
+      "start_date": "2027-02-18",
+      "start_time": null,
+      "summary": "제64회 학위수여식(오전 10시)",
+      "uid": "389ed99f010e2d9adeef6071c1529232@law-secretary"
+    }
+  ],
+  "needs_manual": false,
+  "no_events_reason": null,
+  "post_id": "academic:20270218-1457345d16",
+  "posted_date": "2027-02-18",
+  "revision": 0,
+  "tab": "academic",
+  "title": "제64회 학위수여식(오전 10시)",
+  "url": "https://www.sogang.ac.kr/ko/academic-support/calendar"
+}

@@ -1,0 +1,33 @@
+{
+  "board": "서강대 학사일정",
+  "events": [
+    {
+      "all_day": true,
+      "confidence": "high",
+      "evidence": "학사일정: 수강신청 과목 담아놓기 (2026-08-12 ~ 2026-08-13)",
+      "slug": "20260812-5da7769c34-start",
+      "start_date": "2026-08-12",
+      "start_time": null,
+      "summary": "수강신청 과목 담아놓기 시작",
+      "uid": "c913280418550ffe7ca6c34c263526f3@law-secretary"
+    },
+    {
+      "all_day": true,
+      "confidence": "high",
+      "evidence": "학사일정: 수강신청 과목 담아놓기 (2026-08-12 ~ 2026-08-13)",
+      "slug": "20260812-5da7769c34-end",
+      "start_date": "2026-08-13",
+      "start_time": null,
+      "summary": "수강신청 과목 담아놓기 마감",
+      "uid": "068e2a829a6969f1b56549067833cc9a@law-secretary"
+    }
+  ],
+  "needs_manual": false,
+  "no_events_reason": null,
+  "post_id": "academic:20260812-5da7769c34",
+  "posted_date": "2026-08-12",
+  "revision": 0,
+  "tab": "academic",
+  "title": "수강신청 과목 담아놓기",
+  "url": "https://www.sogang.ac.kr/ko/academic-support/calendar"
+}

@@ -1,0 +1,23 @@
+{
+  "board": "서강대 학사일정",
+  "events": [
+    {
+      "all_day": true,
+      "confidence": "high",
+      "evidence": "학사일정: 종강미사(오전11시) (2026-12-20 ~ 2026-12-20)",
+      "slug": "20261220-f27c1951e3",
+      "start_date": "2026-12-20",
+      "start_time": null,
+      "summary": "종강미사(오전11시)",
+      "uid": "3aea34be9abe7dcf3cd94310d4918c20@law-secretary"
+    }
+  ],
+  "needs_manual": false,
+  "no_events_reason": null,
+  "post_id": "academic:20261220-f27c1951e3",
+  "posted_date": "2026-12-20",
+  "revision": 0,
+  "tab": "academic",
+  "title": "종강미사(오전11시)",
+  "url": "https://www.sogang.ac.kr/ko/academic-support/calendar"
+}

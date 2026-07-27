@@ -1,0 +1,23 @@
+{
+  "board": "서강대 학사일정",
+  "events": [
+    {
+      "all_day": true,
+      "confidence": "high",
+      "evidence": "학사일정: 계절수업성적 제출 마감 (2027-01-21 ~ 2027-01-21)",
+      "slug": "20270121-8ab493007a",
+      "start_date": "2027-01-21",
+      "start_time": null,
+      "summary": "계절수업성적 제출 마감",
+      "uid": "c3d45f5a0678ba89fcc859a926da99cd@law-secretary"
+    }
+  ],
+  "needs_manual": false,
+  "no_events_reason": null,
+  "post_id": "academic:20270121-8ab493007a",
+  "posted_date": "2027-01-21",
+  "revision": 0,
+  "tab": "academic",
+  "title": "계절수업성적 제출 마감",
+  "url": "https://www.sogang.ac.kr/ko/academic-support/calendar"
+}

@@ -1,0 +1,33 @@
+{
+  "board": "서강대 학사일정",
+  "events": [
+    {
+      "all_day": true,
+      "confidence": "high",
+      "evidence": "학사일정: 중간시험 (2026-10-20 ~ 2026-10-26)",
+      "slug": "20261020-f723114d2c-start",
+      "start_date": "2026-10-20",
+      "start_time": null,
+      "summary": "중간시험 시작",
+      "uid": "8098b72a8be665f1055a8e52c9750d9a@law-secretary"
+    },
+    {
+      "all_day": true,
+      "confidence": "high",
+      "evidence": "학사일정: 중간시험 (2026-10-20 ~ 2026-10-26)",
+      "slug": "20261020-f723114d2c-end",
+      "start_date": "2026-10-26",
+      "start_time": null,
+      "summary": "중간시험 마감",
+      "uid": "e0bb6cd436bb4ff027aa7dfdc16499a0@law-secretary"
+    }
+  ],
+  "needs_manual": false,
+  "no_events_reason": null,
+  "post_id": "academic:20261020-f723114d2c",
+  "posted_date": "2026-10-20",
+  "revision": 0,
+  "tab": "academic",
+  "title": "중간시험",
+  "url": "https://www.sogang.ac.kr/ko/academic-support/calendar"
+}

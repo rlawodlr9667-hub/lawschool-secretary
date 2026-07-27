@@ -1,0 +1,33 @@
+{
+  "board": "서강대 학사일정",
+  "events": [
+    {
+      "all_day": true,
+      "confidence": "high",
+      "evidence": "학사일정: 2027학년도 1학기 장학금 신청 (2026-11-01 ~ 2026-11-30)",
+      "slug": "20261101-e6d9775fdf-start",
+      "start_date": "2026-11-01",
+      "start_time": null,
+      "summary": "2027학년도 1학기 장학금 신청 시작",
+      "uid": "6b56acbfc7e225dc89f1de8b6a4f439d@law-secretary"
+    },
+    {
+      "all_day": true,
+      "confidence": "high",
+      "evidence": "학사일정: 2027학년도 1학기 장학금 신청 (2026-11-01 ~ 2026-11-30)",
+      "slug": "20261101-e6d9775fdf-end",
+      "start_date": "2026-11-30",
+      "start_time": null,
+      "summary": "2027학년도 1학기 장학금 신청 마감",
+      "uid": "4b2cb7d8b915908c8e76cdca6b27e7df@law-secretary"
+    }
+  ],
+  "needs_manual": false,
+  "no_events_reason": null,
+  "post_id": "academic:20261101-e6d9775fdf",
+  "posted_date": "2026-11-01",
+  "revision": 0,
+  "tab": "academic",
+  "title": "2027학년도 1학기 장학금 신청",
+  "url": "https://www.sogang.ac.kr/ko/academic-support/calendar"
+}

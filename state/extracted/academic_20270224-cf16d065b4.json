@@ -1,0 +1,23 @@
+{
+  "board": "서강대 학사일정",
+  "events": [
+    {
+      "all_day": true,
+      "confidence": "high",
+      "evidence": "학사일정: 전학년 수강신청 (2027-02-24 ~ 2027-02-24)",
+      "slug": "20270224-cf16d065b4",
+      "start_date": "2027-02-24",
+      "start_time": null,
+      "summary": "전학년 수강신청",
+      "uid": "d258939104c9299b9a3ff51d6dedf549@law-secretary"
+    }
+  ],
+  "needs_manual": false,
+  "no_events_reason": null,
+  "post_id": "academic:20270224-cf16d065b4",
+  "posted_date": "2027-02-24",
+  "revision": 0,
+  "tab": "academic",
+  "title": "전학년 수강신청",
+  "url": "https://www.sogang.ac.kr/ko/academic-support/calendar"
+}

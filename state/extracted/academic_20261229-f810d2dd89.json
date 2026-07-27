@@ -1,0 +1,23 @@
+{
+  "board": "서강대 학사일정",
+  "events": [
+    {
+      "all_day": true,
+      "confidence": "high",
+      "evidence": "학사일정: 학기말성적 제출 마감 (2026-12-29 ~ 2026-12-29)",
+      "slug": "20261229-f810d2dd89",
+      "start_date": "2026-12-29",
+      "start_time": null,
+      "summary": "학기말성적 제출 마감",
+      "uid": "8e582fb1972816642890ebb8deb9e62a@law-secretary"
+    }
+  ],
+  "needs_manual": false,
+  "no_events_reason": null,
+  "post_id": "academic:20261229-f810d2dd89",
+  "posted_date": "2026-12-29",
+  "revision": 0,
+  "tab": "academic",
+  "title": "학기말성적 제출 마감",
+  "url": "https://www.sogang.ac.kr/ko/academic-support/calendar"
+}

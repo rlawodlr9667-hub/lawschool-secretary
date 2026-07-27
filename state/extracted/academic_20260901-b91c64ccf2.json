@@ -1,0 +1,33 @@
+{
+  "board": "서강대 학사일정",
+  "events": [
+    {
+      "all_day": true,
+      "confidence": "high",
+      "evidence": "학사일정: 수강과목 확인 및 변경 (2026-09-01 ~ 2026-09-07)",
+      "slug": "20260901-b91c64ccf2-start",
+      "start_date": "2026-09-01",
+      "start_time": null,
+      "summary": "수강과목 확인 및 변경 시작",
+      "uid": "0993b18e0411bc4d355d433ee05a616b@law-secretary"
+    },
+    {
+      "all_day": true,
+      "confidence": "high",
+      "evidence": "학사일정: 수강과목 확인 및 변경 (2026-09-01 ~ 2026-09-07)",
+      "slug": "20260901-b91c64ccf2-end",
+      "start_date": "2026-09-07",
+      "start_time": null,
+      "summary": "수강과목 확인 및 변경 마감",
+      "uid": "942a4e753692460ae94b703f0f3d0054@law-secretary"
+    }
+  ],
+  "needs_manual": false,
+  "no_events_reason": null,
+  "post_id": "academic:20260901-b91c64ccf2",
+  "posted_date": "2026-09-01",
+  "revision": 0,
+  "tab": "academic",
+  "title": "수강과목 확인 및 변경",
+  "url": "https://www.sogang.ac.kr/ko/academic-support/calendar"
+}

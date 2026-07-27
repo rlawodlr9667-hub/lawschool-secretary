@@ -1,0 +1,33 @@
+{
+  "board": "서강대 학사일정",
+  "events": [
+    {
+      "all_day": true,
+      "confidence": "high",
+      "evidence": "학사일정: 전공 추가신청 및 변경 (2026-11-04 ~ 2026-11-17)",
+      "slug": "20261104-59c220ffd3-start",
+      "start_date": "2026-11-04",
+      "start_time": null,
+      "summary": "전공 추가신청 및 변경 시작",
+      "uid": "0e93c27de547721f651484ccce6784a0@law-secretary"
+    },
+    {
+      "all_day": true,
+      "confidence": "high",
+      "evidence": "학사일정: 전공 추가신청 및 변경 (2026-11-04 ~ 2026-11-17)",
+      "slug": "20261104-59c220ffd3-end",
+      "start_date": "2026-11-17",
+      "start_time": null,
+      "summary": "전공 추가신청 및 변경 마감",
+      "uid": "0a3aea5040c3d69c4d357e80c51efd96@law-secretary"
+    }
+  ],
+  "needs_manual": false,
+  "no_events_reason": null,
+  "post_id": "academic:20261104-59c220ffd3",
+  "posted_date": "2026-11-04",
+  "revision": 0,
+  "tab": "academic",
+  "title": "전공 추가신청 및 변경",
+  "url": "https://www.sogang.ac.kr/ko/academic-support/calendar"
+}

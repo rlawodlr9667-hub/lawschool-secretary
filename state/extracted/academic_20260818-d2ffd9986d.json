@@ -1,0 +1,23 @@
+{
+  "board": "서강대 학사일정",
+  "events": [
+    {
+      "all_day": true,
+      "confidence": "high",
+      "evidence": "학사일정: 하계 졸업일 (2026-08-18 ~ 2026-08-18)",
+      "slug": "20260818-d2ffd9986d",
+      "start_date": "2026-08-18",
+      "start_time": null,
+      "summary": "하계 졸업일",
+      "uid": "5eb2b0d72bfe6cc8807c82386fdb7e86@law-secretary"
+    }
+  ],
+  "needs_manual": false,
+  "no_events_reason": null,
+  "post_id": "academic:20260818-d2ffd9986d",
+  "posted_date": "2026-08-18",
+  "revision": 0,
+  "tab": "academic",
+  "title": "하계 졸업일",
+  "url": "https://www.sogang.ac.kr/ko/academic-support/calendar"
+}

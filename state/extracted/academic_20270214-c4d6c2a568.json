@@ -1,0 +1,23 @@
+{
+  "board": "서강대 학사일정",
+  "events": [
+    {
+      "all_day": true,
+      "confidence": "high",
+      "evidence": "학사일정: 졸업감사미사(오전11시) (2027-02-14 ~ 2027-02-14)",
+      "slug": "20270214-c4d6c2a568",
+      "start_date": "2027-02-14",
+      "start_time": null,
+      "summary": "졸업감사미사(오전11시)",
+      "uid": "47b278d102bd2343f2260611a13a4996@law-secretary"
+    }
+  ],
+  "needs_manual": false,
+  "no_events_reason": null,
+  "post_id": "academic:20270214-c4d6c2a568",
+  "posted_date": "2027-02-14",
+  "revision": 0,
+  "tab": "academic",
+  "title": "졸업감사미사(오전11시)",
+  "url": "https://www.sogang.ac.kr/ko/academic-support/calendar"
+}

@@ -1,0 +1,23 @@
+{
+  "board": "서강대 학사일정",
+  "events": [
+    {
+      "all_day": true,
+      "confidence": "high",
+      "evidence": "학사일정: 신입생 수강신청 (2027-02-19 ~ 2027-02-19)",
+      "slug": "20270219-3d5ef8624f",
+      "start_date": "2027-02-19",
+      "start_time": null,
+      "summary": "신입생 수강신청",
+      "uid": "c46ec9a5ead3419a3659d87b661f0aa2@law-secretary"
+    }
+  ],
+  "needs_manual": false,
+  "no_events_reason": null,
+  "post_id": "academic:20270219-3d5ef8624f",
+  "posted_date": "2027-02-19",
+  "revision": 0,
+  "tab": "academic",
+  "title": "신입생 수강신청",
+  "url": "https://www.sogang.ac.kr/ko/academic-support/calendar"
+}

@@ -1,0 +1,33 @@
+{
+  "board": "서강대 학사일정",
+  "events": [
+    {
+      "all_day": true,
+      "confidence": "high",
+      "evidence": "학사일정: 신입생 교외 오리엔테이션 (2027-02-21 ~ 2027-02-23)",
+      "slug": "20270221-ed581e8bde-start",
+      "start_date": "2027-02-21",
+      "start_time": null,
+      "summary": "신입생 교외 오리엔테이션 시작",
+      "uid": "094c59b4b7692c68f9bf31ad43b3e8a1@law-secretary"
+    },
+    {
+      "all_day": true,
+      "confidence": "high",
+      "evidence": "학사일정: 신입생 교외 오리엔테이션 (2027-02-21 ~ 2027-02-23)",
+      "slug": "20270221-ed581e8bde-end",
+      "start_date": "2027-02-23",
+      "start_time": null,
+      "summary": "신입생 교외 오리엔테이션 마감",
+      "uid": "566d75399ea1213cb31266250b872c4d@law-secretary"
+    }
+  ],
+  "needs_manual": false,
+  "no_events_reason": null,
+  "post_id": "academic:20270221-ed581e8bde",
+  "posted_date": "2027-02-21",
+  "revision": 0,
+  "tab": "academic",
+  "title": "신입생 교외 오리엔테이션",
+  "url": "https://www.sogang.ac.kr/ko/academic-support/calendar"
+}

@@ -1,0 +1,23 @@
+{
+  "board": "서강대 학사일정",
+  "events": [
+    {
+      "all_day": true,
+      "confidence": "high",
+      "evidence": "학사일정: 중간성적 제출 마감 (2026-11-03 ~ 2026-11-03)",
+      "slug": "20261103-c7fface6e4",
+      "start_date": "2026-11-03",
+      "start_time": null,
+      "summary": "중간성적 제출 마감",
+      "uid": "8c124bff0a092f22040909961e96ed63@law-secretary"
+    }
+  ],
+  "needs_manual": false,
+  "no_events_reason": null,
+  "post_id": "academic:20261103-c7fface6e4",
+  "posted_date": "2026-11-03",
+  "revision": 0,
+  "tab": "academic",
+  "title": "중간성적 제출 마감",
+  "url": "https://www.sogang.ac.kr/ko/academic-support/calendar"
+}

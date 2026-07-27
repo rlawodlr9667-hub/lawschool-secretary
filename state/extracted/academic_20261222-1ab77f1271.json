@@ -1,0 +1,23 @@
+{
+  "board": "서강대 학사일정",
+  "events": [
+    {
+      "all_day": true,
+      "confidence": "high",
+      "evidence": "학사일정: 겨울방학 시작 (2026-12-22 ~ 2026-12-22)",
+      "slug": "20261222-1ab77f1271",
+      "start_date": "2026-12-22",
+      "start_time": null,
+      "summary": "겨울방학 시작",
+      "uid": "65e9a4f899a56d21ac7071a2b295a5f8@law-secretary"
+    }
+  ],
+  "needs_manual": false,
+  "no_events_reason": null,
+  "post_id": "academic:20261222-1ab77f1271",
+  "posted_date": "2026-12-22",
+  "revision": 0,
+  "tab": "academic",
+  "title": "겨울방학 시작",
+  "url": "https://www.sogang.ac.kr/ko/academic-support/calendar"
+}

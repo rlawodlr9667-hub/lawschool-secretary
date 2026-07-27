@@ -125,11 +125,17 @@ def _deadline_label(when, time_text, today):
 # 모으기
 # ---------------------------------------------------------------------------
 def _from_extracted(today):
-    """일정을 뽑아 둔 글. 마감이 남았는지 판단할 수 있습니다."""
+    """일정을 뽑아 둔 글. 마감이 남았는지 판단할 수 있습니다.
+
+    열쇠는 주소가 아니라 post_id 입니다. 학사일정은 38건이 전부 학사일정
+    페이지라는 같은 주소를 가리키기 때문에, 주소를 열쇠로 쓰면 37건이
+    조용히 사라집니다.
+    """
     found = {}
     for _name, data in store.all_extracted():
         url = data.get("url") or ""
-        if not url:
+        key = data.get("post_id") or url
+        if not url or not key:
             continue
 
         upcoming = []
@@ -140,7 +146,7 @@ def _from_extracted(today):
                                  event.get("summary") or ""))
         upcoming.sort()
 
-        found[url] = {
+        found[key] = {
             "title": data.get("title") or "(제목 없음)",
             "url": url,
             "board": data.get("board") or "",
@@ -191,7 +197,9 @@ def find(keyword, today=None, limit=MAX_RESULTS):
         return []
 
     records = _from_extracted(today)
-    records.update(_from_posts(today, set(records)))
+    # 게시판 목록 쪽은 주소로 겹침을 걸러야 합니다. 위쪽 열쇠가 post_id 라
+    # 주소를 따로 모아 넘깁니다.
+    records.update(_from_posts(today, {r["url"] for r in records.values()}))
 
     hits = []
     for item in records.values():

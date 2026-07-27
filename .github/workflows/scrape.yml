@@ -117,6 +117,14 @@ jobs:
             --permission-mode acceptEdits \
             --allowedTools Read Write Glob Grep
 
+      # 학교 공식 학사일정(수강신청·시험기간·등록금)을 받아 옵니다.
+      # 게시판 공지와 같은 모양으로 기록되므로, 아래 캘린더 생성과
+      # 마감 알림·챗봇 검색이 자동으로 함께 다룹니다.
+      # 받기에 실패해도 기존 학사일정은 그대로 두고 넘어갑니다.
+      - name: 학사일정 가져오기
+        continue-on-error: true
+        run: python academic.py
+
       # 3단계 — 캘린더 파일 만들기. 검사를 통과하지 못하면 여기서 멈춥니다.
       - name: 캘린더 생성
         run: |

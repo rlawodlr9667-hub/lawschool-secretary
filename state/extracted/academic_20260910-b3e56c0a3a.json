@@ -1,0 +1,23 @@
+{
+  "board": "서강대 학사일정",
+  "events": [
+    {
+      "all_day": true,
+      "confidence": "high",
+      "evidence": "학사일정: 개강미사(오전10시30분) (2026-09-10 ~ 2026-09-10)",
+      "slug": "20260910-b3e56c0a3a",
+      "start_date": "2026-09-10",
+      "start_time": null,
+      "summary": "개강미사(오전10시30분)",
+      "uid": "e832f2ab73702c4279e7a77ad0b4ed52@law-secretary"
+    }
+  ],
+  "needs_manual": false,
+  "no_events_reason": null,
+  "post_id": "academic:20260910-b3e56c0a3a",
+  "posted_date": "2026-09-10",
+  "revision": 0,
+  "tab": "academic",
+  "title": "개강미사(오전10시30분)",
+  "url": "https://www.sogang.ac.kr/ko/academic-support/calendar"
+}
