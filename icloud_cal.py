@@ -33,7 +33,7 @@ import urllib.request
 import uuid
 import xml.etree.ElementTree as ET
 from concurrent.futures import ThreadPoolExecutor
-from datetime import datetime, timedelta, timezone
+from datetime import datetime, time, timedelta, timezone
 
 import build_ics
 import store
@@ -453,6 +453,34 @@ def clear_cache():
 # ---------------------------------------------------------------------------
 # 일정 만들어 넣기
 # ---------------------------------------------------------------------------
+def alarm_lines(event, anchor, now):
+    """3일 전 · 1일 전 · 당일(1시간 전) 알림을 붙입니다.
+
+    구독 캘린더(docs/law.ics)와 **같은 규칙**을 씁니다. build_ics.alarm_times()
+    가 그 규칙을 갖고 있으니 그대로 불러 씁니다. 여기에 따로 적으면 손으로
+    넣은 일정과 공지에서 뽑은 일정의 알림 시각이 달라집니다.
+
+    종일 일정은 자정이 아니라 그날 아침 9시에 울립니다. 자정에 울리면
+    자다가 받거나, 자는 사이 지나가 버립니다.
+
+    이미 지나간 알림은 넣지 않습니다. 넣으면 일정을 만들자마자 지난 알림이
+    한꺼번에 울립니다.
+    """
+    lines = []
+    for days, when in build_ics.alarm_times(event, anchor):
+        if when <= now:
+            continue
+        label = f"D-{days}" if days else "오늘"
+        lines += [
+            "BEGIN:VALARM",
+            "ACTION:DISPLAY",
+            f"DESCRIPTION:{build_ics.escape_text(label + ' ' + event['title'])}",
+            f"TRIGGER:{build_ics.ical_duration(when - anchor)}",
+            "END:VALARM",
+        ]
+    return lines
+
+
 def build_vevent(event, uid=None, now=None):
     """nlp_date.parse() 가 준 것을 iCalendar 한 덩어리로 만듭니다.
 
@@ -476,12 +504,15 @@ def build_vevent(event, uid=None, now=None):
     if event["all_day"]:
         lines.append(f"DTSTART;VALUE=DATE:{event['start']:%Y%m%d}")
         lines.append(f"DTEND;VALUE=DATE:{event['end']:%Y%m%d}")
+        anchor = datetime.combine(event["start"], time(0, 0), tzinfo=store.KST)
     else:
         # UTC 로 적습니다. 이러면 VTIMEZONE 블록이 필요 없고, 애플이
         # 사용자의 시간대에 맞춰 알아서 보여 줍니다.
         lines.append(f"DTSTART:{build_ics.utc_stamp(event['start'])}")
         lines.append(f"DTEND:{build_ics.utc_stamp(event['end'])}")
+        anchor = event["start"]
 
+    lines += alarm_lines(event, anchor, now)
     lines += ["END:VEVENT", "END:VCALENDAR"]
 
     out = []

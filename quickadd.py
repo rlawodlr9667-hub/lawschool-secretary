@@ -174,23 +174,24 @@ def force_foreground(hwnd):
 # ---------------------------------------------------------------------------
 PLACEHOLDER = "일정을 추가하세요."
 
-# macOS 스포트라이트의 어두운 판을 따라갑니다. 회색 판 위에 흰 글씨,
-# 고른 것 하나만 파란 알약으로 칠하는 방식입니다.
-BG = "#3a3a3c"           # 창 바탕
-DIVIDER = "#4c4c4e"      # 검색줄 아래 가는 선
-PILL = "#5a5a5e"         # 오른쪽 작은 표지
-FG = "#f2f2f7"           # 본문 글씨
-HINT = "#98989d"         # 흐린 글씨
-DIM = "#6d6d72"          # 이번 달이 아닌 날
-HOVER = "#4c4c50"        # 마우스를 올린 날
-BLUE = "#0a6cf5"         # 고른 것 / 오늘
-OK = "#7ee08a"
-BAD = "#ff7b72"
-SUN = "#ff8a80"
-SAT = "#8ab4ff"
+# 구글 검색창의 흰 톤을 따라갑니다. 흰 바탕에 가는 회색 테두리,
+# 완전히 둥근 알약 모양 입력줄, 오른쪽에 작은 칩.
+BG = "#ffffff"           # 창 바탕
+LINE = "#dfe1e5"         # 입력줄 테두리
+CHIP = "#f1f3f4"         # 오른쪽 작은 칩
+FG = "#202124"           # 본문 글씨
+HINT = "#9aa0a6"         # 흐린 글씨
+DIM = "#c9ccce"          # 이번 달이 아닌 날
+HOVER = "#f1f3f4"        # 마우스를 올린 날
+BLUE = "#1a73e8"         # 고른 것 / 오늘
+OK = "#188038"
+BAD = "#d93025"
+SUN = "#d93025"
+SAT = "#1a73e8"
 
 WIDTH = 660
-RADIUS = 20
+RADIUS = 26
+BAR_H = 56               # 입력줄 높이. 알약이 되려면 모서리가 이것의 절반
 
 # 부드러운 순서대로 찾습니다. 맑은 고딕 Semilight 는 윈도우에 들어 있는
 # 가는 획 글꼴이라 같은 맑은 고딕이라도 훨씬 부드럽게 보입니다.
@@ -352,7 +353,8 @@ class QuickAdd:
         self.calendar = None
         self.tip = None
         self.tip_font = None
-        self.badge = None
+        self.bar = None
+        self.chip_bg = self.chip_text = None
         self.titles = None           # 아직 안 가져옴 (빈 dict 와 구분합니다)
         self.pending = None          # 확인 대기 중인 일정
         self.busy = False
@@ -378,30 +380,43 @@ class QuickAdd:
         frame.pack(fill="both", expand=True)
 
         # --- 검색줄 -------------------------------------------------------
-        row = tk.Frame(frame, bg=BG)
-        row.pack(fill="x", padx=20, pady=(16, 12))
+        # 구글 검색창처럼 완전히 둥근 알약입니다. 위젯으로는 네모밖에 못
+        # 만들기 때문에 캔버스에 테두리를 그리고 그 안에 입력칸을 앉힙니다.
+        bar_w = WIDTH - 40
+        bar = tk.Canvas(frame, width=bar_w, height=BAR_H, bg=BG,
+                        highlightthickness=0, bd=0)
+        bar.pack(padx=20, pady=(18, 10))
+        round_rect(bar, 1, 1, bar_w - 1, BAR_H - 1, BAR_H // 2,
+                   fill=BG, outline=LINE, width=1)
 
-        glass = tk.Canvas(row, width=26, height=26, bg=BG,
-                          highlightthickness=0, bd=0)
-        glass.create_oval(4, 4, 18, 18, outline=HINT, width=2)
-        glass.create_line(17, 17, 23, 23, fill=HINT, width=2, capstyle="round")
-        glass.pack(side="left", padx=(0, 12))
+        # 왼쪽 + 표시
+        bar.create_line(26, BAR_H / 2, 42, BAR_H / 2, fill=HINT, width=2,
+                        capstyle="round")
+        bar.create_line(34, BAR_H / 2 - 8, 34, BAR_H / 2 + 8, fill=HINT, width=2,
+                        capstyle="round")
 
-        # 오른쪽 작은 표지. 지금 Enter 를 누르면 무슨 일이 일어나는지 알려 줍니다.
-        self.badge = tk.Label(row, text="확인", font=(self.font, 10), bg=PILL,
-                              fg=FG, padx=10, pady=2)
-        self.badge.pack(side="right", padx=(12, 0))
+        # 오른쪽 칩. 지금 Enter 를 누르면 무슨 일이 생기는지 알려 줍니다.
+        chip_w, chip_h = 74, 30
+        chip_right = bar_w - 14
+        self.chip_bg = round_rect(bar, chip_right - chip_w, (BAR_H - chip_h) / 2,
+                                  chip_right, (BAR_H + chip_h) / 2, chip_h // 2,
+                                  fill=CHIP, outline="")
+        self.chip_text = bar.create_text(chip_right - chip_w / 2, BAR_H / 2,
+                                         text="확인", fill=FG,
+                                         font=(self.font, 10))
+        self.bar = bar
 
         text = tk.StringVar()
-        entry = tk.Entry(row, textvariable=text, font=(self.font, 20), bg=BG,
+        entry = tk.Entry(bar, textvariable=text, font=(self.font, 15), bg=BG,
                          fg=FG, insertbackground=FG, relief="flat", borderwidth=0)
-        entry.pack(side="left", fill="x", expand=True)
+        bar.create_window(56, BAR_H / 2, window=entry, anchor="w",
+                          width=bar_w - 56 - chip_w - 30, height=26)
 
         # 회색 안내글은 입력칸 '위에 겹쳐 놓은 라벨'입니다.
         # 입력칸에 실제 글자로 넣어 두면, 한글 입력기로 첫 글자를 칠 때
         # 지워지지 않고 "일정을 추가하세요.가나다" 처럼 뒤에 붙어 버립니다.
         # (입력기는 보통의 키 이벤트를 거치지 않고 완성된 글자를 넣습니다)
-        hint = tk.Label(row, text=PLACEHOLDER, font=(self.font, 20), bg=BG, fg=HINT)
+        hint = tk.Label(bar, text=PLACEHOLDER, font=(self.font, 15), bg=BG, fg=HINT)
         hint.place(in_=entry, x=2, y=0)
         hint.bind("<Button-1>", lambda _e: entry.focus_set())
 
@@ -413,12 +428,9 @@ class QuickAdd:
 
         text.trace_add("write", toggle_hint)
 
-        # --- 구분선 -------------------------------------------------------
-        tk.Frame(frame, bg=DIVIDER, height=1).pack(fill="x")
-
         status = tk.Label(frame, text="Enter 로 확인 · Esc 로 닫기",
                           font=(self.font, 9), bg=BG, fg=HINT, anchor="w")
-        status.pack(fill="x", padx=20, pady=(10, 8))
+        status.pack(fill="x", padx=26, pady=(0, 8))
 
         # 스포트라이트의 '시스템 설정' 같은 작은 구역 이름입니다.
         tk.Label(frame, text=f"{today.year}년 {today.month}월",
@@ -462,7 +474,8 @@ class QuickAdd:
         if self.win is not None and self.win.winfo_exists():
             self.win.destroy()
         self.win = self.entry = self.status = self.calendar = self.tip = None
-        self.badge = None
+        self.bar = None
+        self.chip_bg = self.chip_text = None
         self.titles = None
         self.pending = None
         self.busy = False
@@ -524,10 +537,12 @@ class QuickAdd:
     def _say(self, text, color=HINT, badge=None):
         if self.status is not None:
             self.status.configure(text=text, fg=color)
-        if self.badge is not None and badge is not None:
-            # 지금 Enter 를 누르면 무슨 일이 생기는지를 표지에 적어 둡니다.
-            self.badge.configure(text=badge,
-                                 bg=BLUE if badge == "확정" else PILL)
+        if self.bar is not None and badge is not None:
+            # 지금 Enter 를 누르면 무슨 일이 생기는지를 칩에 적어 둡니다.
+            highlight = badge == "확정"
+            self.bar.itemconfigure(self.chip_bg, fill=BLUE if highlight else CHIP)
+            self.bar.itemconfigure(self.chip_text, text=badge,
+                                   fill="#ffffff" if highlight else FG)
 
     def _on_focus_out(self, _event=None):
         """다른 프로그램으로 넘어가면 창을 닫습니다.
