@@ -2,6 +2,14 @@
   "posts": [
     {
       "board_name": "일반공지",
+      "date": "2026-07-27",
+      "pinned": false,
+      "post_id": "938757",
+      "title": "2027년도 대법원 재판연구관 신규 임용 계획 안내",
+      "url": "https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1602&siteId=lawschool&pkid=938757"
+    },
+    {
+      "board_name": "일반공지",
       "date": "2026-07-23",
       "pinned": false,
       "post_id": "938683",
@@ -81,5 +89,5 @@
       "url": "https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1602&siteId=lawschool&pkid=938296"
     }
   ],
-  "updated": "2026-07-27T01:35:28+09:00"
+  "updated": "2026-07-27T22:25:47+09:00"
 }
