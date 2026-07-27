@@ -1,0 +1,34 @@
+{
+  "board": "학사공지",
+  "events": [
+    {
+      "all_day": false,
+      "confidence": "high",
+      "evidence": "※ 원활한 행사 운영을 위하여 참가를 희망하는 분께서는 사전 참가신청(~6/5(금) 13:00 까지)을 부탁드립니다.",
+      "slug": "apply-close",
+      "start_date": "2026-06-05",
+      "start_time": "13:00",
+      "summary": "국회 아카데미 참가신청 마감",
+      "uid": "6716a98e983c05f21781441774786d47@law-secretary"
+    },
+    {
+      "all_day": false,
+      "confidence": "high",
+      "evidence": "1. 일시 : 2026. 6. 16(화) 13:00~15:00",
+      "slug": "event-day",
+      "start_date": "2026-06-16",
+      "start_time": "13:00",
+      "summary": "국회 찾아가는 아카데미 특강",
+      "uid": "6487e88980e9f26846f70086cea039cd@law-secretary"
+    }
+  ],
+  "extracted_at": "2026-07-27T22:35:00+09:00",
+  "needs_manual": false,
+  "no_events_reason": null,
+  "post_id": "sg_1601:936437",
+  "posted_date": "2026-05-26",
+  "revision": 0,
+  "tab": "sogang",
+  "title": "[국회] 찾아가는 법학전문대학원생 아카데미 개최 및 참가 안내 (~6/5(금) 13:00 까지 사전 참가신청)",
+  "url": "https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1601&siteId=lawschool&pkid=936437"
+}

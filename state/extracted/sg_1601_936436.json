@@ -1,0 +1,13 @@
+{
+  "post_id": "sg_1601:936436",
+  "board": "학사공지",
+  "tab": "sogang",
+  "title": "2026학년도 1학기 학기말시험 일정 및 시험장소 안내 (2026. 06. 05. 변경사항 포함)",
+  "url": "https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1601&siteId=lawschool&pkid=936436",
+  "posted_date": "2026-05-26",
+  "extracted_at": "2026-07-27T22:35:00+09:00",
+  "revision": 0,
+  "needs_manual": true,
+  "no_events_reason": "과목·분반별 개별 시험 일정표라서 본인이 수강 중인 과목을 알 수 없어 특정 일정을 자동으로 뽑을 수 없음. 전체 학기말시험 기간 자체는 학교 공식 학사일정(academic.py)에서 별도로 관리됨.",
+  "events": []
+}

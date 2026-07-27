@@ -1,0 +1,54 @@
+{
+  "board": "학사공지",
+  "events": [
+    {
+      "all_day": false,
+      "confidence": "high",
+      "evidence": "5. 신청마감 : 2026. 7. 14.(화) 15:00까지",
+      "slug": "apply-close",
+      "start_date": "2026-07-14",
+      "start_time": "15:00",
+      "summary": "리걸클리닉3(법원) 신청 마감",
+      "uid": "93266d75b58d1343ad5325eb4e601ae2@law-secretary"
+    },
+    {
+      "all_day": false,
+      "confidence": "high",
+      "evidence": "6. 정원(6명 예정) 초과 신청 시 추첨 일정 및 장소 : 2026. 7. 16.(목) 14:00 예정 / X223호",
+      "slug": "lottery-day",
+      "start_date": "2026-07-16",
+      "start_time": "14:00",
+      "summary": "리걸클리닉3 추첨 (X223호)",
+      "uid": "58013a2c0b03eae1bac4727c6e0d95bf@law-secretary"
+    },
+    {
+      "all_day": true,
+      "confidence": "high",
+      "evidence": "2. 일정 : 2026. 8. 7.(금) ~ 8. 21.(금) 예정",
+      "slug": "program-start",
+      "start_date": "2026-08-07",
+      "start_time": null,
+      "summary": "리걸클리닉3(법원) 실무수습 시작",
+      "uid": "6ca4909918157daa7a34c486aad90a7d@law-secretary"
+    },
+    {
+      "all_day": true,
+      "confidence": "high",
+      "evidence": "2. 일정 : 2026. 8. 7.(금) ~ 8. 21.(금) 예정",
+      "slug": "program-end",
+      "start_date": "2026-08-21",
+      "start_time": null,
+      "summary": "리걸클리닉3(법원) 실무수습 종료",
+      "uid": "a3f202756f9e4a94cc2a8432acb97338@law-secretary"
+    }
+  ],
+  "extracted_at": "2026-07-27T22:35:00+09:00",
+  "needs_manual": false,
+  "no_events_reason": null,
+  "post_id": "sg_1601:938297",
+  "posted_date": "2026-07-08",
+  "revision": 0,
+  "tab": "sogang",
+  "title": "2026년 2학기 <리걸클리닉3(법원)-2학점> 과목 수강신청 안내( ~7/14 15:00 마감)",
+  "url": "https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1601&siteId=lawschool&pkid=938297"
+}

@@ -1,0 +1,34 @@
+{
+  "board": "학사공지",
+  "events": [
+    {
+      "all_day": true,
+      "confidence": "high",
+      "evidence": "1. 성적 이의 신청 기간 : 2026. 7. 1.(수) ~ 7. 3.(금)",
+      "slug": "grade-appeal-start",
+      "start_date": "2026-07-01",
+      "start_time": null,
+      "summary": "성적 이의신청 시작",
+      "uid": "921114921345ddc87f9909a0bc05f257@law-secretary"
+    },
+    {
+      "all_day": true,
+      "confidence": "high",
+      "evidence": "1. 성적 이의 신청 기간 : 2026. 7. 1.(수) ~ 7. 3.(금)",
+      "slug": "grade-appeal-close",
+      "start_date": "2026-07-03",
+      "start_time": null,
+      "summary": "성적 이의신청 마감",
+      "uid": "e68670dc8bcbb52eb53d0a2514ad86a4@law-secretary"
+    }
+  ],
+  "extracted_at": "2026-07-27T22:35:00+09:00",
+  "needs_manual": false,
+  "no_events_reason": null,
+  "post_id": "sg_1601:937370",
+  "posted_date": "2026-06-13",
+  "revision": 0,
+  "tab": "sogang",
+  "title": "2026학년도 1학기 학기말 성적 이의신청 기간 안내",
+  "url": "https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1601&siteId=lawschool&pkid=937370"
+}
