@@ -112,6 +112,71 @@ def menu_text():
             f"보고 싶은 것을 눌러 주세요.")
 
 
+def digest_messages(list_count=3):
+    """아침에 보낼 브리핑을 만듭니다. 여러 통으로 쪼개 돌려줍니다.
+
+    왜 버튼 대신 이렇게 하는가
+    -------------------------
+    버튼은 누른 뒤 봇이 텔레그램에 물어보러 가야 답이 옵니다. 그 '물어보기'를
+    GitHub Actions 에 맡겼는데, GitHub 이 잦은 예약을 심하게 걸러서 몇 시간씩
+    답이 안 오는 일이 생겼습니다. 왕복이 필요한 구조 자체를 없애고, 아침에
+    볼 것을 통째로 보내 버립니다. 오는 것이 확실하고, 나중에 위로 스크롤해서
+    다시 볼 수도 있습니다.
+
+    한 통에 몰지 않는 이유: 텔레그램은 한 메시지에 4096자까지만 받습니다.
+    게시판이 늘어나면 조용히 잘리므로 게시판별로 나눕니다.
+    """
+    now = store.now_kst()
+    head = (f"<b>⚖️ 오늘의 로스쿨 브리핑</b>\n"
+            f"<i>{now.year}년 {now.month}월 {now.day}일 "
+            f"({WEEKDAYS[now.weekday()]})</i>")
+
+    messages = [f"{head}\n\n{upcoming_text()}"]
+
+    for tab in cfg.TABS:
+        posts = tab_posts(tab, limit=list_count)
+        title = html_mod.escape(tab["emoji"] + " " + tab["label"])
+        if not posts:
+            messages.append(f"<b>{title}</b>\n\n새로 올라온 글이 없습니다.")
+            continue
+
+        lines = [f"<b>{title}</b> — 최신 {len(posts)}건", ""]
+        for post in posts:
+            name = html_mod.escape(post.get("title") or "(제목 없음)")
+            board = html_mod.escape(post.get("board_name") or "")
+            date = post.get("date") or "날짜 미상"
+            pin = "📌 " if post.get("pinned") else ""
+            url = html_mod.escape(post.get("url") or "", quote=True)
+            lines.append(f"· {pin}<a href=\"{url}\">{name}</a>")
+            lines.append(f"    <i>{board} · {date}</i>")
+        messages.append("\n".join(lines))
+
+    return messages
+
+
+def send_digest(daily=False):
+    """아침 브리핑을 보냅니다. daily=True 면 하루 한 번만."""
+    if daily and store.done_today("digest"):
+        print("오늘 브리핑은 이미 보냈습니다.")
+        return 0
+
+    token, chat_id = tg.load_config()
+    sent = 0
+    for body in digest_messages():
+        ok, err = tg.send_message(token, chat_id, body)
+        if not ok:
+            # 한 통이라도 실패하면 표시를 남기지 않습니다. 다음 예약에서
+            # 다시 시도해야 하기 때문입니다.
+            print(f"브리핑 발송 실패({sent + 1}번째): {err}")
+            return 1
+        sent += 1
+
+    if daily:
+        store.mark_done("digest")
+    print(f"브리핑 {sent}통을 보냈습니다.")
+    return 0
+
+
 def send_menu(daily=False):
     """탭 버튼 메뉴를 보냅니다.
 
@@ -280,12 +345,18 @@ def poll(once=False):
 
 def main():
     parser = argparse.ArgumentParser(description="로스쿨 비서 버튼 봇")
-    parser.add_argument("--send-menu", action="store_true", help="탭 버튼 메뉴 발송")
+    parser.add_argument("--send-digest", action="store_true",
+                        help="아침 브리핑 발송 (일정 + 게시판별 최신 글)")
+    parser.add_argument("--send-menu", action="store_true",
+                        help="탭 버튼 메뉴 발송 (내 PC에서 봇을 켜 둘 때만 쓸모 있음)")
     parser.add_argument("--daily", action="store_true",
-                        help="--send-menu 와 함께: 오늘 이미 보냈으면 건너뜀")
+                        help="오늘 이미 보냈으면 건너뜀")
     parser.add_argument("--once", action="store_true",
                         help="밀린 클릭만 처리하고 종료")
     args = parser.parse_args()
+
+    if args.send_digest:
+        return send_digest(daily=args.daily)
 
     if args.send_menu:
         return send_menu(daily=args.daily)

@@ -13,8 +13,8 @@
 **1. 새 글 알림** — 게시판 5곳을 30분마다 확인해서, 새 글이 올라오면
 휴대폰과 노트북으로 동시에 알려 줍니다.
 
-**2. 탭으로 최신 글 보기** — 텔레그램에서 버튼을 누르면 최신 5건이 링크와
-함께 옵니다.
+**2. 아침 브리핑** — 매일 아침 다가오는 일정과 게시판별 최신 글이 링크와 함께
+옵니다. 누를 필요 없이 먼저 옵니다.
 
 | 탭 | 게시판 |
 |---|---|
@@ -75,7 +75,7 @@ Enter 를 한 번 누르면 해석 결과가 뜨고, 한 번 더 누르면 **아
 | `scrape.py` | 수집 → 신규 판별 → 알림 → 일정 추출 대기열 |
 | `build_ics.py` | 뽑아낸 일정 → `docs/law.ics` 캘린더 파일 |
 | `remind.py` | 다가온 마감을 텔레그램으로 |
-| `bot_server.py` | 탭 버튼을 보내고 클릭에 답합니다 |
+| `bot_server.py` | 아침 브리핑을 만들어 보냅니다 (버튼 응답 기능도 들어 있음) |
 | `store.py` | 상태 파일 읽기·쓰기 |
 | `telegram_api.py` | 텔레그램 발송 (daily brief 에서 검증된 코드) |
 | `quickadd.py` | `Alt+Space` 입력창 (내 PC 전용) |
@@ -137,8 +137,7 @@ python scrape.py --seed-only     # 지금 글을 전부 '이미 본 것'으로 (
 python build_ics.py --list       # 캘린더에 들어갈 일정 보기
 python build_ics.py --selftest   # 캘린더 파일 규격 검사
 python remind.py --list          # 앞으로 30일 일정
-python bot_server.py --send-menu # 탭 버튼 메뉴 보내기
-python bot_server.py --once      # 밀린 버튼 클릭 처리
+python bot_server.py --send-digest  # 아침 브리핑 보내기
 ```
 
 빠른 일정 추가:
@@ -152,4 +151,12 @@ python nlp_date.py --selftest         # 해석 규칙 자가검증
 python icloud_cal.py --list           # 내 캘린더 목록
 ```
 
-텔레그램에서: `/menu` · `/upcoming` · `/help`
+**버튼은 쓰지 않습니다.** 버튼을 누르면 봇이 텔레그램에 물어보러 가야 답이
+오는데, 그 '물어보기'를 GitHub Actions 에 맡겼더니 예약이 걸러져 몇 시간씩
+답이 오지 않았습니다(18시간에 3번 돌았습니다). 왕복이 필요한 구조를 걷어내고
+아침에 통째로 보냅니다.
+
+버튼 응답 코드 자체는 남아 있습니다. 내 PC에서 `python bot_server.py` 를
+켜 두면 버튼과 `/menu` `/upcoming` 이 즉시 동작합니다. 다만 **클라우드 폴링과
+동시에 켜면 안 됩니다** — 텔레그램은 봇 하나에 물어보는 프로그램을 1개로
+제한해서, 둘이 서로의 클릭을 가로챕니다.

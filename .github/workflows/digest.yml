@@ -68,8 +68,10 @@ jobs:
       - name: 마감 알림
         run: python remind.py
 
-      - name: 탭 버튼 메뉴
-        run: python bot_server.py --send-menu --daily
+      # 게시판별 최신 글을 통째로 보냅니다. 버튼을 눌러 불러오는 방식은
+      # GitHub 이 예약을 걸러 몇 시간씩 답이 없어서 걷어냈습니다.
+      - name: 오늘의 브리핑
+        run: python bot_server.py --send-digest --daily
 
       - name: 보낸 기록 저장
         run: |
