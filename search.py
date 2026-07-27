@@ -53,6 +53,16 @@ def _norm(text):
     return "".join((text or "").split()).lower()
 
 
+def haystack(*parts):
+    """글에서 찾아볼 글자 뭉치. 같은 뜻인 낱말을 함께 넣어 둡니다.
+
+    '리트'라고 쳤는데 아무것도 안 나오면 사람은 공지가 없다고 생각합니다.
+    실제로는 제목이 전부 '법학적성시험'이었을 뿐입니다.
+    """
+    text = " ".join(p for p in parts if p)
+    return _norm(text + " " + " ".join(cfg.expand_synonyms(text)))
+
+
 def _parse_date(text):
     try:
         return date.fromisoformat((text or "").strip())
@@ -137,16 +147,19 @@ def _from_extracted(today):
             "posted": _parse_date(data.get("posted_date")),
             "upcoming": upcoming,
             "has_schedule": bool(data.get("events")),
-            "haystack": _norm(" ".join(
-                [data.get("title") or ""]
-                + [e.get("summary") or "" for e in (data.get("events") or [])]
-            )),
+            # 본문에서 근거로 삼은 문장까지 넣습니다. 제목에 없는 낱말이
+            # 본문에는 있는 경우가 많습니다.
+            "haystack": haystack(
+                data.get("title"),
+                " ".join(e.get("summary") or "" for e in (data.get("events") or [])),
+                " ".join(e.get("evidence") or "" for e in (data.get("events") or [])),
+            ),
         }
     return found
 
 
 def _from_posts(today, known):
-    """아직 일정을 못 뽑은 글. 최근 것만 '마감 미상'으로 함께 보여 줍니다."""
+    """아직 일정을 못 뽑은 글. 유효한지는 find() 가 판단합니다."""
     found = {}
     for _tab, board in cfg.all_boards():
         for post in store.load_board_posts(board["board_key"]):
@@ -154,9 +167,6 @@ def _from_posts(today, known):
             if not url or url in known:
                 continue
             posted = _parse_date(post.get("date"))
-            if posted is None or (today - posted).days > RECENT_DAYS:
-                continue
-
             title = post.get("title") or "(제목 없음)"
             found[url] = {
                 "title": title,
@@ -165,7 +175,7 @@ def _from_posts(today, known):
                 "posted": posted,
                 "upcoming": [],
                 "has_schedule": False,
-                "haystack": _norm(title),
+                "haystack": haystack(title),
             }
     return found
 
@@ -195,16 +205,14 @@ def find(keyword, today=None, limit=MAX_RESULTS):
         if item["upcoming"]:
             item["status"] = "live"
         elif item["has_schedule"]:
-            continue                    # 일정이 있었는데 전부 지났다 -> 버림
+            item["status"] = "past"     # 일정이 있었는데 전부 지났다
         else:
             written = deadline_in_title(item["title"], item["posted"])
             if written is not None:
-                if written < today:
-                    continue            # 제목에 적힌 마감이 지났다
                 item["upcoming"] = [(written, None, "제목에 적힌 마감")]
-                item["status"] = "live"
+                item["status"] = "live" if written >= today else "past"
             elif item["posted"] is None or (today - item["posted"]).days > RECENT_DAYS:
-                continue                # 마감도 모르고 오래되기까지 했다
+                item["status"] = "past"  # 마감도 모르고 오래되기까지 했다
             else:
                 item["status"] = "unknown"
 
@@ -218,12 +226,19 @@ def find(keyword, today=None, limit=MAX_RESULTS):
         나옵니다. 그러면 같은 낱말인데도 실행할 때마다 순서가 달라 보이고,
         챗봇(Worker)의 답과도 어긋납니다.
         """
+        rank = {"live": 0, "unknown": 1, "past": 2}[item["status"]]
         if item["status"] == "live":
-            return (0, -item["score"], item["upcoming"][0][0].toordinal())
+            return (rank, -item["score"], item["upcoming"][0][0].toordinal())
         posted = item["posted"] or date.min
-        return (1, -item["score"], -posted.toordinal())
+        return (rank, -item["score"], -posted.toordinal())
 
     hits.sort(key=order)
+
+    # 아직 살아 있는 것을 먼저 다 보여 주고, 하나도 없을 때만 지난 것을
+    # 꺼냅니다. "없다"고만 답하면 사람은 공지 자체가 없는 줄 압니다.
+    alive = [h for h in hits if h["status"] != "past"]
+    if alive:
+        return alive[:limit]
     return hits[:limit]
 
 
@@ -243,7 +258,12 @@ def render(keyword, hits, today=None, as_html=False):
         return (head + "유효한 정보가 없어.\n\n"
                 "다른 낱말로 해 볼래? 예: 장학금, 신청, 접수, 수업, 실무수습")
 
-    lines = [head + "유효한 정보는 다음과 같아.", ""]
+    if all(item["status"] == "past" for item in hits):
+        lines = [head + "유효한 정보는 없어.",
+                 "대신 이미 지난 공지 중에 이런 게 있어.", ""]
+    else:
+        lines = [head + "유효한 정보는 다음과 같아.", ""]
+
     for item in hits:
         title = esc(item["title"])
         if as_html:
@@ -252,13 +272,20 @@ def render(keyword, hits, today=None, as_html=False):
         else:
             lines.append(f"· {title}")
 
+        posted = item["posted"]
+        posted_text = f"{posted.month}/{posted.day} 게시" if posted else "게시일 미상"
+
         if item["status"] == "live":
             when, clock, summary = item["upcoming"][0]
             label = _deadline_label(when, clock, today)
             detail = f"{label} — {esc(summary)}" if summary else label
+        elif item["status"] == "past":
+            if item["upcoming"]:
+                when, clock, _summary = item["upcoming"][0]
+                detail = f"지남 · {when.month}/{when.day} 마감"
+            else:
+                detail = f"지남 · {posted_text}"
         else:
-            posted = item["posted"]
-            posted_text = f"{posted.month}/{posted.day} 게시" if posted else "게시일 미상"
             detail = f"마감일 미상 · {posted_text}"
 
         board = esc(item["board"])

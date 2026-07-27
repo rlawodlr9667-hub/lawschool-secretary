@@ -106,25 +106,39 @@ def detect_new(seen, collected):
 # 3) 탭에 보여줄 목록 저장
 # ---------------------------------------------------------------------------
 def save_lists(collected):
-    """게시판별로 최신 글을 저장해 둡니다.
+    """게시판별로 글 목록을 쌓아 둡니다.
 
-    버튼을 눌렀을 때 그 자리에서 크롤링하지 않기 위해서입니다. 버튼은 10초
-    안에 응답해야 하는데 학교 서버가 그만큼 빠르다는 보장이 없습니다.
+    그 자리에서 크롤링하지 않기 위해서입니다. 챗봇은 1초 안에 답해야 하는데
+    학교 서버가 그만큼 빠르다는 보장이 없습니다.
+
+    ★ 덮어쓰지 않고 쌓습니다 ★
+    게시판 첫 화면에는 10건쯤만 보입니다. 예전에는 볼 때마다 그 10건으로
+    저장본을 통째로 갈아치웠기 때문에, 새 글이 올라오면 오래된 글이 조용히
+    사라졌습니다. 챗봇에게 지난달 공지를 물으면 "없다"고 답하던 이유입니다.
+    이제 이미 알고 있던 글은 그대로 두고 새 글만 얹습니다.
 
     게시판별로 따로 저장하는 이유: 한 게시판 수집이 실패해도 나머지 게시판의
-    목록은 예전 것이 그대로 남아 탭이 비지 않습니다.
+    목록은 예전 것이 그대로 남습니다.
     """
-    keep = max(cfg.LIST_COUNT * 2, 10)
     for _tab, board, rows in collected:
-        ordered = sorted(rows,
-                         key=lambda r: (r.get("date") or "", r["post_id"]),
+        merged = {}
+        # 저장돼 있던 것을 먼저 넣고, 이번에 본 것으로 덮습니다.
+        # 순서가 중요합니다 — 제목이 고쳐졌거나 고정글이 풀렸을 수 있어서,
+        # 같은 글이면 방금 본 쪽이 최신입니다.
+        for post in store.load_board_posts(board["board_key"]):
+            if post.get("post_id"):
+                merged[str(post["post_id"])] = post
+        for row in rows:
+            merged[str(row["post_id"])] = {
+                "post_id": row["post_id"], "title": row["title"],
+                "date": row.get("date", ""), "url": row["url"],
+                "pinned": bool(row.get("pinned")), "board_name": board["name"],
+            }
+
+        ordered = sorted(merged.values(),
+                         key=lambda p: (p.get("date") or "", str(p.get("post_id"))),
                          reverse=True)
-        store.save_board_posts(board["board_key"], [
-            {"post_id": r["post_id"], "title": r["title"], "date": r.get("date", ""),
-             "url": r["url"], "pinned": bool(r.get("pinned")),
-             "board_name": board["name"]}
-            for r in ordered[:keep]
-        ])
+        store.save_board_posts(board["board_key"], ordered[:cfg.ARCHIVE_KEEP])
 
 
 def merge_list_titles(board_key, updates):

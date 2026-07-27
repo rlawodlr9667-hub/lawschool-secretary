@@ -41,6 +41,10 @@ except Exception:
 
 INDEX_PATH = os.path.join(store.DOCS_DIR, "notices.json")
 
+# 챗봇이 매번 받아가는 파일이라 무작정 키울 수 없습니다.
+# 최신 것부터 이만큼만 싣습니다.
+MAX_POSTS = 500
+
 
 def build(today=None):
     """docs/notices.json 에 넣을 자료를 만듭니다."""
@@ -67,6 +71,9 @@ def build(today=None):
             "board": data.get("board") or "",
             "posted": data.get("posted_date") or "",
             "events": events,
+            # 본문에서 근거로 삼은 문장. 제목에 없는 낱말이 여기 있습니다.
+            "evidence": " ".join(e.get("evidence") or ""
+                                 for e in (data.get("events") or [])),
         }
 
     posts = []
@@ -87,18 +94,20 @@ def build(today=None):
 
             posts.append(_shape(title, url,
                                 post.get("board_name") or board["name"],
-                                posted, events))
+                                posted, events, (extra or {}).get("evidence")))
 
     # 게시판 목록에서는 밀려났지만 일정은 뽑아 둔 글도 함께 싣습니다.
-    # 게시판은 최근 몇 건만 들고 있어서, 오래된 글은 여기에만 남아 있습니다.
     for url, extra in detailed.items():
         posts.append(_shape(extra["title"], url, extra["board"],
-                            search._parse_date(extra["posted"]), extra["events"]))
+                            search._parse_date(extra["posted"]),
+                            extra["events"], extra.get("evidence")))
 
-    # 유효기간이 이미 한참 지난 것은 실을 필요가 없습니다. 파일만 커집니다.
-    cutoff = today - timedelta(days=7)
-    posts = [p for p in posts if p["d"] >= cutoff.isoformat()]
-    posts.sort(key=lambda p: (p["d"], p["t"]))
+    # 지난 공지도 싣습니다. 찾는 낱말에 걸리는 글이 하나도 없을 때,
+    # 챗봇이 "없다"고만 하지 않고 "지난 것 중에는 이런 게 있다"고
+    # 답할 수 있어야 합니다. 사람은 "없다"는 말을 '공지 자체가 없다'로
+    # 알아듣습니다.
+    posts.sort(key=lambda p: (p["d"], p["t"]), reverse=True)
+    posts = posts[:MAX_POSTS]
 
     return {
         "generated": store.now_iso(),
@@ -108,11 +117,13 @@ def build(today=None):
     }
 
 
-def _shape(title, url, board, posted, events):
+def _shape(title, url, board, posted, events, evidence=None):
     """글 하나를 챗봇이 쓸 모양으로. 열쇠말을 짧게 쓴 것은 파일 크기 때문입니다.
 
     d = 이 날까지는 유효하다고 본다
     k = 마감일을 아는가 (모르면 '마감일 미상'이라고 표시해야 합니다)
+    s = 찾아볼 글자 뭉치. 같은 뜻인 낱말('리트'↔'법학적성시험')이 함께
+        들어 있어서, 챗봇은 글자만 맞춰 보면 됩니다.
     """
     written = search.deadline_in_title(title, posted)
 
@@ -139,6 +150,7 @@ def _shape(title, url, board, posted, events):
         "e": events,
         "d": valid_until,
         "k": known,
+        "s": search.haystack(title, " ".join(e[2] for e in events), evidence),
     }
 
 
@@ -186,27 +198,31 @@ def selftest():
     if not data["posts"]:
         problems.append("  글이 하나도 없습니다")
 
+    if len(data["posts"]) > MAX_POSTS:
+        problems.append(f"  글이 너무 많습니다: {len(data['posts'])} > {MAX_POSTS}")
+
     for post in data["posts"]:
-        for key in ("t", "u", "b", "p", "e", "d", "k"):
+        for key in ("t", "u", "b", "p", "e", "d", "k", "s"):
             if key not in post:
                 problems.append(f"  {post.get('t')!r} 에 '{key}' 가 없습니다")
-        if post["d"] < (today - timedelta(days=7)).isoformat():
-            problems.append(f"  이미 한참 지난 글이 실렸습니다: {post['t']!r}")
         if post["k"] and not post["e"]:
             problems.append(f"  마감일을 안다면서 일정이 없습니다: {post['t']!r}")
 
-    # 챗봇이 그대로 쓸 수 있는지 — 파이썬 검색 결과와 견줍니다.
-    for word in ("장학금", "실무수습", "신청"):
+    # 같은 뜻인 낱말이 실제로 들어갔는지
+    leet = [p for p in data["posts"] if "법학적성시험" in p["t"]]
+    if leet and not any("리트" in p["s"] for p in leet):
+        problems.append("  '법학적성시험' 글에 '리트'가 함께 들어가지 않았습니다")
+
+    # 챗봇이 찾을 수 있어야 파이썬과 같은 답이 나옵니다.
+    # 파이썬이 찾아낸 글은 하나도 빠짐없이 이 파일에 있어야 합니다.
+    for word in ("장학금", "실무수습", "신청", "리트"):
         mine = {h["url"] for h in search.find(word, today)}
-        theirs = set()
         needle = search._norm(word)
-        for post in data["posts"]:
-            hay = search._norm(post["t"] + " " + " ".join(e[2] for e in post["e"]))
-            if needle in hay and post["d"] >= today.isoformat():
-                theirs.add(post["u"])
+        theirs = {p["u"] for p in data["posts"] if needle in p["s"]}
         missing = mine - theirs
         if missing:
-            problems.append(f"  '{word}': 검색 파일에서 빠진 글 {len(missing)}건")
+            problems.append(f"  '{word}': 검색 파일에서 빠진 글 {len(missing)}건 "
+                            f"— {list(missing)[0]}")
 
     if problems:
         print(f"[실패] {len(problems)}건")

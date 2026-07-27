@@ -70,33 +70,40 @@ function esc(text) {
 // --- 찾기 ------------------------------------------------------------------
 function search(index, keyword, todayIso) {
   const words = keyword.split(/\s+/).map(norm).filter(Boolean);
-  if (!words.length) return [];
+  if (!words.length) return { hits: [], onlyPast: false };
 
-  const hits = [];
+  const alive = [];
+  const past = [];
+
   for (const post of index.posts || []) {
-    if (!post.d || post.d < todayIso) continue;      // 유효기간이 지났다
-
-    const hay = norm(post.t + " " + (post.e || []).map((e) => e[2]).join(" "));
+    // post.s 에는 같은 뜻인 낱말이 함께 들어 있습니다('리트'↔'법학적성시험').
+    // 파이썬이 미리 넣어 둔 것이라, 여기에 동의어 표를 또 둘 필요가 없습니다.
+    const hay = post.s || norm(post.t + " " + (post.e || []).map((e) => e[2]).join(" "));
     let score = 0;
     for (const word of words) if (hay.includes(word)) score += 1;
     if (!score) continue;
 
     // 오늘 이후로 가장 가까운 일정을 대표로 보여 줍니다.
     const next = (post.e || []).find((e) => e[0] >= todayIso) || null;
-    hits.push({ post, score, next });
+    const item = { post, score, next, past: !post.d || post.d < todayIso };
+    (item.past ? past : alive).push(item);
   }
 
-  hits.sort((a, b) => {
-    // 마감일을 아는 글을 먼저, 그중에서도 임박한 것부터.
-    const aKnown = a.post.k ? 0 : 1;
-    const bKnown = b.post.k ? 0 : 1;
-    if (aKnown !== bKnown) return aKnown - bKnown;
-    if (a.score !== b.score) return b.score - a.score;
-    if (aKnown === 0) return (a.next ? a.next[0] : "9") < (b.next ? b.next[0] : "9") ? -1 : 1;
-    return (b.post.p || "").localeCompare(a.post.p || "");   // 최신 게시순
-  });
+  const rank = (list) =>
+    list.sort((a, b) => {
+      // 마감일을 아는 글을 먼저, 그중에서도 임박한 것부터.
+      const aKnown = a.post.k ? 0 : 1;
+      const bKnown = b.post.k ? 0 : 1;
+      if (aKnown !== bKnown) return aKnown - bKnown;
+      if (a.score !== b.score) return b.score - a.score;
+      if (aKnown === 0 && a.next && b.next) return a.next[0] < b.next[0] ? -1 : 1;
+      return (b.post.p || "").localeCompare(a.post.p || "");   // 최신 게시순
+    });
 
-  return hits.slice(0, MAX_RESULTS);
+  // 살아 있는 것을 먼저 다 보여 주고, 하나도 없을 때만 지난 것을 꺼냅니다.
+  // "없다"고만 답하면 사람은 공지 자체가 없는 줄 압니다.
+  if (alive.length) return { hits: rank(alive).slice(0, MAX_RESULTS), onlyPast: false };
+  return { hits: rank(past).slice(0, MAX_RESULTS), onlyPast: past.length > 0 };
 }
 
 // --- 답장 만들기 -----------------------------------------------------------
@@ -108,29 +115,38 @@ function deadlineLabel(iso, clock, todayIso) {
     (clock ? ` ${clock}` : "");
 }
 
-function render(keyword, hits, today) {
+function render(keyword, result, today) {
   const pad = (n) => String(n).padStart(2, "0");
   const head = `현재 ${today.year}년 ${pad(today.month)}월 ${pad(today.day)}일 기준 ` +
     `'${esc(keyword)}'에 대해 `;
 
+  const hits = result.hits;
   if (!hits.length) {
     return head + "유효한 정보가 없어.\n\n" +
       "다른 낱말로 해 볼래? 예: 장학금, 신청, 접수, 수업, 실무수습";
   }
 
-  const lines = [head + "유효한 정보는 다음과 같아.", ""];
+  const lines = result.onlyPast
+    ? [head + "유효한 정보는 없어.", "대신 이미 지난 공지 중에 이런 게 있어.", ""]
+    : [head + "유효한 정보는 다음과 같아.", ""];
+
   for (const hit of hits) {
     const post = hit.post;
     lines.push(`· <a href="${esc(post.u)}">${esc(post.t)}</a>`);
 
+    const posted = post.p ? dayInfo(post.p) : null;
+    const postedText = posted ? `${posted.m}/${posted.d} 게시` : "게시일 미상";
+
     let detail;
-    if (post.k && hit.next) {
+    if (!hit.past && post.k && hit.next) {
       detail = deadlineLabel(hit.next[0], hit.next[1], today.iso);
       if (hit.next[2]) detail += ` — ${esc(hit.next[2])}`;
+    } else if (hit.past) {
+      const last = (post.e || [])[post.e.length - 1];
+      const end = last ? dayInfo(last[0]) : null;
+      detail = end ? `지남 · ${end.m}/${end.d} 마감` : `지남 · ${postedText}`;
     } else {
-      const posted = post.p ? dayInfo(post.p) : null;
-      detail = "마감일 미상 · " +
-        (posted ? `${posted.m}/${posted.d} 게시` : "게시일 미상");
+      detail = `마감일 미상 · ${postedText}`;
     }
     lines.push(`    <i>${detail} · ${esc(post.b)}</i>`);
   }
