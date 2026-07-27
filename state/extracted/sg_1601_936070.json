@@ -1,0 +1,24 @@
+{
+  "board": "학사공지",
+  "events": [
+    {
+      "all_day": false,
+      "confidence": "high",
+      "evidence": "■ 기말평가 일시 : 2026. 6. 13.(토) 14:00~18:00 (4시간)",
+      "slug": "civil-practice-final-exam",
+      "start_date": "2026-06-13",
+      "start_time": "14:00",
+      "summary": "민사재판실무 기말평가 시험",
+      "uid": "8de76a7e37e4abf43b7fac363995a0bf@law-secretary"
+    }
+  ],
+  "extracted_at": "2026-07-28T12:00:00+09:00",
+  "needs_manual": false,
+  "no_events_reason": null,
+  "post_id": "sg_1601:936070",
+  "posted_date": "2026-05-15",
+  "revision": 0,
+  "tab": "sogang",
+  "title": "2026년 1학기 민사재판실무 기말평가 유의사항 안내(시험일: 6/13(토))",
+  "url": "https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1601&siteId=lawschool&pkid=936070"
+}

@@ -1470,6 +1470,67 @@ URL:https://leet.uwayapply.com/board/BoardView.htm?board_id=82&board_seqnum
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:e993eb5a92574f7595183dcaaeec41e1@law-secretary
+DTSTAMP:20260728T030000Z
+DTSTART:20260508T033000Z
+DTEND:20260508T040000Z
+SEQUENCE:0
+SUMMARY:경찰 설명회
+DESCRIPTION:[학사공지] [경찰청] 로스쿨 변호사 경력경쟁채
+ 용 제도 설명회(경찰 설명회) 개최 안내\n근거: 1. 일시 : 
+ 2026. 5. 8(금) 12:30~13:20\nhttps://lawschool.sogang.ac.kr/front/cmsboard
+ view.do?bbsConfigFK=1601&siteId=lawschool&pkid=935645
+URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1601&s
+ iteId=lawschool&pkid=935645
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:8de76a7e37e4abf43b7fac363995a0bf@law-secretary
+DTSTAMP:20260728T030000Z
+DTSTART:20260613T050000Z
+DTEND:20260613T053000Z
+SEQUENCE:0
+SUMMARY:민사재판실무 기말평가 시험
+DESCRIPTION:[학사공지] 2026년 1학기 민사재판실무 기말평가 
+ 유의사항 안내(시험일: 6/13(토))\n근거: ■ 기말평가 일시
+  : 2026. 6. 13.(토) 14:00~18:00 (4시간)\nhttps://lawschool.sogang.ac.kr
+ /front/cmsboardview.do?bbsConfigFK=1601&siteId=lawschool&pkid=936070
+URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1601&s
+ iteId=lawschool&pkid=936070
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:d145376183aca21a2f2edf0ed8e6df9a@law-secretary
+DTSTAMP:20260728T030000Z
+DTSTART:20260521T030000Z
+DTEND:20260521T033000Z
+SEQUENCE:0
+SUMMARY:검찰 설명회 참가신청 마감
+DESCRIPTION:[학사공지] 2026 서강대학교 법학전문대학원 검
+ 찰 직역 설명회 안내\n근거: ※ 사전 참가 신청자(5/21(목)
+  12:00까지) 에게는 당일 샌드위치와 음료제공 예정\nhttps:
+ //lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1601&siteId=law
+ school&pkid=936183
+URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1601&s
+ iteId=lawschool&pkid=936183
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:66a8becfab55a833d219ed43d770f726@law-secretary
+DTSTAMP:20260728T030000Z
+DTSTART:20260526T060000Z
+DTEND:20260526T063000Z
+SEQUENCE:0
+SUMMARY:검찰 직역 설명회
+DESCRIPTION:[학사공지] 2026 서강대학교 법학전문대학원 검
+ 찰 직역 설명회 안내\n근거: 일시: 2026년 5월 26일(화) 15:00
+ ~16:00\nhttps://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1
+ 601&siteId=lawschool&pkid=936183
+URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1601&s
+ iteId=lawschool&pkid=936183
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:6716a98e983c05f21781441774786d47@law-secretary
 DTSTAMP:20260727T133500Z
 DTSTART:20260605T040000Z
@@ -1718,11 +1779,6 @@ DESCRIPTION:[학사공지] 2026학년도 하계 집중휴무 시행 안내\
 URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1601&s
  iteId=lawschool&pkid=938567
 TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:오늘 하계 집중휴무 시작
-TRIGGER:PT9H
-END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:85bd9e657a69b66c9460cbd847c9db31@law-secretary
@@ -1769,11 +1825,6 @@ DESCRIPTION:[학사공지] 2026학년도 2학기 법학전문대학원 장
 URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1601&s
  iteId=lawschool&pkid=938682
 TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:오늘 2학기 장학금 신청 시작
-TRIGGER:PT9H
-END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:9c6a658c99997fe2066df6bc008b9964@law-secretary
@@ -1804,6 +1855,98 @@ BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:오늘 2학기 장학금 신청 마감
 TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:9ad22e3f8e1b5dfb15f1bb5ecfb04e8a@law-secretary
+DTSTAMP:20260728T030000Z
+DTSTART;VALUE=DATE:20260723
+DTEND;VALUE=DATE:20260724
+SEQUENCE:0
+SUMMARY:AI법제도 포럼 공개세미나
+DESCRIPTION:[일반공지] [한국지능정보사회진흥원] (초청) 202
+ 6 지능정보사회 법제도 포럼 대국민 공개세미나(7.23)\n근
+ 거: 오는 7월 23일 개최 예정인 「2026 지능정보사회 법제
+ 도 포럼 상반기 대국민 공개세미나」 개최를 안내드립
+ 니다.\nhttps://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=
+ 1602&siteId=lawschool&pkid=938455
+URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1602&s
+ iteId=lawschool&pkid=938455
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:af2c7d80ded022c2cd1c8fb7ecb4e650@law-secretary
+DTSTAMP:20260728T030000Z
+DTSTART;VALUE=DATE:20260723
+DTEND;VALUE=DATE:20260724
+SEQUENCE:0
+SUMMARY:유민펠로우 신청 시작
+DESCRIPTION:[일반공지] [홍진기법률연구재단] 2026년 하반기 
+ 유민펠로우 사업 신청안내\n근거: 신청기간 26.07.23(목) ~ 
+ 09.04.(금)\nhttps://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfi
+ gFK=1602&siteId=lawschool&pkid=938683
+URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1602&s
+ iteId=lawschool&pkid=938683
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:933596677c503719b27cefeba376075a@law-secretary
+DTSTAMP:20260728T030000Z
+DTSTART;VALUE=DATE:20260904
+DTEND;VALUE=DATE:20260905
+SEQUENCE:0
+SUMMARY:유민펠로우 신청 마감
+DESCRIPTION:[일반공지] [홍진기법률연구재단] 2026년 하반기 
+ 유민펠로우 사업 신청안내\n근거: 신청기간 26.07.23(목) ~ 
+ 09.04.(금)\nhttps://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfi
+ gFK=1602&siteId=lawschool&pkid=938683
+URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1602&s
+ iteId=lawschool&pkid=938683
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:D-3 유민펠로우 신청 마감
+TRIGGER:-P2DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:D-1 유민펠로우 신청 마감
+TRIGGER:-PT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:오늘 유민펠로우 신청 마감
+TRIGGER:PT9H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:65a7fd40e6546aa9572cde4de063a075@law-secretary
+DTSTAMP:20260728T030000Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SEQUENCE:0
+SUMMARY:유민펠로우 심사발표(예정)
+DESCRIPTION:[일반공지] [홍진기법률연구재단] 2026년 하반기 
+ 유민펠로우 사업 신청안내\n근거: 심사발표 26년 10월말 (
+ 재단 홈페이지 공지예정)\nhttps://lawschool.sogang.ac.kr/front/cm
+ sboardview.do?bbsConfigFK=1602&siteId=lawschool&pkid=938683
+URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1602&s
+ iteId=lawschool&pkid=938683
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:D-3 유민펠로우 심사발표(예정)
+TRIGGER:-P2DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:D-1 유민펠로우 심사발표(예정)
+TRIGGER:-PT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:오늘 유민펠로우 심사발표(예정)
+TRIGGER:PT9H
 END:VALARM
 END:VEVENT
 END:VCALENDAR

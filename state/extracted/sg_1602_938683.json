@@ -1,0 +1,44 @@
+{
+  "board": "일반공지",
+  "events": [
+    {
+      "all_day": true,
+      "confidence": "high",
+      "evidence": "신청기간 26.07.23(목) ~ 09.04.(금)",
+      "slug": "yumin-fellow-apply-open",
+      "start_date": "2026-07-23",
+      "start_time": null,
+      "summary": "유민펠로우 신청 시작",
+      "uid": "af2c7d80ded022c2cd1c8fb7ecb4e650@law-secretary"
+    },
+    {
+      "all_day": true,
+      "confidence": "high",
+      "evidence": "신청기간 26.07.23(목) ~ 09.04.(금)",
+      "slug": "yumin-fellow-apply-close",
+      "start_date": "2026-09-04",
+      "start_time": null,
+      "summary": "유민펠로우 신청 마감",
+      "uid": "933596677c503719b27cefeba376075a@law-secretary"
+    },
+    {
+      "all_day": true,
+      "confidence": "low",
+      "evidence": "심사발표 26년 10월말 (재단 홈페이지 공지예정)",
+      "slug": "yumin-fellow-review-announce",
+      "start_date": "2026-10-31",
+      "start_time": null,
+      "summary": "유민펠로우 심사발표(예정)",
+      "uid": "65a7fd40e6546aa9572cde4de063a075@law-secretary"
+    }
+  ],
+  "extracted_at": "2026-07-28T12:00:00+09:00",
+  "needs_manual": false,
+  "no_events_reason": null,
+  "post_id": "sg_1602:938683",
+  "posted_date": "2026-07-23",
+  "revision": 0,
+  "tab": "sogang",
+  "title": "[홍진기법률연구재단] 2026년 하반기 유민펠로우 사업 신청안내",
+  "url": "https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1602&siteId=lawschool&pkid=938683"
+}

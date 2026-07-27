@@ -1,0 +1,24 @@
+{
+  "board": "학사공지",
+  "events": [
+    {
+      "all_day": false,
+      "confidence": "high",
+      "evidence": "1. 일시 : 2026. 5. 8(금) 12:30~13:20",
+      "slug": "police-briefing",
+      "start_date": "2026-05-08",
+      "start_time": "12:30",
+      "summary": "경찰 설명회",
+      "uid": "e993eb5a92574f7595183dcaaeec41e1@law-secretary"
+    }
+  ],
+  "extracted_at": "2026-07-28T12:00:00+09:00",
+  "needs_manual": false,
+  "no_events_reason": null,
+  "post_id": "sg_1601:935645",
+  "posted_date": "2026-05-04",
+  "revision": 0,
+  "tab": "sogang",
+  "title": "[경찰청] 로스쿨 변호사 경력경쟁채용 제도 설명회(경찰 설명회) 개최 안내",
+  "url": "https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1601&siteId=lawschool&pkid=935645"
+}

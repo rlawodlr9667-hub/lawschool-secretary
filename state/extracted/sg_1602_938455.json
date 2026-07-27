@@ -1,0 +1,24 @@
+{
+  "board": "일반공지",
+  "events": [
+    {
+      "all_day": true,
+      "confidence": "medium",
+      "evidence": "오는 7월 23일 개최 예정인 「2026 지능정보사회 법제도 포럼 상반기 대국민 공개세미나」 개최를 안내드립니다.",
+      "slug": "ai-law-forum-seminar",
+      "start_date": "2026-07-23",
+      "start_time": null,
+      "summary": "AI법제도 포럼 공개세미나",
+      "uid": "9ad22e3f8e1b5dfb15f1bb5ecfb04e8a@law-secretary"
+    }
+  ],
+  "extracted_at": "2026-07-28T12:00:00+09:00",
+  "needs_manual": false,
+  "no_events_reason": null,
+  "post_id": "sg_1602:938455",
+  "posted_date": "2026-07-14",
+  "revision": 0,
+  "tab": "sogang",
+  "title": "[한국지능정보사회진흥원] (초청) 2026 지능정보사회 법제도 포럼 대국민 공개세미나(7.23)",
+  "url": "https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1602&siteId=lawschool&pkid=938455"
+}

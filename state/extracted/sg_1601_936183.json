@@ -1,0 +1,34 @@
+{
+  "board": "학사공지",
+  "events": [
+    {
+      "all_day": false,
+      "confidence": "high",
+      "evidence": "※ 사전 참가 신청자(5/21(목) 12:00까지) 에게는 당일 샌드위치와 음료제공 예정",
+      "slug": "prosecutor-briefing-apply-close",
+      "start_date": "2026-05-21",
+      "start_time": "12:00",
+      "summary": "검찰 설명회 참가신청 마감",
+      "uid": "d145376183aca21a2f2edf0ed8e6df9a@law-secretary"
+    },
+    {
+      "all_day": false,
+      "confidence": "high",
+      "evidence": "일시: 2026년 5월 26일(화) 15:00~16:00",
+      "slug": "prosecutor-briefing",
+      "start_date": "2026-05-26",
+      "start_time": "15:00",
+      "summary": "검찰 직역 설명회",
+      "uid": "66a8becfab55a833d219ed43d770f726@law-secretary"
+    }
+  ],
+  "extracted_at": "2026-07-28T12:00:00+09:00",
+  "needs_manual": false,
+  "no_events_reason": null,
+  "post_id": "sg_1601:936183",
+  "posted_date": "2026-05-19",
+  "revision": 0,
+  "tab": "sogang",
+  "title": "2026 서강대학교 법학전문대학원 검찰 직역 설명회 안내",
+  "url": "https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1601&siteId=lawschool&pkid=936183"
+}
