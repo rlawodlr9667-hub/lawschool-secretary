@@ -112,7 +112,7 @@ def menu_text():
             f"보고 싶은 것을 눌러 주세요.")
 
 
-def digest_messages(list_count=3):
+def digest_messages(per_board=3):
     """아침에 보낼 브리핑을 만듭니다. 여러 통으로 쪼개 돌려줍니다.
 
     왜 버튼 대신 이렇게 하는가
@@ -123,8 +123,16 @@ def digest_messages(list_count=3):
     볼 것을 통째로 보내 버립니다. 오는 것이 확실하고, 나중에 위로 스크롤해서
     다시 볼 수도 있습니다.
 
+    왜 탭이 아니라 게시판 단위로 세는가
+    ----------------------------------
+    탭을 통째로 합쳐서 최신 몇 건을 뽑으면, 글이 뜸한 게시판은 활발한
+    게시판에 밀려 한 줄도 안 나옵니다. 실제로 서강대 탭은 게시판이 4개인데
+    합쳐서 3건만 뽑으니 법전원 소식과 실무수습이 통째로 사라졌습니다.
+    **감시하는 게시판은 하나도 빠짐없이 보여야 합니다.** 그래서 게시판마다
+    따로 셉니다.
+
     한 통에 몰지 않는 이유: 텔레그램은 한 메시지에 4096자까지만 받습니다.
-    게시판이 늘어나면 조용히 잘리므로 게시판별로 나눕니다.
+    넘으면 조용히 잘리므로 탭마다 나눕니다.
     """
     now = store.now_kst()
     head = (f"<b>⚖️ 오늘의 로스쿨 브리핑</b>\n"
@@ -134,21 +142,28 @@ def digest_messages(list_count=3):
     messages = [f"{head}\n\n{upcoming_text()}"]
 
     for tab in cfg.TABS:
-        posts = tab_posts(tab, limit=list_count)
-        title = html_mod.escape(tab["emoji"] + " " + tab["label"])
-        if not posts:
-            messages.append(f"<b>{title}</b>\n\n새로 올라온 글이 없습니다.")
-            continue
+        lines = [f"<b>{html_mod.escape(tab['emoji'] + ' ' + tab['label'])}</b>"]
 
-        lines = [f"<b>{title}</b> — 최신 {len(posts)}건", ""]
-        for post in posts:
-            name = html_mod.escape(post.get("title") or "(제목 없음)")
-            board = html_mod.escape(post.get("board_name") or "")
-            date = post.get("date") or "날짜 미상"
-            pin = "📌 " if post.get("pinned") else ""
-            url = html_mod.escape(post.get("url") or "", quote=True)
-            lines.append(f"· {pin}<a href=\"{url}\">{name}</a>")
-            lines.append(f"    <i>{board} · {date}</i>")
+        for board in tab["boards"]:
+            posts = store.load_board_posts(board["board_key"])
+            posts.sort(key=lambda p: (p.get("date") or "", p.get("post_id") or ""),
+                       reverse=True)
+            posts = posts[:per_board]
+
+            lines.append("")
+            lines.append(f"<b>{html_mod.escape(board['name'])}</b>")
+            if not posts:
+                lines.append("  <i>저장된 글이 없습니다</i>")
+                continue
+
+            for post in posts:
+                name = html_mod.escape(post.get("title") or "(제목 없음)")
+                date = post.get("date") or "날짜 미상"
+                pin = "📌 " if post.get("pinned") else ""
+                url = html_mod.escape(post.get("url") or "", quote=True)
+                lines.append(f"· {pin}<a href=\"{url}\">{name}</a>")
+                lines.append(f"    <i>{date}</i>")
+
         messages.append("\n".join(lines))
 
     return messages
