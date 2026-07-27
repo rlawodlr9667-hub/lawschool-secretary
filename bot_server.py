@@ -112,13 +112,26 @@ def menu_text():
             f"보고 싶은 것을 눌러 주세요.")
 
 
-def send_menu():
+def send_menu(daily=False):
+    """탭 버튼 메뉴를 보냅니다.
+
+    daily=True 면 오늘 이미 보냈을 때 조용히 넘어갑니다. 아침 브리핑을
+    여러 시각에 걸어 두었기 때문에(GitHub 이 예약을 자주 건너뜁니다)
+    이 표시가 없으면 같은 메뉴가 하루에 여러 번 갑니다.
+    """
+    if daily and store.done_today("menu"):
+        print("오늘 메뉴는 이미 보냈습니다.")
+        return 0
+
     token, chat_id = tg.load_config()
     ok, err = tg.send_message(token, chat_id, menu_text(),
                               reply_markup=build_keyboard())
     if not ok:
         print(f"메뉴 발송 실패: {err}")
         return 1
+
+    if daily:
+        store.mark_done("menu")
     print(f"메뉴를 보냈습니다. 탭 {len(cfg.TABS)}개: "
           f"{', '.join(t['label'] for t in cfg.TABS)}")
     return 0
@@ -268,12 +281,14 @@ def poll(once=False):
 def main():
     parser = argparse.ArgumentParser(description="로스쿨 비서 버튼 봇")
     parser.add_argument("--send-menu", action="store_true", help="탭 버튼 메뉴 발송")
+    parser.add_argument("--daily", action="store_true",
+                        help="--send-menu 와 함께: 오늘 이미 보냈으면 건너뜀")
     parser.add_argument("--once", action="store_true",
                         help="밀린 클릭만 처리하고 종료")
     args = parser.parse_args()
 
     if args.send_menu:
-        return send_menu()
+        return send_menu(daily=args.daily)
 
     try:
         return poll(once=args.once)

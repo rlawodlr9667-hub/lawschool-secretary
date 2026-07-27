@@ -36,6 +36,7 @@ DOCS_DIR = os.path.join(BASE_DIR, "docs")
 SEEN_PATH = os.path.join(STATE_DIR, "seen.json")
 ATTEMPTS_PATH = os.path.join(STATE_DIR, "extract_attempts.json")
 REMINDED_PATH = os.path.join(STATE_DIR, "reminded.json")
+DONE_PATH = os.path.join(STATE_DIR, "done_today.json")
 HEARTBEAT_PATH = os.path.join(STATE_DIR, "heartbeat.txt")
 OFFSET_PATH = os.path.join(WORK_DIR, "bot_offset.txt")
 ICS_PATH = os.path.join(DOCS_DIR, "law.ics")
@@ -211,6 +212,28 @@ def load_reminded():
 
 def save_reminded(data):
     write_json(REMINDED_PATH, data)
+
+
+# ---------------------------------------------------------------------------
+# 하루 한 번만 하기
+# ---------------------------------------------------------------------------
+def done_today(name):
+    """오늘 이미 했는지 묻습니다.
+
+    GitHub 의 예약 실행은 자주 건너뜁니다. 그래서 아침 브리핑은 한 시각이
+    아니라 여러 시각에 걸어 두는데, 그러면 세 번 다 도는 날에 같은 메시지가
+    세 번 갑니다. 이 표시로 첫 번째만 실제로 보냅니다.
+    """
+    data = read_json(DONE_PATH, {})
+    return isinstance(data, dict) and data.get(name) == today_str()
+
+
+def mark_done(name):
+    data = read_json(DONE_PATH, {})
+    if not isinstance(data, dict):
+        data = {}
+    data[name] = today_str()
+    write_json(DONE_PATH, data)
 
 
 # ---------------------------------------------------------------------------

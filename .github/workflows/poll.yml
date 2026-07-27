@@ -9,7 +9,8 @@ name: 버튼 응답
 # 공개 저장소는 Actions 사용 시간이 무제한이라 이 간격이 공짜입니다.
 on:
   schedule:
-    - cron: '*/10 * * * *'
+    # 정각에 몰리는 것을 피해 6·21·36·51 분에 물어봅니다.
+    - cron: '6,21,36,51 * * * *'
   workflow_dispatch:
 
 permissions:
