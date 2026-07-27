@@ -269,26 +269,47 @@ def handle_callback(token, callback):
     tg.send_message(token, str(chat_id), render_tab(tab))
 
 
+HELP_TEXT = (
+    "<b>사용법</b>\n\n"
+    "낱말을 그냥 보내면 그것과 관련된 <b>아직 안 지난</b> 공지를 찾아 줍니다.\n"
+    "예: <code>장학금</code> · <code>실무수습</code> · <code>접수</code> · "
+    "<code>수업</code>\n\n"
+    "<code>/upcoming</code> — 다가오는 마감 일정\n"
+    "<code>/menu</code> — 탭 버튼 보기\n\n"
+    "새 공지가 올라오면 묻지 않아도 먼저 알려 드리고, "
+    "매일 아침 브리핑도 갑니다."
+)
+
+
 def handle_message(token, message):
-    """문자 명령도 받아 줍니다."""
-    text = (message.get("text") or "").strip().lower()
+    """문자 명령과 낱말 검색을 받아 줍니다."""
+    raw = (message.get("text") or "").strip()
+    text = raw.lower()
     chat_id = ((message.get("chat")) or {}).get("id")
     if not chat_id:
         return
 
-    if text.startswith(("/start", "/menu")) or text in ("메뉴", "공지"):
+    if text.startswith(("/start", "/help")):
+        tg.send_message(token, str(chat_id), HELP_TEXT)
+        print(f"  [명령] {text} -> 사용법")
+    elif text.startswith("/menu") or text in ("메뉴",):
         tg.send_message(token, str(chat_id), menu_text(),
                         reply_markup=build_keyboard())
-        print(f"  [명령] {text or '(빈 메시지)'} -> 메뉴 전송")
+        print("  [명령] 메뉴 전송")
     elif text.startswith("/upcoming") or text in ("일정", "마감"):
         tg.send_message(token, str(chat_id), upcoming_text())
         print("  [명령] 다가오는 일정")
-    elif text.startswith("/help"):
+    elif text.startswith("/"):
         tg.send_message(token, str(chat_id),
-                        "<b>사용법</b>\n\n"
-                        "<code>/menu</code> — 탭 버튼 보기\n"
-                        "<code>/upcoming</code> — 다가오는 마감 일정\n\n"
-                        "새 공지가 올라오면 누르지 않아도 먼저 알려 드립니다.")
+                        "모르는 명령이야. <code>/help</code> 를 보내 봐.")
+    elif raw:
+        # 명령이 아니면 전부 낱말 검색으로 봅니다. 사람이 챗봇에게 말을 걸 때
+        # 슬래시를 붙일 이유가 없습니다.
+        import search
+        hits = search.find(raw)
+        tg.send_message(token, str(chat_id),
+                        search.render(raw, hits, as_html=True))
+        print(f"  [검색] {raw!r} -> {len(hits)}건")
 
 
 # ---------------------------------------------------------------------------
