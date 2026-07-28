@@ -1858,6 +1858,22 @@ TRIGGER:-PT1H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:46ca5b58fc5d4461c149b6444f8498ad@law-secretary
+DTSTAMP:20260728T030000Z
+DTSTART;VALUE=DATE:20260720
+DTEND;VALUE=DATE:20260721
+SEQUENCE:0
+SUMMARY:법과정책 논문 접수 마감
+DESCRIPTION:[일반공지] [제주대] 법과정책연구원 학술등재
+ 지 「법과정책」 제32집 제2호 원고 모집 연장 안내\n근
+ 거: 1. 논문 접수 마감 : 2026년 07월 20일(월) (논문 발행일:
+  2026년 08월 30일)\nhttps://lawschool.sogang.ac.kr/front/cmsboardview.d
+ o?bbsConfigFK=1602&siteId=lawschool&pkid=938352
+URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1602&s
+ iteId=lawschool&pkid=938352
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
 UID:9ad22e3f8e1b5dfb15f1bb5ecfb04e8a@law-secretary
 DTSTAMP:20260728T030000Z
 DTSTART;VALUE=DATE:20260723

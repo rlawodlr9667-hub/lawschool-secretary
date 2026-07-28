@@ -1,0 +1,24 @@
+{
+  "board": "일반공지",
+  "events": [
+    {
+      "all_day": true,
+      "confidence": "high",
+      "evidence": "1. 논문 접수 마감 : 2026년 07월 20일(월) (논문 발행일: 2026년 08월 30일)",
+      "slug": "submission-close",
+      "start_date": "2026-07-20",
+      "start_time": null,
+      "summary": "법과정책 논문 접수 마감",
+      "uid": "46ca5b58fc5d4461c149b6444f8498ad@law-secretary"
+    }
+  ],
+  "extracted_at": "2026-07-28T12:00:00+09:00",
+  "needs_manual": false,
+  "no_events_reason": null,
+  "post_id": "sg_1602:938352",
+  "posted_date": "2026-07-09",
+  "revision": 0,
+  "tab": "sogang",
+  "title": "[제주대] 법과정책연구원 학술등재지 「법과정책」 제32집 제2호 원고 모집 연장 안내",
+  "url": "https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1602&siteId=lawschool&pkid=938352"
+}
