@@ -1,0 +1,44 @@
+{
+  "board": "실무수습",
+  "events": [
+    {
+      "all_day": true,
+      "confidence": "high",
+      "evidence": "7월 19일(일)까지 lawschool@sogang.ac.kr 로 메일을 보내주시기 바랍니다.",
+      "slug": "kcg-apply-close",
+      "start_date": "2026-07-19",
+      "start_time": null,
+      "summary": "해양경찰 실무수습 신청 마감",
+      "uid": "99a544bf8360597daafe90c3ee11423c@law-secretary"
+    },
+    {
+      "all_day": true,
+      "confidence": "low",
+      "evidence": "○ (기간 및 장소) ’26.8.10.(수)~8.15.(금), 1주 40시간 / 교육원(여수) / 30명(교육정원) — 명시된 요일(수)이 실제 날짜(2026-08-10, 월요일)와 맞지 않아 확인 필요",
+      "slug": "kcg-practice-start",
+      "start_date": "2026-08-10",
+      "start_time": null,
+      "summary": "해양경찰 실무수습 시작",
+      "uid": "f036a31576cc4513e594782e5b5ec1db@law-secretary"
+    },
+    {
+      "all_day": true,
+      "confidence": "low",
+      "evidence": "○ (기간 및 장소) ’26.8.10.(수)~8.15.(금), 1주 40시간 / 교육원(여수) / 30명(교육정원) — 명시된 요일(금)이 실제 날짜(2026-08-15, 토요일)와 맞지 않아 확인 필요",
+      "slug": "kcg-practice-close",
+      "start_date": "2026-08-15",
+      "start_time": null,
+      "summary": "해양경찰 실무수습 종료",
+      "uid": "60e8fbfd883e19c505f42afab2579b57@law-secretary"
+    }
+  ],
+  "extracted_at": "2026-07-29T00:58:23+09:00",
+  "needs_manual": false,
+  "no_events_reason": null,
+  "post_id": "sg_2706:938234",
+  "posted_date": "2026-07-06",
+  "revision": 0,
+  "tab": "sogang",
+  "title": "[학교추천] 2026년 해양경찰 실무수습 과정 참여 학생 모집 (신청 ~7/19(일))",
+  "url": "https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=2706&siteId=lawschool&pkid=938234"
+}

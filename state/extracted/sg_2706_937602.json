@@ -1,0 +1,54 @@
+{
+  "board": "실무수습",
+  "events": [
+    {
+      "all_day": true,
+      "confidence": "high",
+      "evidence": "6월 21일(일)까지 lawschool@sogang.ac.kr 로 메일을 보내주시기 바랍니다.",
+      "slug": "kleco-apply-close",
+      "start_date": "2026-06-21",
+      "start_time": null,
+      "summary": "법률구조공단 실무수습 신청 마감",
+      "uid": "ba1dbc48ff0bfebca8000df364e8418d@law-secretary"
+    },
+    {
+      "all_day": true,
+      "confidence": "high",
+      "evidence": "그 결과를 2026. 7. 2.(목)까지 각 법학전문대학원에 통보할 예정",
+      "slug": "kleco-assign-notice",
+      "start_date": "2026-07-02",
+      "start_time": null,
+      "summary": "실무수습 배정결과 통보",
+      "uid": "848bd8833568a1905715fb8a785c3622@law-secretary"
+    },
+    {
+      "all_day": true,
+      "confidence": "high",
+      "evidence": "후기 : 2026. 8. 10.(월) ~ 2026. 8. 21.(금) (2주) / 서강대학교 배정 인원: 후기 1명",
+      "slug": "kleco-practice-start",
+      "start_date": "2026-08-10",
+      "start_time": null,
+      "summary": "법률구조공단 실무수습(후기) 시작",
+      "uid": "b4f649ee8e0b877d33f7aa48f0582aaf@law-secretary"
+    },
+    {
+      "all_day": true,
+      "confidence": "high",
+      "evidence": "후기 : 2026. 8. 10.(월) ~ 2026. 8. 21.(금) (2주) / 서강대학교 배정 인원: 후기 1명",
+      "slug": "kleco-practice-close",
+      "start_date": "2026-08-21",
+      "start_time": null,
+      "summary": "법률구조공단 실무수습(후기) 종료",
+      "uid": "48e52acd6cb95e69882cb1a8cb0b2aa8@law-secretary"
+    }
+  ],
+  "extracted_at": "2026-07-29T00:58:23+09:00",
+  "needs_manual": false,
+  "no_events_reason": null,
+  "post_id": "sg_2706:937602",
+  "posted_date": "2026-06-18",
+  "revision": 0,
+  "tab": "sogang",
+  "title": "[학교추천] 대한법률구조공단 2026년 하계 실무수습 안내 (신청 ~6/21(일))",
+  "url": "https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=2706&siteId=lawschool&pkid=937602"
+}

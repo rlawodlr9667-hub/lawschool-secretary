@@ -1,0 +1,44 @@
+{
+  "board": "실무수습",
+  "events": [
+    {
+      "all_day": false,
+      "confidence": "high",
+      "evidence": "7월 7일(화) 12:00까지 lawschool@sogang.ac.kr 로 메일을 보내주시기 바랍니다.",
+      "slug": "mnd-apply-close",
+      "start_date": "2026-07-07",
+      "start_time": "12:00",
+      "summary": "국방부 실무수습 신청 마감",
+      "uid": "e6abff80bf5db2daeab5d1b80801cfc1@law-secretary"
+    },
+    {
+      "all_day": true,
+      "confidence": "high",
+      "evidence": "○ 기간 : ‘26. 7. 20.(월) ~ 7. 31.(금)",
+      "slug": "mnd-practice-start",
+      "start_date": "2026-07-20",
+      "start_time": null,
+      "summary": "국방부 실무수습 시작",
+      "uid": "a4c0911d86ebc24e0aad245f0ee97230@law-secretary"
+    },
+    {
+      "all_day": true,
+      "confidence": "high",
+      "evidence": "∙ 7. 31.(금) : 설문조사 / 수료식",
+      "slug": "mnd-practice-close",
+      "start_date": "2026-07-31",
+      "start_time": null,
+      "summary": "국방부 실무수습 수료식",
+      "uid": "824ccc0c24e3b41b6cb6d38e555ec6c5@law-secretary"
+    }
+  ],
+  "extracted_at": "2026-07-29T00:58:23+09:00",
+  "needs_manual": false,
+  "no_events_reason": null,
+  "post_id": "sg_2706:937704",
+  "posted_date": "2026-06-22",
+  "revision": 0,
+  "tab": "sogang",
+  "title": "[국방부] 2026년 하계 실무수습 안내 (신청 ~7/7(화))",
+  "url": "https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=2706&siteId=lawschool&pkid=937704"
+}

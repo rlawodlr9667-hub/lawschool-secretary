@@ -1,0 +1,44 @@
+{
+  "board": "실무수습",
+  "events": [
+    {
+      "all_day": false,
+      "confidence": "high",
+      "evidence": "지원기간 : 2026. 7. 24.(금) 18:00 까지",
+      "slug": "insight-apply-close",
+      "start_date": "2026-07-24",
+      "start_time": "18:00",
+      "summary": "인사이트 로펌 실무수습 지원 마감",
+      "uid": "e268914f06880c55fd604f023bf38166@law-secretary"
+    },
+    {
+      "all_day": true,
+      "confidence": "high",
+      "evidence": "2026. 8. 3. (월) ~ 2026. 8. 14. (금) (2주간) / 주 2회 사무실 근무",
+      "slug": "insight-practice-start",
+      "start_date": "2026-08-03",
+      "start_time": null,
+      "summary": "인사이트 로펌 실무수습 시작",
+      "uid": "8d434f00f7dd162606e45fbf72157ae2@law-secretary"
+    },
+    {
+      "all_day": true,
+      "confidence": "high",
+      "evidence": "2026. 8. 3. (월) ~ 2026. 8. 14. (금) (2주간) / 주 2회 사무실 근무",
+      "slug": "insight-practice-close",
+      "start_date": "2026-08-14",
+      "start_time": null,
+      "summary": "인사이트 로펌 실무수습 종료",
+      "uid": "16d64358cf8de408864372993cf9c388@law-secretary"
+    }
+  ],
+  "extracted_at": "2026-07-29T00:58:23+09:00",
+  "needs_manual": false,
+  "no_events_reason": null,
+  "post_id": "sg_2706:938306",
+  "posted_date": "2026-07-08",
+  "revision": 0,
+  "tab": "sogang",
+  "title": "[INSIGHT LAW] 법무법인 인사이트 2026년 하계 실무수습 모집",
+  "url": "https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=2706&siteId=lawschool&pkid=938306"
+}
