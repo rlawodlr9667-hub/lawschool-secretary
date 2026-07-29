@@ -1,0 +1,34 @@
+{
+  "board": "실무수습",
+  "events": [
+    {
+      "all_day": true,
+      "confidence": "high",
+      "evidence": "가. 연수일정: 2026. 8. 10.(월)∼14.(금)",
+      "slug": "start",
+      "start_date": "2026-08-10",
+      "start_time": null,
+      "summary": "언론중재위 연수 시작",
+      "uid": "fdcfbb5dbf174b94e22bf5fdc3600e6b@law-secretary"
+    },
+    {
+      "all_day": true,
+      "confidence": "high",
+      "evidence": "가. 연수일정: 2026. 8. 10.(월)∼14.(금)",
+      "slug": "end",
+      "start_date": "2026-08-14",
+      "start_time": null,
+      "summary": "언론중재위 연수 종료",
+      "uid": "7a58a091c45be3157644cefea9194205@law-secretary"
+    }
+  ],
+  "extracted_at": "2026-07-29T12:00:00+09:00",
+  "needs_manual": false,
+  "no_events_reason": null,
+  "post_id": "sg_2706:937154",
+  "posted_date": "2026-06-09",
+  "revision": 0,
+  "tab": "sogang",
+  "title": "[언론중재위] 2026 하계 예비 법조인 연수(실무수습) 개최 안내",
+  "url": "https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=2706&siteId=lawschool&pkid=937154"
+}

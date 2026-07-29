@@ -1,0 +1,44 @@
+{
+  "board": "실무수습",
+  "events": [
+    {
+      "all_day": true,
+      "confidence": "high",
+      "evidence": "○ 접수기간: 2026. 6. 10.(수) ~ 2026. 6. 25.(목)",
+      "slug": "apply-open",
+      "start_date": "2026-06-10",
+      "start_time": null,
+      "summary": "헌법재판연구원 수습 접수 시작",
+      "uid": "9aace44ba8d953525e4b10c334c8f49e@law-secretary"
+    },
+    {
+      "all_day": false,
+      "confidence": "high",
+      "evidence": "이메일은 마감일 18:00까지 도착분에 한하여 접수함",
+      "slug": "apply-close",
+      "start_date": "2026-06-25",
+      "start_time": "18:00",
+      "summary": "헌법재판연구원 수습 접수 마감",
+      "uid": "71ec1d49bbcb8d3c7e87d2a3b6e12ba2@law-secretary"
+    },
+    {
+      "all_day": true,
+      "confidence": "low",
+      "evidence": "○ 선발 방법: 서류 심사에 의하고, 합격자는 2026. 6. 26.(금) 이후 개별 통보함",
+      "slug": "result-announce",
+      "start_date": "2026-06-26",
+      "start_time": null,
+      "summary": "헌법재판연구원 합격자 발표(예정)",
+      "uid": "30464a33c7291ced758a16fb4b59aedc@law-secretary"
+    }
+  ],
+  "extracted_at": "2026-07-29T12:00:00+09:00",
+  "needs_manual": false,
+  "no_events_reason": null,
+  "post_id": "sg_2706:937193",
+  "posted_date": "2026-06-10",
+  "revision": 0,
+  "tab": "sogang",
+  "title": "[헌법재판연구원] 법학전문대학원생 교육실무연수 모집안내",
+  "url": "https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=2706&siteId=lawschool&pkid=937193"
+}

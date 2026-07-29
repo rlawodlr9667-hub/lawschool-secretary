@@ -1961,6 +1961,274 @@ TRIGGER:PT9H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:175e43c2b66bd322b24cda59b28371cf@law-secretary
+DTSTAMP:20260729T030000Z
+DTSTART;VALUE=DATE:20260608
+DTEND;VALUE=DATE:20260609
+SEQUENCE:0
+SUMMARY:어필 실무수습 접수 시작
+DESCRIPTION:[실무수습] [공익법센터 어필] 실무수습 모집 공
+ 고(~6.26.(금) 18:00)\n근거: 1) 서류 온라인 접수 : 6/8(월) ~ 6/
+ 26(금) 오후6시\nhttps://lawschool.sogang.ac.kr/front/cmsboardview.do?b
+ bsConfigFK=2706&siteId=lawschool&pkid=937133
+URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=2706&s
+ iteId=lawschool&pkid=937133
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:816f4de76bec901b378acc2aab9647aa@law-secretary
+DTSTAMP:20260729T030000Z
+DTSTART:20260626T090000Z
+DTEND:20260626T093000Z
+SEQUENCE:0
+SUMMARY:어필 실무수습 접수 마감
+DESCRIPTION:[실무수습] [공익법센터 어필] 실무수습 모집 공
+ 고(~6.26.(금) 18:00)\n근거: 지원 마감은 2026년 6월 26일 금요
+ 일 오후 6:00 입니다\nhttps://lawschool.sogang.ac.kr/front/cmsboardvi
+ ew.do?bbsConfigFK=2706&siteId=lawschool&pkid=937133
+URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=2706&s
+ iteId=lawschool&pkid=937133
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:d0bc070b969dac0c055929d49c97c678@law-secretary
+DTSTAMP:20260729T030000Z
+DTSTART:20260630T090000Z
+DTEND:20260630T093000Z
+SEQUENCE:0
+SUMMARY:어필 서류합격자 발표
+DESCRIPTION:[실무수습] [공익법센터 어필] 실무수습 모집 공
+ 고(~6.26.(금) 18:00)\n근거: 2) 서류 합격자 발표(이메일) : 6/
+ 30(화) 오후6시\nhttps://lawschool.sogang.ac.kr/front/cmsboardview.do?b
+ bsConfigFK=2706&siteId=lawschool&pkid=937133
+URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=2706&s
+ iteId=lawschool&pkid=937133
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:52eae88b4abd7f20757a7bb4b075631d@law-secretary
+DTSTAMP:20260729T030000Z
+DTSTART:20260702T050000Z
+DTEND:20260702T053000Z
+SEQUENCE:0
+SUMMARY:어필 실무수습 면접
+DESCRIPTION:[실무수습] [공익법센터 어필] 실무수습 모집 공
+ 고(~6.26.(금) 18:00)\n근거: 3) 면접 : 7/2(목) 오후2시~6시 (자
+ 세한 일정은 개별 통보)\nhttps://lawschool.sogang.ac.kr/front/cmsb
+ oardview.do?bbsConfigFK=2706&siteId=lawschool&pkid=937133
+URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=2706&s
+ iteId=lawschool&pkid=937133
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:cf0f1c5841eb889955aed0a5abd07ba0@law-secretary
+DTSTAMP:20260729T030000Z
+DTSTART:20260703T090000Z
+DTEND:20260703T093000Z
+SEQUENCE:0
+SUMMARY:어필 최종합격자 발표
+DESCRIPTION:[실무수습] [공익법센터 어필] 실무수습 모집 공
+ 고(~6.26.(금) 18:00)\n근거: 4) 최종 합격자 발표(이메일) : 7/
+ 3(금) 오후6시\nhttps://lawschool.sogang.ac.kr/front/cmsboardview.do?bb
+ sConfigFK=2706&siteId=lawschool&pkid=937133
+URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=2706&s
+ iteId=lawschool&pkid=937133
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:8f78d85d74f827d60076457ee849a7f9@law-secretary
+DTSTAMP:20260729T030000Z
+DTSTART;VALUE=DATE:20260810
+DTEND;VALUE=DATE:20260811
+SEQUENCE:0
+SUMMARY:어필 실무수습 근무 시작
+DESCRIPTION:[실무수습] [공익법센터 어필] 실무수습 모집 공
+ 고(~6.26.(금) 18:00)\n근거: 5) 근무 시작 일 : 8/10(월)\nhttps://
+ lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=2706&siteId=lawsc
+ hool&pkid=937133
+URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=2706&s
+ iteId=lawschool&pkid=937133
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:D-3 어필 실무수습 근무 시작
+TRIGGER:-P2DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:D-1 어필 실무수습 근무 시작
+TRIGGER:-PT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:오늘 어필 실무수습 근무 시작
+TRIGGER:PT9H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fdcfbb5dbf174b94e22bf5fdc3600e6b@law-secretary
+DTSTAMP:20260729T030000Z
+DTSTART;VALUE=DATE:20260810
+DTEND;VALUE=DATE:20260811
+SEQUENCE:0
+SUMMARY:언론중재위 연수 시작
+DESCRIPTION:[실무수습] [언론중재위] 2026 하계 예비 법조인 
+ 연수(실무수습) 개최 안내\n근거: 가. 연수일정: 2026. 8. 10
+ .(월)∼14.(금)\nhttps://lawschool.sogang.ac.kr/front/cmsboardview.do?bb
+ sConfigFK=2706&siteId=lawschool&pkid=937154
+URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=2706&s
+ iteId=lawschool&pkid=937154
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:D-3 언론중재위 연수 시작
+TRIGGER:-P2DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:D-1 언론중재위 연수 시작
+TRIGGER:-PT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:오늘 언론중재위 연수 시작
+TRIGGER:PT9H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:7a58a091c45be3157644cefea9194205@law-secretary
+DTSTAMP:20260729T030000Z
+DTSTART;VALUE=DATE:20260814
+DTEND;VALUE=DATE:20260815
+SEQUENCE:0
+SUMMARY:언론중재위 연수 종료
+DESCRIPTION:[실무수습] [언론중재위] 2026 하계 예비 법조인 
+ 연수(실무수습) 개최 안내\n근거: 가. 연수일정: 2026. 8. 10
+ .(월)∼14.(금)\nhttps://lawschool.sogang.ac.kr/front/cmsboardview.do?bb
+ sConfigFK=2706&siteId=lawschool&pkid=937154
+URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=2706&s
+ iteId=lawschool&pkid=937154
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:D-3 언론중재위 연수 종료
+TRIGGER:-P2DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:D-1 언론중재위 연수 종료
+TRIGGER:-PT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:오늘 언론중재위 연수 종료
+TRIGGER:PT9H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:9aace44ba8d953525e4b10c334c8f49e@law-secretary
+DTSTAMP:20260729T030000Z
+DTSTART;VALUE=DATE:20260610
+DTEND;VALUE=DATE:20260611
+SEQUENCE:0
+SUMMARY:헌법재판연구원 수습 접수 시작
+DESCRIPTION:[실무수습] [헌법재판연구원] 법학전문대학원생
+  교육실무연수 모집안내\n근거: ○ 접수기간: 2026. 6. 10.(
+ 수) ~ 2026. 6. 25.(목)\nhttps://lawschool.sogang.ac.kr/front/cmsboardvie
+ w.do?bbsConfigFK=2706&siteId=lawschool&pkid=937193
+URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=2706&s
+ iteId=lawschool&pkid=937193
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:71ec1d49bbcb8d3c7e87d2a3b6e12ba2@law-secretary
+DTSTAMP:20260729T030000Z
+DTSTART:20260625T090000Z
+DTEND:20260625T093000Z
+SEQUENCE:0
+SUMMARY:헌법재판연구원 수습 접수 마감
+DESCRIPTION:[실무수습] [헌법재판연구원] 법학전문대학원생
+  교육실무연수 모집안내\n근거: 이메일은 마감일 18:00까
+ 지 도착분에 한하여 접수함\nhttps://lawschool.sogang.ac.kr/front
+ /cmsboardview.do?bbsConfigFK=2706&siteId=lawschool&pkid=937193
+URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=2706&s
+ iteId=lawschool&pkid=937193
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:30464a33c7291ced758a16fb4b59aedc@law-secretary
+DTSTAMP:20260729T030000Z
+DTSTART;VALUE=DATE:20260626
+DTEND;VALUE=DATE:20260627
+SEQUENCE:0
+SUMMARY:헌법재판연구원 합격자 발표(예정)
+DESCRIPTION:[실무수습] [헌법재판연구원] 법학전문대학원생
+  교육실무연수 모집안내\n근거: ○ 선발 방법: 서류 심사
+ 에 의하고\, 합격자는 2026. 6. 26.(금) 이후 개별 통보함\nht
+ tps://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=2706&siteId
+ =lawschool&pkid=937193
+URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=2706&s
+ iteId=lawschool&pkid=937193
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:2c62cb821a6293dc16c543cc2c396aaa@law-secretary
+DTSTAMP:20260729T030000Z
+DTSTART;VALUE=DATE:20260622
+DTEND;VALUE=DATE:20260623
+SEQUENCE:0
+SUMMARY:건보공단 실무수습 지원서 마감
+DESCRIPTION:[실무수습] [국민건강보험공단] 2026년 법학전문
+ 대학원생 실무수습 안내\n근거: 제출기한) 2026.6.22.(월)까
+ 지\nhttps://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=2706
+ &siteId=lawschool&pkid=937299
+URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=2706&s
+ iteId=lawschool&pkid=937299
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:0befae2b5dfca93b04a5d4af7714266f@law-secretary
+DTSTAMP:20260729T030000Z
+DTSTART;VALUE=DATE:20260727
+DTEND;VALUE=DATE:20260728
+SEQUENCE:0
+SUMMARY:건보공단 실무수습 시작
+DESCRIPTION:[실무수습] [국민건강보험공단] 2026년 법학전문
+ 대학원생 실무수습 안내\n근거: (교육기간) ’26.7.27.(월) 
+ ~ 7.31.(금)\, 5일간 … 총 40시간(1일 8시간)\nhttps://lawschool.s
+ ogang.ac.kr/front/cmsboardview.do?bbsConfigFK=2706&siteId=lawschool&pkid=9
+ 37299
+URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=2706&s
+ iteId=lawschool&pkid=937299
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:4c4abbd60ace7a90e2a9c9941439c9b9@law-secretary
+DTSTAMP:20260729T030000Z
+DTSTART;VALUE=DATE:20260731
+DTEND;VALUE=DATE:20260801
+SEQUENCE:0
+SUMMARY:건보공단 실무수습 종료
+DESCRIPTION:[실무수습] [국민건강보험공단] 2026년 법학전문
+ 대학원생 실무수습 안내\n근거: (교육기간) ’26.7.27.(월) 
+ ~ 7.31.(금)\, 5일간 … 총 40시간(1일 8시간)\nhttps://lawschool.s
+ ogang.ac.kr/front/cmsboardview.do?bbsConfigFK=2706&siteId=lawschool&pkid=9
+ 37299
+URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=2706&s
+ iteId=lawschool&pkid=937299
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:D-1 건보공단 실무수습 종료
+TRIGGER:-PT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:오늘 건보공단 실무수습 종료
+TRIGGER:PT9H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:ba1dbc48ff0bfebca8000df364e8418d@law-secretary
 DTSTAMP:20260728T155823Z
 DTSTART;VALUE=DATE:20260621

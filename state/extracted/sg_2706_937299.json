@@ -1,0 +1,44 @@
+{
+  "board": "실무수습",
+  "events": [
+    {
+      "all_day": true,
+      "confidence": "high",
+      "evidence": "제출기한) 2026.6.22.(월)까지",
+      "slug": "apply-close",
+      "start_date": "2026-06-22",
+      "start_time": null,
+      "summary": "건보공단 실무수습 지원서 마감",
+      "uid": "2c62cb821a6293dc16c543cc2c396aaa@law-secretary"
+    },
+    {
+      "all_day": true,
+      "confidence": "high",
+      "evidence": "(교육기간) ’26.7.27.(월) ~ 7.31.(금), 5일간 … 총 40시간(1일 8시간)",
+      "slug": "start",
+      "start_date": "2026-07-27",
+      "start_time": null,
+      "summary": "건보공단 실무수습 시작",
+      "uid": "0befae2b5dfca93b04a5d4af7714266f@law-secretary"
+    },
+    {
+      "all_day": true,
+      "confidence": "high",
+      "evidence": "(교육기간) ’26.7.27.(월) ~ 7.31.(금), 5일간 … 총 40시간(1일 8시간)",
+      "slug": "end",
+      "start_date": "2026-07-31",
+      "start_time": null,
+      "summary": "건보공단 실무수습 종료",
+      "uid": "4c4abbd60ace7a90e2a9c9941439c9b9@law-secretary"
+    }
+  ],
+  "extracted_at": "2026-07-29T12:00:00+09:00",
+  "needs_manual": false,
+  "no_events_reason": null,
+  "post_id": "sg_2706:937299",
+  "posted_date": "2026-06-11",
+  "revision": 0,
+  "tab": "sogang",
+  "title": "[국민건강보험공단] 2026년 법학전문대학원생 실무수습 안내",
+  "url": "https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=2706&siteId=lawschool&pkid=937299"
+}

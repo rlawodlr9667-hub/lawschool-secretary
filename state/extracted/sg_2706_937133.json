@@ -1,0 +1,74 @@
+{
+  "board": "실무수습",
+  "events": [
+    {
+      "all_day": true,
+      "confidence": "high",
+      "evidence": "1) 서류 온라인 접수 : 6/8(월) ~ 6/26(금) 오후6시",
+      "slug": "apply-open",
+      "start_date": "2026-06-08",
+      "start_time": null,
+      "summary": "어필 실무수습 접수 시작",
+      "uid": "175e43c2b66bd322b24cda59b28371cf@law-secretary"
+    },
+    {
+      "all_day": false,
+      "confidence": "high",
+      "evidence": "지원 마감은 2026년 6월 26일 금요일 오후 6:00 입니다",
+      "slug": "apply-close",
+      "start_date": "2026-06-26",
+      "start_time": "18:00",
+      "summary": "어필 실무수습 접수 마감",
+      "uid": "816f4de76bec901b378acc2aab9647aa@law-secretary"
+    },
+    {
+      "all_day": false,
+      "confidence": "high",
+      "evidence": "2) 서류 합격자 발표(이메일) : 6/30(화) 오후6시",
+      "slug": "result-announce",
+      "start_date": "2026-06-30",
+      "start_time": "18:00",
+      "summary": "어필 서류합격자 발표",
+      "uid": "d0bc070b969dac0c055929d49c97c678@law-secretary"
+    },
+    {
+      "all_day": false,
+      "confidence": "high",
+      "evidence": "3) 면접 : 7/2(목) 오후2시~6시 (자세한 일정은 개별 통보)",
+      "slug": "interview",
+      "start_date": "2026-07-02",
+      "start_time": "14:00",
+      "summary": "어필 실무수습 면접",
+      "uid": "52eae88b4abd7f20757a7bb4b075631d@law-secretary"
+    },
+    {
+      "all_day": false,
+      "confidence": "high",
+      "evidence": "4) 최종 합격자 발표(이메일) : 7/3(금) 오후6시",
+      "slug": "final-announce",
+      "start_date": "2026-07-03",
+      "start_time": "18:00",
+      "summary": "어필 최종합격자 발표",
+      "uid": "cf0f1c5841eb889955aed0a5abd07ba0@law-secretary"
+    },
+    {
+      "all_day": true,
+      "confidence": "high",
+      "evidence": "5) 근무 시작 일 : 8/10(월)",
+      "slug": "start",
+      "start_date": "2026-08-10",
+      "start_time": null,
+      "summary": "어필 실무수습 근무 시작",
+      "uid": "8f78d85d74f827d60076457ee849a7f9@law-secretary"
+    }
+  ],
+  "extracted_at": "2026-07-29T12:00:00+09:00",
+  "needs_manual": false,
+  "no_events_reason": null,
+  "post_id": "sg_2706:937133",
+  "posted_date": "2026-06-09",
+  "revision": 0,
+  "tab": "sogang",
+  "title": "[공익법센터 어필] 실무수습 모집 공고(~6.26.(금) 18:00)",
+  "url": "https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=2706&siteId=lawschool&pkid=937133"
+}
