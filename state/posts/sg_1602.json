@@ -2,6 +2,14 @@
   "posts": [
     {
       "board_name": "일반공지",
+      "date": "2026-07-30",
+      "pinned": false,
+      "post_id": "938776",
+      "title": "2026 전국 법학전문대학원 인권법학회 연합(인;연) 여름캠프",
+      "url": "https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1602&siteId=lawschool&pkid=938776"
+    },
+    {
+      "board_name": "일반공지",
       "date": "2026-07-27",
       "pinned": false,
       "post_id": "938757",
@@ -89,5 +97,5 @@
       "url": "https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1602&siteId=lawschool&pkid=938296"
     }
   ],
-  "updated": "2026-07-30T00:35:02+09:00"
+  "updated": "2026-07-30T16:42:58+09:00"
 }
