@@ -10,19 +10,6 @@ X-WR-TIMEZONE:Asia/Seoul
 REFRESH-INTERVAL;VALUE=DURATION:PT1H
 X-PUBLISHED-TTL:PT1H
 BEGIN:VEVENT
-UID:d76461bb9594cb3f417cc4085c1a5f74@law-secretary
-DTSTAMP:20200101T000000Z
-DTSTART;VALUE=DATE:20260630
-DTEND;VALUE=DATE:20260701
-SEQUENCE:0
-SUMMARY:학기말성적 제출 마감
-DESCRIPTION:[서강대 학사일정] 학기말성적 제출 마감\n근거:
-  학사일정: 학기말성적 제출 마감 (2026-06-30 ~ 2026-06-30)\nht
- tps://www.sogang.ac.kr/ko/academic-support/calendar
-URL:https://www.sogang.ac.kr/ko/academic-support/calendar
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:7f4e5a5bfed868828bfa8bdfe42a1d37@law-secretary
 DTSTAMP:20200101T000000Z
 DTSTART;VALUE=DATE:20260701
@@ -1796,11 +1783,6 @@ URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1601&s
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:D-1 하계 집중휴무 종료
-TRIGGER:-PT15H
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
 DESCRIPTION:오늘 하계 집중휴무 종료
 TRIGGER:PT9H
 END:VALARM
@@ -2249,11 +2231,6 @@ URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=2706&s
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:D-1 건보공단 실무수습 종료
-TRIGGER:-PT15H
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
 DESCRIPTION:오늘 건보공단 실무수습 종료
 TRIGGER:PT9H
 END:VALARM
@@ -2396,11 +2373,6 @@ DESCRIPTION:[실무수습] [국방부] 2026년 하계 실무수습 안내 (
 URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=2706&s
  iteId=lawschool&pkid=937704
 TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:D-1 국방부 실무수습 수료식
-TRIGGER:-PT15H
-END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:오늘 국방부 실무수습 수료식
