@@ -1781,11 +1781,6 @@ DESCRIPTION:[학사공지] 2026학년도 하계 집중휴무 시행 안내\
 URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1601&s
  iteId=lawschool&pkid=938567
 TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:오늘 하계 집중휴무 종료
-TRIGGER:PT9H
-END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ce583622e2ee9a31ce4d9f159b7e0f6b@law-secretary
@@ -2229,11 +2224,6 @@ DESCRIPTION:[실무수습] [국민건강보험공단] 2026년 법학전문
 URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=2706&s
  iteId=lawschool&pkid=937299
 TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:오늘 건보공단 실무수습 종료
-TRIGGER:PT9H
-END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ba1dbc48ff0bfebca8000df364e8418d@law-secretary
@@ -2373,11 +2363,6 @@ DESCRIPTION:[실무수습] [국방부] 2026년 하계 실무수습 안내 (
 URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=2706&s
  iteId=lawschool&pkid=937704
 TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:오늘 국방부 실무수습 수료식
-TRIGGER:PT9H
-END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:99a544bf8360597daafe90c3ee11423c@law-secretary
@@ -2488,11 +2473,6 @@ DESCRIPTION:[실무수습] [INSIGHT LAW] 법무법인 인사이트 2026년
 URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=2706&s
  iteId=lawschool&pkid=938306
 TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:D-3 인사이트 로펌 실무수습 시작
-TRIGGER:-P2DT15H
-END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:D-1 인사이트 로펌 실무수습 시작
