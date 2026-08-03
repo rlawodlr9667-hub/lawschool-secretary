@@ -27,7 +27,7 @@
     {
       "board_name": "학사공지",
       "date": "2026-07-10",
-      "pinned": true,
+      "pinned": false,
       "post_id": "938382",
       "title": "[법무부] 응시자 스마트안경 착용 여부 검사 관련 안내사항",
       "url": "https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1601&siteId=lawschool&pkid=938382"
@@ -35,7 +35,7 @@
     {
       "board_name": "학사공지",
       "date": "2026-07-10",
-      "pinned": true,
+      "pinned": false,
       "post_id": "938381",
       "title": "[법무부] 제17회 법조윤리시험 일시·장소 및 응시자준수사항 공고",
       "url": "https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1601&siteId=lawschool&pkid=938381"
@@ -129,5 +129,5 @@
       "url": "https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1601&siteId=lawschool&pkid=935645"
     }
   ],
-  "updated": "2026-08-03T00:48:01+09:00"
+  "updated": "2026-08-03T19:56:59+09:00"
 }
