@@ -10,32 +10,6 @@ X-WR-TIMEZONE:Asia/Seoul
 REFRESH-INTERVAL;VALUE=DURATION:PT1H
 X-PUBLISHED-TTL:PT1H
 BEGIN:VEVENT
-UID:7f4e5a5bfed868828bfa8bdfe42a1d37@law-secretary
-DTSTAMP:20200101T000000Z
-DTSTART;VALUE=DATE:20260701
-DTEND;VALUE=DATE:20260702
-SEQUENCE:0
-SUMMARY:학기말성적 확인 시작
-DESCRIPTION:[서강대 학사일정] 학기말성적 확인\n근거: 학사
- 일정: 학기말성적 확인 (2026-07-01 ~ 2026-07-04)\nhttps://www.soga
- ng.ac.kr/ko/academic-support/calendar
-URL:https://www.sogang.ac.kr/ko/academic-support/calendar
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:73ae91c94f1316ab5c954410dea49a53@law-secretary
-DTSTAMP:20200101T000000Z
-DTSTART;VALUE=DATE:20260704
-DTEND;VALUE=DATE:20260705
-SEQUENCE:0
-SUMMARY:학기말성적 확인 마감
-DESCRIPTION:[서강대 학사일정] 학기말성적 확인\n근거: 학사
- 일정: 학기말성적 확인 (2026-07-01 ~ 2026-07-04)\nhttps://www.soga
- ng.ac.kr/ko/academic-support/calendar
-URL:https://www.sogang.ac.kr/ko/academic-support/calendar
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:a70bb926d65385256030cf5be43806f8@law-secretary
 DTSTAMP:20200101T000000Z
 DTSTART;VALUE=DATE:20260713
@@ -2503,11 +2477,6 @@ DESCRIPTION:[실무수습] [INSIGHT LAW] 법무법인 인사이트 2026년
 URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=2706&s
  iteId=lawschool&pkid=938306
 TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:오늘 인사이트 로펌 실무수습 시작
-TRIGGER:PT9H
-END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:16d64358cf8de408864372993cf9c388@law-secretary
