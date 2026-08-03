@@ -1,0 +1,24 @@
+{
+  "board": "일반공지",
+  "events": [
+    {
+      "all_day": false,
+      "confidence": "high",
+      "evidence": "논문투고마감: 2026년 8월 7 일 금요일 23시 59분",
+      "slug": "938903-deadline",
+      "start_date": "2026-08-07",
+      "start_time": "23:59",
+      "summary": "환경법연구 원고투고 마감",
+      "uid": "ce9522aa0131de3a82bab9626e18eeab@law-secretary"
+    }
+  ],
+  "extracted_at": "2026-08-03T19:57:41+09:00",
+  "needs_manual": false,
+  "no_events_reason": null,
+  "post_id": "sg_1602:938903",
+  "posted_date": "2026-08-03",
+  "revision": 0,
+  "tab": "sogang",
+  "title": "환경법연구(등재지) 제48권 제2호 원고모집 연장 안내(8.7.까지)",
+  "url": "https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1602&siteId=lawschool&pkid=938903"
+}
