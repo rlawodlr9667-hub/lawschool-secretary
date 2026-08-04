@@ -1,0 +1,24 @@
+{
+  "board": "일반공지",
+  "events": [
+    {
+      "all_day": false,
+      "confidence": "high",
+      "evidence": "훈련일시 : 2026. 8. 20(목) 14:00 ~ 14:20(20분 간)",
+      "slug": "938952-drill",
+      "start_date": "2026-08-20",
+      "start_time": "14:00",
+      "summary": "민방위훈련 (전학생·교직원)",
+      "uid": "b3caf4eaf67189e7cd8997f34f4935a9@law-secretary"
+    }
+  ],
+  "extracted_at": "2026-08-04T16:49:55+09:00",
+  "needs_manual": false,
+  "no_events_reason": null,
+  "post_id": "sg_1602:938952",
+  "posted_date": "2026-08-04",
+  "revision": 0,
+  "tab": "sogang",
+  "title": "2026년 을지연습 연계 공습 대비 민방위훈련 계획",
+  "url": "https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1602&siteId=lawschool&pkid=938952"
+}
