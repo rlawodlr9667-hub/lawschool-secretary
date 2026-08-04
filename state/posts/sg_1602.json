@@ -2,6 +2,14 @@
   "posts": [
     {
       "board_name": "일반공지",
+      "date": "2026-08-04",
+      "pinned": false,
+      "post_id": "938952",
+      "title": "2026년 을지연습 연계 공습 대비 민방위훈련 계획",
+      "url": "https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1602&siteId=lawschool&pkid=938952"
+    },
+    {
+      "board_name": "일반공지",
       "date": "2026-08-03",
       "pinned": false,
       "post_id": "938923",
@@ -121,5 +129,5 @@
       "url": "https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1602&siteId=lawschool&pkid=938296"
     }
   ],
-  "updated": "2026-08-04T02:29:39+09:00"
+  "updated": "2026-08-04T16:49:31+09:00"
 }
