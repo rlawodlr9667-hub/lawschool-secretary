@@ -62,11 +62,6 @@ URL:https://www.sogang.ac.kr/ko/academic-support/calendar
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:D-3 2026학년도 2학기 휴복학 신청 마감
-TRIGGER:-P2DT15H
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
 DESCRIPTION:D-1 2026학년도 2학기 휴복학 신청 마감
 TRIGGER:-PT15H
 END:VALARM
@@ -1682,11 +1677,6 @@ URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1601&s
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:D-3 리걸클리닉3(법원) 실무수습 시작
-TRIGGER:-P2DT15H
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
 DESCRIPTION:D-1 리걸클리닉3(법원) 실무수습 시작
 TRIGGER:-PT15H
 END:VALARM
@@ -1787,11 +1777,6 @@ DESCRIPTION:[학사공지] 2026학년도 2학기 법학전문대학원 장
 URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1601&s
  iteId=lawschool&pkid=938682
 TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:D-3 2학기 장학금 신청 마감
-TRIGGER:-P3D
-END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:D-1 2학기 장학금 신청 마감
@@ -1955,11 +1940,6 @@ DESCRIPTION:[일반공지] 환경법연구(등재지) 제48권 제2호 원
 URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1602&s
  iteId=lawschool&pkid=938903
 TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:D-3 환경법연구 원고투고 마감
-TRIGGER:-P3D
-END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:D-1 환경법연구 원고투고 마감
