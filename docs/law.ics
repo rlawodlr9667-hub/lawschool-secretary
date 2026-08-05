@@ -1789,6 +1789,798 @@ TRIGGER:-PT1H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:b26ec9bf23f846e6cd30c36093107e2e@law-secretary
+DTSTAMP:20260805T080207Z
+DTSTART;VALUE=DATE:20260824
+DTEND;VALUE=DATE:20260825
+SEQUENCE:0
+SUMMARY:등록금 납부 시작
+DESCRIPTION:[학사공지] 2026학년도 2학기 재학생 등록금 납부
+  및 주요 학사일정 안내\n근거: 나. 납부기간 : 2026년 8월 
+ 24일(월) ~ 25일(화)\nhttps://lawschool.sogang.ac.kr/front/cmsboardview
+ .do?bbsConfigFK=1601&siteId=lawschool&pkid=938989
+URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1601&s
+ iteId=lawschool&pkid=938989
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:D-3 등록금 납부 시작
+TRIGGER:-P2DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:D-1 등록금 납부 시작
+TRIGGER:-PT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:오늘 등록금 납부 시작
+TRIGGER:PT9H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:24ee906402408f49e5806ba9f729c903@law-secretary
+DTSTAMP:20260805T080207Z
+DTSTART;VALUE=DATE:20260825
+DTEND;VALUE=DATE:20260826
+SEQUENCE:0
+SUMMARY:등록금 납부 마감
+DESCRIPTION:[학사공지] 2026학년도 2학기 재학생 등록금 납부
+  및 주요 학사일정 안내\n근거: 나. 납부기간 : 2026년 8월 
+ 24일(월) ~ 25일(화)\nhttps://lawschool.sogang.ac.kr/front/cmsboardview
+ .do?bbsConfigFK=1601&siteId=lawschool&pkid=938989
+URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1601&s
+ iteId=lawschool&pkid=938989
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:D-3 등록금 납부 마감
+TRIGGER:-P2DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:D-1 등록금 납부 마감
+TRIGGER:-PT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:오늘 등록금 납부 마감
+TRIGGER:PT9H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:5efe8a395c3f39359afb77949f4fd495@law-secretary
+DTSTAMP:20260805T080207Z
+DTSTART:20260821T040000Z
+DTEND:20260821T043000Z
+SEQUENCE:0
+SUMMARY:등록금 고지서 출력 시작
+DESCRIPTION:[학사공지] 2026학년도 2학기 재학생 등록금 납부
+  및 주요 학사일정 안내\n근거: 마. 고지서 출력 : 8월 21
+ 일(금) 13:00 이후\nhttps://lawschool.sogang.ac.kr/front/cmsboardview.d
+ o?bbsConfigFK=1601&siteId=lawschool&pkid=938989
+URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1601&s
+ iteId=lawschool&pkid=938989
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:D-3 등록금 고지서 출력 시작
+TRIGGER:-P3D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:D-1 등록금 고지서 출력 시작
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:오늘 등록금 고지서 출력 시작
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:45f164fb3e0e9ba50c5e806659f3a45d@law-secretary
+DTSTAMP:20260805T080207Z
+DTSTART:20260821T040000Z
+DTEND:20260821T043000Z
+SEQUENCE:0
+SUMMARY:장학금 수혜자 발표
+DESCRIPTION:[학사공지] 2026학년도 2학기 재학생 등록금 납부
+  및 주요 학사일정 안내\n근거: 사. 장학금 수혜 대상자 :
+  SAINT 에서 확인 (☞ 8월 21일(금) 13:00 발표 예정)\nhttps://la
+ wschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1601&siteId=lawscho
+ ol&pkid=938989
+URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1601&s
+ iteId=lawschool&pkid=938989
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:D-3 장학금 수혜자 발표
+TRIGGER:-P3D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:D-1 장학금 수혜자 발표
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:오늘 장학금 수혜자 발표
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:465e9cc0a77230f4b40e4c339df35823@law-secretary
+DTSTAMP:20260805T080207Z
+DTSTART;VALUE=DATE:20260901
+DTEND;VALUE=DATE:20260902
+SEQUENCE:0
+SUMMARY:2학기 개강
+DESCRIPTION:[학사공지] 2026학년도 2학기 재학생 등록금 납부
+  및 주요 학사일정 안내\n근거: 가. 개강일 : 2026년 9월 1
+ 일(화)\nhttps://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK
+ =1601&siteId=lawschool&pkid=938989
+URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1601&s
+ iteId=lawschool&pkid=938989
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:D-3 2학기 개강
+TRIGGER:-P2DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:D-1 2학기 개강
+TRIGGER:-PT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:오늘 2학기 개강
+TRIGGER:PT9H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:fd2dee62359da0a2bfce43cdcfc1f050@law-secretary
+DTSTAMP:20260805T080207Z
+DTSTART;VALUE=DATE:20261221
+DTEND;VALUE=DATE:20261222
+SEQUENCE:0
+SUMMARY:2학기 종강
+DESCRIPTION:[학사공지] 2026학년도 2학기 재학생 등록금 납부
+  및 주요 학사일정 안내\n근거: 나. 종강일 : 2026년 12월 21
+ 일(월)\nhttps://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK
+ =1601&siteId=lawschool&pkid=938989
+URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1601&s
+ iteId=lawschool&pkid=938989
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:D-3 2학기 종강
+TRIGGER:-P2DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:D-1 2학기 종강
+TRIGGER:-PT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:오늘 2학기 종강
+TRIGGER:PT9H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:94ed5b9d8553f2a30a8e6b5ecd445c53@law-secretary
+DTSTAMP:20260805T080207Z
+DTSTART;VALUE=DATE:20260727
+DTEND;VALUE=DATE:20260728
+SEQUENCE:0
+SUMMARY:휴·복학 신청 시작
+DESCRIPTION:[학사공지] 2026학년도 2학기 재학생 등록금 납부
+  및 주요 학사일정 안내\n근거: 1) 휴·복학 신청기간 : 202
+ 6년 7월 27일(월) ~ 8월 6일(목) 까지\nhttps://lawschool.sogang.ac.
+ kr/front/cmsboardview.do?bbsConfigFK=1601&siteId=lawschool&pkid=938989
+URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1601&s
+ iteId=lawschool&pkid=938989
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:9ec00e24498ca58f8a45dbfe8c0364d8@law-secretary
+DTSTAMP:20260805T080207Z
+DTSTART;VALUE=DATE:20260806
+DTEND;VALUE=DATE:20260807
+SEQUENCE:0
+SUMMARY:휴·복학 신청 마감
+DESCRIPTION:[학사공지] 2026학년도 2학기 재학생 등록금 납부
+  및 주요 학사일정 안내\n근거: 1) 휴·복학 신청기간 : 202
+ 6년 7월 27일(월) ~ 8월 6일(목) 까지\nhttps://lawschool.sogang.ac.
+ kr/front/cmsboardview.do?bbsConfigFK=1601&siteId=lawschool&pkid=938989
+URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1601&s
+ iteId=lawschool&pkid=938989
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:D-1 휴·복학 신청 마감
+TRIGGER:-PT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:오늘 휴·복학 신청 마감
+TRIGGER:PT9H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:8c0960d18680c04779ad144a3076926c@law-secretary
+DTSTAMP:20260805T080207Z
+DTSTART:20261120T080000Z
+DTEND:20261120T083000Z
+SEQUENCE:0
+SUMMARY:학기 중 휴학원서 제출 마감
+DESCRIPTION:[학사공지] 2026학년도 2학기 재학생 등록금 납부
+  및 주요 학사일정 안내\n근거: 2) 학기 중 휴학원서 제출
+  마감 : 2026년 11월 20일(금) 17:00까지\nhttps://lawschool.sogang.a
+ c.kr/front/cmsboardview.do?bbsConfigFK=1601&siteId=lawschool&pkid=938989
+URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1601&s
+ iteId=lawschool&pkid=938989
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:D-3 학기 중 휴학원서 제출 마감
+TRIGGER:-P3D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:D-1 학기 중 휴학원서 제출 마감
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:오늘 학기 중 휴학원서 제출 마감
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:0d20d30a54a839dd689d89d7a8b09502@law-secretary
+DTSTAMP:20260805T080207Z
+DTSTART:20260812T020000Z
+DTEND:20260812T023000Z
+SEQUENCE:0
+SUMMARY:수강신청 시작
+DESCRIPTION:[학사공지] 2026학년도 2학기 재학생 등록금 납부
+  및 주요 학사일정 안내\n근거: 수강신청 [재학생] 2026. 8.
+  12(수) 11:00 ~ 8. 13(목) 17:00\nhttps://lawschool.sogang.ac.kr/front/cm
+ sboardview.do?bbsConfigFK=1601&siteId=lawschool&pkid=938989
+URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1601&s
+ iteId=lawschool&pkid=938989
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:D-3 수강신청 시작
+TRIGGER:-P3D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:D-1 수강신청 시작
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:오늘 수강신청 시작
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:c3be344a10e4354dfc491300e543fe90@law-secretary
+DTSTAMP:20260805T080207Z
+DTSTART:20260813T080000Z
+DTEND:20260813T083000Z
+SEQUENCE:0
+SUMMARY:수강신청 마감
+DESCRIPTION:[학사공지] 2026학년도 2학기 재학생 등록금 납부
+  및 주요 학사일정 안내\n근거: 수강신청 [재학생] 2026. 8.
+  12(수) 11:00 ~ 8. 13(목) 17:00\nhttps://lawschool.sogang.ac.kr/front/cm
+ sboardview.do?bbsConfigFK=1601&siteId=lawschool&pkid=938989
+URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1601&s
+ iteId=lawschool&pkid=938989
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:D-3 수강신청 마감
+TRIGGER:-P3D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:D-1 수강신청 마감
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:오늘 수강신청 마감
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:f641782541bd693e320322283e79eb9c@law-secretary
+DTSTAMP:20260805T080207Z
+DTSTART:20260902T020000Z
+DTEND:20260902T023000Z
+SEQUENCE:0
+SUMMARY:수강과목 확인·변경 시작
+DESCRIPTION:[학사공지] 2026학년도 2학기 재학생 등록금 납부
+  및 주요 학사일정 안내\n근거: 수강과목 확인 및 변경 20
+ 26. 9. 2(수) 11:00 ~ 9. 7(월) 22:00\nhttps://lawschool.sogang.ac.kr/fron
+ t/cmsboardview.do?bbsConfigFK=1601&siteId=lawschool&pkid=938989
+URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1601&s
+ iteId=lawschool&pkid=938989
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:D-3 수강과목 확인·변경 시작
+TRIGGER:-P3D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:D-1 수강과목 확인·변경 시작
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:오늘 수강과목 확인·변경 시작
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:5f0f3987e1a8155e5e506cdfacfbfa2a@law-secretary
+DTSTAMP:20260805T080207Z
+DTSTART:20260907T130000Z
+DTEND:20260907T133000Z
+SEQUENCE:0
+SUMMARY:수강과목 확인·변경 마감
+DESCRIPTION:[학사공지] 2026학년도 2학기 재학생 등록금 납부
+  및 주요 학사일정 안내\n근거: 수강과목 확인 및 변경 20
+ 26. 9. 2(수) 11:00 ~ 9. 7(월) 22:00\nhttps://lawschool.sogang.ac.kr/fron
+ t/cmsboardview.do?bbsConfigFK=1601&siteId=lawschool&pkid=938989
+URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1601&s
+ iteId=lawschool&pkid=938989
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:D-3 수강과목 확인·변경 마감
+TRIGGER:-P3D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:D-1 수강과목 확인·변경 마감
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:오늘 수강과목 확인·변경 마감
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:96530bd15c2908bcf6cac29653e8d448@law-secretary
+DTSTAMP:20260805T080207Z
+DTSTART:20260930T080000Z
+DTEND:20260930T083000Z
+SEQUENCE:0
+SUMMARY:수강과목 취소 마감
+DESCRIPTION:[학사공지] 2026학년도 2학기 재학생 등록금 납부
+  및 주요 학사일정 안내\n근거: 수강취소 2026. 9. 30(수) 17:
+ 00까지 "수강과목 취소신청서" 행정팀 제출\nhttps://lawschoo
+ l.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1601&siteId=lawschool&pki
+ d=938989
+URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1601&s
+ iteId=lawschool&pkid=938989
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:D-3 수강과목 취소 마감
+TRIGGER:-P3D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:D-1 수강과목 취소 마감
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:오늘 수강과목 취소 마감
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cef39b05bf1c85661dc2248effb73579@law-secretary
+DTSTAMP:20260805T080207Z
+DTSTART;VALUE=DATE:20261022
+DTEND;VALUE=DATE:20261023
+SEQUENCE:0
+SUMMARY:중간시험 시작
+DESCRIPTION:[학사공지] 2026학년도 2학기 재학생 등록금 납부
+  및 주요 학사일정 안내\n근거: 1) 중간시험 : 2026. 10. 22(
+ 목) ~ 10. 28(수)\nhttps://lawschool.sogang.ac.kr/front/cmsboardview.do?b
+ bsConfigFK=1601&siteId=lawschool&pkid=938989
+URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1601&s
+ iteId=lawschool&pkid=938989
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:D-3 중간시험 시작
+TRIGGER:-P2DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:D-1 중간시험 시작
+TRIGGER:-PT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:오늘 중간시험 시작
+TRIGGER:PT9H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:3de2bb1659f1d4666aa0f609180f4712@law-secretary
+DTSTAMP:20260805T080207Z
+DTSTART;VALUE=DATE:20261028
+DTEND;VALUE=DATE:20261029
+SEQUENCE:0
+SUMMARY:중간시험 종료
+DESCRIPTION:[학사공지] 2026학년도 2학기 재학생 등록금 납부
+  및 주요 학사일정 안내\n근거: 1) 중간시험 : 2026. 10. 22(
+ 목) ~ 10. 28(수)\nhttps://lawschool.sogang.ac.kr/front/cmsboardview.do?b
+ bsConfigFK=1601&siteId=lawschool&pkid=938989
+URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1601&s
+ iteId=lawschool&pkid=938989
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:D-3 중간시험 종료
+TRIGGER:-P2DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:D-1 중간시험 종료
+TRIGGER:-PT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:오늘 중간시험 종료
+TRIGGER:PT9H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:dc10f06f5d4a96ff3a43b094573e5ef0@law-secretary
+DTSTAMP:20260805T080207Z
+DTSTART;VALUE=DATE:20261208
+DTEND;VALUE=DATE:20261209
+SEQUENCE:0
+SUMMARY:기말시험 시작
+DESCRIPTION:[학사공지] 2026학년도 2학기 재학생 등록금 납부
+  및 주요 학사일정 안내\n근거: 2) 기말시험 : 2026. 12. 8(화
+ ) ~ 12. 14(월)\nhttps://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsC
+ onfigFK=1601&siteId=lawschool&pkid=938989
+URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1601&s
+ iteId=lawschool&pkid=938989
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:D-3 기말시험 시작
+TRIGGER:-P2DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:D-1 기말시험 시작
+TRIGGER:-PT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:오늘 기말시험 시작
+TRIGGER:PT9H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:e1e68537145b07709716428ba4f11ed1@law-secretary
+DTSTAMP:20260805T080207Z
+DTSTART;VALUE=DATE:20261214
+DTEND;VALUE=DATE:20261215
+SEQUENCE:0
+SUMMARY:기말시험 종료
+DESCRIPTION:[학사공지] 2026학년도 2학기 재학생 등록금 납부
+  및 주요 학사일정 안내\n근거: 2) 기말시험 : 2026. 12. 8(화
+ ) ~ 12. 14(월)\nhttps://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsC
+ onfigFK=1601&siteId=lawschool&pkid=938989
+URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1601&s
+ iteId=lawschool&pkid=938989
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:D-3 기말시험 종료
+TRIGGER:-P2DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:D-1 기말시험 종료
+TRIGGER:-PT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:오늘 기말시험 종료
+TRIGGER:PT9H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:e56489376e1ca5060c6c6fa545914a22@law-secretary
+DTSTAMP:20260805T080207Z
+DTSTART:20260812T020000Z
+DTEND:20260812T023000Z
+SEQUENCE:0
+SUMMARY:수강신청 시작
+DESCRIPTION:[학사공지] 2026학년도 2학기 수강신청 안내\n근
+ 거: 수강신청 [재학생] 2026. 8. 12(수) 11:00 ~ 8. 13(목) 17:00\nh
+ ttps://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1601&siteI
+ d=lawschool&pkid=938999
+URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1601&s
+ iteId=lawschool&pkid=938999
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:D-3 수강신청 시작
+TRIGGER:-P3D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:D-1 수강신청 시작
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:오늘 수강신청 시작
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:a2875e0481839df9af7a0347a95590e0@law-secretary
+DTSTAMP:20260805T080207Z
+DTSTART:20260813T080000Z
+DTEND:20260813T083000Z
+SEQUENCE:0
+SUMMARY:수강신청 마감
+DESCRIPTION:[학사공지] 2026학년도 2학기 수강신청 안내\n근
+ 거: 수강신청 [재학생] 2026. 8. 12(수) 11:00 ~ 8. 13(목) 17:00\nh
+ ttps://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1601&siteI
+ d=lawschool&pkid=938999
+URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1601&s
+ iteId=lawschool&pkid=938999
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:D-3 수강신청 마감
+TRIGGER:-P3D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:D-1 수강신청 마감
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:오늘 수강신청 마감
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:f81921650dd401f18b0ce0d4434415ef@law-secretary
+DTSTAMP:20260805T080207Z
+DTSTART:20260902T020000Z
+DTEND:20260902T023000Z
+SEQUENCE:0
+SUMMARY:수강과목 확인·변경 시작
+DESCRIPTION:[학사공지] 2026학년도 2학기 수강신청 안내\n근
+ 거: 수강과목 확인 및 변경 2026. 9. 2(수) 11:00 ~ 9. 7(월) 22:0
+ 0\nhttps://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1601&s
+ iteId=lawschool&pkid=938999
+URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1601&s
+ iteId=lawschool&pkid=938999
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:D-3 수강과목 확인·변경 시작
+TRIGGER:-P3D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:D-1 수강과목 확인·변경 시작
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:오늘 수강과목 확인·변경 시작
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ff5d96f33af0974b1aeeffc765a5708a@law-secretary
+DTSTAMP:20260805T080207Z
+DTSTART:20260907T130000Z
+DTEND:20260907T133000Z
+SEQUENCE:0
+SUMMARY:수강과목 확인·변경 마감
+DESCRIPTION:[학사공지] 2026학년도 2학기 수강신청 안내\n근
+ 거: 수강과목 확인 및 변경 2026. 9. 2(수) 11:00 ~ 9. 7(월) 22:0
+ 0\nhttps://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1601&s
+ iteId=lawschool&pkid=938999
+URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1601&s
+ iteId=lawschool&pkid=938999
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:D-3 수강과목 확인·변경 마감
+TRIGGER:-P3D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:D-1 수강과목 확인·변경 마감
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:오늘 수강과목 확인·변경 마감
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:d8bb59c9148f77daa35b35d9c657a734@law-secretary
+DTSTAMP:20260805T080207Z
+DTSTART:20260930T080000Z
+DTEND:20260930T083000Z
+SEQUENCE:0
+SUMMARY:수강과목 취소 마감
+DESCRIPTION:[학사공지] 2026학년도 2학기 수강신청 안내\n근
+ 거: 수강취소 2026. 9. 30(수) 17:00까지 "수강과목 취소신청
+ 서" 행정팀 제출\nhttps://lawschool.sogang.ac.kr/front/cmsboardview.d
+ o?bbsConfigFK=1601&siteId=lawschool&pkid=938999
+URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1601&s
+ iteId=lawschool&pkid=938999
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:D-3 수강과목 취소 마감
+TRIGGER:-P3D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:D-1 수강과목 취소 마감
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:오늘 수강과목 취소 마감
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:f6c47da810a21cb551b976a01f0d9fd5@law-secretary
+DTSTAMP:20260805T080207Z
+DTSTART;VALUE=DATE:20261022
+DTEND;VALUE=DATE:20261023
+SEQUENCE:0
+SUMMARY:중간시험 시작
+DESCRIPTION:[학사공지] 2026학년도 2학기 수강신청 안내\n근
+ 거: (1) 중간시험 : 2026. 10. 22(목) ~ 10. 28(수)\nhttps://lawschool
+ .sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1601&siteId=lawschool&pkid
+ =938999
+URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1601&s
+ iteId=lawschool&pkid=938999
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:D-3 중간시험 시작
+TRIGGER:-P2DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:D-1 중간시험 시작
+TRIGGER:-PT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:오늘 중간시험 시작
+TRIGGER:PT9H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:f4287aa734d565bbedbfd08d6c8ad90b@law-secretary
+DTSTAMP:20260805T080207Z
+DTSTART;VALUE=DATE:20261028
+DTEND;VALUE=DATE:20261029
+SEQUENCE:0
+SUMMARY:중간시험 종료
+DESCRIPTION:[학사공지] 2026학년도 2학기 수강신청 안내\n근
+ 거: (1) 중간시험 : 2026. 10. 22(목) ~ 10. 28(수)\nhttps://lawschool
+ .sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1601&siteId=lawschool&pkid
+ =938999
+URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1601&s
+ iteId=lawschool&pkid=938999
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:D-3 중간시험 종료
+TRIGGER:-P2DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:D-1 중간시험 종료
+TRIGGER:-PT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:오늘 중간시험 종료
+TRIGGER:PT9H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:58d3e9b13af8b2e4f0177040ec287c78@law-secretary
+DTSTAMP:20260805T080207Z
+DTSTART;VALUE=DATE:20261208
+DTEND;VALUE=DATE:20261209
+SEQUENCE:0
+SUMMARY:기말시험 시작
+DESCRIPTION:[학사공지] 2026학년도 2학기 수강신청 안내\n근
+ 거: (2) 기말시험 : 2026. 12. 8(화) ~ 12. 14(월)\nhttps://lawschool.
+ sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1601&siteId=lawschool&pkid=
+ 938999
+URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1601&s
+ iteId=lawschool&pkid=938999
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:D-3 기말시험 시작
+TRIGGER:-P2DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:D-1 기말시험 시작
+TRIGGER:-PT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:오늘 기말시험 시작
+TRIGGER:PT9H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2bdcfa043dcdb609173737d40507e820@law-secretary
+DTSTAMP:20260805T080207Z
+DTSTART;VALUE=DATE:20261214
+DTEND;VALUE=DATE:20261215
+SEQUENCE:0
+SUMMARY:기말시험 종료
+DESCRIPTION:[학사공지] 2026학년도 2학기 수강신청 안내\n근
+ 거: (2) 기말시험 : 2026. 12. 8(화) ~ 12. 14(월)\nhttps://lawschool.
+ sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1601&siteId=lawschool&pkid=
+ 938999
+URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1601&s
+ iteId=lawschool&pkid=938999
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:D-3 기말시험 종료
+TRIGGER:-P2DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:D-1 기말시험 종료
+TRIGGER:-PT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:오늘 기말시험 종료
+TRIGGER:PT9H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:46ca5b58fc5d4461c149b6444f8498ad@law-secretary
 DTSTAMP:20260728T030000Z
 DTSTART;VALUE=DATE:20260720

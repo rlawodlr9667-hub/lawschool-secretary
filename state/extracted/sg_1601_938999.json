@@ -1,0 +1,104 @@
+{
+  "board": "학사공지",
+  "events": [
+    {
+      "all_day": false,
+      "confidence": "high",
+      "evidence": "수강신청 [재학생] 2026. 8. 12(수) 11:00 ~ 8. 13(목) 17:00",
+      "slug": "course-reg-start",
+      "start_date": "2026-08-12",
+      "start_time": "11:00",
+      "summary": "수강신청 시작",
+      "uid": "e56489376e1ca5060c6c6fa545914a22@law-secretary"
+    },
+    {
+      "all_day": false,
+      "confidence": "high",
+      "evidence": "수강신청 [재학생] 2026. 8. 12(수) 11:00 ~ 8. 13(목) 17:00",
+      "slug": "course-reg-close",
+      "start_date": "2026-08-13",
+      "start_time": "17:00",
+      "summary": "수강신청 마감",
+      "uid": "a2875e0481839df9af7a0347a95590e0@law-secretary"
+    },
+    {
+      "all_day": false,
+      "confidence": "medium",
+      "evidence": "수강과목 확인 및 변경 2026. 9. 2(수) 11:00 ~ 9. 7(월) 22:00",
+      "slug": "course-change-start",
+      "start_date": "2026-09-02",
+      "start_time": "11:00",
+      "summary": "수강과목 확인·변경 시작",
+      "uid": "f81921650dd401f18b0ce0d4434415ef@law-secretary"
+    },
+    {
+      "all_day": false,
+      "confidence": "medium",
+      "evidence": "수강과목 확인 및 변경 2026. 9. 2(수) 11:00 ~ 9. 7(월) 22:00",
+      "slug": "course-change-close",
+      "start_date": "2026-09-07",
+      "start_time": "22:00",
+      "summary": "수강과목 확인·변경 마감",
+      "uid": "ff5d96f33af0974b1aeeffc765a5708a@law-secretary"
+    },
+    {
+      "all_day": false,
+      "confidence": "high",
+      "evidence": "수강취소 2026. 9. 30(수) 17:00까지 \"수강과목 취소신청서\" 행정팀 제출",
+      "slug": "course-cancel-close",
+      "start_date": "2026-09-30",
+      "start_time": "17:00",
+      "summary": "수강과목 취소 마감",
+      "uid": "d8bb59c9148f77daa35b35d9c657a734@law-secretary"
+    },
+    {
+      "all_day": true,
+      "confidence": "high",
+      "evidence": "(1) 중간시험 : 2026. 10. 22(목) ~ 10. 28(수)",
+      "slug": "midterm-start",
+      "start_date": "2026-10-22",
+      "start_time": null,
+      "summary": "중간시험 시작",
+      "uid": "f6c47da810a21cb551b976a01f0d9fd5@law-secretary"
+    },
+    {
+      "all_day": true,
+      "confidence": "high",
+      "evidence": "(1) 중간시험 : 2026. 10. 22(목) ~ 10. 28(수)",
+      "slug": "midterm-end",
+      "start_date": "2026-10-28",
+      "start_time": null,
+      "summary": "중간시험 종료",
+      "uid": "f4287aa734d565bbedbfd08d6c8ad90b@law-secretary"
+    },
+    {
+      "all_day": true,
+      "confidence": "high",
+      "evidence": "(2) 기말시험 : 2026. 12. 8(화) ~ 12. 14(월)",
+      "slug": "final-start",
+      "start_date": "2026-12-08",
+      "start_time": null,
+      "summary": "기말시험 시작",
+      "uid": "58d3e9b13af8b2e4f0177040ec287c78@law-secretary"
+    },
+    {
+      "all_day": true,
+      "confidence": "high",
+      "evidence": "(2) 기말시험 : 2026. 12. 8(화) ~ 12. 14(월)",
+      "slug": "final-end",
+      "start_date": "2026-12-14",
+      "start_time": null,
+      "summary": "기말시험 종료",
+      "uid": "2bdcfa043dcdb609173737d40507e820@law-secretary"
+    }
+  ],
+  "extracted_at": "2026-08-05T17:02:07+09:00",
+  "needs_manual": false,
+  "no_events_reason": null,
+  "post_id": "sg_1601:938999",
+  "posted_date": "2026-08-05",
+  "revision": 0,
+  "tab": "sogang",
+  "title": "2026학년도 2학기 수강신청 안내",
+  "url": "https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1601&siteId=lawschool&pkid=938999"
+}

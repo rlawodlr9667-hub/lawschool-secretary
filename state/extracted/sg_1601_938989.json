@@ -1,0 +1,194 @@
+{
+  "board": "학사공지",
+  "events": [
+    {
+      "all_day": true,
+      "confidence": "high",
+      "evidence": "나. 납부기간 : 2026년 8월 24일(월) ~ 25일(화)",
+      "slug": "tuition-pay-start",
+      "start_date": "2026-08-24",
+      "start_time": null,
+      "summary": "등록금 납부 시작",
+      "uid": "b26ec9bf23f846e6cd30c36093107e2e@law-secretary"
+    },
+    {
+      "all_day": true,
+      "confidence": "high",
+      "evidence": "나. 납부기간 : 2026년 8월 24일(월) ~ 25일(화)",
+      "slug": "tuition-pay-close",
+      "start_date": "2026-08-25",
+      "start_time": null,
+      "summary": "등록금 납부 마감",
+      "uid": "24ee906402408f49e5806ba9f729c903@law-secretary"
+    },
+    {
+      "all_day": false,
+      "confidence": "high",
+      "evidence": "마. 고지서 출력 : 8월 21일(금) 13:00 이후",
+      "slug": "tuition-bill-print",
+      "start_date": "2026-08-21",
+      "start_time": "13:00",
+      "summary": "등록금 고지서 출력 시작",
+      "uid": "5efe8a395c3f39359afb77949f4fd495@law-secretary"
+    },
+    {
+      "all_day": false,
+      "confidence": "high",
+      "evidence": "사. 장학금 수혜 대상자 : SAINT 에서 확인 (☞ 8월 21일(금) 13:00 발표 예정)",
+      "slug": "scholarship-announce",
+      "start_date": "2026-08-21",
+      "start_time": "13:00",
+      "summary": "장학금 수혜자 발표",
+      "uid": "45f164fb3e0e9ba50c5e806659f3a45d@law-secretary"
+    },
+    {
+      "all_day": true,
+      "confidence": "high",
+      "evidence": "가. 개강일 : 2026년 9월 1일(화)",
+      "slug": "semester-start",
+      "start_date": "2026-09-01",
+      "start_time": null,
+      "summary": "2학기 개강",
+      "uid": "465e9cc0a77230f4b40e4c339df35823@law-secretary"
+    },
+    {
+      "all_day": true,
+      "confidence": "high",
+      "evidence": "나. 종강일 : 2026년 12월 21일(월)",
+      "slug": "semester-end",
+      "start_date": "2026-12-21",
+      "start_time": null,
+      "summary": "2학기 종강",
+      "uid": "fd2dee62359da0a2bfce43cdcfc1f050@law-secretary"
+    },
+    {
+      "all_day": true,
+      "confidence": "high",
+      "evidence": "1) 휴·복학 신청기간 : 2026년 7월 27일(월) ~ 8월 6일(목) 까지",
+      "slug": "leave-return-apply-start",
+      "start_date": "2026-07-27",
+      "start_time": null,
+      "summary": "휴·복학 신청 시작",
+      "uid": "94ed5b9d8553f2a30a8e6b5ecd445c53@law-secretary"
+    },
+    {
+      "all_day": true,
+      "confidence": "high",
+      "evidence": "1) 휴·복학 신청기간 : 2026년 7월 27일(월) ~ 8월 6일(목) 까지",
+      "slug": "leave-return-apply-close",
+      "start_date": "2026-08-06",
+      "start_time": null,
+      "summary": "휴·복학 신청 마감",
+      "uid": "9ec00e24498ca58f8a45dbfe8c0364d8@law-secretary"
+    },
+    {
+      "all_day": false,
+      "confidence": "high",
+      "evidence": "2) 학기 중 휴학원서 제출 마감 : 2026년 11월 20일(금) 17:00까지",
+      "slug": "leave-mid-semester-close",
+      "start_date": "2026-11-20",
+      "start_time": "17:00",
+      "summary": "학기 중 휴학원서 제출 마감",
+      "uid": "8c0960d18680c04779ad144a3076926c@law-secretary"
+    },
+    {
+      "all_day": false,
+      "confidence": "high",
+      "evidence": "수강신청 [재학생] 2026. 8. 12(수) 11:00 ~ 8. 13(목) 17:00",
+      "slug": "course-reg-start",
+      "start_date": "2026-08-12",
+      "start_time": "11:00",
+      "summary": "수강신청 시작",
+      "uid": "0d20d30a54a839dd689d89d7a8b09502@law-secretary"
+    },
+    {
+      "all_day": false,
+      "confidence": "high",
+      "evidence": "수강신청 [재학생] 2026. 8. 12(수) 11:00 ~ 8. 13(목) 17:00",
+      "slug": "course-reg-close",
+      "start_date": "2026-08-13",
+      "start_time": "17:00",
+      "summary": "수강신청 마감",
+      "uid": "c3be344a10e4354dfc491300e543fe90@law-secretary"
+    },
+    {
+      "all_day": false,
+      "confidence": "medium",
+      "evidence": "수강과목 확인 및 변경 2026. 9. 2(수) 11:00 ~ 9. 7(월) 22:00",
+      "slug": "course-change-start",
+      "start_date": "2026-09-02",
+      "start_time": "11:00",
+      "summary": "수강과목 확인·변경 시작",
+      "uid": "f641782541bd693e320322283e79eb9c@law-secretary"
+    },
+    {
+      "all_day": false,
+      "confidence": "medium",
+      "evidence": "수강과목 확인 및 변경 2026. 9. 2(수) 11:00 ~ 9. 7(월) 22:00",
+      "slug": "course-change-close",
+      "start_date": "2026-09-07",
+      "start_time": "22:00",
+      "summary": "수강과목 확인·변경 마감",
+      "uid": "5f0f3987e1a8155e5e506cdfacfbfa2a@law-secretary"
+    },
+    {
+      "all_day": false,
+      "confidence": "high",
+      "evidence": "수강취소 2026. 9. 30(수) 17:00까지 \"수강과목 취소신청서\" 행정팀 제출",
+      "slug": "course-cancel-close",
+      "start_date": "2026-09-30",
+      "start_time": "17:00",
+      "summary": "수강과목 취소 마감",
+      "uid": "96530bd15c2908bcf6cac29653e8d448@law-secretary"
+    },
+    {
+      "all_day": true,
+      "confidence": "high",
+      "evidence": "1) 중간시험 : 2026. 10. 22(목) ~ 10. 28(수)",
+      "slug": "midterm-start",
+      "start_date": "2026-10-22",
+      "start_time": null,
+      "summary": "중간시험 시작",
+      "uid": "cef39b05bf1c85661dc2248effb73579@law-secretary"
+    },
+    {
+      "all_day": true,
+      "confidence": "high",
+      "evidence": "1) 중간시험 : 2026. 10. 22(목) ~ 10. 28(수)",
+      "slug": "midterm-end",
+      "start_date": "2026-10-28",
+      "start_time": null,
+      "summary": "중간시험 종료",
+      "uid": "3de2bb1659f1d4666aa0f609180f4712@law-secretary"
+    },
+    {
+      "all_day": true,
+      "confidence": "high",
+      "evidence": "2) 기말시험 : 2026. 12. 8(화) ~ 12. 14(월)",
+      "slug": "final-start",
+      "start_date": "2026-12-08",
+      "start_time": null,
+      "summary": "기말시험 시작",
+      "uid": "dc10f06f5d4a96ff3a43b094573e5ef0@law-secretary"
+    },
+    {
+      "all_day": true,
+      "confidence": "high",
+      "evidence": "2) 기말시험 : 2026. 12. 8(화) ~ 12. 14(월)",
+      "slug": "final-end",
+      "start_date": "2026-12-14",
+      "start_time": null,
+      "summary": "기말시험 종료",
+      "uid": "e1e68537145b07709716428ba4f11ed1@law-secretary"
+    }
+  ],
+  "extracted_at": "2026-08-05T17:02:07+09:00",
+  "needs_manual": false,
+  "no_events_reason": null,
+  "post_id": "sg_1601:938989",
+  "posted_date": "2026-08-05",
+  "revision": 0,
+  "tab": "sogang",
+  "title": "2026학년도 2학기 재학생 등록금 납부 및 주요 학사일정 안내",
+  "url": "https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1601&siteId=lawschool&pkid=938989"
+}
