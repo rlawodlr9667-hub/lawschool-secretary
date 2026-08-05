@@ -2,6 +2,14 @@
   "posts": [
     {
       "board_name": "일반공지",
+      "date": "2026-08-05",
+      "pinned": false,
+      "post_id": "938977",
+      "title": "사단법인 올] 제12회 젠더와 법 아카데미",
+      "url": "https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1602&siteId=lawschool&pkid=938977"
+    },
+    {
+      "board_name": "일반공지",
       "date": "2026-08-04",
       "pinned": false,
       "post_id": "938952",
@@ -129,5 +137,5 @@
       "url": "https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1602&siteId=lawschool&pkid=938296"
     }
   ],
-  "updated": "2026-08-05T01:21:39+09:00"
+  "updated": "2026-08-05T17:00:03+09:00"
 }

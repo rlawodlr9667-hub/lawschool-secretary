@@ -2,6 +2,22 @@
   "posts": [
     {
       "board_name": "학사공지",
+      "date": "2026-08-05",
+      "pinned": true,
+      "post_id": "938999",
+      "title": "2026학년도 2학기 수강신청 안내",
+      "url": "https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1601&siteId=lawschool&pkid=938999"
+    },
+    {
+      "board_name": "학사공지",
+      "date": "2026-08-05",
+      "pinned": true,
+      "post_id": "938989",
+      "title": "2026학년도 2학기 재학생 등록금 납부 및 주요 학사일정 안내",
+      "url": "https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1601&siteId=lawschool&pkid=938989"
+    },
+    {
+      "board_name": "학사공지",
       "date": "2026-07-24",
       "pinned": true,
       "post_id": "938740",
@@ -129,5 +145,5 @@
       "url": "https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1601&siteId=lawschool&pkid=935645"
     }
   ],
-  "updated": "2026-08-05T01:21:39+09:00"
+  "updated": "2026-08-05T17:00:03+09:00"
 }
