@@ -2764,6 +2764,37 @@ TRIGGER:-PT1H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:9f1ef84bb93377692eeceec43fdf3e49@law-secretary
+DTSTAMP:20260806T075931Z
+DTSTART;VALUE=DATE:20260814
+DTEND;VALUE=DATE:20260815
+SEQUENCE:0
+SUMMARY:대한중앙 채용 제출 마감
+DESCRIPTION:[일반공지] [재공지][법무법인 대한중앙] 실무수
+ 습 후 연계채용 공고\n근거: 7. 제출기한: 2026. 8. 14.(금)까
+ 지(*채용 시 조기 마감 될 수 있습니다*)\nhttps://lawschool.so
+ gang.ac.kr/front/cmsboardview.do?bbsConfigFK=1602&siteId=lawschool&pkid=93
+ 9042
+URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1602&s
+ iteId=lawschool&pkid=939042
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:D-3 대한중앙 채용 제출 마감
+TRIGGER:-P2DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:D-1 대한중앙 채용 제출 마감
+TRIGGER:-PT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:오늘 대한중앙 채용 제출 마감
+TRIGGER:PT9H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:175e43c2b66bd322b24cda59b28371cf@law-secretary
 DTSTAMP:20260729T030000Z
 DTSTART;VALUE=DATE:20260608

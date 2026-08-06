@@ -1,0 +1,24 @@
+{
+  "board": "일반공지",
+  "events": [
+    {
+      "all_day": true,
+      "confidence": "high",
+      "evidence": "7. 제출기한: 2026. 8. 14.(금)까지(*채용 시 조기 마감 될 수 있습니다*)",
+      "slug": "submit-close",
+      "start_date": "2026-08-14",
+      "start_time": null,
+      "summary": "대한중앙 채용 제출 마감",
+      "uid": "9f1ef84bb93377692eeceec43fdf3e49@law-secretary"
+    }
+  ],
+  "extracted_at": "2026-08-06T16:59:31+09:00",
+  "needs_manual": false,
+  "no_events_reason": null,
+  "post_id": "sg_1602:939042",
+  "posted_date": "2026-08-06",
+  "revision": 0,
+  "tab": "sogang",
+  "title": "[재공지][법무법인 대한중앙] 실무수습 후 연계채용 공고",
+  "url": "https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1602&siteId=lawschool&pkid=939042"
+}
