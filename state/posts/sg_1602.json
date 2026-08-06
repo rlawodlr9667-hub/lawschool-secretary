@@ -2,6 +2,14 @@
   "posts": [
     {
       "board_name": "일반공지",
+      "date": "2026-08-06",
+      "pinned": false,
+      "post_id": "939042",
+      "title": "[재공지][법무법인 대한중앙] 실무수습 후 연계채용 공고",
+      "url": "https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1602&siteId=lawschool&pkid=939042"
+    },
+    {
+      "board_name": "일반공지",
       "date": "2026-08-05",
       "pinned": false,
       "post_id": "938977",
@@ -137,5 +145,5 @@
       "url": "https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1602&siteId=lawschool&pkid=938296"
     }
   ],
-  "updated": "2026-08-06T00:51:15+09:00"
+  "updated": "2026-08-06T16:58:28+09:00"
 }

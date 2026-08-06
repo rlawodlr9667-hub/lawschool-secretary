@@ -2,10 +2,18 @@
   "posts": [
     {
       "board_name": "법학적성시험 공지사항",
-      "date": "2026-07-01",
+      "date": "2026-08-06",
       "pinned": true,
+      "post_id": "86736",
+      "title": "2027학년도 법학적성시험 이의신청 심사 결과 발표",
+      "url": "https://leet.uwayapply.com/board/BoardView.htm?board_id=82&board_seqnum=86736"
+    },
+    {
+      "board_name": "법학적성시험 공지사항",
+      "date": "2026-07-01",
+      "pinned": false,
       "post_id": "86463",
-      "title": "★2027학년도 법학적성시험 일시, 장소 및 응시자 준수사항 공고...",
+      "title": "2027학년도 법학적성시험 일시, 장소 및 응시자 준수사항 공고",
       "url": "https://leet.uwayapply.com/board/BoardView.htm?board_id=82&board_seqnum=86463"
     },
     {
@@ -81,5 +89,5 @@
       "url": "https://leet.uwayapply.com/board/BoardView.htm?board_id=82&board_seqnum=85864"
     }
   ],
-  "updated": "2026-08-06T00:51:15+09:00"
+  "updated": "2026-08-06T16:58:28+09:00"
 }
