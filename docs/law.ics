@@ -62,11 +62,6 @@ URL:https://www.sogang.ac.kr/ko/academic-support/calendar
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:D-1 2026학년도 2학기 휴복학 신청 마감
-TRIGGER:-PT15H
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
 DESCRIPTION:오늘 2026학년도 2학기 휴복학 신청 마감
 TRIGGER:PT9H
 END:VALARM
@@ -1426,21 +1421,6 @@ URL:https://leet.uwayapply.com/board/BoardView.htm?board_id=82&board_seqnum
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:e993eb5a92574f7595183dcaaeec41e1@law-secretary
-DTSTAMP:20260728T030000Z
-DTSTART:20260508T033000Z
-DTEND:20260508T040000Z
-SEQUENCE:0
-SUMMARY:경찰 설명회
-DESCRIPTION:[학사공지] [경찰청] 로스쿨 변호사 경력경쟁채
- 용 제도 설명회(경찰 설명회) 개최 안내\n근거: 1. 일시 : 
- 2026. 5. 8(금) 12:30~13:20\nhttps://lawschool.sogang.ac.kr/front/cmsboard
- view.do?bbsConfigFK=1601&siteId=lawschool&pkid=935645
-URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1601&s
- iteId=lawschool&pkid=935645
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:8de76a7e37e4abf43b7fac363995a0bf@law-secretary
 DTSTAMP:20260728T030000Z
 DTSTART:20260613T050000Z
@@ -1677,11 +1657,6 @@ URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1601&s
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:D-1 리걸클리닉3(법원) 실무수습 시작
-TRIGGER:-PT15H
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
 DESCRIPTION:오늘 리걸클리닉3(법원) 실무수습 시작
 TRIGGER:PT9H
 END:VALARM
@@ -1777,11 +1752,6 @@ DESCRIPTION:[학사공지] 2026학년도 2학기 법학전문대학원 장
 URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1601&s
  iteId=lawschool&pkid=938682
 TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:D-1 2학기 장학금 신청 마감
-TRIGGER:-P1D
-END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:오늘 2학기 장학금 신청 마감
@@ -1998,11 +1968,6 @@ DESCRIPTION:[학사공지] 2026학년도 2학기 재학생 등록금 납부
 URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1601&s
  iteId=lawschool&pkid=938989
 TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:오늘 휴·복학 신청 마감
-TRIGGER:PT9H
-END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:8c0960d18680c04779ad144a3076926c@law-secretary
@@ -2722,11 +2687,6 @@ DESCRIPTION:[일반공지] 환경법연구(등재지) 제48권 제2호 원
 URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1602&s
  iteId=lawschool&pkid=938903
 TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:D-1 환경법연구 원고투고 마감
-TRIGGER:-P1D
-END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:오늘 환경법연구 원고투고 마감
