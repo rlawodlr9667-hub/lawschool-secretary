@@ -60,11 +60,6 @@ DESCRIPTION:[서강대 학사일정] 2026학년도 2학기 휴복학 신청
   ~ 2026-08-07)\nhttps://www.sogang.ac.kr/ko/academic-support/calendar
 URL:https://www.sogang.ac.kr/ko/academic-support/calendar
 TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:오늘 2026학년도 2학기 휴복학 신청 마감
-TRIGGER:PT9H
-END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:c913280418550ffe7ca6c34c263526f3@law-secretary
@@ -1655,11 +1650,6 @@ DESCRIPTION:[학사공지] 2026년 2학기 <리걸클리닉3(법원)-2학
 URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1601&s
  iteId=lawschool&pkid=938297
 TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:오늘 리걸클리닉3(법원) 실무수습 시작
-TRIGGER:PT9H
-END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:a3f202756f9e4a94cc2a8432acb97338@law-secretary
@@ -1752,11 +1742,6 @@ DESCRIPTION:[학사공지] 2026학년도 2학기 법학전문대학원 장
 URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1601&s
  iteId=lawschool&pkid=938682
 TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:오늘 2학기 장학금 신청 마감
-TRIGGER:-PT1H
-END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:b26ec9bf23f846e6cd30c36093107e2e@law-secretary
@@ -2664,11 +2649,6 @@ URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1602&s
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:D-1 인\;연 여름캠프
-TRIGGER:-P1D
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
 DESCRIPTION:오늘 인\;연 여름캠프
 TRIGGER:-PT1H
 END:VALARM
@@ -2687,11 +2667,6 @@ DESCRIPTION:[일반공지] 환경법연구(등재지) 제48권 제2호 원
 URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1602&s
  iteId=lawschool&pkid=938903
 TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:오늘 환경법연구 원고투고 마감
-TRIGGER:-PT1H
-END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:b3caf4eaf67189e7cd8997f34f4935a9@law-secretary
@@ -2845,11 +2820,6 @@ URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=2706&s
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:D-3 어필 실무수습 근무 시작
-TRIGGER:-P2DT15H
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
 DESCRIPTION:D-1 어필 실무수습 근무 시작
 TRIGGER:-PT15H
 END:VALARM
@@ -2873,11 +2843,6 @@ DESCRIPTION:[실무수습] [언론중재위] 2026 하계 예비 법조인
 URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=2706&s
  iteId=lawschool&pkid=937154
 TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:D-3 언론중재위 연수 시작
-TRIGGER:-P2DT15H
-END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:D-1 언론중재위 연수 시작
@@ -3061,11 +3026,6 @@ URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=2706&s
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:D-3 법률구조공단 실무수습(후기) 시작
-TRIGGER:-P2DT15H
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
 DESCRIPTION:D-1 법률구조공단 실무수습(후기) 시작
 TRIGGER:-PT15H
 END:VALARM
@@ -3183,11 +3143,6 @@ DESCRIPTION:[실무수습] [학교추천] 2026년 해양경찰 실무수습
 URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=2706&s
  iteId=lawschool&pkid=938234
 TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:D-3 해양경찰 실무수습 시작
-TRIGGER:-P2DT15H
-END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:D-1 해양경찰 실무수습 시작
