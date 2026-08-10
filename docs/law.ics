@@ -98,11 +98,6 @@ URL:https://www.sogang.ac.kr/ko/academic-support/calendar
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:D-3 수강신청 과목 담아놓기 마감
-TRIGGER:-P2DT15H
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
 DESCRIPTION:D-1 수강신청 과목 담아놓기 마감
 TRIGGER:-PT15H
 END:VALARM
@@ -2020,11 +2015,6 @@ URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1601&s
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:D-3 수강신청 마감
-TRIGGER:-P3D
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
 DESCRIPTION:D-1 수강신청 마감
 TRIGGER:-P1D
 END:VALARM
@@ -2284,11 +2274,6 @@ DESCRIPTION:[학사공지] 2026학년도 2학기 수강신청 안내\n근
 URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1601&s
  iteId=lawschool&pkid=938999
 TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:D-3 수강신청 마감
-TRIGGER:-P3D
-END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:D-1 수강신청 마감
@@ -2798,11 +2783,6 @@ DESCRIPTION:[실무수습] [공익법센터 어필] 실무수습 모집 공
 URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=2706&s
  iteId=lawschool&pkid=937133
 TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:오늘 어필 실무수습 근무 시작
-TRIGGER:PT9H
-END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fdcfbb5dbf174b94e22bf5fdc3600e6b@law-secretary
@@ -2818,11 +2798,6 @@ DESCRIPTION:[실무수습] [언론중재위] 2026 하계 예비 법조인
 URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=2706&s
  iteId=lawschool&pkid=937154
 TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:오늘 언론중재위 연수 시작
-TRIGGER:PT9H
-END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:7a58a091c45be3157644cefea9194205@law-secretary
@@ -2994,11 +2969,6 @@ DESCRIPTION:[실무수습] [학교추천] 대한법률구조공단 2026년
 URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=2706&s
  iteId=lawschool&pkid=937602
 TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:오늘 법률구조공단 실무수습(후기) 시작
-TRIGGER:PT9H
-END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:48e52acd6cb95e69882cb1a8cb0b2aa8@law-secretary
@@ -3108,11 +3078,6 @@ DESCRIPTION:[실무수습] [학교추천] 2026년 해양경찰 실무수습
 URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=2706&s
  iteId=lawschool&pkid=938234
 TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:오늘 해양경찰 실무수습 시작
-TRIGGER:PT9H
-END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:60e8fbfd883e19c505f42afab2579b57@law-secretary
