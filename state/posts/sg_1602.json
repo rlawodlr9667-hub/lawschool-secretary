@@ -2,6 +2,14 @@
   "posts": [
     {
       "board_name": "일반공지",
+      "date": "2026-08-10",
+      "pinned": false,
+      "post_id": "939142",
+      "title": "[한국환경법학회] 2026년 환경법률가대회 및 제17회 대학생·대학원생 환경법 우수논문 경진대회 안내",
+      "url": "https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1602&siteId=lawschool&pkid=939142"
+    },
+    {
+      "board_name": "일반공지",
       "date": "2026-08-06",
       "pinned": false,
       "post_id": "939042",
@@ -145,5 +153,5 @@
       "url": "https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1602&siteId=lawschool&pkid=938296"
     }
   ],
-  "updated": "2026-08-10T08:16:14+09:00"
+  "updated": "2026-08-10T14:09:19+09:00"
 }
