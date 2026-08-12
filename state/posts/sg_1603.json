@@ -2,6 +2,22 @@
   "posts": [
     {
       "board_name": "법전원 소식",
+      "date": "2026-08-12",
+      "pinned": false,
+      "post_id": "939224",
+      "title": "[로스쿨타임즈] 홍대식 법전협 이사장, 리걸 AI와 로스쿨 교육 방향 제시",
+      "url": "https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1603&siteId=lawschool&pkid=939224"
+    },
+    {
+      "board_name": "법전원 소식",
+      "date": "2026-08-12",
+      "pinned": false,
+      "post_id": "939223",
+      "title": "[로스쿨타임즈] 법전협·엘박스, AI가 채점하고 판례까지 연결…변호사시험 학습에 ’AI 바람’",
+      "url": "https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1603&siteId=lawschool&pkid=939223"
+    },
+    {
+      "board_name": "법전원 소식",
       "date": "2026-08-03",
       "pinned": false,
       "post_id": "938828",
@@ -89,5 +105,5 @@
       "url": "https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1603&siteId=lawschool&pkid=932060"
     }
   ],
-  "updated": "2026-08-12T09:09:19+09:00"
+  "updated": "2026-08-12T15:02:15+09:00"
 }

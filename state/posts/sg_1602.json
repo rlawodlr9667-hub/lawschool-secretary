@@ -2,6 +2,14 @@
   "posts": [
     {
       "board_name": "일반공지",
+      "date": "2026-08-12",
+      "pinned": false,
+      "post_id": "939225",
+      "title": "[서울지방변호사회]서울지방변호사회 ‘제3회 공익전업변호사 양성사업(하반기)’",
+      "url": "https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1602&siteId=lawschool&pkid=939225"
+    },
+    {
+      "board_name": "일반공지",
       "date": "2026-08-11",
       "pinned": false,
       "post_id": "939185",
@@ -169,5 +177,5 @@
       "url": "https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1602&siteId=lawschool&pkid=938296"
     }
   ],
-  "updated": "2026-08-12T09:09:19+09:00"
+  "updated": "2026-08-12T15:02:10+09:00"
 }
