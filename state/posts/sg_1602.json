@@ -2,6 +2,14 @@
   "posts": [
     {
       "board_name": "일반공지",
+      "date": "2026-08-13",
+      "pinned": false,
+      "post_id": "939292",
+      "title": "[법학전문대학원 협의회] 2026년 제2회 대한민국 법학교육자 심포지엄",
+      "url": "https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1602&siteId=lawschool&pkid=939292"
+    },
+    {
+      "board_name": "일반공지",
       "date": "2026-08-12",
       "pinned": false,
       "post_id": "939225",
@@ -177,5 +185,5 @@
       "url": "https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1602&siteId=lawschool&pkid=938296"
     }
   ],
-  "updated": "2026-08-13T09:10:31+09:00"
+  "updated": "2026-08-13T15:03:17+09:00"
 }
