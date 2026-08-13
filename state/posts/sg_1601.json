@@ -19,7 +19,7 @@
     {
       "board_name": "학사공지",
       "date": "2026-07-24",
-      "pinned": true,
+      "pinned": false,
       "post_id": "938740",
       "title": "2026학년도 1학기 성적증명서 발급 안내",
       "url": "https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1601&siteId=lawschool&pkid=938740"
@@ -35,7 +35,7 @@
     {
       "board_name": "학사공지",
       "date": "2026-07-20",
-      "pinned": true,
+      "pinned": false,
       "post_id": "938567",
       "title": "2026학년도 하계 집중휴무 시행 안내",
       "url": "https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1601&siteId=lawschool&pkid=938567"
@@ -145,5 +145,5 @@
       "url": "https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1601&siteId=lawschool&pkid=935645"
     }
   ],
-  "updated": "2026-08-13T15:03:17+09:00"
+  "updated": "2026-08-13T18:48:27+09:00"
 }

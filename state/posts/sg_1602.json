@@ -3,6 +3,14 @@
     {
       "board_name": "일반공지",
       "date": "2026-08-13",
+      "pinned": true,
+      "post_id": "939331",
+      "title": "[법원행정처] 2027년도 임용 재판연구원 선발 서류전형 합격자 발표 및 필기전형 일정 공지",
+      "url": "https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1602&siteId=lawschool&pkid=939331"
+    },
+    {
+      "board_name": "일반공지",
+      "date": "2026-08-13",
       "pinned": false,
       "post_id": "939292",
       "title": "[법학전문대학원 협의회] 2026년 제2회 대한민국 법학교육자 심포지엄",
@@ -185,5 +193,5 @@
       "url": "https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1602&siteId=lawschool&pkid=938296"
     }
   ],
-  "updated": "2026-08-13T15:03:17+09:00"
+  "updated": "2026-08-13T18:48:28+09:00"
 }
