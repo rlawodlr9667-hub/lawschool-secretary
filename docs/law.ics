@@ -73,11 +73,6 @@ DESCRIPTION:[서강대 학사일정] 수강신청 과목 담아놓기\n근
  13)\nhttps://www.sogang.ac.kr/ko/academic-support/calendar
 URL:https://www.sogang.ac.kr/ko/academic-support/calendar
 TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:오늘 수강신청 과목 담아놓기 마감
-TRIGGER:PT9H
-END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:5eb2b0d72bfe6cc8807c82386fdb7e86@law-secretary
@@ -1975,11 +1970,6 @@ DESCRIPTION:[학사공지] 2026학년도 2학기 재학생 등록금 납부
 URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1601&s
  iteId=lawschool&pkid=938989
 TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:오늘 수강신청 마감
-TRIGGER:-PT1H
-END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:f641782541bd693e320322283e79eb9c@law-secretary
@@ -2221,11 +2211,6 @@ DESCRIPTION:[학사공지] 2026학년도 2학기 수강신청 안내\n근
 URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1601&s
  iteId=lawschool&pkid=938999
 TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:오늘 수강신청 마감
-TRIGGER:-PT1H
-END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:f81921650dd401f18b0ce0d4434415ef@law-secretary
@@ -2622,11 +2607,6 @@ URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1602&s
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:D-1 대한중앙 채용 제출 마감
-TRIGGER:-PT15H
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
 DESCRIPTION:오늘 대한중앙 채용 제출 마감
 TRIGGER:PT9H
 END:VALARM
@@ -2750,11 +2730,6 @@ DESCRIPTION:[실무수습] [언론중재위] 2026 하계 예비 법조인
 URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=2706&s
  iteId=lawschool&pkid=937154
 TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:D-1 언론중재위 연수 종료
-TRIGGER:-PT15H
-END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:오늘 언론중재위 연수 종료
@@ -3082,11 +3057,6 @@ DESCRIPTION:[실무수습] [INSIGHT LAW] 법무법인 인사이트 2026년
 URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=2706&s
  iteId=lawschool&pkid=938306
 TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:D-1 인사이트 로펌 실무수습 종료
-TRIGGER:-PT15H
-END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:오늘 인사이트 로펌 실무수습 종료
