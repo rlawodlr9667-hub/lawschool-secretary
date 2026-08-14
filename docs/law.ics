@@ -2605,11 +2605,6 @@ DESCRIPTION:[일반공지] [재공지][법무법인 대한중앙] 실무수
 URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1602&s
  iteId=lawschool&pkid=939042
 TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:오늘 대한중앙 채용 제출 마감
-TRIGGER:PT9H
-END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:175e43c2b66bd322b24cda59b28371cf@law-secretary
@@ -2730,11 +2725,6 @@ DESCRIPTION:[실무수습] [언론중재위] 2026 하계 예비 법조인
 URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=2706&s
  iteId=lawschool&pkid=937154
 TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:오늘 언론중재위 연수 종료
-TRIGGER:PT9H
-END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:9aace44ba8d953525e4b10c334c8f49e@law-secretary
@@ -3004,11 +2994,6 @@ URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=2706&s
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:D-1 해양경찰 실무수습 종료
-TRIGGER:-PT15H
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
 DESCRIPTION:오늘 해양경찰 실무수습 종료
 TRIGGER:PT9H
 END:VALARM
@@ -3057,10 +3042,5 @@ DESCRIPTION:[실무수습] [INSIGHT LAW] 법무법인 인사이트 2026년
 URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=2706&s
  iteId=lawschool&pkid=938306
 TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:오늘 인사이트 로펌 실무수습 종료
-TRIGGER:PT9H
-END:VALARM
 END:VEVENT
 END:VCALENDAR
