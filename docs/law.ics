@@ -88,11 +88,6 @@ URL:https://www.sogang.ac.kr/ko/academic-support/calendar
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:D-3 하계 졸업일
-TRIGGER:-P2DT15H
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
 DESCRIPTION:D-1 하계 졸업일
 TRIGGER:-PT15H
 END:VALARM
@@ -1341,11 +1336,6 @@ DESCRIPTION:[법학적성시험 공지사항] 2027학년도 법학적성시
 URL:https://leet.uwayapply.com/board/BoardView.htm?board_id=82&board_seqnum
  =86030
 TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:D-3 법학적성시험 성적 발표
-TRIGGER:-P3D
-END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:D-1 법학적성시험 성적 발표
@@ -2992,11 +2982,6 @@ DESCRIPTION:[실무수습] [학교추천] 2026년 해양경찰 실무수습
 URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=2706&s
  iteId=lawschool&pkid=938234
 TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:오늘 해양경찰 실무수습 종료
-TRIGGER:PT9H
-END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:e268914f06880c55fd604f023bf38166@law-secretary
