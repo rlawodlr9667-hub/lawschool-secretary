@@ -88,11 +88,6 @@ URL:https://www.sogang.ac.kr/ko/academic-support/calendar
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:D-1 하계 졸업일
-TRIGGER:-PT15H
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
 DESCRIPTION:오늘 하계 졸업일
 TRIGGER:PT9H
 END:VALARM
@@ -132,11 +127,6 @@ DESCRIPTION:[서강대 학사일정] 3\,4학년 수강신청\n근거: 학
  sogang.ac.kr/ko/academic-support/calendar
 URL:https://www.sogang.ac.kr/ko/academic-support/calendar
 TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:D-3 3\,4학년 수강신청
-TRIGGER:-P2DT15H
-END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:D-1 3\,4학년 수강신청
@@ -1331,11 +1321,6 @@ DESCRIPTION:[법학적성시험 공지사항] 2027학년도 법학적성시
 URL:https://leet.uwayapply.com/board/BoardView.htm?board_id=82&board_seqnum
  =86030
 TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:D-1 법학적성시험 성적 발표
-TRIGGER:-P1D
-END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:오늘 법학적성시험 성적 발표
@@ -2559,11 +2544,6 @@ DESCRIPTION:[일반공지] 2026년 을지연습 연계 공습 대비 민방
 URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1602&s
  iteId=lawschool&pkid=938952
 TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:D-3 민방위훈련 (전학생·교직원)
-TRIGGER:-P3D
-END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:D-1 민방위훈련 (전학생·교직원)
