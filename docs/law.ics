@@ -86,11 +86,6 @@ DESCRIPTION:[서강대 학사일정] 하계 졸업일\n근거: 학사일정
  academic-support/calendar
 URL:https://www.sogang.ac.kr/ko/academic-support/calendar
 TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:오늘 하계 졸업일
-TRIGGER:PT9H
-END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:9d36e159b20b0bbaa84488e809ad59a3@law-secretary
@@ -104,11 +99,6 @@ DESCRIPTION:[서강대 학사일정] 1\,2학년 수강신청\n근거: 학
  sogang.ac.kr/ko/academic-support/calendar
 URL:https://www.sogang.ac.kr/ko/academic-support/calendar
 TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:D-1 1\,2학년 수강신청
-TRIGGER:-PT15H
-END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:오늘 1\,2학년 수강신청
@@ -1321,11 +1311,6 @@ DESCRIPTION:[법학적성시험 공지사항] 2027학년도 법학적성시
 URL:https://leet.uwayapply.com/board/BoardView.htm?board_id=82&board_seqnum
  =86030
 TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:오늘 법학적성시험 성적 발표
-TRIGGER:-PT1H
-END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:8a7a714982c69505f433c32f51523e99@law-secretary
@@ -1356,11 +1341,6 @@ DESCRIPTION:[법학적성시험 공지사항] 2027학년도 법학적성시
 URL:https://leet.uwayapply.com/board/BoardView.htm?board_id=82&board_seqnum
  =86741
 TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:오늘 OMR답안지 열람 신청 마감
-TRIGGER:-PT1H
-END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:4281190fd2b30feb4321346eaf68ee7d@law-secretary
@@ -1377,11 +1357,6 @@ DESCRIPTION:[법학적성시험 공지사항] 2027학년도 법학적성시
 URL:https://leet.uwayapply.com/board/BoardView.htm?board_id=82&board_seqnum
  =86741
 TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:D-1 OMR답안지 열람 공개일
-TRIGGER:-P1D
-END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:오늘 OMR답안지 열람 공개일
@@ -1640,11 +1615,6 @@ URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1601&s
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:D-3 리걸클리닉3(법원) 실무수습 종료
-TRIGGER:-P2DT15H
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
 DESCRIPTION:D-1 리걸클리닉3(법원) 실무수습 종료
 TRIGGER:-PT15H
 END:VALARM
@@ -1792,11 +1762,6 @@ URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1601&s
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:D-3 등록금 고지서 출력 시작
-TRIGGER:-P3D
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
 DESCRIPTION:D-1 등록금 고지서 출력 시작
 TRIGGER:-P1D
 END:VALARM
@@ -1821,11 +1786,6 @@ DESCRIPTION:[학사공지] 2026학년도 2학기 재학생 등록금 납부
 URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1601&s
  iteId=lawschool&pkid=938989
 TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:D-3 장학금 수혜자 발표
-TRIGGER:-P3D
-END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:D-1 장학금 수혜자 발표
@@ -2631,11 +2591,6 @@ DESCRIPTION:[일반공지] [재단법인 늘푸른장학회] 장학생 선
 URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1602&s
  iteId=lawschool&pkid=939414
 TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:오늘 늘푸른장학회 추천 접수 시작
-TRIGGER:PT9H
-END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:9367fe7ac964aed3074fa997304791ea@law-secretary
@@ -2973,11 +2928,6 @@ DESCRIPTION:[실무수습] [학교추천] 대한법률구조공단 2026년
 URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=2706&s
  iteId=lawschool&pkid=937602
 TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:D-3 법률구조공단 실무수습(후기) 종료
-TRIGGER:-P2DT15H
-END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:D-1 법률구조공단 실무수습(후기) 종료
