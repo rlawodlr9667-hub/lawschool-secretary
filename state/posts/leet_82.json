@@ -2,8 +2,24 @@
   "posts": [
     {
       "board_name": "법학적성시험 공지사항",
-      "date": "2026-08-06",
+      "date": "2026-08-18",
       "pinned": true,
+      "post_id": "86741",
+      "title": "2027학년도 법학적성시험 OMR 답안지 열람 안내",
+      "url": "https://leet.uwayapply.com/board/BoardView.htm?board_id=82&board_seqnum=86741"
+    },
+    {
+      "board_name": "법학적성시험 공지사항",
+      "date": "2026-08-18",
+      "pinned": false,
+      "post_id": "86740",
+      "title": "2027학년도 법학적성시험 채점 결과",
+      "url": "https://leet.uwayapply.com/board/BoardView.htm?board_id=82&board_seqnum=86740"
+    },
+    {
+      "board_name": "법학적성시험 공지사항",
+      "date": "2026-08-06",
+      "pinned": false,
       "post_id": "86736",
       "title": "2027학년도 법학적성시험 이의신청 심사 결과 발표",
       "url": "https://leet.uwayapply.com/board/BoardView.htm?board_id=82&board_seqnum=86736"
@@ -89,5 +105,5 @@
       "url": "https://leet.uwayapply.com/board/BoardView.htm?board_id=82&board_seqnum=85864"
     }
   ],
-  "updated": "2026-08-18T08:51:59+09:00"
+  "updated": "2026-08-18T12:11:57+09:00"
 }

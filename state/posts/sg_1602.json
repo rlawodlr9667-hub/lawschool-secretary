@@ -2,6 +2,22 @@
   "posts": [
     {
       "board_name": "일반공지",
+      "date": "2026-08-18",
+      "pinned": false,
+      "post_id": "939419",
+      "title": "[NKDB 남북사회통합교육원] 9월 아카데미 수강 안내",
+      "url": "https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1602&siteId=lawschool&pkid=939419"
+    },
+    {
+      "board_name": "일반공지",
+      "date": "2026-08-18",
+      "pinned": false,
+      "post_id": "939414",
+      "title": "[재단법인 늘푸른장학회] 장학생 선발",
+      "url": "https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1602&siteId=lawschool&pkid=939414"
+    },
+    {
+      "board_name": "일반공지",
       "date": "2026-08-13",
       "pinned": true,
       "post_id": "939331",
@@ -193,5 +209,5 @@
       "url": "https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1602&siteId=lawschool&pkid=938296"
     }
   ],
-  "updated": "2026-08-18T08:51:59+09:00"
+  "updated": "2026-08-18T12:11:57+09:00"
 }
