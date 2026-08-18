@@ -1,0 +1,24 @@
+{
+  "board": "일반공지",
+  "events": [
+    {
+      "all_day": false,
+      "confidence": "high",
+      "evidence": "■ 모집 마감: 2026년 9월 4일 23:59",
+      "slug": "apply-close",
+      "start_date": "2026-09-04",
+      "start_time": "23:59",
+      "summary": "NKDB 아카데미 수강 신청 마감",
+      "uid": "8d5dc2f3fe135a74f82024c669700068@law-secretary"
+    }
+  ],
+  "extracted_at": "2026-08-18T12:14:40+09:00",
+  "needs_manual": false,
+  "no_events_reason": null,
+  "post_id": "sg_1602:939419",
+  "posted_date": "2026-08-18",
+  "revision": 0,
+  "tab": "sogang",
+  "title": "[NKDB 남북사회통합교육원] 9월 아카데미 수강 안내",
+  "url": "https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1602&siteId=lawschool&pkid=939419"
+}

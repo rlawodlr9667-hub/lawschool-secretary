@@ -1,0 +1,34 @@
+{
+  "board": "일반공지",
+  "events": [
+    {
+      "all_day": true,
+      "confidence": "high",
+      "evidence": "사. 추천 기한 : 2026. 8. 18.(화) ~ 9. 30.(수)(기한 엄수 도착 요망)",
+      "slug": "recommend-start",
+      "start_date": "2026-08-18",
+      "start_time": null,
+      "summary": "늘푸른장학회 추천 접수 시작",
+      "uid": "925433d3f04aef0db42b0860ffeece93@law-secretary"
+    },
+    {
+      "all_day": true,
+      "confidence": "high",
+      "evidence": "사. 추천 기한 : 2026. 8. 18.(화) ~ 9. 30.(수)(기한 엄수 도착 요망)",
+      "slug": "recommend-close",
+      "start_date": "2026-09-30",
+      "start_time": null,
+      "summary": "늘푸른장학회 추천 마감",
+      "uid": "9367fe7ac964aed3074fa997304791ea@law-secretary"
+    }
+  ],
+  "extracted_at": "2026-08-18T12:14:40+09:00",
+  "needs_manual": false,
+  "no_events_reason": null,
+  "post_id": "sg_1602:939414",
+  "posted_date": "2026-08-18",
+  "revision": 0,
+  "tab": "sogang",
+  "title": "[재단법인 늘푸른장학회] 장학생 선발",
+  "url": "https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1602&siteId=lawschool&pkid=939414"
+}
