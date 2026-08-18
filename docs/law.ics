@@ -1343,6 +1343,52 @@ URL:https://leet.uwayapply.com/board/BoardView.htm?board_id=82&board_seqnum
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:4b8cd345ec07481ece4c7944f37f9c03@law-secretary
+DTSTAMP:20260818T051000Z
+DTSTART:20260818T080000Z
+DTEND:20260818T083000Z
+SEQUENCE:0
+SUMMARY:OMR답안지 열람 신청 마감
+DESCRIPTION:[법학적성시험 공지사항] 2027학년도 법학적성시
+ 험 OMR 답안지 열람 안내\n근거: 접수기간: 8/18(화) 17시까
+ 지\nhttps://leet.uwayapply.com/board/BoardView.htm?board_id=82&board_seqn
+ um=86741
+URL:https://leet.uwayapply.com/board/BoardView.htm?board_id=82&board_seqnum
+ =86741
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:오늘 OMR답안지 열람 신청 마감
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:4281190fd2b30feb4321346eaf68ee7d@law-secretary
+DTSTAMP:20260818T051000Z
+DTSTART:20260819T050000Z
+DTEND:20260819T053000Z
+SEQUENCE:0
+SUMMARY:OMR답안지 열람 공개일
+DESCRIPTION:[법학적성시험 공지사항] 2027학년도 법학적성시
+ 험 OMR 답안지 열람 안내\n근거: 공개일시 및 장소: 8/19(수
+ ) 14시~16시\, 법학전문대학원협의회(서울시 중구 서소문
+ 로 11길 34 5층)\nhttps://leet.uwayapply.com/board/BoardView.htm?board_i
+ d=82&board_seqnum=86741
+URL:https://leet.uwayapply.com/board/BoardView.htm?board_id=82&board_seqnum
+ =86741
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:D-1 OMR답안지 열람 공개일
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:오늘 OMR답안지 열람 공개일
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:8de76a7e37e4abf43b7fac363995a0bf@law-secretary
 DTSTAMP:20260728T030000Z
 DTSTART:20260613T050000Z
