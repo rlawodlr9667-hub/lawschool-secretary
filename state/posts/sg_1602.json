@@ -2,6 +2,14 @@
   "posts": [
     {
       "board_name": "일반공지",
+      "date": "2026-08-19",
+      "pinned": false,
+      "post_id": "939488",
+      "title": "[사법정책연구원] 2027년도 연구주제 공모",
+      "url": "https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1602&siteId=lawschool&pkid=939488"
+    },
+    {
+      "board_name": "일반공지",
       "date": "2026-08-18",
       "pinned": false,
       "post_id": "939419",
@@ -209,5 +217,5 @@
       "url": "https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1602&siteId=lawschool&pkid=938296"
     }
   ],
-  "updated": "2026-08-19T14:06:11+09:00"
+  "updated": "2026-08-19T15:02:00+09:00"
 }
