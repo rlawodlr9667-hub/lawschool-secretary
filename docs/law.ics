@@ -99,11 +99,6 @@ DESCRIPTION:[서강대 학사일정] 1\,2학년 수강신청\n근거: 학
  sogang.ac.kr/ko/academic-support/calendar
 URL:https://www.sogang.ac.kr/ko/academic-support/calendar
 TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:오늘 1\,2학년 수강신청
-TRIGGER:PT9H
-END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:31e393d15c8ce9e6fe77c52db4b0b977@law-secretary
@@ -117,11 +112,6 @@ DESCRIPTION:[서강대 학사일정] 3\,4학년 수강신청\n근거: 학
  sogang.ac.kr/ko/academic-support/calendar
 URL:https://www.sogang.ac.kr/ko/academic-support/calendar
 TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:D-1 3\,4학년 수강신청
-TRIGGER:-PT15H
-END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:오늘 3\,4학년 수강신청
@@ -1357,11 +1347,6 @@ DESCRIPTION:[법학적성시험 공지사항] 2027학년도 법학적성시
 URL:https://leet.uwayapply.com/board/BoardView.htm?board_id=82&board_seqnum
  =86741
 TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:오늘 OMR답안지 열람 공개일
-TRIGGER:-PT1H
-END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:8de76a7e37e4abf43b7fac363995a0bf@law-secretary
@@ -1376,22 +1361,6 @@ DESCRIPTION:[학사공지] 2026년 1학기 민사재판실무 기말평가
  /front/cmsboardview.do?bbsConfigFK=1601&siteId=lawschool&pkid=936070
 URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1601&s
  iteId=lawschool&pkid=936070
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:d145376183aca21a2f2edf0ed8e6df9a@law-secretary
-DTSTAMP:20260728T030000Z
-DTSTART:20260521T030000Z
-DTEND:20260521T033000Z
-SEQUENCE:0
-SUMMARY:검찰 설명회 참가신청 마감
-DESCRIPTION:[학사공지] 2026 서강대학교 법학전문대학원 검
- 찰 직역 설명회 안내\n근거: ※ 사전 참가 신청자(5/21(목)
-  12:00까지) 에게는 당일 샌드위치와 음료제공 예정\nhttps:
- //lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1601&siteId=law
- school&pkid=936183
-URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1601&s
- iteId=lawschool&pkid=936183
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -2550,11 +2519,6 @@ DESCRIPTION:[일반공지] 2026년 을지연습 연계 공습 대비 민방
 URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1602&s
  iteId=lawschool&pkid=938952
 TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:D-1 민방위훈련 (전학생·교직원)
-TRIGGER:-P1D
-END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:오늘 민방위훈련 (전학생·교직원)
