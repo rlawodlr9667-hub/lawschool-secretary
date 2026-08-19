@@ -1,0 +1,24 @@
+{
+  "board": "일반공지",
+  "events": [
+    {
+      "all_day": true,
+      "confidence": "high",
+      "evidence": "첨부된 『연구주제 신청양식』에 내용을 기재하신 후, 2026. 9. 30.(수)까지 이메일 (jpriga100@scourt.go.kr) 또는 팩스 (031-920-3584)로 보내주시면 감사하겠습니다.",
+      "slug": "proposal-close",
+      "start_date": "2026-09-30",
+      "start_time": null,
+      "summary": "사법정책연구원 연구주제 제안 마감",
+      "uid": "4b5ec0df9ff3d144b22b1d68fad0653b@law-secretary"
+    }
+  ],
+  "extracted_at": "2026-08-19T15:02:25+09:00",
+  "needs_manual": false,
+  "no_events_reason": null,
+  "post_id": "sg_1602:939488",
+  "posted_date": "2026-08-19",
+  "revision": 0,
+  "tab": "sogang",
+  "title": "[사법정책연구원] 2027년도 연구주제 공모",
+  "url": "https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1602&siteId=lawschool&pkid=939488"
+}

@@ -2653,6 +2653,38 @@ TRIGGER:-PT1H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:4b5ec0df9ff3d144b22b1d68fad0653b@law-secretary
+DTSTAMP:20260819T060225Z
+DTSTART;VALUE=DATE:20260930
+DTEND;VALUE=DATE:20261001
+SEQUENCE:0
+SUMMARY:사법정책연구원 연구주제 제안 마감
+DESCRIPTION:[일반공지] [사법정책연구원] 2027년도 연구주제 
+ 공모\n근거: 첨부된 『연구주제 신청양식』에 내용을 기
+ 재하신 후\, 2026. 9. 30.(수)까지 이메일 (jpriga100@scourt.go.kr)
+  또는 팩스 (031-920-3584)로 보내주시면 감사하겠습니다.\nh
+ ttps://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1602&siteI
+ d=lawschool&pkid=939488
+URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1602&s
+ iteId=lawschool&pkid=939488
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:D-3 사법정책연구원 연구주제 제안 마감
+TRIGGER:-P2DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:D-1 사법정책연구원 연구주제 제안 마감
+TRIGGER:-PT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:오늘 사법정책연구원 연구주제 제안 마감
+TRIGGER:PT9H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:175e43c2b66bd322b24cda59b28371cf@law-secretary
 DTSTAMP:20260729T030000Z
 DTSTART;VALUE=DATE:20260608
