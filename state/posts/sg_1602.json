@@ -2,6 +2,14 @@
   "posts": [
     {
       "board_name": "일반공지",
+      "date": "2026-08-20",
+      "pinned": true,
+      "post_id": "939511",
+      "title": "[법원행정처] 2027년 즉시군 재판연구원 선발 절차에서의 ‘필기시험 폐지’에 따른 재판실무강의 수강 관련 유의사항 안내",
+      "url": "https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1602&siteId=lawschool&pkid=939511"
+    },
+    {
+      "board_name": "일반공지",
       "date": "2026-08-19",
       "pinned": false,
       "post_id": "939488",
@@ -217,5 +225,5 @@
       "url": "https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1602&siteId=lawschool&pkid=938296"
     }
   ],
-  "updated": "2026-08-20T08:53:33+09:00"
+  "updated": "2026-08-20T12:14:08+09:00"
 }
