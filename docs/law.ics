@@ -10,19 +10,6 @@ X-WR-TIMEZONE:Asia/Seoul
 REFRESH-INTERVAL;VALUE=DURATION:PT1H
 X-PUBLISHED-TTL:PT1H
 BEGIN:VEVENT
-UID:b4115adec9ab73f80a52792988a980e7@law-secretary
-DTSTAMP:20200101T000000Z
-DTSTART;VALUE=DATE:20260721
-DTEND;VALUE=DATE:20260722
-SEQUENCE:0
-SUMMARY:계절수업성적 제출 마감
-DESCRIPTION:[서강대 학사일정] 계절수업성적 제출 마감\n근
- 거: 학사일정: 계절수업성적 제출 마감 (2026-07-21 ~ 2026-07-
- 21)\nhttps://www.sogang.ac.kr/ko/academic-support/calendar
-URL:https://www.sogang.ac.kr/ko/academic-support/calendar
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:dc7f3af55216d724ffd14867de6ac816@law-secretary
 DTSTAMP:20200101T000000Z
 DTSTART;VALUE=DATE:20260723
@@ -112,11 +99,6 @@ DESCRIPTION:[서강대 학사일정] 3\,4학년 수강신청\n근거: 학
  sogang.ac.kr/ko/academic-support/calendar
 URL:https://www.sogang.ac.kr/ko/academic-support/calendar
 TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:오늘 3\,4학년 수강신청
-TRIGGER:PT9H
-END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:578c2a7657f2d69e9a31186e78c39802@law-secretary
@@ -1584,11 +1566,6 @@ URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1601&s
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:D-1 리걸클리닉3(법원) 실무수습 종료
-TRIGGER:-PT15H
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
 DESCRIPTION:오늘 리걸클리닉3(법원) 실무수습 종료
 TRIGGER:PT9H
 END:VALARM
@@ -1731,11 +1708,6 @@ URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1601&s
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:D-1 등록금 고지서 출력 시작
-TRIGGER:-P1D
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
 DESCRIPTION:오늘 등록금 고지서 출력 시작
 TRIGGER:-PT1H
 END:VALARM
@@ -1755,11 +1727,6 @@ DESCRIPTION:[학사공지] 2026학년도 2학기 재학생 등록금 납부
 URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1601&s
  iteId=lawschool&pkid=938989
 TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:D-1 장학금 수혜자 발표
-TRIGGER:-P1D
-END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:오늘 장학금 수혜자 발표
@@ -2579,11 +2546,6 @@ DESCRIPTION:[일반공지] 2026년 을지연습 연계 공습 대비 민방
 URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1602&s
  iteId=lawschool&pkid=938952
 TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:오늘 민방위훈련 (전학생·교직원)
-TRIGGER:-PT1H
-END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:9f1ef84bb93377692eeceec43fdf3e49@law-secretary
@@ -2984,11 +2946,6 @@ DESCRIPTION:[실무수습] [학교추천] 대한법률구조공단 2026년
 URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=2706&s
  iteId=lawschool&pkid=937602
 TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:D-1 법률구조공단 실무수습(후기) 종료
-TRIGGER:-PT15H
-END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:오늘 법률구조공단 실무수습(후기) 종료
