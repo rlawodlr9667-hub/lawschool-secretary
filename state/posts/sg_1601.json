@@ -2,6 +2,14 @@
   "posts": [
     {
       "board_name": "학사공지",
+      "date": "2026-08-21",
+      "pinned": false,
+      "post_id": "939591",
+      "title": "2026학년도 2학기 Dean's List 안내",
+      "url": "https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1601&siteId=lawschool&pkid=939591"
+    },
+    {
+      "board_name": "학사공지",
       "date": "2026-08-20",
       "pinned": true,
       "post_id": "939552",
@@ -35,7 +43,7 @@
     {
       "board_name": "학사공지",
       "date": "2026-07-23",
-      "pinned": true,
+      "pinned": false,
       "post_id": "938682",
       "title": "2026학년도 2학기 법학전문대학원 장학금 신청 안내",
       "url": "https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1601&siteId=lawschool&pkid=938682"
@@ -153,5 +161,5 @@
       "url": "https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1601&siteId=lawschool&pkid=935645"
     }
   ],
-  "updated": "2026-08-21T14:17:14+09:00"
+  "updated": "2026-08-21T17:00:52+09:00"
 }
