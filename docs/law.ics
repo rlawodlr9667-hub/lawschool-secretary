@@ -1564,11 +1564,6 @@ DESCRIPTION:[학사공지] 2026년 2학기 <리걸클리닉3(법원)-2학
 URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1601&s
  iteId=lawschool&pkid=938297
 TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:오늘 리걸클리닉3(법원) 실무수습 종료
-TRIGGER:PT9H
-END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:dab1c37acc0e229299b26b827470c077@law-secretary
@@ -1648,11 +1643,6 @@ URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1601&s
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:D-3 등록금 납부 시작
-TRIGGER:-P2DT15H
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
 DESCRIPTION:D-1 등록금 납부 시작
 TRIGGER:-PT15H
 END:VALARM
@@ -1706,11 +1696,6 @@ DESCRIPTION:[학사공지] 2026학년도 2학기 재학생 등록금 납부
 URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1601&s
  iteId=lawschool&pkid=938989
 TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:오늘 등록금 고지서 출력 시작
-TRIGGER:-PT1H
-END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:45f164fb3e0e9ba50c5e806659f3a45d@law-secretary
@@ -1727,11 +1712,6 @@ DESCRIPTION:[학사공지] 2026학년도 2학기 재학생 등록금 납부
 URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1601&s
  iteId=lawschool&pkid=938989
 TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:오늘 장학금 수혜자 발표
-TRIGGER:-PT1H
-END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:465e9cc0a77230f4b40e4c339df35823@law-secretary
@@ -2350,11 +2330,6 @@ URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1601&s
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:D-3 검찰실무1 교재 배부
-TRIGGER:-P3D
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
 DESCRIPTION:D-1 검찰실무1 교재 배부
 TRIGGER:-P1D
 END:VALARM
@@ -2946,11 +2921,6 @@ DESCRIPTION:[실무수습] [학교추천] 대한법률구조공단 2026년
 URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=2706&s
  iteId=lawschool&pkid=937602
 TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:오늘 법률구조공단 실무수습(후기) 종료
-TRIGGER:PT9H
-END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:e6abff80bf5db2daeab5d1b80801cfc1@law-secretary
