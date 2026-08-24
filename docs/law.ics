@@ -114,11 +114,6 @@ URL:https://www.sogang.ac.kr/ko/academic-support/calendar
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:D-1 전학년 수강신청
-TRIGGER:-PT15H
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
 DESCRIPTION:오늘 전학년 수강신청
 TRIGGER:PT9H
 END:VALARM
@@ -1191,21 +1186,6 @@ TRIGGER:PT9H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:bcbdfb8d4a78643433053b9a1e765f7e@law-secretary
-DTSTAMP:20260726T134500Z
-DTSTART:20260526T000000Z
-DTEND:20260526T003000Z
-SEQUENCE:0
-SUMMARY:법학적성시험 원서접수 시작
-DESCRIPTION:[법학적성시험 공지사항] 2027학년도 법학적성시
- 험 시행계획 공고\n근거: 원 서 접 수 : 2026. 5. 26.(화) 09시
-  ~ 2026. 6. 4.(목) 18시까지\nhttps://leet.uwayapply.com/board/BoardVie
- w.htm?board_id=82&board_seqnum=86030
-URL:https://leet.uwayapply.com/board/BoardView.htm?board_id=82&board_seqnum
- =86030
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:56758be0475dee829673a29dde9f9c55@law-secretary
 DTSTAMP:20260726T134500Z
 DTSTART:20260604T090000Z
@@ -1338,21 +1318,6 @@ DESCRIPTION:[학사공지] 2026년 1학기 민사재판실무 기말평가
  /front/cmsboardview.do?bbsConfigFK=1601&siteId=lawschool&pkid=936070
 URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1601&s
  iteId=lawschool&pkid=936070
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:66a8becfab55a833d219ed43d770f726@law-secretary
-DTSTAMP:20260728T030000Z
-DTSTART:20260526T060000Z
-DTEND:20260526T063000Z
-SEQUENCE:0
-SUMMARY:검찰 직역 설명회
-DESCRIPTION:[학사공지] 2026 서강대학교 법학전문대학원 검
- 찰 직역 설명회 안내\n근거: 일시: 2026년 5월 26일(화) 15:00
- ~16:00\nhttps://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1
- 601&siteId=lawschool&pkid=936183
-URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1601&s
- iteId=lawschool&pkid=936183
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -1636,11 +1601,6 @@ DESCRIPTION:[학사공지] 2026학년도 2학기 재학생 등록금 납부
 URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1601&s
  iteId=lawschool&pkid=938989
 TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:오늘 등록금 납부 시작
-TRIGGER:PT9H
-END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:24ee906402408f49e5806ba9f729c903@law-secretary
@@ -1656,11 +1616,6 @@ DESCRIPTION:[학사공지] 2026학년도 2학기 재학생 등록금 납부
 URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1601&s
  iteId=lawschool&pkid=938989
 TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:D-1 등록금 납부 마감
-TRIGGER:-PT15H
-END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:오늘 등록금 납부 마감
@@ -2313,11 +2268,6 @@ DESCRIPTION:[학사공지] 2026학년도 2학기 <검찰실무1> 1회차
 URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1601&s
  iteId=lawschool&pkid=939552
 TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:오늘 검찰실무1 교재 배부
-TRIGGER:-PT1H
-END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:197eee5bd9fd60b8f5f162c02572dfa4@law-secretary
@@ -2333,11 +2283,6 @@ DESCRIPTION:[학사공지] 2026학년도 2학기 <검찰실무1> 1회차
 URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1601&s
  iteId=lawschool&pkid=939552
 TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:D-1 검찰실무1 1회차 수업
-TRIGGER:-P1D
-END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:오늘 검찰실무1 1회차 수업
