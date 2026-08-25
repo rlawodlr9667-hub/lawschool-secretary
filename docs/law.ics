@@ -112,11 +112,6 @@ DESCRIPTION:[서강대 학사일정] 전학년 수강신청\n근거: 학사
  ng.ac.kr/ko/academic-support/calendar
 URL:https://www.sogang.ac.kr/ko/academic-support/calendar
 TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:오늘 전학년 수강신청
-TRIGGER:PT9H
-END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:4ac546b94a9927c06cdd8dd37ae1c7a1@law-secretary
@@ -1616,11 +1611,6 @@ DESCRIPTION:[학사공지] 2026학년도 2학기 재학생 등록금 납부
 URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1601&s
  iteId=lawschool&pkid=938989
 TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:오늘 등록금 납부 마감
-TRIGGER:PT9H
-END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:5efe8a395c3f39359afb77949f4fd495@law-secretary
@@ -2283,11 +2273,6 @@ DESCRIPTION:[학사공지] 2026학년도 2학기 <검찰실무1> 1회차
 URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1601&s
  iteId=lawschool&pkid=939552
 TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:오늘 검찰실무1 1회차 수업
-TRIGGER:-PT1H
-END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:46ca5b58fc5d4461c149b6444f8498ad@law-secretary
