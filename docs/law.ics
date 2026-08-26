@@ -2290,11 +2290,6 @@ URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1601&s
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:D-1 형사재판실무 1회차 수업
-TRIGGER:-P1D
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
 DESCRIPTION:오늘 형사재판실무 1회차 수업
 TRIGGER:-PT1H
 END:VALARM
@@ -2313,11 +2308,6 @@ DESCRIPTION:[학사공지] 2026학년도 2학기 <형사재판실무> 1회
 URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1601&s
  iteId=lawschool&pkid=939733
 TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:D-1 형사재판실무 교재 배부
-TRIGGER:-P1D
-END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:오늘 형사재판실무 교재 배부
