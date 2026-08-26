@@ -2275,6 +2275,56 @@ URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1601&s
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:c123018e165024459a1e7303398f55c0@law-secretary
+DTSTAMP:20260826T043000Z
+DTSTART:20260827T060000Z
+DTEND:20260827T063000Z
+SEQUENCE:0
+SUMMARY:형사재판실무 1회차 수업
+DESCRIPTION:[학사공지] 2026학년도 2학기 <형사재판실무> 1회
+ 차 수업일(8/27) 및 교재 배부 안내\n근거: 1회차 수업일 : 
+ 2026년 8월 27일(목) 15:00~17:45\nhttps://lawschool.sogang.ac.kr/front/
+ cmsboardview.do?bbsConfigFK=1601&siteId=lawschool&pkid=939733
+URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1601&s
+ iteId=lawschool&pkid=939733
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:D-1 형사재판실무 1회차 수업
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:오늘 형사재판실무 1회차 수업
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:e4c79953247bf0493d5430c7b03e7deb@law-secretary
+DTSTAMP:20260826T043000Z
+DTSTART:20260827T013000Z
+DTEND:20260827T020000Z
+SEQUENCE:0
+SUMMARY:형사재판실무 교재 배부
+DESCRIPTION:[학사공지] 2026학년도 2학기 <형사재판실무> 1회
+ 차 수업일(8/27) 및 교재 배부 안내\n근거: 일시 : 2026년 8
+ 월 27일(목) 10:30 ~\nhttps://lawschool.sogang.ac.kr/front/cmsboardview.
+ do?bbsConfigFK=1601&siteId=lawschool&pkid=939733
+URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1601&s
+ iteId=lawschool&pkid=939733
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:D-1 형사재판실무 교재 배부
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:오늘 형사재판실무 교재 배부
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:46ca5b58fc5d4461c149b6444f8498ad@law-secretary
 DTSTAMP:20260728T030000Z
 DTSTART;VALUE=DATE:20260720

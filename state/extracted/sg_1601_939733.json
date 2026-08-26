@@ -1,0 +1,34 @@
+{
+  "board": "학사공지",
+  "events": [
+    {
+      "all_day": false,
+      "confidence": "high",
+      "evidence": "1회차 수업일 : 2026년 8월 27일(목) 15:00~17:45",
+      "slug": "class-start",
+      "start_date": "2026-08-27",
+      "start_time": "15:00",
+      "summary": "형사재판실무 1회차 수업",
+      "uid": "c123018e165024459a1e7303398f55c0@law-secretary"
+    },
+    {
+      "all_day": false,
+      "confidence": "high",
+      "evidence": "일시 : 2026년 8월 27일(목) 10:30 ~",
+      "slug": "textbook-distribution",
+      "start_date": "2026-08-27",
+      "start_time": "10:30",
+      "summary": "형사재판실무 교재 배부",
+      "uid": "e4c79953247bf0493d5430c7b03e7deb@law-secretary"
+    }
+  ],
+  "extracted_at": "2026-08-26T13:30:00+09:00",
+  "needs_manual": false,
+  "no_events_reason": null,
+  "post_id": "sg_1601:939733",
+  "posted_date": "2026-08-26",
+  "revision": 0,
+  "tab": "sogang",
+  "title": "2026학년도 2학기 <형사재판실무> 1회차 수업일(8/27) 및 교재 배부 안내",
+  "url": "https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1601&siteId=lawschool&pkid=939733"
+}
