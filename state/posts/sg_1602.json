@@ -2,6 +2,30 @@
   "posts": [
     {
       "board_name": "일반공지",
+      "date": "2026-08-28",
+      "pinned": false,
+      "post_id": "939906",
+      "title": "광화문 통일축제 <UniKorea Street Festival 2026>에 초청합니다! 9.2(수)~5(토)",
+      "url": "https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1602&siteId=lawschool&pkid=939906"
+    },
+    {
+      "board_name": "일반공지",
+      "date": "2026-08-28",
+      "pinned": false,
+      "post_id": "939905",
+      "title": "[한국사이버안보학회] 2026 사이버안보 논문 공모전 개최 안내",
+      "url": "https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1602&siteId=lawschool&pkid=939905"
+    },
+    {
+      "board_name": "일반공지",
+      "date": "2026-08-28",
+      "pinned": false,
+      "post_id": "939904",
+      "title": "학술등재지 「국제법무」 제18집 제2호 원고모집 안내",
+      "url": "https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1602&siteId=lawschool&pkid=939904"
+    },
+    {
+      "board_name": "일반공지",
       "date": "2026-08-27",
       "pinned": false,
       "post_id": "939779",
@@ -233,5 +257,5 @@
       "url": "https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1602&siteId=lawschool&pkid=938296"
     }
   ],
-  "updated": "2026-08-28T08:45:26+09:00"
+  "updated": "2026-08-28T20:13:32+09:00"
 }
