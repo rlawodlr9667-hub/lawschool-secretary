@@ -1,0 +1,24 @@
+{
+  "board": "일반공지",
+  "events": [
+    {
+      "all_day": true,
+      "confidence": "high",
+      "evidence": "1.논문 접수마감: 2026년10월12일 (논문 발행일: 2026년11월30일)",
+      "slug": "apply-close",
+      "start_date": "2026-10-12",
+      "start_time": null,
+      "summary": "국제법무 논문 접수 마감",
+      "uid": "8e517d36da5eab1a7bd5db1764e7e6be@law-secretary"
+    }
+  ],
+  "extracted_at": "2026-08-28T20:14:51+09:00",
+  "needs_manual": false,
+  "no_events_reason": null,
+  "post_id": "sg_1602:939904",
+  "posted_date": "2026-08-28",
+  "revision": 0,
+  "tab": "sogang",
+  "title": "학술등재지 「국제법무」 제18집 제2호 원고모집 안내",
+  "url": "https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1602&siteId=lawschool&pkid=939904"
+}

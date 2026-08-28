@@ -1,0 +1,34 @@
+{
+  "board": "일반공지",
+  "events": [
+    {
+      "all_day": true,
+      "confidence": "high",
+      "evidence": "4. 접수 기간 : 2026년 09월 28일(월) ~ 10월 12일(금)",
+      "slug": "apply-open",
+      "start_date": "2026-09-28",
+      "start_time": null,
+      "summary": "사이버안보 논문공모전 접수 시작",
+      "uid": "afdf02c395e791640fa6e4283cf3fcf6@law-secretary"
+    },
+    {
+      "all_day": false,
+      "confidence": "high",
+      "evidence": "* 제출마감시간 : 2026년10월12일(금) 23:59 준수 부탁드립니다.",
+      "slug": "apply-close",
+      "start_date": "2026-10-12",
+      "start_time": "23:59",
+      "summary": "사이버안보 논문공모전 접수 마감",
+      "uid": "dc778294ffd38de62875428fda0c35ab@law-secretary"
+    }
+  ],
+  "extracted_at": "2026-08-28T20:14:51+09:00",
+  "needs_manual": false,
+  "no_events_reason": null,
+  "post_id": "sg_1602:939905",
+  "posted_date": "2026-08-28",
+  "revision": 0,
+  "tab": "sogang",
+  "title": "[한국사이버안보학회] 2026 사이버안보 논문 공모전 개최 안내",
+  "url": "https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1602&siteId=lawschool&pkid=939905"
+}

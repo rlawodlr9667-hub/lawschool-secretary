@@ -2641,6 +2641,96 @@ TRIGGER:-PT1H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:8e517d36da5eab1a7bd5db1764e7e6be@law-secretary
+DTSTAMP:20260828T111451Z
+DTSTART;VALUE=DATE:20261012
+DTEND;VALUE=DATE:20261013
+SEQUENCE:0
+SUMMARY:국제법무 논문 접수 마감
+DESCRIPTION:[일반공지] 학술등재지 「국제법무」 제18집 제2
+ 호 원고모집 안내\n근거: 1.논문 접수마감: 2026년10월12일 
+ (논문 발행일: 2026년11월30일)\nhttps://lawschool.sogang.ac.kr/fron
+ t/cmsboardview.do?bbsConfigFK=1602&siteId=lawschool&pkid=939904
+URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1602&s
+ iteId=lawschool&pkid=939904
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:D-3 국제법무 논문 접수 마감
+TRIGGER:-P2DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:D-1 국제법무 논문 접수 마감
+TRIGGER:-PT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:오늘 국제법무 논문 접수 마감
+TRIGGER:PT9H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:afdf02c395e791640fa6e4283cf3fcf6@law-secretary
+DTSTAMP:20260828T111451Z
+DTSTART;VALUE=DATE:20260928
+DTEND;VALUE=DATE:20260929
+SEQUENCE:0
+SUMMARY:사이버안보 논문공모전 접수 시작
+DESCRIPTION:[일반공지] [한국사이버안보학회] 2026 사이버안
+ 보 논문 공모전 개최 안내\n근거: 4. 접수 기간 : 2026년 09
+ 월 28일(월) ~ 10월 12일(금)\nhttps://lawschool.sogang.ac.kr/front/cm
+ sboardview.do?bbsConfigFK=1602&siteId=lawschool&pkid=939905
+URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1602&s
+ iteId=lawschool&pkid=939905
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:D-3 사이버안보 논문공모전 접수 시작
+TRIGGER:-P2DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:D-1 사이버안보 논문공모전 접수 시작
+TRIGGER:-PT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:오늘 사이버안보 논문공모전 접수 시작
+TRIGGER:PT9H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:dc778294ffd38de62875428fda0c35ab@law-secretary
+DTSTAMP:20260828T111451Z
+DTSTART:20261012T145900Z
+DTEND:20261012T152900Z
+SEQUENCE:0
+SUMMARY:사이버안보 논문공모전 접수 마감
+DESCRIPTION:[일반공지] [한국사이버안보학회] 2026 사이버안
+ 보 논문 공모전 개최 안내\n근거: * 제출마감시간 : 2026년
+ 10월12일(금) 23:59 준수 부탁드립니다.\nhttps://lawschool.sogang
+ .ac.kr/front/cmsboardview.do?bbsConfigFK=1602&siteId=lawschool&pkid=939905
+URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1602&s
+ iteId=lawschool&pkid=939905
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:D-3 사이버안보 논문공모전 접수 마감
+TRIGGER:-P3D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:D-1 사이버안보 논문공모전 접수 마감
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:오늘 사이버안보 논문공모전 접수 마감
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:175e43c2b66bd322b24cda59b28371cf@law-secretary
 DTSTAMP:20260729T030000Z
 DTSTART;VALUE=DATE:20260608
