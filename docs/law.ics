@@ -1794,11 +1794,6 @@ URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1601&s
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:D-3 수강과목 확인·변경 시작
-TRIGGER:-P3D
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
 DESCRIPTION:D-1 수강과목 확인·변경 시작
 TRIGGER:-P1D
 END:VALARM
@@ -2033,11 +2028,6 @@ DESCRIPTION:[학사공지] 2026학년도 2학기 수강신청 안내\n근
 URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1601&s
  iteId=lawschool&pkid=938999
 TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:D-3 수강과목 확인·변경 시작
-TRIGGER:-P3D
-END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:D-1 수강과목 확인·변경 시작
@@ -2303,11 +2293,6 @@ DESCRIPTION:[학사공지] 2026학년도 2학기 수강신청 가능인원
 URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1601&s
  iteId=lawschool&pkid=939821
 TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:D-3 형사실무연습 수강인원 변경 적용
-TRIGGER:-P3D
-END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:D-1 형사실무연습 수강인원 변경 적용
