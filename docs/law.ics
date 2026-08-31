@@ -127,11 +127,6 @@ URL:https://www.sogang.ac.kr/ko/academic-support/calendar
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:D-1 개강
-TRIGGER:-PT15H
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
 DESCRIPTION:오늘 개강
 TRIGGER:PT9H
 END:VALARM
@@ -148,11 +143,6 @@ DESCRIPTION:[서강대 학사일정] 수강과목 확인 및 변경\n근거
  https://www.sogang.ac.kr/ko/academic-support/calendar
 URL:https://www.sogang.ac.kr/ko/academic-support/calendar
 TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:D-1 수강과목 확인 및 변경 시작
-TRIGGER:-PT15H
-END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:오늘 수강과목 확인 및 변경 시작
@@ -1339,22 +1329,6 @@ URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1601&s
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:1c4a0978ff4c508b090842fe0c568972@law-secretary
-DTSTAMP:20260727T133500Z
-DTSTART:20260602T000000Z
-DTEND:20260602T003000Z
-SEQUENCE:0
-SUMMARY:소득분위 산정 신청 시작
-DESCRIPTION:[학사공지] 2026-2학기 법전원 장학금 신청을 위
- 한 소득분위 산정 신청 안내 (26.6.2.~26.6.30.)\n근거: 신청
- 기간: 2026. 6. 2.(화) 9:00 ~ 2026. 6. 30.(화) 18:00 (29일간)\nhttps:
- //lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1601&siteId=law
- school&pkid=936670
-URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1601&s
- iteId=lawschool&pkid=936670
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:ff99bd6748ab8faa1e1ace5158f4cae4@law-secretary
 DTSTAMP:20260727T133500Z
 DTSTART:20260630T090000Z
@@ -1366,22 +1340,6 @@ DESCRIPTION:[학사공지] 2026-2학기 법전원 장학금 신청을 위
  기간: 2026. 6. 2.(화) 9:00 ~ 2026. 6. 30.(화) 18:00 (29일간)\nhttps:
  //lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1601&siteId=law
  school&pkid=936670
-URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1601&s
- iteId=lawschool&pkid=936670
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:865d1062cb0add03abdc96f78816f0b4@law-secretary
-DTSTAMP:20260727T133500Z
-DTSTART:20260602T000000Z
-DTEND:20260602T003000Z
-SEQUENCE:0
-SUMMARY:서류제출·가구원동의 시작
-DESCRIPTION:[학사공지] 2026-2학기 법전원 장학금 신청을 위
- 한 소득분위 산정 신청 안내 (26.6.2.~26.6.30.)\n근거: 신청
- 기간: 2026. 6. 2.(화) 9:00 ~ 2026. 7. 7.(화) 18:00 (36일간)\nhttps:/
- /lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1601&siteId=laws
- chool&pkid=936670
 URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1601&s
  iteId=lawschool&pkid=936670
 TRANSP:TRANSPARENT
@@ -1647,11 +1605,6 @@ DESCRIPTION:[학사공지] 2026학년도 2학기 재학생 등록금 납부
 URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1601&s
  iteId=lawschool&pkid=938989
 TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:D-1 2학기 개강
-TRIGGER:-PT15H
-END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:오늘 2학기 개강
