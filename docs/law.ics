@@ -125,11 +125,6 @@ DESCRIPTION:[서강대 학사일정] 개강\n근거: 학사일정: 개강 (
  endar
 URL:https://www.sogang.ac.kr/ko/academic-support/calendar
 TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:오늘 개강
-TRIGGER:PT9H
-END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:0993b18e0411bc4d355d433ee05a616b@law-secretary
@@ -143,11 +138,6 @@ DESCRIPTION:[서강대 학사일정] 수강과목 확인 및 변경\n근거
  https://www.sogang.ac.kr/ko/academic-support/calendar
 URL:https://www.sogang.ac.kr/ko/academic-support/calendar
 TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:오늘 수강과목 확인 및 변경 시작
-TRIGGER:PT9H
-END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:942a4e753692460ae94b703f0f3d0054@law-secretary
@@ -1605,11 +1595,6 @@ DESCRIPTION:[학사공지] 2026학년도 2학기 재학생 등록금 납부
 URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1601&s
  iteId=lawschool&pkid=938989
 TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:오늘 2학기 개강
-TRIGGER:PT9H
-END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fd2dee62359da0a2bfce43cdcfc1f050@law-secretary
@@ -1745,11 +1730,6 @@ DESCRIPTION:[학사공지] 2026학년도 2학기 재학생 등록금 납부
 URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1601&s
  iteId=lawschool&pkid=938989
 TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:D-1 수강과목 확인·변경 시작
-TRIGGER:-P1D
-END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:오늘 수강과목 확인·변경 시작
@@ -1981,11 +1961,6 @@ DESCRIPTION:[학사공지] 2026학년도 2학기 수강신청 안내\n근
 URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1601&s
  iteId=lawschool&pkid=938999
 TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:D-1 수강과목 확인·변경 시작
-TRIGGER:-P1D
-END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:오늘 수강과목 확인·변경 시작
@@ -2248,11 +2223,6 @@ URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1601&s
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:D-1 형사실무연습 수강인원 변경 적용
-TRIGGER:-P1D
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
 DESCRIPTION:오늘 형사실무연습 수강인원 변경 적용
 TRIGGER:-PT1H
 END:VALARM
@@ -2319,11 +2289,6 @@ DESCRIPTION:[일반공지] [홍진기법률연구재단] 2026년 하반기
 URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1602&s
  iteId=lawschool&pkid=938683
 TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:D-3 유민펠로우 신청 마감
-TRIGGER:-P2DT15H
-END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:D-1 유민펠로우 신청 마감
@@ -2487,11 +2452,6 @@ URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1602&s
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:D-3 NKDB 아카데미 수강 신청 마감
-TRIGGER:-P3D
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
 DESCRIPTION:D-1 NKDB 아카데미 수강 신청 마감
 TRIGGER:-P1D
 END:VALARM
@@ -2547,11 +2507,6 @@ DESCRIPTION:[일반공지] NKDB 남북사회통합교육원 9월 개강 아
 URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1602&s
  iteId=lawschool&pkid=939779
 TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:D-3 NKDB 아카데미 모집 마감
-TRIGGER:-P3D
-END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:D-1 NKDB 아카데미 모집 마감
