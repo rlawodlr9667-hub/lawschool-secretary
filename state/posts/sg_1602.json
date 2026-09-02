@@ -2,6 +2,14 @@
   "posts": [
     {
       "board_name": "일반공지",
+      "date": "2026-09-02",
+      "pinned": false,
+      "post_id": "940180",
+      "title": "[재안내]2026년 9월 12일 세계한인법률가회(IAKL) 멘토링 행사 안내",
+      "url": "https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1602&siteId=lawschool&pkid=940180"
+    },
+    {
+      "board_name": "일반공지",
       "date": "2026-08-28",
       "pinned": false,
       "post_id": "939906",
@@ -257,5 +265,5 @@
       "url": "https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1602&siteId=lawschool&pkid=938296"
     }
   ],
-  "updated": "2026-09-02T08:59:49+09:00"
+  "updated": "2026-09-02T13:18:06+09:00"
 }
