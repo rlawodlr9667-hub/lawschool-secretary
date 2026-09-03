@@ -2,6 +2,14 @@
   "posts": [
     {
       "board_name": "일반공지",
+      "date": "2026-09-03",
+      "pinned": false,
+      "post_id": "940338",
+      "title": "제6회 「부산법조 농문공모전」 안내",
+      "url": "https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1602&siteId=lawschool&pkid=940338"
+    },
+    {
+      "board_name": "일반공지",
       "date": "2026-09-02",
       "pinned": false,
       "post_id": "940180",
@@ -265,5 +273,5 @@
       "url": "https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1602&siteId=lawschool&pkid=938296"
     }
   ],
-  "updated": "2026-09-03T13:13:18+09:00"
+  "updated": "2026-09-03T18:08:03+09:00"
 }
