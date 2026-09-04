@@ -153,11 +153,6 @@ URL:https://www.sogang.ac.kr/ko/academic-support/calendar
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:D-3 수강과목 확인 및 변경 마감
-TRIGGER:-P2DT15H
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
 DESCRIPTION:D-1 수강과목 확인 및 변경 마감
 TRIGGER:-PT15H
 END:VALARM
@@ -1715,11 +1710,6 @@ URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1601&s
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:D-3 수강과목 확인·변경 마감
-TRIGGER:-P3D
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
 DESCRIPTION:D-1 수강과목 확인·변경 마감
 TRIGGER:-P1D
 END:VALARM
@@ -1939,11 +1929,6 @@ DESCRIPTION:[학사공지] 2026학년도 2학기 수강신청 안내\n근
 URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1601&s
  iteId=lawschool&pkid=938999
 TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:D-3 수강과목 확인·변경 마감
-TRIGGER:-P3D
-END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:D-1 수강과목 확인·변경 마감
@@ -2242,11 +2227,6 @@ DESCRIPTION:[일반공지] [홍진기법률연구재단] 2026년 하반기
 URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1602&s
  iteId=lawschool&pkid=938683
 TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:오늘 유민펠로우 신청 마감
-TRIGGER:PT9H
-END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:65a7fd40e6546aa9572cde4de063a075@law-secretary
@@ -2398,11 +2378,6 @@ DESCRIPTION:[일반공지] [NKDB 남북사회통합교육원] 9월 아카
 URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1602&s
  iteId=lawschool&pkid=939419
 TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:오늘 NKDB 아카데미 수강 신청 마감
-TRIGGER:-PT1H
-END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:4b5ec0df9ff3d144b22b1d68fad0653b@law-secretary
@@ -2450,11 +2425,6 @@ DESCRIPTION:[일반공지] NKDB 남북사회통합교육원 9월 개강 아
 URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1602&s
  iteId=lawschool&pkid=939779
 TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:오늘 NKDB 아카데미 모집 마감
-TRIGGER:-PT1H
-END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:8e517d36da5eab1a7bd5db1764e7e6be@law-secretary
@@ -2590,11 +2560,6 @@ DESCRIPTION:[일반공지] [헌법재판연구원] 제15회 국제학술심
 URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1602&s
  iteId=lawschool&pkid=940364
 TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:오늘 헌법재판연구원 국제심포지엄
-TRIGGER:-PT1H
-END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:c344c4910170983e21a06f8dccf7c7c9@law-secretary
@@ -2610,11 +2575,6 @@ DESCRIPTION:[일반공지] [법무법인(유) 율촌] 2026년 동계 자유
 URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1602&s
  iteId=lawschool&pkid=940393
 TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:오늘 율촌 자유인턴 조기접수 시작
-TRIGGER:-PT1H
-END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:b913316950fa376719a4211ea3f6df88@law-secretary
