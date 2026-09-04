@@ -1,0 +1,24 @@
+{
+  "board": "일반공지",
+  "events": [
+    {
+      "all_day": false,
+      "confidence": "high",
+      "evidence": "일 시: 9. 4.(금) 13:30~17:40",
+      "slug": "symposium",
+      "start_date": "2026-09-04",
+      "start_time": "13:30",
+      "summary": "헌법재판연구원 국제심포지엄",
+      "uid": "e7fe0bd5f359a312276966f893a7abd3@law-secretary"
+    }
+  ],
+  "extracted_at": "2026-09-04T13:20:19+09:00",
+  "needs_manual": false,
+  "no_events_reason": null,
+  "post_id": "sg_1602:940364",
+  "posted_date": "2026-09-04",
+  "revision": 0,
+  "tab": "sogang",
+  "title": "[헌법재판연구원] 제15회 국제학술심포지엄 안내",
+  "url": "https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1602&siteId=lawschool&pkid=940364"
+}
