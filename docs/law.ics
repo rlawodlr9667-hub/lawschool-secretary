@@ -2597,6 +2597,116 @@ TRIGGER:-PT1H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:c344c4910170983e21a06f8dccf7c7c9@law-secretary
+DTSTAMP:20260904T090111Z
+DTSTART:20260904T000000Z
+DTEND:20260904T003000Z
+SEQUENCE:0
+SUMMARY:율촌 자유인턴 조기접수 시작
+DESCRIPTION:[일반공지] [법무법인(유) 율촌] 2026년 동계 자유
+ 인턴제 채용 공고\n근거: - 조기마감일시(Early Closing): 9. 4
+ .(금) 09:00 am ~ 10. 6.(화) 14:00 pm\nhttps://lawschool.sogang.ac.kr/fro
+ nt/cmsboardview.do?bbsConfigFK=1602&siteId=lawschool&pkid=940393
+URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1602&s
+ iteId=lawschool&pkid=940393
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:오늘 율촌 자유인턴 조기접수 시작
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:b913316950fa376719a4211ea3f6df88@law-secretary
+DTSTAMP:20260904T090111Z
+DTSTART:20261006T050000Z
+DTEND:20261006T053000Z
+SEQUENCE:0
+SUMMARY:율촌 자유인턴 조기접수 마감
+DESCRIPTION:[일반공지] [법무법인(유) 율촌] 2026년 동계 자유
+ 인턴제 채용 공고\n근거: - 조기마감일시(Early Closing): 9. 4
+ .(금) 09:00 am ~ 10. 6.(화) 14:00 pm\nhttps://lawschool.sogang.ac.kr/fro
+ nt/cmsboardview.do?bbsConfigFK=1602&siteId=lawschool&pkid=940393
+URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1602&s
+ iteId=lawschool&pkid=940393
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:D-3 율촌 자유인턴 조기접수 마감
+TRIGGER:-P3D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:D-1 율촌 자유인턴 조기접수 마감
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:오늘 율촌 자유인턴 조기접수 마감
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:b84201d5fcaa35d0520779263a73c0c1@law-secretary
+DTSTAMP:20260904T090111Z
+DTSTART:20261007T000000Z
+DTEND:20261007T003000Z
+SEQUENCE:0
+SUMMARY:율촌 자유인턴 정규접수 시작
+DESCRIPTION:[일반공지] [법무법인(유) 율촌] 2026년 동계 자유
+ 인턴제 채용 공고\n근거: - 정규마감일시: 10. 7.(수) 09:00 a
+ m ~ 11. 9.(월) 14:00 pm\nhttps://lawschool.sogang.ac.kr/front/cmsboardvie
+ w.do?bbsConfigFK=1602&siteId=lawschool&pkid=940393
+URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1602&s
+ iteId=lawschool&pkid=940393
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:D-3 율촌 자유인턴 정규접수 시작
+TRIGGER:-P3D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:D-1 율촌 자유인턴 정규접수 시작
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:오늘 율촌 자유인턴 정규접수 시작
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:b7ba6f67a1b47664f38f54ffffb48304@law-secretary
+DTSTAMP:20260904T090111Z
+DTSTART:20261109T050000Z
+DTEND:20261109T053000Z
+SEQUENCE:0
+SUMMARY:율촌 자유인턴 정규접수 마감
+DESCRIPTION:[일반공지] [법무법인(유) 율촌] 2026년 동계 자유
+ 인턴제 채용 공고\n근거: - 정규마감일시: 10. 7.(수) 09:00 a
+ m ~ 11. 9.(월) 14:00 pm\nhttps://lawschool.sogang.ac.kr/front/cmsboardvie
+ w.do?bbsConfigFK=1602&siteId=lawschool&pkid=940393
+URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1602&s
+ iteId=lawschool&pkid=940393
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:D-3 율촌 자유인턴 정규접수 마감
+TRIGGER:-P3D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:D-1 율촌 자유인턴 정규접수 마감
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:오늘 율촌 자유인턴 정규접수 마감
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:175e43c2b66bd322b24cda59b28371cf@law-secretary
 DTSTAMP:20260729T030000Z
 DTSTART;VALUE=DATE:20260608

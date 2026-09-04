@@ -1,0 +1,54 @@
+{
+  "board": "일반공지",
+  "events": [
+    {
+      "all_day": false,
+      "confidence": "high",
+      "evidence": "- 조기마감일시(Early Closing): 9. 4.(금) 09:00 am ~ 10. 6.(화) 14:00 pm",
+      "slug": "yulchon-early-apply-start",
+      "start_date": "2026-09-04",
+      "start_time": "09:00",
+      "summary": "율촌 자유인턴 조기접수 시작",
+      "uid": "c344c4910170983e21a06f8dccf7c7c9@law-secretary"
+    },
+    {
+      "all_day": false,
+      "confidence": "high",
+      "evidence": "- 조기마감일시(Early Closing): 9. 4.(금) 09:00 am ~ 10. 6.(화) 14:00 pm",
+      "slug": "yulchon-early-apply-close",
+      "start_date": "2026-10-06",
+      "start_time": "14:00",
+      "summary": "율촌 자유인턴 조기접수 마감",
+      "uid": "b913316950fa376719a4211ea3f6df88@law-secretary"
+    },
+    {
+      "all_day": false,
+      "confidence": "high",
+      "evidence": "- 정규마감일시: 10. 7.(수) 09:00 am ~ 11. 9.(월) 14:00 pm",
+      "slug": "yulchon-regular-apply-start",
+      "start_date": "2026-10-07",
+      "start_time": "09:00",
+      "summary": "율촌 자유인턴 정규접수 시작",
+      "uid": "b84201d5fcaa35d0520779263a73c0c1@law-secretary"
+    },
+    {
+      "all_day": false,
+      "confidence": "high",
+      "evidence": "- 정규마감일시: 10. 7.(수) 09:00 am ~ 11. 9.(월) 14:00 pm",
+      "slug": "yulchon-regular-apply-close",
+      "start_date": "2026-11-09",
+      "start_time": "14:00",
+      "summary": "율촌 자유인턴 정규접수 마감",
+      "uid": "b7ba6f67a1b47664f38f54ffffb48304@law-secretary"
+    }
+  ],
+  "extracted_at": "2026-09-04T18:01:11+09:00",
+  "needs_manual": false,
+  "no_events_reason": null,
+  "post_id": "sg_1602:940393",
+  "posted_date": "2026-09-04",
+  "revision": 0,
+  "tab": "sogang",
+  "title": "[법무법인(유) 율촌] 2026년 동계 자유인턴제 채용 공고",
+  "url": "https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1602&siteId=lawschool&pkid=940393"
+}
