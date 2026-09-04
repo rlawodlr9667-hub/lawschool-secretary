@@ -2,6 +2,14 @@
   "posts": [
     {
       "board_name": "일반공지",
+      "date": "2026-09-04",
+      "pinned": false,
+      "post_id": "940364",
+      "title": "[헌법재판연구원] 제15회 국제학술심포지엄 안내",
+      "url": "https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1602&siteId=lawschool&pkid=940364"
+    },
+    {
+      "board_name": "일반공지",
       "date": "2026-09-03",
       "pinned": false,
       "post_id": "940338",
@@ -273,5 +281,5 @@
       "url": "https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1602&siteId=lawschool&pkid=938296"
     }
   ],
-  "updated": "2026-09-04T08:58:21+09:00"
+  "updated": "2026-09-04T13:19:45+09:00"
 }
