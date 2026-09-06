@@ -10,32 +10,6 @@ X-WR-TIMEZONE:Asia/Seoul
 REFRESH-INTERVAL;VALUE=DURATION:PT1H
 X-PUBLISHED-TTL:PT1H
 BEGIN:VEVENT
-UID:dc7f3af55216d724ffd14867de6ac816@law-secretary
-DTSTAMP:20200101T000000Z
-DTSTART;VALUE=DATE:20260723
-DTEND;VALUE=DATE:20260724
-SEQUENCE:0
-SUMMARY:2026학년도 2학기 휴복학 신청 시작
-DESCRIPTION:[서강대 학사일정] 2026학년도 2학기 휴복학 신청
- \n근거: 학사일정: 2026학년도 2학기 휴복학 신청 (2026-07-23
-  ~ 2026-08-07)\nhttps://www.sogang.ac.kr/ko/academic-support/calendar
-URL:https://www.sogang.ac.kr/ko/academic-support/calendar
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:e07894ff30dcef47ce0bb9466eba0d75@law-secretary
-DTSTAMP:20200101T000000Z
-DTSTART;VALUE=DATE:20260807
-DTEND;VALUE=DATE:20260808
-SEQUENCE:0
-SUMMARY:2026학년도 2학기 휴복학 신청 마감
-DESCRIPTION:[서강대 학사일정] 2026학년도 2학기 휴복학 신청
- \n근거: 학사일정: 2026학년도 2학기 휴복학 신청 (2026-07-23
-  ~ 2026-08-07)\nhttps://www.sogang.ac.kr/ko/academic-support/calendar
-URL:https://www.sogang.ac.kr/ko/academic-support/calendar
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:c913280418550ffe7ca6c34c263526f3@law-secretary
 DTSTAMP:20200101T000000Z
 DTSTART;VALUE=DATE:20260812
@@ -151,11 +125,6 @@ DESCRIPTION:[서강대 학사일정] 수강과목 확인 및 변경\n근거
  https://www.sogang.ac.kr/ko/academic-support/calendar
 URL:https://www.sogang.ac.kr/ko/academic-support/calendar
 TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:D-1 수강과목 확인 및 변경 마감
-TRIGGER:-PT15H
-END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:오늘 수강과목 확인 및 변경 마감
@@ -1710,11 +1679,6 @@ URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1601&s
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:D-1 수강과목 확인·변경 마감
-TRIGGER:-P1D
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
 DESCRIPTION:오늘 수강과목 확인·변경 마감
 TRIGGER:-PT1H
 END:VALARM
@@ -1929,11 +1893,6 @@ DESCRIPTION:[학사공지] 2026학년도 2학기 수강신청 안내\n근
 URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1601&s
  iteId=lawschool&pkid=938999
 TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:D-1 수강과목 확인·변경 마감
-TRIGGER:-P1D
-END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:오늘 수강과목 확인·변경 마감
@@ -2665,21 +2624,6 @@ ACTION:DISPLAY
 DESCRIPTION:오늘 율촌 자유인턴 정규접수 마감
 TRIGGER:-PT1H
 END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:175e43c2b66bd322b24cda59b28371cf@law-secretary
-DTSTAMP:20260729T030000Z
-DTSTART;VALUE=DATE:20260608
-DTEND;VALUE=DATE:20260609
-SEQUENCE:0
-SUMMARY:어필 실무수습 접수 시작
-DESCRIPTION:[실무수습] [공익법센터 어필] 실무수습 모집 공
- 고(~6.26.(금) 18:00)\n근거: 1) 서류 온라인 접수 : 6/8(월) ~ 6/
- 26(금) 오후6시\nhttps://lawschool.sogang.ac.kr/front/cmsboardview.do?b
- bsConfigFK=2706&siteId=lawschool&pkid=937133
-URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=2706&s
- iteId=lawschool&pkid=937133
-TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:816f4de76bec901b378acc2aab9647aa@law-secretary
