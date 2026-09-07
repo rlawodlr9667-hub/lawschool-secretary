@@ -2,6 +2,14 @@
   "posts": [
     {
       "board_name": "실무수습",
+      "date": "2026-09-07",
+      "pinned": false,
+      "post_id": "940427",
+      "title": "[법무법인(유한)로고스] 2027년 동계 법학전문대학원 실무수습 모집",
+      "url": "https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=2706&siteId=lawschool&pkid=940427"
+    },
+    {
+      "board_name": "실무수습",
       "date": "2026-07-08",
       "pinned": false,
       "post_id": "938306",
@@ -89,5 +97,5 @@
       "url": "https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=2706&siteId=lawschool&pkid=906126"
     }
   ],
-  "updated": "2026-09-07T08:46:01+09:00"
+  "updated": "2026-09-07T13:23:43+09:00"
 }
