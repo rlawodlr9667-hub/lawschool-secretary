@@ -3027,4 +3027,157 @@ URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=2706&s
  iteId=lawschool&pkid=938306
 TRANSP:TRANSPARENT
 END:VEVENT
+BEGIN:VEVENT
+UID:53ec7c19cb8511e3fb3f3116d8c8b59d@law-secretary
+DTSTAMP:20260907T050000Z
+DTSTART:20260913T150000Z
+DTEND:20260913T153000Z
+SEQUENCE:0
+SUMMARY:로고스 실무수습 지원 시작
+DESCRIPTION:[실무수습] [법무법인(유한)로고스] 2027년 동계 
+ 법학전문대학원 실무수습 모집\n근거: 4. 지원기한 : 2026.
+  9. 14.(월) 00:00 부터 2026. 10. 2.(금) 24:00까지\nhttps://lawschool
+ .sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=2706&siteId=lawschool&pkid
+ =940427
+URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=2706&s
+ iteId=lawschool&pkid=940427
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:D-3 로고스 실무수습 지원 시작
+TRIGGER:-P3D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:D-1 로고스 실무수습 지원 시작
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:오늘 로고스 실무수습 지원 시작
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:56b9f7f724405404bbca89caf7f0be5e@law-secretary
+DTSTAMP:20260907T050000Z
+DTSTART:20261002T145900Z
+DTEND:20261002T152900Z
+SEQUENCE:0
+SUMMARY:로고스 실무수습 지원 마감
+DESCRIPTION:[실무수습] [법무법인(유한)로고스] 2027년 동계 
+ 법학전문대학원 실무수습 모집\n근거: 4. 지원기한 : 2026.
+  9. 14.(월) 00:00 부터 2026. 10. 2.(금) 24:00까지\nhttps://lawschool
+ .sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=2706&siteId=lawschool&pkid
+ =940427
+URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=2706&s
+ iteId=lawschool&pkid=940427
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:D-3 로고스 실무수습 지원 마감
+TRIGGER:-P3D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:D-1 로고스 실무수습 지원 마감
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:오늘 로고스 실무수습 지원 마감
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:e24911569621c8b46647a9441e7317fb@law-secretary
+DTSTAMP:20260907T050000Z
+DTSTART;VALUE=DATE:20261026
+DTEND;VALUE=DATE:20261027
+SEQUENCE:0
+SUMMARY:로고스 실무수습 합격자 발표
+DESCRIPTION:[실무수습] [법무법인(유한)로고스] 2027년 동계 
+ 법학전문대학원 실무수습 모집\n근거: 7. 선발절차 : 서
+ 류 심사를 통하여 2026. 10. 26.(월)까지 합격자 개별통보\nh
+ ttps://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=2706&siteI
+ d=lawschool&pkid=940427
+URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=2706&s
+ iteId=lawschool&pkid=940427
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:D-3 로고스 실무수습 합격자 발표
+TRIGGER:-P2DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:D-1 로고스 실무수습 합격자 발표
+TRIGGER:-PT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:오늘 로고스 실무수습 합격자 발표
+TRIGGER:PT9H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:c7b4513d1260814bfa6c8eadd38488d9@law-secretary
+DTSTAMP:20260907T050000Z
+DTSTART;VALUE=DATE:20270111
+DTEND;VALUE=DATE:20270112
+SEQUENCE:0
+SUMMARY:로고스 실무수습 시작
+DESCRIPTION:[실무수습] [법무법인(유한)로고스] 2027년 동계 
+ 법학전문대학원 실무수습 모집\n근거: 1. 실무수습 시기 
+ : 2027. 1. 11.(월) ~ 1. 22.(금) (2주간)\nhttps://lawschool.sogang.ac.k
+ r/front/cmsboardview.do?bbsConfigFK=2706&siteId=lawschool&pkid=940427
+URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=2706&s
+ iteId=lawschool&pkid=940427
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:D-3 로고스 실무수습 시작
+TRIGGER:-P2DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:D-1 로고스 실무수습 시작
+TRIGGER:-PT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:오늘 로고스 실무수습 시작
+TRIGGER:PT9H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:a82f919ef9c38f2594782254ab0195f6@law-secretary
+DTSTAMP:20260907T050000Z
+DTSTART;VALUE=DATE:20270122
+DTEND;VALUE=DATE:20270123
+SEQUENCE:0
+SUMMARY:로고스 실무수습 종료
+DESCRIPTION:[실무수습] [법무법인(유한)로고스] 2027년 동계 
+ 법학전문대학원 실무수습 모집\n근거: 1. 실무수습 시기 
+ : 2027. 1. 11.(월) ~ 1. 22.(금) (2주간)\nhttps://lawschool.sogang.ac.k
+ r/front/cmsboardview.do?bbsConfigFK=2706&siteId=lawschool&pkid=940427
+URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=2706&s
+ iteId=lawschool&pkid=940427
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:D-3 로고스 실무수습 종료
+TRIGGER:-P2DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:D-1 로고스 실무수습 종료
+TRIGGER:-PT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:오늘 로고스 실무수습 종료
+TRIGGER:PT9H
+END:VALARM
+END:VEVENT
 END:VCALENDAR

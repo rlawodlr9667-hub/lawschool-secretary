@@ -1,0 +1,64 @@
+{
+  "board": "실무수습",
+  "events": [
+    {
+      "all_day": false,
+      "confidence": "high",
+      "evidence": "4. 지원기한 : 2026. 9. 14.(월) 00:00 부터 2026. 10. 2.(금) 24:00까지",
+      "slug": "apply-open",
+      "start_date": "2026-09-14",
+      "start_time": "00:00",
+      "summary": "로고스 실무수습 지원 시작",
+      "uid": "53ec7c19cb8511e3fb3f3116d8c8b59d@law-secretary"
+    },
+    {
+      "all_day": false,
+      "confidence": "high",
+      "evidence": "4. 지원기한 : 2026. 9. 14.(월) 00:00 부터 2026. 10. 2.(금) 24:00까지",
+      "slug": "apply-close",
+      "start_date": "2026-10-02",
+      "start_time": "23:59",
+      "summary": "로고스 실무수습 지원 마감",
+      "uid": "56b9f7f724405404bbca89caf7f0be5e@law-secretary"
+    },
+    {
+      "all_day": true,
+      "confidence": "high",
+      "evidence": "7. 선발절차 : 서류 심사를 통하여 2026. 10. 26.(월)까지 합격자 개별통보",
+      "slug": "result-announce",
+      "start_date": "2026-10-26",
+      "start_time": null,
+      "summary": "로고스 실무수습 합격자 발표",
+      "uid": "e24911569621c8b46647a9441e7317fb@law-secretary"
+    },
+    {
+      "all_day": true,
+      "confidence": "high",
+      "evidence": "1. 실무수습 시기 : 2027. 1. 11.(월) ~ 1. 22.(금) (2주간)",
+      "slug": "practice-start",
+      "start_date": "2027-01-11",
+      "start_time": null,
+      "summary": "로고스 실무수습 시작",
+      "uid": "c7b4513d1260814bfa6c8eadd38488d9@law-secretary"
+    },
+    {
+      "all_day": true,
+      "confidence": "high",
+      "evidence": "1. 실무수습 시기 : 2027. 1. 11.(월) ~ 1. 22.(금) (2주간)",
+      "slug": "practice-close",
+      "start_date": "2027-01-22",
+      "start_time": null,
+      "summary": "로고스 실무수습 종료",
+      "uid": "a82f919ef9c38f2594782254ab0195f6@law-secretary"
+    }
+  ],
+  "extracted_at": "2026-09-07T14:00:00+09:00",
+  "needs_manual": false,
+  "no_events_reason": null,
+  "post_id": "sg_2706:940427",
+  "posted_date": "2026-09-07",
+  "revision": 0,
+  "tab": "sogang",
+  "title": "[법무법인(유한)로고스] 2027년 동계 법학전문대학원 실무수습 모집",
+  "url": "https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=2706&siteId=lawschool&pkid=940427"
+}
