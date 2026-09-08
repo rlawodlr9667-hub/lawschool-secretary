@@ -2,6 +2,14 @@
   "posts": [
     {
       "board_name": "일반공지",
+      "date": "2026-09-08",
+      "pinned": true,
+      "post_id": "940513",
+      "title": "[국방부] 장기 군법무관 충원율 제고를 위한 설문조사 협조 요청 (9/7~9/18)",
+      "url": "https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1602&siteId=lawschool&pkid=940513"
+    },
+    {
+      "board_name": "일반공지",
       "date": "2026-09-04",
       "pinned": false,
       "post_id": "940393",
@@ -289,5 +297,5 @@
       "url": "https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1602&siteId=lawschool&pkid=938296"
     }
   ],
-  "updated": "2026-09-08T14:07:24+09:00"
+  "updated": "2026-09-08T18:35:57+09:00"
 }

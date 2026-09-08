@@ -3,7 +3,7 @@
     {
       "board_name": "학사공지",
       "date": "2026-08-27",
-      "pinned": true,
+      "pinned": false,
       "post_id": "939821",
       "title": "2026학년도 2학기 수강신청 가능인원 변경 안내",
       "url": "https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1601&siteId=lawschool&pkid=939821"
@@ -177,5 +177,5 @@
       "url": "https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1601&siteId=lawschool&pkid=935645"
     }
   ],
-  "updated": "2026-09-08T14:07:24+09:00"
+  "updated": "2026-09-08T18:35:57+09:00"
 }
