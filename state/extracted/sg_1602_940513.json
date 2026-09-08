@@ -1,0 +1,34 @@
+{
+  "board": "일반공지",
+  "events": [
+    {
+      "all_day": true,
+      "confidence": "medium",
+      "evidence": "다. 설문기간: '26. 9. 7.(월) ~ 9. 18.(금), 2주간",
+      "slug": "survey-start",
+      "start_date": "2026-09-07",
+      "start_time": null,
+      "summary": "군법무관 설문조사 시작",
+      "uid": "ad56f189ff745d0de41735c30c59c2fd@law-secretary"
+    },
+    {
+      "all_day": true,
+      "confidence": "medium",
+      "evidence": "다. 설문기간: '26. 9. 7.(월) ~ 9. 18.(금), 2주간",
+      "slug": "survey-close",
+      "start_date": "2026-09-18",
+      "start_time": null,
+      "summary": "군법무관 설문조사 마감",
+      "uid": "e280db271b93015186a12ce90f640f97@law-secretary"
+    }
+  ],
+  "extracted_at": "2026-09-08T09:00:00+09:00",
+  "needs_manual": false,
+  "no_events_reason": null,
+  "post_id": "sg_1602:940513",
+  "posted_date": "2026-09-08",
+  "revision": 0,
+  "tab": "sogang",
+  "title": "[국방부] 장기 군법무관 충원율 제고를 위한 설문조사 협조 요청 (9/7~9/18)",
+  "url": "https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1602&siteId=lawschool&pkid=940513"
+}
