@@ -2756,21 +2756,6 @@ URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=2706&s
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:9aace44ba8d953525e4b10c334c8f49e@law-secretary
-DTSTAMP:20260729T030000Z
-DTSTART;VALUE=DATE:20260610
-DTEND;VALUE=DATE:20260611
-SEQUENCE:0
-SUMMARY:헌법재판연구원 수습 접수 시작
-DESCRIPTION:[실무수습] [헌법재판연구원] 법학전문대학원생
-  교육실무연수 모집안내\n근거: ○ 접수기간: 2026. 6. 10.(
- 수) ~ 2026. 6. 25.(목)\nhttps://lawschool.sogang.ac.kr/front/cmsboardvie
- w.do?bbsConfigFK=2706&siteId=lawschool&pkid=937193
-URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=2706&s
- iteId=lawschool&pkid=937193
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:71ec1d49bbcb8d3c7e87d2a3b6e12ba2@law-secretary
 DTSTAMP:20260729T030000Z
 DTSTART:20260625T090000Z
