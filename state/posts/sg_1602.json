@@ -2,6 +2,14 @@
   "posts": [
     {
       "board_name": "일반공지",
+      "date": "2026-09-09",
+      "pinned": false,
+      "post_id": "940570",
+      "title": "[서울대학교 공익법률센터] 제18회 국제인권 강좌 안내",
+      "url": "https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1602&siteId=lawschool&pkid=940570"
+    },
+    {
+      "board_name": "일반공지",
       "date": "2026-09-08",
       "pinned": true,
       "post_id": "940513",
@@ -297,5 +305,5 @@
       "url": "https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1602&siteId=lawschool&pkid=938296"
     }
   ],
-  "updated": "2026-09-09T09:04:41+09:00"
+  "updated": "2026-09-09T13:30:54+09:00"
 }
