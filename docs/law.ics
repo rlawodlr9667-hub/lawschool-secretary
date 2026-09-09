@@ -2651,6 +2651,145 @@ TRIGGER:PT9H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:d008092e20b0907b5ef0a048b82409d2@law-secretary
+DTSTAMP:20260909T043200Z
+DTSTART:20260907T010000Z
+DTEND:20260907T013000Z
+SEQUENCE:0
+SUMMARY:국제인권강좌 수강신청 시작
+DESCRIPTION:[일반공지] [서울대학교 공익법률센터] 제18회 
+ 국제인권 강좌 안내\n근거: 수강신청: 2026. 9. 7. (월) 10:00 
+ - 2026. 9. 18. (금) 18:00 신청링크 바로가기\nhttps://lawschool.so
+ gang.ac.kr/front/cmsboardview.do?bbsConfigFK=1602&siteId=lawschool&pkid=94
+ 0570
+URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1602&s
+ iteId=lawschool&pkid=940570
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:47e82beed0fb159c53baf952fe9d07f0@law-secretary
+DTSTAMP:20260909T043200Z
+DTSTART:20260918T090000Z
+DTEND:20260918T093000Z
+SEQUENCE:0
+SUMMARY:국제인권강좌 수강신청 마감
+DESCRIPTION:[일반공지] [서울대학교 공익법률센터] 제18회 
+ 국제인권 강좌 안내\n근거: 수강신청: 2026. 9. 7. (월) 10:00 
+ - 2026. 9. 18. (금) 18:00 신청링크 바로가기\nhttps://lawschool.so
+ gang.ac.kr/front/cmsboardview.do?bbsConfigFK=1602&siteId=lawschool&pkid=94
+ 0570
+URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1602&s
+ iteId=lawschool&pkid=940570
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:D-3 국제인권강좌 수강신청 마감
+TRIGGER:-P3D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:D-1 국제인권강좌 수강신청 마감
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:오늘 국제인권강좌 수강신청 마감
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:f32ce60eee905b195f1f4c4939c65cb1@law-secretary
+DTSTAMP:20260909T043200Z
+DTSTART;VALUE=DATE:20260923
+DTEND;VALUE=DATE:20260924
+SEQUENCE:0
+SUMMARY:국제인권강좌 선발결과 발표
+DESCRIPTION:[일반공지] [서울대학교 공익법률센터] 제18회 
+ 국제인권 강좌 안내\n근거: 선발결과 발표: 2026. 9. 23. (수
+ ) ※ 선발자 개별 이메일 안내\nhttps://lawschool.sogang.ac.kr/fr
+ ont/cmsboardview.do?bbsConfigFK=1602&siteId=lawschool&pkid=940570
+URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1602&s
+ iteId=lawschool&pkid=940570
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:D-3 국제인권강좌 선발결과 발표
+TRIGGER:-P2DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:D-1 국제인권강좌 선발결과 발표
+TRIGGER:-PT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:오늘 국제인권강좌 선발결과 발표
+TRIGGER:PT9H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:da200c4f17a1ef6c7e63a30388606848@law-secretary
+DTSTAMP:20260909T043200Z
+DTSTART:20261007T100000Z
+DTEND:20261007T103000Z
+SEQUENCE:0
+SUMMARY:국제인권강좌 개강
+DESCRIPTION:[일반공지] [서울대학교 공익법률센터] 제18회 
+ 국제인권 강좌 안내\n근거: 강의시간: 2026. 10. 7. - 2026. 12.
+  2. 매주 수요일(중간\, 기말고사 기간 제외) 19:00-21:00\nhtt
+ ps://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1602&siteId=
+ lawschool&pkid=940570
+URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1602&s
+ iteId=lawschool&pkid=940570
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:D-3 국제인권강좌 개강
+TRIGGER:-P3D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:D-1 국제인권강좌 개강
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:오늘 국제인권강좌 개강
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:90bdb8c79a03bb9681256b051fc4c717@law-secretary
+DTSTAMP:20260909T043200Z
+DTSTART:20261202T100000Z
+DTEND:20261202T103000Z
+SEQUENCE:0
+SUMMARY:국제인권강좌 종강(예정)
+DESCRIPTION:[일반공지] [서울대학교 공익법률센터] 제18회 
+ 국제인권 강좌 안내\n근거: 강의시간: 2026. 10. 7. - 2026. 12.
+  2. 매주 수요일(중간\, 기말고사 기간 제외) 19:00-21:00\nhtt
+ ps://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1602&siteId=
+ lawschool&pkid=940570
+URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1602&s
+ iteId=lawschool&pkid=940570
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:D-3 국제인권강좌 종강(예정)
+TRIGGER:-P3D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:D-1 국제인권강좌 종강(예정)
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:오늘 국제인권강좌 종강(예정)
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:816f4de76bec901b378acc2aab9647aa@law-secretary
 DTSTAMP:20260729T030000Z
 DTSTART:20260626T090000Z

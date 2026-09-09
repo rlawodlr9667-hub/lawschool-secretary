@@ -1,0 +1,64 @@
+{
+  "board": "일반공지",
+  "events": [
+    {
+      "all_day": false,
+      "confidence": "high",
+      "evidence": "수강신청: 2026. 9. 7. (월) 10:00 - 2026. 9. 18. (금) 18:00 신청링크 바로가기",
+      "slug": "apply-start",
+      "start_date": "2026-09-07",
+      "start_time": "10:00",
+      "summary": "국제인권강좌 수강신청 시작",
+      "uid": "d008092e20b0907b5ef0a048b82409d2@law-secretary"
+    },
+    {
+      "all_day": false,
+      "confidence": "high",
+      "evidence": "수강신청: 2026. 9. 7. (월) 10:00 - 2026. 9. 18. (금) 18:00 신청링크 바로가기",
+      "slug": "apply-close",
+      "start_date": "2026-09-18",
+      "start_time": "18:00",
+      "summary": "국제인권강좌 수강신청 마감",
+      "uid": "47e82beed0fb159c53baf952fe9d07f0@law-secretary"
+    },
+    {
+      "all_day": true,
+      "confidence": "high",
+      "evidence": "선발결과 발표: 2026. 9. 23. (수) ※ 선발자 개별 이메일 안내",
+      "slug": "result-announce",
+      "start_date": "2026-09-23",
+      "start_time": null,
+      "summary": "국제인권강좌 선발결과 발표",
+      "uid": "f32ce60eee905b195f1f4c4939c65cb1@law-secretary"
+    },
+    {
+      "all_day": false,
+      "confidence": "high",
+      "evidence": "강의시간: 2026. 10. 7. - 2026. 12. 2. 매주 수요일(중간, 기말고사 기간 제외) 19:00-21:00",
+      "slug": "course-start",
+      "start_date": "2026-10-07",
+      "start_time": "19:00",
+      "summary": "국제인권강좌 개강",
+      "uid": "da200c4f17a1ef6c7e63a30388606848@law-secretary"
+    },
+    {
+      "all_day": false,
+      "confidence": "medium",
+      "evidence": "강의시간: 2026. 10. 7. - 2026. 12. 2. 매주 수요일(중간, 기말고사 기간 제외) 19:00-21:00",
+      "slug": "course-end",
+      "start_date": "2026-12-02",
+      "start_time": "19:00",
+      "summary": "국제인권강좌 종강(예정)",
+      "uid": "90bdb8c79a03bb9681256b051fc4c717@law-secretary"
+    }
+  ],
+  "extracted_at": "2026-09-09T13:32:00+09:00",
+  "needs_manual": false,
+  "no_events_reason": null,
+  "post_id": "sg_1602:940570",
+  "posted_date": "2026-09-09",
+  "revision": 0,
+  "tab": "sogang",
+  "title": "[서울대학교 공익법률센터] 제18회 국제인권 강좌 안내",
+  "url": "https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1602&siteId=lawschool&pkid=940570"
+}
