@@ -2,6 +2,14 @@
   "posts": [
     {
       "board_name": "학사공지",
+      "date": "2026-09-09",
+      "pinned": true,
+      "post_id": "940611",
+      "title": "2026학년도 2학기 개설과목 폐강 안내",
+      "url": "https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1601&siteId=lawschool&pkid=940611"
+    },
+    {
+      "board_name": "학사공지",
       "date": "2026-08-27",
       "pinned": false,
       "post_id": "939821",
@@ -177,5 +185,5 @@
       "url": "https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1601&siteId=lawschool&pkid=935645"
     }
   ],
-  "updated": "2026-09-09T13:30:54+09:00"
+  "updated": "2026-09-09T18:08:01+09:00"
 }
