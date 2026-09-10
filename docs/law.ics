@@ -138,11 +138,6 @@ DESCRIPTION:[서강대 학사일정] 개강미사(오전10시30분)\n근거
  https://www.sogang.ac.kr/ko/academic-support/calendar
 URL:https://www.sogang.ac.kr/ko/academic-support/calendar
 TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:오늘 개강미사(오전10시30분)
-TRIGGER:PT9H
-END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:2198552ee89bcfa49da7044cc867ecf2@law-secretary
