@@ -153,11 +153,6 @@ URL:https://www.sogang.ac.kr/ko/academic-support/calendar
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:D-3 서강문화제: CARDINAL 시작
-TRIGGER:-P2DT15H
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
 DESCRIPTION:D-1 서강문화제: CARDINAL 시작
 TRIGGER:-PT15H
 END:VALARM
@@ -1197,21 +1192,6 @@ DESCRIPTION:[법학적성시험 공지사항] 2027학년도 법학적성시
  d=82&board_seqnum=86741
 URL:https://leet.uwayapply.com/board/BoardView.htm?board_id=82&board_seqnum
  =86741
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:8de76a7e37e4abf43b7fac363995a0bf@law-secretary
-DTSTAMP:20260728T030000Z
-DTSTART:20260613T050000Z
-DTEND:20260613T053000Z
-SEQUENCE:0
-SUMMARY:민사재판실무 기말평가 시험
-DESCRIPTION:[학사공지] 2026년 1학기 민사재판실무 기말평가 
- 유의사항 안내(시험일: 6/13(토))\n근거: ■ 기말평가 일시
-  : 2026. 6. 13.(토) 14:00~18:00 (4시간)\nhttps://lawschool.sogang.ac.kr
- /front/cmsboardview.do?bbsConfigFK=1601&siteId=lawschool&pkid=936070
-URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1601&s
- iteId=lawschool&pkid=936070
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -2461,11 +2441,6 @@ URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1602&s
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:D-1 IAKL 멘토링 행사
-TRIGGER:-P1D
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
 DESCRIPTION:오늘 IAKL 멘토링 행사
 TRIGGER:-PT1H
 END:VALARM
@@ -3281,11 +3256,6 @@ DESCRIPTION:[실무수습] [법무법인(유한)로고스] 2027년 동계
 URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=2706&s
  iteId=lawschool&pkid=940427
 TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:D-3 로고스 실무수습 지원 시작
-TRIGGER:-P3D
-END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:D-1 로고스 실무수습 지원 시작
