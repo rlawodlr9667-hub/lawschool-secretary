@@ -2,6 +2,14 @@
   "posts": [
     {
       "board_name": "일반공지",
+      "date": "2026-09-11",
+      "pinned": false,
+      "post_id": "940754",
+      "title": "2027년도 헌법재판소 헌법연구관(보) 임용 계획 공고",
+      "url": "https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1602&siteId=lawschool&pkid=940754"
+    },
+    {
+      "board_name": "일반공지",
       "date": "2026-09-09",
       "pinned": false,
       "post_id": "940570",
@@ -305,5 +313,5 @@
       "url": "https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1602&siteId=lawschool&pkid=938296"
     }
   ],
-  "updated": "2026-09-11T13:26:38+09:00"
+  "updated": "2026-09-11T18:06:01+09:00"
 }
