@@ -2775,6 +2775,111 @@ TRIGGER:-PT1H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:c5bd85eb8027d27d653a375fd40e012e@law-secretary
+DTSTAMP:20260911T090639Z
+DTSTART;VALUE=DATE:20260910
+DTEND;VALUE=DATE:20260911
+SEQUENCE:0
+SUMMARY:헌법연구관보 원서접수 시작
+DESCRIPTION:[일반공지] 2027년도 헌법재판소 헌법연구관(보) 
+ 임용 계획 공고\n근거: 원서접수: 2026. 9. 10.(목) ∼ 9. 28.(
+ 월) 18:00\nhttps://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfig
+ FK=1602&siteId=lawschool&pkid=940754
+URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1602&s
+ iteId=lawschool&pkid=940754
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:78ad868a59e7dcdb813cfffab9bd8147@law-secretary
+DTSTAMP:20260911T090639Z
+DTSTART:20260928T090000Z
+DTEND:20260928T093000Z
+SEQUENCE:0
+SUMMARY:헌법연구관보 원서접수 마감
+DESCRIPTION:[일반공지] 2027년도 헌법재판소 헌법연구관(보) 
+ 임용 계획 공고\n근거: 원서접수: 2026. 9. 10.(목) ∼ 9. 28.(
+ 월) 18:00\nhttps://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfig
+ FK=1602&siteId=lawschool&pkid=940754
+URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1602&s
+ iteId=lawschool&pkid=940754
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:D-3 헌법연구관보 원서접수 마감
+TRIGGER:-P3D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:D-1 헌법연구관보 원서접수 마감
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:오늘 헌법연구관보 원서접수 마감
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:f74c8d814c8cd607ae6c236b7a6aa3a9@law-secretary
+DTSTAMP:20260911T090639Z
+DTSTART;VALUE=DATE:20261107
+DTEND;VALUE=DATE:20261108
+SEQUENCE:0
+SUMMARY:헌법연구관보 1차 시험
+DESCRIPTION:[일반공지] 2027년도 헌법재판소 헌법연구관(보) 
+ 임용 계획 공고\n근거: 1차 시험: 2026. 11. 7.(토) 실시 예정
+ \nhttps://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1602&si
+ teId=lawschool&pkid=940754
+URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1602&s
+ iteId=lawschool&pkid=940754
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:D-3 헌법연구관보 1차 시험
+TRIGGER:-P2DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:D-1 헌법연구관보 1차 시험
+TRIGGER:-PT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:오늘 헌법연구관보 1차 시험
+TRIGGER:PT9H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2bc996949b963342b9b75a84ca5ffae7@law-secretary
+DTSTAMP:20260911T090639Z
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+SEQUENCE:0
+SUMMARY:헌법연구관보 2차 시험(개별면접)
+DESCRIPTION:[일반공지] 2027년도 헌법재판소 헌법연구관(보) 
+ 임용 계획 공고\n근거: 2차 시험: 2026. 11. 28.(토) 실시 예
+ 정\nhttps://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1602
+ &siteId=lawschool&pkid=940754
+URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1602&s
+ iteId=lawschool&pkid=940754
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:D-3 헌법연구관보 2차 시험(개별면접)
+TRIGGER:-P2DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:D-1 헌법연구관보 2차 시험(개별면접)
+TRIGGER:-PT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:오늘 헌법연구관보 2차 시험(개별면접)
+TRIGGER:PT9H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:816f4de76bec901b378acc2aab9647aa@law-secretary
 DTSTAMP:20260729T030000Z
 DTSTART:20260626T090000Z

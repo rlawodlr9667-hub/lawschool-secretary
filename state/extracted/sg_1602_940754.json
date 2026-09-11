@@ -1,0 +1,54 @@
+{
+  "board": "일반공지",
+  "events": [
+    {
+      "all_day": true,
+      "confidence": "high",
+      "evidence": "원서접수: 2026. 9. 10.(목) ∼ 9. 28.(월) 18:00",
+      "slug": "apply-open",
+      "start_date": "2026-09-10",
+      "start_time": null,
+      "summary": "헌법연구관보 원서접수 시작",
+      "uid": "c5bd85eb8027d27d653a375fd40e012e@law-secretary"
+    },
+    {
+      "all_day": false,
+      "confidence": "high",
+      "evidence": "원서접수: 2026. 9. 10.(목) ∼ 9. 28.(월) 18:00",
+      "slug": "apply-close",
+      "start_date": "2026-09-28",
+      "start_time": "18:00",
+      "summary": "헌법연구관보 원서접수 마감",
+      "uid": "78ad868a59e7dcdb813cfffab9bd8147@law-secretary"
+    },
+    {
+      "all_day": true,
+      "confidence": "high",
+      "evidence": "1차 시험: 2026. 11. 7.(토) 실시 예정",
+      "slug": "exam1",
+      "start_date": "2026-11-07",
+      "start_time": null,
+      "summary": "헌법연구관보 1차 시험",
+      "uid": "f74c8d814c8cd607ae6c236b7a6aa3a9@law-secretary"
+    },
+    {
+      "all_day": true,
+      "confidence": "high",
+      "evidence": "2차 시험: 2026. 11. 28.(토) 실시 예정",
+      "slug": "exam2",
+      "start_date": "2026-11-28",
+      "start_time": null,
+      "summary": "헌법연구관보 2차 시험(개별면접)",
+      "uid": "2bc996949b963342b9b75a84ca5ffae7@law-secretary"
+    }
+  ],
+  "extracted_at": "2026-09-11T18:06:39+09:00",
+  "needs_manual": false,
+  "no_events_reason": null,
+  "post_id": "sg_1602:940754",
+  "posted_date": "2026-09-11",
+  "revision": 0,
+  "tab": "sogang",
+  "title": "2027년도 헌법재판소 헌법연구관(보) 임용 계획 공고",
+  "url": "https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1602&siteId=lawschool&pkid=940754"
+}
