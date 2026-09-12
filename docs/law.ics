@@ -10,32 +10,6 @@ X-WR-TIMEZONE:Asia/Seoul
 REFRESH-INTERVAL;VALUE=DURATION:PT1H
 X-PUBLISHED-TTL:PT1H
 BEGIN:VEVENT
-UID:c913280418550ffe7ca6c34c263526f3@law-secretary
-DTSTAMP:20200101T000000Z
-DTSTART;VALUE=DATE:20260812
-DTEND;VALUE=DATE:20260813
-SEQUENCE:0
-SUMMARY:수강신청 과목 담아놓기 시작
-DESCRIPTION:[서강대 학사일정] 수강신청 과목 담아놓기\n근
- 거: 학사일정: 수강신청 과목 담아놓기 (2026-08-12 ~ 2026-08-
- 13)\nhttps://www.sogang.ac.kr/ko/academic-support/calendar
-URL:https://www.sogang.ac.kr/ko/academic-support/calendar
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:068e2a829a6969f1b56549067833cc9a@law-secretary
-DTSTAMP:20200101T000000Z
-DTSTART;VALUE=DATE:20260813
-DTEND;VALUE=DATE:20260814
-SEQUENCE:0
-SUMMARY:수강신청 과목 담아놓기 마감
-DESCRIPTION:[서강대 학사일정] 수강신청 과목 담아놓기\n근
- 거: 학사일정: 수강신청 과목 담아놓기 (2026-08-12 ~ 2026-08-
- 13)\nhttps://www.sogang.ac.kr/ko/academic-support/calendar
-URL:https://www.sogang.ac.kr/ko/academic-support/calendar
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:5eb2b0d72bfe6cc8807c82386fdb7e86@law-secretary
 DTSTAMP:20200101T000000Z
 DTSTART;VALUE=DATE:20260818
@@ -2439,11 +2413,6 @@ DESCRIPTION:[일반공지] [재안내]2026년 9월 12일 세계한인법률
 URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1602&s
  iteId=lawschool&pkid=940180
 TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:오늘 IAKL 멘토링 행사
-TRIGGER:-PT1H
-END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:e7fe0bd5f359a312276966f893a7abd3@law-secretary
