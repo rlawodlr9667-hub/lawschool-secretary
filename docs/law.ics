@@ -125,11 +125,6 @@ DESCRIPTION:[서강대 학사일정] 서강문화제: CARDINAL\n근거: 학
  w.sogang.ac.kr/ko/academic-support/calendar
 URL:https://www.sogang.ac.kr/ko/academic-support/calendar
 TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:오늘 서강문화제: CARDINAL 시작
-TRIGGER:PT9H
-END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:8f0074b36a866473cf9701b999b10aae@law-secretary
@@ -1161,22 +1156,6 @@ DESCRIPTION:[법학적성시험 공지사항] 2027학년도 법학적성시
  d=82&board_seqnum=86741
 URL:https://leet.uwayapply.com/board/BoardView.htm?board_id=82&board_seqnum
  =86741
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:6487e88980e9f26846f70086cea039cd@law-secretary
-DTSTAMP:20260727T133500Z
-DTSTART:20260616T040000Z
-DTEND:20260616T043000Z
-SEQUENCE:0
-SUMMARY:국회 찾아가는 아카데미 특강
-DESCRIPTION:[학사공지] [국회] 찾아가는 법학전문대학원생 
- 아카데미 개최 및 참가 안내 (~6/5(금) 13:00 까지 사전 참
- 가신청)\n근거: 1. 일시 : 2026. 6. 16(화) 13:00~15:00\nhttps://laws
- chool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1601&siteId=lawschool
- &pkid=936437
-URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1601&s
- iteId=lawschool&pkid=936437
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
