@@ -2783,6 +2783,36 @@ TRIGGER:PT9H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:0c68e72f2cb312fc42ace1df596cb639@law-secretary
+DTSTAMP:20260917T051556Z
+DTSTART:20261016T090000Z
+DTEND:20261016T093000Z
+SEQUENCE:0
+SUMMARY:헌법재판연구원 연구과제 제안 마감
+DESCRIPTION:[일반공지] [헌법재판연구원] 2027년도 헌법재판
+ 연구원 연구과제 공모\n근거: -(공문) 2026. 10. 16.(금) 18:00
+ 까지\, (온라인) 상시 접수\nhttps://lawschool.sogang.ac.kr/front/c
+ msboardview.do?bbsConfigFK=1602&siteId=lawschool&pkid=940948
+URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1602&s
+ iteId=lawschool&pkid=940948
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:D-3 헌법재판연구원 연구과제 제안 마감
+TRIGGER:-P3D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:D-1 헌법재판연구원 연구과제 제안 마감
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:오늘 헌법재판연구원 연구과제 제안 마감
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:816f4de76bec901b378acc2aab9647aa@law-secretary
 DTSTAMP:20260729T030000Z
 DTSTART:20260626T090000Z

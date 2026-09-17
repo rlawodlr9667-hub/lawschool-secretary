@@ -1,0 +1,24 @@
+{
+  "board": "일반공지",
+  "events": [
+    {
+      "all_day": false,
+      "confidence": "high",
+      "evidence": "-(공문) 2026. 10. 16.(금) 18:00까지, (온라인) 상시 접수",
+      "slug": "proposal-close",
+      "start_date": "2026-10-16",
+      "start_time": "18:00",
+      "summary": "헌법재판연구원 연구과제 제안 마감",
+      "uid": "0c68e72f2cb312fc42ace1df596cb639@law-secretary"
+    }
+  ],
+  "extracted_at": "2026-09-17T14:15:56+09:00",
+  "needs_manual": false,
+  "no_events_reason": null,
+  "post_id": "sg_1602:940948",
+  "posted_date": "2026-09-17",
+  "revision": 0,
+  "tab": "sogang",
+  "title": "[헌법재판연구원] 2027년도 헌법재판연구원 연구과제 공모",
+  "url": "https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1602&siteId=lawschool&pkid=940948"
+}
