@@ -10,19 +10,6 @@ X-WR-TIMEZONE:Asia/Seoul
 REFRESH-INTERVAL;VALUE=DURATION:PT1H
 X-PUBLISHED-TTL:PT1H
 BEGIN:VEVENT
-UID:5eb2b0d72bfe6cc8807c82386fdb7e86@law-secretary
-DTSTAMP:20200101T000000Z
-DTSTART;VALUE=DATE:20260818
-DTEND;VALUE=DATE:20260819
-SEQUENCE:0
-SUMMARY:하계 졸업일
-DESCRIPTION:[서강대 학사일정] 하계 졸업일\n근거: 학사일정
- : 하계 졸업일 (2026-08-18 ~ 2026-08-18)\nhttps://www.sogang.ac.kr/ko/
- academic-support/calendar
-URL:https://www.sogang.ac.kr/ko/academic-support/calendar
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:9d36e159b20b0bbaa84488e809ad59a3@law-secretary
 DTSTAMP:20200101T000000Z
 DTSTART;VALUE=DATE:20260819
@@ -138,11 +125,6 @@ DESCRIPTION:[서강대 학사일정] 서강문화제: CARDINAL\n근거: 학
  w.sogang.ac.kr/ko/academic-support/calendar
 URL:https://www.sogang.ac.kr/ko/academic-support/calendar
 TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:D-1 서강문화제: CARDINAL 마감
-TRIGGER:-PT15H
-END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:오늘 서강문화제: CARDINAL 마감
@@ -2534,11 +2516,6 @@ URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1602&s
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:D-1 군법무관 설문조사 마감
-TRIGGER:-PT15H
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
 DESCRIPTION:오늘 군법무관 설문조사 마감
 TRIGGER:PT9H
 END:VALARM
@@ -2574,11 +2551,6 @@ DESCRIPTION:[일반공지] [서울대학교 공익법률센터] 제18회
 URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1602&s
  iteId=lawschool&pkid=940570
 TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:D-1 국제인권강좌 수강신청 마감
-TRIGGER:-P1D
-END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:오늘 국제인권강좌 수강신청 마감
