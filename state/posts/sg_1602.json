@@ -2,6 +2,14 @@
   "posts": [
     {
       "board_name": "일반공지",
+      "date": "2026-09-17",
+      "pinned": false,
+      "post_id": "940948",
+      "title": "[헌법재판연구원] 2027년도 헌법재판연구원 연구과제 공모",
+      "url": "https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1602&siteId=lawschool&pkid=940948"
+    },
+    {
+      "board_name": "일반공지",
       "date": "2026-09-14",
       "pinned": false,
       "post_id": "940807",
@@ -329,5 +337,5 @@
       "url": "https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1602&siteId=lawschool&pkid=938296"
     }
   ],
-  "updated": "2026-09-17T09:19:55+09:00"
+  "updated": "2026-09-17T14:15:30+09:00"
 }
