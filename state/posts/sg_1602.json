@@ -2,6 +2,14 @@
   "posts": [
     {
       "board_name": "일반공지",
+      "date": "2026-09-18",
+      "pinned": false,
+      "post_id": "941023",
+      "title": "2026 통일과나눔 세미나, 시드니대학교 연구팀 「북한의 뇌물, 사회적 관계와 안정성」(9/29)",
+      "url": "https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1602&siteId=lawschool&pkid=941023"
+    },
+    {
+      "board_name": "일반공지",
       "date": "2026-09-17",
       "pinned": false,
       "post_id": "940948",
@@ -337,5 +345,5 @@
       "url": "https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1602&siteId=lawschool&pkid=938296"
     }
   ],
-  "updated": "2026-09-18T13:35:25+09:00"
+  "updated": "2026-09-18T18:10:02+09:00"
 }
