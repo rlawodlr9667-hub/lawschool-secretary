@@ -1,0 +1,24 @@
+{
+  "board": "일반공지",
+  "events": [
+    {
+      "all_day": false,
+      "confidence": "high",
+      "evidence": "일시: 2026년 9월 29일(화) 14:00–15:00",
+      "slug": "seminar",
+      "start_date": "2026-09-29",
+      "start_time": "14:00",
+      "summary": "통일과나눔 세미나 개최",
+      "uid": "92dda8f3c1729dfb23b8b89f0f1e1ec4@law-secretary"
+    }
+  ],
+  "extracted_at": "2026-09-18T10:00:00+09:00",
+  "needs_manual": false,
+  "no_events_reason": null,
+  "post_id": "sg_1602:941023",
+  "posted_date": "2026-09-18",
+  "revision": 0,
+  "tab": "sogang",
+  "title": "2026 통일과나눔 세미나, 시드니대학교 연구팀 「북한의 뇌물, 사회적 관계와 안정성」(9/29)",
+  "url": "https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1602&siteId=lawschool&pkid=941023"
+}
