@@ -10,19 +10,6 @@ X-WR-TIMEZONE:Asia/Seoul
 REFRESH-INTERVAL;VALUE=DURATION:PT1H
 X-PUBLISHED-TTL:PT1H
 BEGIN:VEVENT
-UID:31e393d15c8ce9e6fe77c52db4b0b977@law-secretary
-DTSTAMP:20200101T000000Z
-DTSTART;VALUE=DATE:20260820
-DTEND;VALUE=DATE:20260821
-SEQUENCE:0
-SUMMARY:3\,4학년 수강신청
-DESCRIPTION:[서강대 학사일정] 3\,4학년 수강신청\n근거: 학
- 사일정: 3\,4학년 수강신청 (2026-08-20 ~ 2026-08-20)\nhttps://www.
- sogang.ac.kr/ko/academic-support/calendar
-URL:https://www.sogang.ac.kr/ko/academic-support/calendar
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:578c2a7657f2d69e9a31186e78c39802@law-secretary
 DTSTAMP:20200101T000000Z
 DTSTART;VALUE=DATE:20260825
@@ -2968,22 +2955,6 @@ DESCRIPTION:[실무수습] [국민건강보험공단] 2026년 법학전문
  37299
 URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=2706&s
  iteId=lawschool&pkid=937299
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:ba1dbc48ff0bfebca8000df364e8418d@law-secretary
-DTSTAMP:20260728T155823Z
-DTSTART;VALUE=DATE:20260621
-DTEND;VALUE=DATE:20260622
-SEQUENCE:0
-SUMMARY:법률구조공단 실무수습 신청 마감
-DESCRIPTION:[실무수습] [학교추천] 대한법률구조공단 2026년 
- 하계 실무수습 안내 (신청 ~6/21(일))\n근거: 6월 21일(일)까
- 지 lawschool@sogang.ac.kr 로 메일을 보내주시기 바랍니다.\nht
- tps://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=2706&siteId
- =lawschool&pkid=937602
-URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=2706&s
- iteId=lawschool&pkid=937602
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
