@@ -2532,11 +2532,6 @@ URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1602&s
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:D-3 국제인권강좌 선발결과 발표
-TRIGGER:-P2DT15H
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
 DESCRIPTION:D-1 국제인권강좌 선발결과 발표
 TRIGGER:-PT15H
 END:VALARM
@@ -2908,21 +2903,6 @@ DESCRIPTION:[실무수습] [헌법재판연구원] 법학전문대학원생
  =lawschool&pkid=937193
 URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=2706&s
  iteId=lawschool&pkid=937193
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:2c62cb821a6293dc16c543cc2c396aaa@law-secretary
-DTSTAMP:20260729T030000Z
-DTSTART;VALUE=DATE:20260622
-DTEND;VALUE=DATE:20260623
-SEQUENCE:0
-SUMMARY:건보공단 실무수습 지원서 마감
-DESCRIPTION:[실무수습] [국민건강보험공단] 2026년 법학전문
- 대학원생 실무수습 안내\n근거: 제출기한) 2026.6.22.(월)까
- 지\nhttps://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=2706
- &siteId=lawschool&pkid=937299
-URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=2706&s
- iteId=lawschool&pkid=937299
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
