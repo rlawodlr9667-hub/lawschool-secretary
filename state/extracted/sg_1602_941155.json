@@ -1,0 +1,34 @@
+{
+  "board": "일반공지",
+  "events": [
+    {
+      "all_day": true,
+      "confidence": "high",
+      "evidence": "가을 학술대회를 첨부 확정 프로그램과 함께 신청 공지를 최종적으로 드립니다(9월 22일 마감).",
+      "slug": "apply-close",
+      "start_date": "2026-09-22",
+      "start_time": null,
+      "summary": "환경법학회 학술대회 신청 마감",
+      "uid": "ecc35e39e06cb6146ec0fba375a9cfe7@law-secretary"
+    },
+    {
+      "all_day": false,
+      "confidence": "high",
+      "evidence": "일시: 2026. 10. 6. 13:00-15:00",
+      "slug": "seminar",
+      "start_date": "2026-10-06",
+      "start_time": "13:00",
+      "summary": "국회 정책세미나(용산공원)",
+      "uid": "000476ada2db36318e1667b01183322a@law-secretary"
+    }
+  ],
+  "extracted_at": "2026-09-22T15:03:56+09:00",
+  "needs_manual": false,
+  "no_events_reason": null,
+  "post_id": "sg_1602:941155",
+  "posted_date": "2026-09-22",
+  "revision": 0,
+  "tab": "sogang",
+  "title": "[한국환경법학회] 가을 학술대회 최종 공지",
+  "url": "https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1602&siteId=lawschool&pkid=941155"
+}

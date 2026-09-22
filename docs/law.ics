@@ -2834,6 +2834,117 @@ TRIGGER:PT9H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:ecc35e39e06cb6146ec0fba375a9cfe7@law-secretary
+DTSTAMP:20260922T060356Z
+DTSTART;VALUE=DATE:20260922
+DTEND;VALUE=DATE:20260923
+SEQUENCE:0
+SUMMARY:환경법학회 학술대회 신청 마감
+DESCRIPTION:[일반공지] [한국환경법학회] 가을 학술대회 최
+ 종 공지\n근거: 가을 학술대회를 첨부 확정 프로그램과 
+ 함께 신청 공지를 최종적으로 드립니다(9월 22일 마감).\n
+ https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1602&site
+ Id=lawschool&pkid=941155
+URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1602&s
+ iteId=lawschool&pkid=941155
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:오늘 환경법학회 학술대회 신청 마감
+TRIGGER:PT9H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:000476ada2db36318e1667b01183322a@law-secretary
+DTSTAMP:20260922T060356Z
+DTSTART:20261006T040000Z
+DTEND:20261006T043000Z
+SEQUENCE:0
+SUMMARY:국회 정책세미나(용산공원)
+DESCRIPTION:[일반공지] [한국환경법학회] 가을 학술대회 최
+ 종 공지\n근거: 일시: 2026. 10. 6. 13:00-15:00\nhttps://lawschool.so
+ gang.ac.kr/front/cmsboardview.do?bbsConfigFK=1602&siteId=lawschool&pkid=94
+ 1155
+URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1602&s
+ iteId=lawschool&pkid=941155
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:D-3 국회 정책세미나(용산공원)
+TRIGGER:-P3D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:D-1 국회 정책세미나(용산공원)
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:오늘 국회 정책세미나(용산공원)
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:1f50286d5741ff79ef2c3220dcb37c75@law-secretary
+DTSTAMP:20260922T060356Z
+DTSTART;VALUE=DATE:20261019
+DTEND;VALUE=DATE:20261020
+SEQUENCE:0
+SUMMARY:가인 법정변론대회 신청 시작
+DESCRIPTION:[일반공지] [사법연수원] 제18회 가인 법정변론 
+ 경연대회 개최 안내\n근거: 참가신청기간 : 2026. 10. 19.(월
+ ) ~ 2026. 10. 28.(수)\nhttps://lawschool.sogang.ac.kr/front/cmsboardview.
+ do?bbsConfigFK=1602&siteId=lawschool&pkid=941160
+URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1602&s
+ iteId=lawschool&pkid=941160
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:D-3 가인 법정변론대회 신청 시작
+TRIGGER:-P2DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:D-1 가인 법정변론대회 신청 시작
+TRIGGER:-PT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:오늘 가인 법정변론대회 신청 시작
+TRIGGER:PT9H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:974e6688263e4e795f04250579d47472@law-secretary
+DTSTAMP:20260922T060356Z
+DTSTART;VALUE=DATE:20261028
+DTEND;VALUE=DATE:20261029
+SEQUENCE:0
+SUMMARY:가인 법정변론대회 신청 마감
+DESCRIPTION:[일반공지] [사법연수원] 제18회 가인 법정변론 
+ 경연대회 개최 안내\n근거: 참가신청기간 : 2026. 10. 19.(월
+ ) ~ 2026. 10. 28.(수)\nhttps://lawschool.sogang.ac.kr/front/cmsboardview.
+ do?bbsConfigFK=1602&siteId=lawschool&pkid=941160
+URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1602&s
+ iteId=lawschool&pkid=941160
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:D-3 가인 법정변론대회 신청 마감
+TRIGGER:-P2DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:D-1 가인 법정변론대회 신청 마감
+TRIGGER:-PT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:오늘 가인 법정변론대회 신청 마감
+TRIGGER:PT9H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:816f4de76bec901b378acc2aab9647aa@law-secretary
 DTSTAMP:20260729T030000Z
 DTSTART:20260626T090000Z
