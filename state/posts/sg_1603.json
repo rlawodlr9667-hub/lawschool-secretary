@@ -2,6 +2,14 @@
   "posts": [
     {
       "board_name": "법전원 소식",
+      "date": "2026-09-22",
+      "pinned": false,
+      "post_id": "941197",
+      "title": "[로스쿨타임즈] 전 헌법재판관 김기영 서강대 로스쿨 교수 \"법정서 배운 자산, 교단서 나눌 때\"",
+      "url": "https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1603&siteId=lawschool&pkid=941197"
+    },
+    {
+      "board_name": "법전원 소식",
       "date": "2026-08-12",
       "pinned": false,
       "post_id": "939224",
@@ -105,5 +113,5 @@
       "url": "https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1603&siteId=lawschool&pkid=932060"
     }
   ],
-  "updated": "2026-09-22T09:43:28+09:00"
+  "updated": "2026-09-22T15:03:27+09:00"
 }
