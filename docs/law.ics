@@ -2532,11 +2532,6 @@ URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1602&s
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:D-1 국제인권강좌 선발결과 발표
-TRIGGER:-PT15H
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
 DESCRIPTION:오늘 국제인권강좌 선발결과 발표
 TRIGGER:PT9H
 END:VALARM
@@ -2848,11 +2843,6 @@ DESCRIPTION:[일반공지] [한국환경법학회] 가을 학술대회 최
 URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1602&s
  iteId=lawschool&pkid=941155
 TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:오늘 환경법학회 학술대회 신청 마감
-TRIGGER:PT9H
-END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:000476ada2db36318e1667b01183322a@law-secretary
