@@ -2530,11 +2530,6 @@ DESCRIPTION:[일반공지] [서울대학교 공익법률센터] 제18회
 URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1602&s
  iteId=lawschool&pkid=940570
 TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:오늘 국제인권강좌 선발결과 발표
-TRIGGER:PT9H
-END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:da200c4f17a1ef6c7e63a30388606848@law-secretary
@@ -3037,21 +3032,6 @@ DESCRIPTION:[실무수습] [언론중재위] 2026 하계 예비 법조인
  sConfigFK=2706&siteId=lawschool&pkid=937154
 URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=2706&s
  iteId=lawschool&pkid=937154
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:71ec1d49bbcb8d3c7e87d2a3b6e12ba2@law-secretary
-DTSTAMP:20260729T030000Z
-DTSTART:20260625T090000Z
-DTEND:20260625T093000Z
-SEQUENCE:0
-SUMMARY:헌법재판연구원 수습 접수 마감
-DESCRIPTION:[실무수습] [헌법재판연구원] 법학전문대학원생
-  교육실무연수 모집안내\n근거: 이메일은 마감일 18:00까
- 지 도착분에 한하여 접수함\nhttps://lawschool.sogang.ac.kr/front
- /cmsboardview.do?bbsConfigFK=2706&siteId=lawschool&pkid=937193
-URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=2706&s
- iteId=lawschool&pkid=937193
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
