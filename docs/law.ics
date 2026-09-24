@@ -10,19 +10,6 @@ X-WR-TIMEZONE:Asia/Seoul
 REFRESH-INTERVAL;VALUE=DURATION:PT1H
 X-PUBLISHED-TTL:PT1H
 BEGIN:VEVENT
-UID:578c2a7657f2d69e9a31186e78c39802@law-secretary
-DTSTAMP:20200101T000000Z
-DTSTART;VALUE=DATE:20260825
-DTEND;VALUE=DATE:20260826
-SEQUENCE:0
-SUMMARY:전학년 수강신청
-DESCRIPTION:[서강대 학사일정] 전학년 수강신청\n근거: 학사
- 일정: 전학년 수강신청 (2026-08-25 ~ 2026-08-25)\nhttps://www.soga
- ng.ac.kr/ko/academic-support/calendar
-URL:https://www.sogang.ac.kr/ko/academic-support/calendar
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:4ac546b94a9927c06cdd8dd37ae1c7a1@law-secretary
 DTSTAMP:20200101T000000Z
 DTSTART;VALUE=DATE:20260901
@@ -2930,21 +2917,6 @@ TRIGGER:PT9H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:816f4de76bec901b378acc2aab9647aa@law-secretary
-DTSTAMP:20260729T030000Z
-DTSTART:20260626T090000Z
-DTEND:20260626T093000Z
-SEQUENCE:0
-SUMMARY:어필 실무수습 접수 마감
-DESCRIPTION:[실무수습] [공익법센터 어필] 실무수습 모집 공
- 고(~6.26.(금) 18:00)\n근거: 지원 마감은 2026년 6월 26일 금요
- 일 오후 6:00 입니다\nhttps://lawschool.sogang.ac.kr/front/cmsboardvi
- ew.do?bbsConfigFK=2706&siteId=lawschool&pkid=937133
-URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=2706&s
- iteId=lawschool&pkid=937133
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:d0bc070b969dac0c055929d49c97c678@law-secretary
 DTSTAMP:20260729T030000Z
 DTSTART:20260630T090000Z
@@ -3032,22 +3004,6 @@ DESCRIPTION:[실무수습] [언론중재위] 2026 하계 예비 법조인
  sConfigFK=2706&siteId=lawschool&pkid=937154
 URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=2706&s
  iteId=lawschool&pkid=937154
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:30464a33c7291ced758a16fb4b59aedc@law-secretary
-DTSTAMP:20260729T030000Z
-DTSTART;VALUE=DATE:20260626
-DTEND;VALUE=DATE:20260627
-SEQUENCE:0
-SUMMARY:헌법재판연구원 합격자 발표(예정)
-DESCRIPTION:[실무수습] [헌법재판연구원] 법학전문대학원생
-  교육실무연수 모집안내\n근거: ○ 선발 방법: 서류 심사
- 에 의하고\, 합격자는 2026. 6. 26.(금) 이후 개별 통보함\nht
- tps://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=2706&siteId
- =lawschool&pkid=937193
-URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=2706&s
- iteId=lawschool&pkid=937193
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
