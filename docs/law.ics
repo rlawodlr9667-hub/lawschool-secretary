@@ -101,11 +101,6 @@ URL:https://www.sogang.ac.kr/ko/academic-support/calendar
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:D-1 수강과목 취소 마감
-TRIGGER:-PT15H
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
 DESCRIPTION:오늘 수강과목 취소 마감
 TRIGGER:PT9H
 END:VALARM
@@ -1119,23 +1114,6 @@ URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1601&s
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:6da880ce64c19c141b80e0ce5e8c31a4@law-secretary
-DTSTAMP:20260727T133500Z
-DTSTART:20260629T090000Z
-DTEND:20260629T093000Z
-SEQUENCE:0
-SUMMARY:가구원 제외요청서 제출 마감
-DESCRIPTION:[학사공지] 2026-2학기 법전원 장학금 신청을 위
- 한 소득분위 산정 신청 안내 (26.6.2.~26.6.30.)\n근거: 장학
- 금 신청인은 법학전문대학원 행정팀에 가구원 제외요청
- 서(붙임3) 및 증빙서류를 2026. 6. 29.(월) 18:00까지 제출\nhtt
- ps://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1601&siteId=
- lawschool&pkid=936670
-URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1601&s
- iteId=lawschool&pkid=936670
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:921114921345ddc87f9909a0bc05f257@law-secretary
 DTSTAMP:20260727T133500Z
 DTSTART;VALUE=DATE:20260701
@@ -1531,11 +1509,6 @@ URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1601&s
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:D-3 수강과목 취소 마감
-TRIGGER:-P3D
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
 DESCRIPTION:D-1 수강과목 취소 마감
 TRIGGER:-P1D
 END:VALARM
@@ -1739,11 +1712,6 @@ DESCRIPTION:[학사공지] 2026학년도 2학기 수강신청 안내\n근
 URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1601&s
  iteId=lawschool&pkid=938999
 TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:D-3 수강과목 취소 마감
-TRIGGER:-P3D
-END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:D-1 수강과목 취소 마감
@@ -2135,11 +2103,6 @@ URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1602&s
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:D-3 늘푸른장학회 추천 마감
-TRIGGER:-P2DT15H
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
 DESCRIPTION:D-1 늘푸른장학회 추천 마감
 TRIGGER:-PT15H
 END:VALARM
@@ -2180,11 +2143,6 @@ DESCRIPTION:[일반공지] [사법정책연구원] 2027년도 연구주제
 URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1602&s
  iteId=lawschool&pkid=939488
 TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:D-3 사법정책연구원 연구주제 제안 마감
-TRIGGER:-P2DT15H
-END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:D-1 사법정책연구원 연구주제 제안 마감
@@ -2255,11 +2213,6 @@ DESCRIPTION:[일반공지] [한국사이버안보학회] 2026 사이버안
 URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1602&s
  iteId=lawschool&pkid=939905
 TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:D-1 사이버안보 논문공모전 접수 시작
-TRIGGER:-PT15H
-END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:오늘 사이버안보 논문공모전 접수 시작
@@ -2599,11 +2552,6 @@ DESCRIPTION:[일반공지] 2027년도 헌법재판소 헌법연구관(보)
 URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1602&s
  iteId=lawschool&pkid=940754
 TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:D-1 헌법연구관보 원서접수 마감
-TRIGGER:-P1D
-END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:오늘 헌법연구관보 원서접수 마감
