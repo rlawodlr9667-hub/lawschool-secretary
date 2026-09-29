@@ -1898,6 +1898,130 @@ URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1601&s
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
+UID:ba9ad277143da49d686c56891afb1888@law-secretary
+DTSTAMP:20260929T082119Z
+DTSTART;VALUE=DATE:20261013
+DTEND;VALUE=DATE:20261014
+SEQUENCE:0
+SUMMARY:법무장교 지원서류 제출 시작
+DESCRIPTION:[학사공지] [병무청] 2027년도 입영대상 법무장교
+  지원 안내(~10/26(월) 17:00까지 행정팀 제출)\n근거: ■ 제
+ 출기간 : 2026. 10. 13(화) ~ 10. 26(월) 17:00\nhttps://lawschool.sogan
+ g.ac.kr/front/cmsboardview.do?bbsConfigFK=1601&siteId=lawschool&pkid=94136
+ 2
+URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1601&s
+ iteId=lawschool&pkid=941362
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:D-3 법무장교 지원서류 제출 시작
+TRIGGER:-P2DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:D-1 법무장교 지원서류 제출 시작
+TRIGGER:-PT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:오늘 법무장교 지원서류 제출 시작
+TRIGGER:PT9H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:9a7797961bcd6a9f36b429617f9d8e31@law-secretary
+DTSTAMP:20260929T082119Z
+DTSTART:20261026T080000Z
+DTEND:20261026T083000Z
+SEQUENCE:0
+SUMMARY:법무장교 지원서류 행정팀 제출마감
+DESCRIPTION:[학사공지] [병무청] 2027년도 입영대상 법무장교
+  지원 안내(~10/26(월) 17:00까지 행정팀 제출)\n근거: ■ 제
+ 출기간 : 2026. 10. 13(화) ~ 10. 26(월) 17:00\nhttps://lawschool.sogan
+ g.ac.kr/front/cmsboardview.do?bbsConfigFK=1601&siteId=lawschool&pkid=94136
+ 2
+URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1601&s
+ iteId=lawschool&pkid=941362
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:D-3 법무장교 지원서류 행정팀 제출마감
+TRIGGER:-P3D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:D-1 법무장교 지원서류 행정팀 제출마감
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:오늘 법무장교 지원서류 행정팀 제출마감
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:cf03bdfd994060a59fb670ecc1d56eae@law-secretary
+DTSTAMP:20260929T082119Z
+DTSTART;VALUE=DATE:20261102
+DTEND;VALUE=DATE:20261103
+SEQUENCE:0
+SUMMARY:법무장교 병무청 접수(등록) 마감
+DESCRIPTION:[학사공지] [병무청] 2027년도 입영대상 법무장교
+  지원 안내(~10/26(월) 17:00까지 행정팀 제출)\n근거: ○ 지
+ 원서 접수 : 2026. 11. 2.(월)까지 병무청 누리집(www.mma.go.kr)
+ 에 등록\nhttps://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfig
+ FK=1601&siteId=lawschool&pkid=941362
+URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1601&s
+ iteId=lawschool&pkid=941362
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:D-3 법무장교 병무청 접수(등록) 마감
+TRIGGER:-P2DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:D-1 법무장교 병무청 접수(등록) 마감
+TRIGGER:-PT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:오늘 법무장교 병무청 접수(등록) 마감
+TRIGGER:PT9H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:0cb7da210a15a7b39f28976534b4bbdc@law-secretary
+DTSTAMP:20260929T082119Z
+DTSTART;VALUE=DATE:20261112
+DTEND;VALUE=DATE:20261113
+SEQUENCE:0
+SUMMARY:법무장교 서류 우편제출 마감
+DESCRIPTION:[학사공지] [병무청] 2027년도 입영대상 법무장교
+  지원 안내(~10/26(월) 17:00까지 행정팀 제출)\n근거: ○ 지
+ 원자별 지원서 등 서류 제출 : 2026. 11. 12.(목)까지 우편으
+ 로 제출\nhttps://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfig
+ FK=1601&siteId=lawschool&pkid=941362
+URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1601&s
+ iteId=lawschool&pkid=941362
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:D-3 법무장교 서류 우편제출 마감
+TRIGGER:-P2DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:D-1 법무장교 서류 우편제출 마감
+TRIGGER:-PT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:오늘 법무장교 서류 우편제출 마감
+TRIGGER:PT9H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:46ca5b58fc5d4461c149b6444f8498ad@law-secretary
 DTSTAMP:20260728T030000Z
 DTSTART;VALUE=DATE:20260720

@@ -1,0 +1,54 @@
+{
+  "board": "학사공지",
+  "events": [
+    {
+      "all_day": true,
+      "confidence": "high",
+      "evidence": "■ 제출기간 : 2026. 10. 13(화) ~ 10. 26(월) 17:00",
+      "slug": "submit-start",
+      "start_date": "2026-10-13",
+      "start_time": null,
+      "summary": "법무장교 지원서류 제출 시작",
+      "uid": "ba9ad277143da49d686c56891afb1888@law-secretary"
+    },
+    {
+      "all_day": false,
+      "confidence": "high",
+      "evidence": "■ 제출기간 : 2026. 10. 13(화) ~ 10. 26(월) 17:00",
+      "slug": "submit-close",
+      "start_date": "2026-10-26",
+      "start_time": "17:00",
+      "summary": "법무장교 지원서류 행정팀 제출마감",
+      "uid": "9a7797961bcd6a9f36b429617f9d8e31@law-secretary"
+    },
+    {
+      "all_day": true,
+      "confidence": "medium",
+      "evidence": "○ 지원서 접수 : 2026. 11. 2.(월)까지 병무청 누리집(www.mma.go.kr)에 등록",
+      "slug": "mma-register-close",
+      "start_date": "2026-11-02",
+      "start_time": null,
+      "summary": "법무장교 병무청 접수(등록) 마감",
+      "uid": "cf03bdfd994060a59fb670ecc1d56eae@law-secretary"
+    },
+    {
+      "all_day": true,
+      "confidence": "high",
+      "evidence": "○ 지원자별 지원서 등 서류 제출 : 2026. 11. 12.(목)까지 우편으로 제출",
+      "slug": "mail-submit-close",
+      "start_date": "2026-11-12",
+      "start_time": null,
+      "summary": "법무장교 서류 우편제출 마감",
+      "uid": "0cb7da210a15a7b39f28976534b4bbdc@law-secretary"
+    }
+  ],
+  "extracted_at": "2026-09-29T17:21:19+09:00",
+  "needs_manual": false,
+  "no_events_reason": null,
+  "post_id": "sg_1601:941362",
+  "posted_date": "2026-09-29",
+  "revision": 0,
+  "tab": "sogang",
+  "title": "[병무청] 2027년도 입영대상 법무장교 지원 안내(~10/26(월) 17:00까지 행정팀 제출)",
+  "url": "https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1601&siteId=lawschool&pkid=941362"
+}
