@@ -10,19 +10,6 @@ X-WR-TIMEZONE:Asia/Seoul
 REFRESH-INTERVAL;VALUE=DURATION:PT1H
 X-PUBLISHED-TTL:PT1H
 BEGIN:VEVENT
-UID:4ac546b94a9927c06cdd8dd37ae1c7a1@law-secretary
-DTSTAMP:20200101T000000Z
-DTSTART;VALUE=DATE:20260901
-DTEND;VALUE=DATE:20260902
-SEQUENCE:0
-SUMMARY:개강
-DESCRIPTION:[서강대 학사일정] 개강\n근거: 학사일정: 개강 (
- 2026-09-01 ~ 2026-09-01)\nhttps://www.sogang.ac.kr/ko/academic-support/cal
- endar
-URL:https://www.sogang.ac.kr/ko/academic-support/calendar
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:0993b18e0411bc4d355d433ee05a616b@law-secretary
 DTSTAMP:20200101T000000Z
 DTSTART;VALUE=DATE:20260901
@@ -1075,21 +1062,6 @@ DESCRIPTION:[학사공지] 2026-2학기 법전원 장학금 신청을 위
  chool&pkid=936670
 URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1601&s
  iteId=lawschool&pkid=936670
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:e68670dc8bcbb52eb53d0a2514ad86a4@law-secretary
-DTSTAMP:20260727T133500Z
-DTSTART;VALUE=DATE:20260703
-DTEND;VALUE=DATE:20260704
-SEQUENCE:0
-SUMMARY:성적 이의신청 마감
-DESCRIPTION:[학사공지] 2026학년도 1학기 학기말 성적 이의신
- 청 기간 안내\n근거: 1. 성적 이의 신청 기간 : 2026. 7. 1.(
- 수) ~ 7. 3.(금)\nhttps://lawschool.sogang.ac.kr/front/cmsboardview.do?bb
- sConfigFK=1601&siteId=lawschool&pkid=937370
-URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1601&s
- iteId=lawschool&pkid=937370
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -3041,21 +3013,6 @@ TRIGGER:-PT1H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:cf0f1c5841eb889955aed0a5abd07ba0@law-secretary
-DTSTAMP:20260729T030000Z
-DTSTART:20260703T090000Z
-DTEND:20260703T093000Z
-SEQUENCE:0
-SUMMARY:어필 최종합격자 발표
-DESCRIPTION:[실무수습] [공익법센터 어필] 실무수습 모집 공
- 고(~6.26.(금) 18:00)\n근거: 4) 최종 합격자 발표(이메일) : 7/
- 3(금) 오후6시\nhttps://lawschool.sogang.ac.kr/front/cmsboardview.do?bb
- sConfigFK=2706&siteId=lawschool&pkid=937133
-URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=2706&s
- iteId=lawschool&pkid=937133
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:8f78d85d74f827d60076457ee849a7f9@law-secretary
 DTSTAMP:20260729T030000Z
 DTSTART;VALUE=DATE:20260810
@@ -3335,11 +3292,6 @@ DESCRIPTION:[실무수습] [법무법인(유한)로고스] 2027년 동계
 URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=2706&s
  iteId=lawschool&pkid=940427
 TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:D-1 로고스 실무수습 지원 마감
-TRIGGER:-P1D
-END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:오늘 로고스 실무수습 지원 마감
