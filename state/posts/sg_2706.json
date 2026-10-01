@@ -2,6 +2,14 @@
   "posts": [
     {
       "board_name": "실무수습",
+      "date": "2026-10-01",
+      "pinned": false,
+      "post_id": "941464",
+      "title": "[법무법인(유) 지평] 2026년 법학전문대학원 동계 인턴 과정 안내",
+      "url": "https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=2706&siteId=lawschool&pkid=941464"
+    },
+    {
+      "board_name": "실무수습",
       "date": "2026-09-07",
       "pinned": false,
       "post_id": "940427",
@@ -97,5 +105,5 @@
       "url": "https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=2706&siteId=lawschool&pkid=906126"
     }
   ],
-  "updated": "2026-10-01T10:13:07+09:00"
+  "updated": "2026-10-01T16:42:24+09:00"
 }

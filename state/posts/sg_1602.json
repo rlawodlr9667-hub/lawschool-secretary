@@ -2,6 +2,30 @@
   "posts": [
     {
       "board_name": "일반공지",
+      "date": "2026-10-01",
+      "pinned": false,
+      "post_id": "941492",
+      "title": "[한국공정거래조정원] 2026년 공정거래 학술연구 지원사업 최종발표회 개최(10/29 목)",
+      "url": "https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1602&siteId=lawschool&pkid=941492"
+    },
+    {
+      "board_name": "일반공지",
+      "date": "2026-10-01",
+      "pinned": false,
+      "post_id": "941491",
+      "title": "학술등재지 「법과정책」 제32집 제3호 원고모집(26.11.10.까지) 안내",
+      "url": "https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1602&siteId=lawschool&pkid=941491"
+    },
+    {
+      "board_name": "일반공지",
+      "date": "2026-10-01",
+      "pinned": false,
+      "post_id": "941490",
+      "title": "[한국법학원] 제15회 한국법률가대회 및 제1회 세계법률가대회 개최 안내",
+      "url": "https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1602&siteId=lawschool&pkid=941490"
+    },
+    {
+      "board_name": "일반공지",
       "date": "2026-09-28",
       "pinned": false,
       "post_id": "941346",
@@ -401,5 +425,5 @@
       "url": "https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1602&siteId=lawschool&pkid=938296"
     }
   ],
-  "updated": "2026-10-01T10:13:07+09:00"
+  "updated": "2026-10-01T16:42:24+09:00"
 }
