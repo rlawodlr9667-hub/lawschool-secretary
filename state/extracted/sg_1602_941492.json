@@ -1,0 +1,34 @@
+{
+  "board": "일반공지",
+  "events": [
+    {
+      "all_day": true,
+      "confidence": "high",
+      "evidence": "원활한 학술대회 진행을 위해 2026년 10월 21일까지 참가신청을 해주시면 감사하겠습니다.",
+      "slug": "apply-close",
+      "start_date": "2026-10-21",
+      "start_time": null,
+      "summary": "공정거래 연구 참가신청 마감",
+      "uid": "016ebeb2f984de3b999975ee2502ec8e@law-secretary"
+    },
+    {
+      "all_day": false,
+      "confidence": "high",
+      "evidence": "ㅇ 일시: 2026. 10. 29.(목) 13:30~18:00",
+      "slug": "event",
+      "start_date": "2026-10-29",
+      "start_time": "13:30",
+      "summary": "공정거래 학술연구 최종발표회",
+      "uid": "4f579f0b0eebb5d7b7e4b793ef35103d@law-secretary"
+    }
+  ],
+  "extracted_at": "2026-10-01T17:00:00+09:00",
+  "needs_manual": false,
+  "no_events_reason": null,
+  "post_id": "sg_1602:941492",
+  "posted_date": "2026-10-01",
+  "revision": 0,
+  "tab": "sogang",
+  "title": "[한국공정거래조정원] 2026년 공정거래 학술연구 지원사업 최종발표회 개최(10/29 목)",
+  "url": "https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1602&siteId=lawschool&pkid=941492"
+}

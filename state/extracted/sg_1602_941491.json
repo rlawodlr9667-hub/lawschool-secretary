@@ -1,0 +1,24 @@
+{
+  "board": "일반공지",
+  "events": [
+    {
+      "all_day": true,
+      "confidence": "high",
+      "evidence": "1. 논문 접수마감 : 2026년 11월 10일(화)까지 (논문 발행일: 2026년 12월 30일)",
+      "slug": "submission-close",
+      "start_date": "2026-11-10",
+      "start_time": null,
+      "summary": "법과정책 논문 투고 마감",
+      "uid": "9cd4f8a9602774cb492971982b841011@law-secretary"
+    }
+  ],
+  "extracted_at": "2026-10-01T17:00:00+09:00",
+  "needs_manual": false,
+  "no_events_reason": null,
+  "post_id": "sg_1602:941491",
+  "posted_date": "2026-10-01",
+  "revision": 0,
+  "tab": "sogang",
+  "title": "학술등재지 「법과정책」 제32집 제3호 원고모집(26.11.10.까지) 안내",
+  "url": "https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1602&siteId=lawschool&pkid=941491"
+}

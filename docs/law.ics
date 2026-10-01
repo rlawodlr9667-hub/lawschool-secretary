@@ -2858,6 +2858,189 @@ TRIGGER:PT9H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:3fe482ea12596f20fc2f0319e906273d@law-secretary
+DTSTAMP:20261001T080000Z
+DTSTART;VALUE=DATE:20261012
+DTEND;VALUE=DATE:20261013
+SEQUENCE:0
+SUMMARY:한국법률가대회 참가신청 마감
+DESCRIPTION:[일반공지] [한국법학원] 제15회 한국법률가대회
+  및 제1회 세계법률가대회 개최 안내\n근거: 참가를 원하
+ 실 경우 10월 12일(월)까지 사전 신청을 완료하여주시기 
+ 바랍니다.\nhttps://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsCon
+ figFK=1602&siteId=lawschool&pkid=941490
+URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1602&s
+ iteId=lawschool&pkid=941490
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:D-3 한국법률가대회 참가신청 마감
+TRIGGER:-P2DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:D-1 한국법률가대회 참가신청 마감
+TRIGGER:-PT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:오늘 한국법률가대회 참가신청 마감
+TRIGGER:PT9H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:92fe67d05e34d5903ef68f0d3250ea65@law-secretary
+DTSTAMP:20261001T080000Z
+DTSTART;VALUE=DATE:20261026
+DTEND;VALUE=DATE:20261027
+SEQUENCE:0
+SUMMARY:한국법률가대회 시작
+DESCRIPTION:[일반공지] [한국법학원] 제15회 한국법률가대회
+  및 제1회 세계법률가대회 개최 안내\n근거: |일시| 2026년
+  10월 26일(월)-10월 28일(수)\nhttps://lawschool.sogang.ac.kr/front/c
+ msboardview.do?bbsConfigFK=1602&siteId=lawschool&pkid=941490
+URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1602&s
+ iteId=lawschool&pkid=941490
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:D-3 한국법률가대회 시작
+TRIGGER:-P2DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:D-1 한국법률가대회 시작
+TRIGGER:-PT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:오늘 한국법률가대회 시작
+TRIGGER:PT9H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:1e0614b4cfa873b40b81a4b135552622@law-secretary
+DTSTAMP:20261001T080000Z
+DTSTART;VALUE=DATE:20261028
+DTEND;VALUE=DATE:20261029
+SEQUENCE:0
+SUMMARY:한국법률가대회 종료
+DESCRIPTION:[일반공지] [한국법학원] 제15회 한국법률가대회
+  및 제1회 세계법률가대회 개최 안내\n근거: |일시| 2026년
+  10월 26일(월)-10월 28일(수)\nhttps://lawschool.sogang.ac.kr/front/c
+ msboardview.do?bbsConfigFK=1602&siteId=lawschool&pkid=941490
+URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1602&s
+ iteId=lawschool&pkid=941490
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:D-3 한국법률가대회 종료
+TRIGGER:-P2DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:D-1 한국법률가대회 종료
+TRIGGER:-PT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:오늘 한국법률가대회 종료
+TRIGGER:PT9H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:9cd4f8a9602774cb492971982b841011@law-secretary
+DTSTAMP:20261001T080000Z
+DTSTART;VALUE=DATE:20261110
+DTEND;VALUE=DATE:20261111
+SEQUENCE:0
+SUMMARY:법과정책 논문 투고 마감
+DESCRIPTION:[일반공지] 학술등재지 「법과정책」 제32집 제3
+ 호 원고모집(26.11.10.까지) 안내\n근거: 1. 논문 접수마감 :
+  2026년 11월 10일(화)까지 (논문 발행일: 2026년 12월 30일)\nh
+ ttps://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1602&siteI
+ d=lawschool&pkid=941491
+URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1602&s
+ iteId=lawschool&pkid=941491
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:D-3 법과정책 논문 투고 마감
+TRIGGER:-P2DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:D-1 법과정책 논문 투고 마감
+TRIGGER:-PT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:오늘 법과정책 논문 투고 마감
+TRIGGER:PT9H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:016ebeb2f984de3b999975ee2502ec8e@law-secretary
+DTSTAMP:20261001T080000Z
+DTSTART;VALUE=DATE:20261021
+DTEND;VALUE=DATE:20261022
+SEQUENCE:0
+SUMMARY:공정거래 연구 참가신청 마감
+DESCRIPTION:[일반공지] [한국공정거래조정원] 2026년 공정거
+ 래 학술연구 지원사업 최종발표회 개최(10/29 목)\n근거: 
+ 원활한 학술대회 진행을 위해 2026년 10월 21일까지 참가
+ 신청을 해주시면 감사하겠습니다.\nhttps://lawschool.sogang.ac
+ .kr/front/cmsboardview.do?bbsConfigFK=1602&siteId=lawschool&pkid=941492
+URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1602&s
+ iteId=lawschool&pkid=941492
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:D-3 공정거래 연구 참가신청 마감
+TRIGGER:-P2DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:D-1 공정거래 연구 참가신청 마감
+TRIGGER:-PT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:오늘 공정거래 연구 참가신청 마감
+TRIGGER:PT9H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:4f579f0b0eebb5d7b7e4b793ef35103d@law-secretary
+DTSTAMP:20261001T080000Z
+DTSTART:20261029T043000Z
+DTEND:20261029T050000Z
+SEQUENCE:0
+SUMMARY:공정거래 학술연구 최종발표회
+DESCRIPTION:[일반공지] [한국공정거래조정원] 2026년 공정거
+ 래 학술연구 지원사업 최종발표회 개최(10/29 목)\n근거: 
+ ㅇ 일시: 2026. 10. 29.(목) 13:30~18:00\nhttps://lawschool.sogang.ac.kr
+ /front/cmsboardview.do?bbsConfigFK=1602&siteId=lawschool&pkid=941492
+URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1602&s
+ iteId=lawschool&pkid=941492
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:D-3 공정거래 학술연구 최종발표회
+TRIGGER:-P3D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:D-1 공정거래 학술연구 최종발표회
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:오늘 공정거래 학술연구 최종발표회
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:cf0f1c5841eb889955aed0a5abd07ba0@law-secretary
 DTSTAMP:20260729T030000Z
 DTSTART:20260703T090000Z

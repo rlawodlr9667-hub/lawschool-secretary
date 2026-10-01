@@ -1,0 +1,44 @@
+{
+  "board": "일반공지",
+  "events": [
+    {
+      "all_day": true,
+      "confidence": "high",
+      "evidence": "참가를 원하실 경우 10월 12일(월)까지 사전 신청을 완료하여주시기 바랍니다.",
+      "slug": "apply-close",
+      "start_date": "2026-10-12",
+      "start_time": null,
+      "summary": "한국법률가대회 참가신청 마감",
+      "uid": "3fe482ea12596f20fc2f0319e906273d@law-secretary"
+    },
+    {
+      "all_day": true,
+      "confidence": "high",
+      "evidence": "|일시| 2026년 10월 26일(월)-10월 28일(수)",
+      "slug": "event-start",
+      "start_date": "2026-10-26",
+      "start_time": null,
+      "summary": "한국법률가대회 시작",
+      "uid": "92fe67d05e34d5903ef68f0d3250ea65@law-secretary"
+    },
+    {
+      "all_day": true,
+      "confidence": "high",
+      "evidence": "|일시| 2026년 10월 26일(월)-10월 28일(수)",
+      "slug": "event-end",
+      "start_date": "2026-10-28",
+      "start_time": null,
+      "summary": "한국법률가대회 종료",
+      "uid": "1e0614b4cfa873b40b81a4b135552622@law-secretary"
+    }
+  ],
+  "extracted_at": "2026-10-01T17:00:00+09:00",
+  "needs_manual": false,
+  "no_events_reason": null,
+  "post_id": "sg_1602:941490",
+  "posted_date": "2026-10-01",
+  "revision": 0,
+  "tab": "sogang",
+  "title": "[한국법학원] 제15회 한국법률가대회 및 제1회 세계법률가대회 개최 안내",
+  "url": "https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1602&siteId=lawschool&pkid=941490"
+}
