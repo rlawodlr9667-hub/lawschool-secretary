@@ -1049,22 +1049,6 @@ URL:https://leet.uwayapply.com/board/BoardView.htm?board_id=82&board_seqnum
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:1c4971a0b328c233812564d4ba8817fa@law-secretary
-DTSTAMP:20260727T133500Z
-DTSTART:20260707T090000Z
-DTEND:20260707T093000Z
-SEQUENCE:0
-SUMMARY:서류제출·가구원동의 마감
-DESCRIPTION:[학사공지] 2026-2학기 법전원 장학금 신청을 위
- 한 소득분위 산정 신청 안내 (26.6.2.~26.6.30.)\n근거: 신청
- 기간: 2026. 6. 2.(화) 9:00 ~ 2026. 7. 7.(화) 18:00 (36일간)\nhttps:/
- /lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1601&siteId=laws
- chool&pkid=936670
-URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1601&s
- iteId=lawschool&pkid=936670
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:93266d75b58d1343ad5325eb4e601ae2@law-secretary
 DTSTAMP:20260727T133500Z
 DTSTART:20260714T060000Z
@@ -2310,11 +2294,6 @@ URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1602&s
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:D-1 율촌 자유인턴 조기접수 마감
-TRIGGER:-P1D
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
 DESCRIPTION:오늘 율촌 자유인턴 조기접수 마감
 TRIGGER:-PT1H
 END:VALARM
@@ -2740,11 +2719,6 @@ URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1602&s
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:D-1 국회 정책세미나(용산공원)
-TRIGGER:-P1D
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
 DESCRIPTION:오늘 국회 정책세미나(용산공원)
 TRIGGER:-PT1H
 END:VALARM
@@ -3099,21 +3073,6 @@ DESCRIPTION:[실무수습] [학교추천] 대한법률구조공단 2026년
  =2706&siteId=lawschool&pkid=937602
 URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=2706&s
  iteId=lawschool&pkid=937602
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:e6abff80bf5db2daeab5d1b80801cfc1@law-secretary
-DTSTAMP:20260728T155823Z
-DTSTART:20260707T030000Z
-DTEND:20260707T033000Z
-SEQUENCE:0
-SUMMARY:국방부 실무수습 신청 마감
-DESCRIPTION:[실무수습] [국방부] 2026년 하계 실무수습 안내 (
- 신청 ~7/7(화))\n근거: 7월 7일(화) 12:00까지 lawschool@sogang.ac.
- kr 로 메일을 보내주시기 바랍니다.\nhttps://lawschool.sogang.a
- c.kr/front/cmsboardview.do?bbsConfigFK=2706&siteId=lawschool&pkid=937704
-URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=2706&s
- iteId=lawschool&pkid=937704
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
