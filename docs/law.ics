@@ -10,32 +10,6 @@ X-WR-TIMEZONE:Asia/Seoul
 REFRESH-INTERVAL;VALUE=DURATION:PT1H
 X-PUBLISHED-TTL:PT1H
 BEGIN:VEVENT
-UID:0993b18e0411bc4d355d433ee05a616b@law-secretary
-DTSTAMP:20200101T000000Z
-DTSTART;VALUE=DATE:20260901
-DTEND;VALUE=DATE:20260902
-SEQUENCE:0
-SUMMARY:수강과목 확인 및 변경 시작
-DESCRIPTION:[서강대 학사일정] 수강과목 확인 및 변경\n근거
- : 학사일정: 수강과목 확인 및 변경 (2026-09-01 ~ 2026-09-07)\n
- https://www.sogang.ac.kr/ko/academic-support/calendar
-URL:https://www.sogang.ac.kr/ko/academic-support/calendar
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:942a4e753692460ae94b703f0f3d0054@law-secretary
-DTSTAMP:20200101T000000Z
-DTSTART;VALUE=DATE:20260907
-DTEND;VALUE=DATE:20260908
-SEQUENCE:0
-SUMMARY:수강과목 확인 및 변경 마감
-DESCRIPTION:[서강대 학사일정] 수강과목 확인 및 변경\n근거
- : 학사일정: 수강과목 확인 및 변경 (2026-09-01 ~ 2026-09-07)\n
- https://www.sogang.ac.kr/ko/academic-support/calendar
-URL:https://www.sogang.ac.kr/ko/academic-support/calendar
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:e832f2ab73702c4279e7a77ad0b4ed52@law-secretary
 DTSTAMP:20200101T000000Z
 DTSTART;VALUE=DATE:20260910
@@ -2307,11 +2281,6 @@ DESCRIPTION:[일반공지] [법무법인(유) 율촌] 2026년 동계 자유
 URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1602&s
  iteId=lawschool&pkid=940393
 TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:오늘 율촌 자유인턴 정규접수 시작
-TRIGGER:-PT1H
-END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:b7ba6f67a1b47664f38f54ffffb48304@law-secretary
@@ -2435,11 +2404,6 @@ DESCRIPTION:[일반공지] [서울대학교 공익법률센터] 제18회
 URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1602&s
  iteId=lawschool&pkid=940570
 TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:오늘 국제인권강좌 개강
-TRIGGER:-PT1H
-END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:90bdb8c79a03bb9681256b051fc4c717@law-secretary
@@ -2943,6 +2907,37 @@ END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:오늘 공정거래 학술연구 최종발표회
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:c09c2781870022cd3a73c80f254464d0@law-secretary
+DTSTAMP:20261007T152942Z
+DTSTART:20261023T053000Z
+DTEND:20261023T060000Z
+SEQUENCE:0
+SUMMARY:한반도 리더 컨퍼런스
+DESCRIPTION:[일반공지] 한반도 차세대 리더 양성 컨퍼런스(1
+ 0/23) NKDB남북사회통합교육원\, 남북동행포럼 동문회 주
+ 최\n근거: ■ 일시: 2026년 10월 23일(금) 14:30~17:30\nhttps://law
+ school.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1602&siteId=lawschoo
+ l&pkid=941650
+URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1602&s
+ iteId=lawschool&pkid=941650
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:D-3 한반도 리더 컨퍼런스
+TRIGGER:-P3D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:D-1 한반도 리더 컨퍼런스
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:오늘 한반도 리더 컨퍼런스
 TRIGGER:-PT1H
 END:VALARM
 END:VEVENT

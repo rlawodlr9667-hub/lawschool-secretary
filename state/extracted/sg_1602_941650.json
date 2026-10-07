@@ -1,0 +1,24 @@
+{
+  "board": "일반공지",
+  "events": [
+    {
+      "all_day": false,
+      "confidence": "high",
+      "evidence": "■ 일시: 2026년 10월 23일(금) 14:30~17:30",
+      "slug": "event-start",
+      "start_date": "2026-10-23",
+      "start_time": "14:30",
+      "summary": "한반도 리더 컨퍼런스",
+      "uid": "c09c2781870022cd3a73c80f254464d0@law-secretary"
+    }
+  ],
+  "extracted_at": "2026-10-08T00:29:42+09:00",
+  "needs_manual": false,
+  "no_events_reason": null,
+  "post_id": "sg_1602:941650",
+  "posted_date": "2026-10-07",
+  "revision": 0,
+  "tab": "sogang",
+  "title": "한반도 차세대 리더 양성 컨퍼런스(10/23) NKDB남북사회통합교육원, 남북동행포럼 동문회 주최",
+  "url": "https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1602&siteId=lawschool&pkid=941650"
+}
