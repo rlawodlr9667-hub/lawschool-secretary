@@ -1,0 +1,24 @@
+{
+  "board": "일반공지",
+  "events": [
+    {
+      "all_day": false,
+      "confidence": "high",
+      "evidence": "2026년 11월 1일(일) · 반포한강공원 달빛광장 / 5km·10km / 오전 7시 30분부터 종목별 출발",
+      "slug": "justice-run-race-day",
+      "start_date": "2026-11-01",
+      "start_time": "07:30",
+      "summary": "JUSTICE RUN 대회 (오전 7시30분)",
+      "uid": "91cb3672655a1dd258d6fbb49c55c262@law-secretary"
+    }
+  ],
+  "extracted_at": "2026-10-08T10:48:55+09:00",
+  "needs_manual": false,
+  "no_events_reason": null,
+  "post_id": "sg_1602:941661",
+  "posted_date": "2026-10-08",
+  "revision": 0,
+  "tab": "sogang",
+  "title": "[법률신문] JUSTICE RUN SEOCHO 2026 안내",
+  "url": "https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1602&siteId=lawschool&pkid=941661"
+}
