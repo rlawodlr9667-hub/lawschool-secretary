@@ -2,6 +2,14 @@
   "posts": [
     {
       "board_name": "실무수습",
+      "date": "2026-10-08",
+      "pinned": false,
+      "post_id": "941673",
+      "title": "합작법무법인 베이커맥켄지 앤 케이엘파트너스 - 2026 동계 인턴 모집 (법학전문대학원생 대상)",
+      "url": "https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=2706&siteId=lawschool&pkid=941673"
+    },
+    {
+      "board_name": "실무수습",
       "date": "2026-10-01",
       "pinned": false,
       "post_id": "941464",
@@ -105,5 +113,5 @@
       "url": "https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=2706&siteId=lawschool&pkid=906126"
     }
   ],
-  "updated": "2026-10-08T10:48:15+09:00"
+  "updated": "2026-10-08T17:49:16+09:00"
 }

@@ -2,6 +2,14 @@
   "posts": [
     {
       "board_name": "학사공지",
+      "date": "2026-10-08",
+      "pinned": true,
+      "post_id": "941724",
+      "title": "2026학년도 2학기 중간시험 일정 및 시험장소 안내",
+      "url": "https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1601&siteId=lawschool&pkid=941724"
+    },
+    {
+      "board_name": "학사공지",
       "date": "2026-09-29",
       "pinned": true,
       "post_id": "941362",
@@ -193,5 +201,5 @@
       "url": "https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1601&siteId=lawschool&pkid=935645"
     }
   ],
-  "updated": "2026-10-08T10:48:15+09:00"
+  "updated": "2026-10-08T17:49:13+09:00"
 }
