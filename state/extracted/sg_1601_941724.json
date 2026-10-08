@@ -1,0 +1,64 @@
+{
+  "board": "학사공지",
+  "events": [
+    {
+      "all_day": false,
+      "confidence": "high",
+      "evidence": "LAWD103 01 형법 II 이종수 42 실시 2026-10-26 (월) 13:30 ~ 14:45 75 X338 IBT",
+      "slug": "exam-lawd103-01",
+      "start_date": "2026-10-26",
+      "start_time": "13:30",
+      "summary": "형법II 중간시험",
+      "uid": "9f37c4faebcb120eba952cd279c03aa8@law-secretary"
+    },
+    {
+      "all_day": false,
+      "confidence": "high",
+      "evidence": "LAWF101 01 회사법 이상복 42 실시 2026-10-28 (수) 9:00 ~ 10:15 75 X238 IBT",
+      "slug": "exam-lawf101-01",
+      "start_date": "2026-10-28",
+      "start_time": "09:00",
+      "summary": "회사법 중간시험",
+      "uid": "387639f4662893237c9c407746db9b9e@law-secretary"
+    },
+    {
+      "all_day": false,
+      "confidence": "high",
+      "evidence": "LAWK102 01 집단적노사관계법 심재진 5 실시 2026-10-22 (목) 10:30 ~ 11:30 60 X328",
+      "slug": "exam-lawk102-01",
+      "start_date": "2026-10-22",
+      "start_time": "10:30",
+      "summary": "집단적노사관계법 중간시험",
+      "uid": "2ffcae3a4d704426113956d467d3e0aa@law-secretary"
+    },
+    {
+      "all_day": false,
+      "confidence": "high",
+      "evidence": "LAWL101 01 형사소송법 박용철 43 실시 2026-10-26 (월) 10:30 ~ 11:45 75 X238 IBT",
+      "slug": "exam-lawl101-01",
+      "start_date": "2026-10-26",
+      "start_time": "10:30",
+      "summary": "형사소송법 중간시험",
+      "uid": "73ed5c9b24ff8d94ed35dc2f7abcc166@law-secretary"
+    },
+    {
+      "all_day": false,
+      "confidence": "high",
+      "evidence": "LAWM101 02 민사소송법 I 정윤아 30 실시 2026-10-22 (목) 13:30 ~ 14:30 60 X338 수기",
+      "slug": "exam-lawm101-02",
+      "start_date": "2026-10-22",
+      "start_time": "13:30",
+      "summary": "민사소송법I 중간시험",
+      "uid": "d1251352b8619a00112bd7ad1297e683@law-secretary"
+    }
+  ],
+  "extracted_at": "2026-10-08T17:50:00+09:00",
+  "needs_manual": false,
+  "no_events_reason": null,
+  "post_id": "sg_1601:941724",
+  "posted_date": "2026-10-08",
+  "revision": 0,
+  "tab": "sogang",
+  "title": "2026학년도 2학기 중간시험 일정 및 시험장소 안내",
+  "url": "https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1601&siteId=lawschool&pkid=941724"
+}
