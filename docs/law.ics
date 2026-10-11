@@ -10,19 +10,6 @@ X-WR-TIMEZONE:Asia/Seoul
 REFRESH-INTERVAL;VALUE=DURATION:PT1H
 X-PUBLISHED-TTL:PT1H
 BEGIN:VEVENT
-UID:e832f2ab73702c4279e7a77ad0b4ed52@law-secretary
-DTSTAMP:20200101T000000Z
-DTSTART;VALUE=DATE:20260910
-DTEND;VALUE=DATE:20260911
-SEQUENCE:0
-SUMMARY:개강미사(오전10시30분)
-DESCRIPTION:[서강대 학사일정] 개강미사(오전10시30분)\n근거
- : 학사일정: 개강미사(오전10시30분) (2026-09-10 ~ 2026-09-10)\n
- https://www.sogang.ac.kr/ko/academic-support/calendar
-URL:https://www.sogang.ac.kr/ko/academic-support/calendar
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:2198552ee89bcfa49da7044cc867ecf2@law-secretary
 DTSTAMP:20200101T000000Z
 DTSTART;VALUE=DATE:20260914
@@ -1792,11 +1779,6 @@ DESCRIPTION:[학사공지] [병무청] 2027년도 입영대상 법무장교
 URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1601&s
  iteId=lawschool&pkid=941362
 TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:D-3 법무장교 지원서류 제출 시작
-TRIGGER:-P2DT15H
-END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:D-1 법무장교 지원서류 제출 시작
