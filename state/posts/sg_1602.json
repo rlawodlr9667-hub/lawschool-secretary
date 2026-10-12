@@ -67,7 +67,7 @@
     {
       "board_name": "일반공지",
       "date": "2026-09-22",
-      "pinned": false,
+      "pinned": true,
       "post_id": "941160",
       "title": "[사법연수원] 제18회 가인 법정변론 경연대회 개최 안내",
       "url": "https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1602&siteId=lawschool&pkid=941160"
@@ -449,5 +449,5 @@
       "url": "https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1602&siteId=lawschool&pkid=938296"
     }
   ],
-  "updated": "2026-10-12T03:47:17+09:00"
+  "updated": "2026-10-12T10:12:07+09:00"
 }
