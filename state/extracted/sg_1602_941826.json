@@ -1,0 +1,24 @@
+{
+  "board": "일반공지",
+  "events": [
+    {
+      "all_day": true,
+      "confidence": "high",
+      "evidence": "오는 10월 23일 서울 대한상사중재원에서 개최되는 Chartered Institute of Arbitrators(CIArb) Young Members Group(YMG) 연례 컨퍼런스를 아래와 같이 안내합니다.",
+      "slug": "ciarb-ymg-conference",
+      "start_date": "2026-10-23",
+      "start_time": null,
+      "summary": "CIArb YMG 국제중재 컨퍼런스",
+      "uid": "0c51b3b394817d2c8242679d2b68cf61@law-secretary"
+    }
+  ],
+  "extracted_at": "2026-10-13T00:00:00+09:00",
+  "needs_manual": false,
+  "no_events_reason": null,
+  "post_id": "sg_1602:941826",
+  "posted_date": "2026-10-13",
+  "revision": 0,
+  "tab": "sogang",
+  "title": "CIArb YMG 국제중재 컨퍼런스 개최 안내",
+  "url": "https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1602&siteId=lawschool&pkid=941826"
+}
