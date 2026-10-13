@@ -2,6 +2,14 @@
   "posts": [
     {
       "board_name": "일반공지",
+      "date": "2026-10-13",
+      "pinned": false,
+      "post_id": "941826",
+      "title": "CIArb YMG 국제중재 컨퍼런스 개최 안내",
+      "url": "https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1602&siteId=lawschool&pkid=941826"
+    },
+    {
+      "board_name": "일반공지",
       "date": "2026-10-08",
       "pinned": false,
       "post_id": "941661",
@@ -449,5 +457,5 @@
       "url": "https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1602&siteId=lawschool&pkid=938296"
     }
   ],
-  "updated": "2026-10-13T11:58:42+09:00"
+  "updated": "2026-10-13T19:25:38+09:00"
 }
