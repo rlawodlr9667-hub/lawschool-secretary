@@ -1010,22 +1010,6 @@ URL:https://leet.uwayapply.com/board/BoardView.htm?board_id=82&board_seqnum
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:58013a2c0b03eae1bac4727c6e0d95bf@law-secretary
-DTSTAMP:20260727T133500Z
-DTSTART:20260716T050000Z
-DTEND:20260716T053000Z
-SEQUENCE:0
-SUMMARY:리걸클리닉3 추첨 (X223호)
-DESCRIPTION:[학사공지] 2026년 2학기 <리걸클리닉3(법원)-2학
- 점> 과목 수강신청 안내( ~7/14 15:00 마감)\n근거: 6. 정원(6
- 명 예정) 초과 신청 시 추첨 일정 및 장소 : 2026. 7. 16.(목)
-  14:00 예정 / X223호\nhttps://lawschool.sogang.ac.kr/front/cmsboardview
- .do?bbsConfigFK=1601&siteId=lawschool&pkid=938297
-URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1601&s
- iteId=lawschool&pkid=938297
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:6ca4909918157daa7a34c486aad90a7d@law-secretary
 DTSTAMP:20260727T133500Z
 DTSTART;VALUE=DATE:20260807
