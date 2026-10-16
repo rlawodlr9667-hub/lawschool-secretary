@@ -2,6 +2,14 @@
   "posts": [
     {
       "board_name": "일반공지",
+      "date": "2026-10-16",
+      "pinned": false,
+      "post_id": "941944",
+      "title": "[재안내][법률신문] JUSTICE RUN SEOCHO 2026 안내",
+      "url": "https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1602&siteId=lawschool&pkid=941944"
+    },
+    {
+      "board_name": "일반공지",
       "date": "2026-10-15",
       "pinned": false,
       "post_id": "941905",
@@ -465,5 +473,5 @@
       "url": "https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1602&siteId=lawschool&pkid=938296"
     }
   ],
-  "updated": "2026-10-16T13:54:14+09:00"
+  "updated": "2026-10-16T18:39:49+09:00"
 }
