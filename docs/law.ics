@@ -2604,11 +2604,6 @@ URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1602&s
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:D-1 헌법재판연구원 연구과제 제안 마감
-TRIGGER:-P1D
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
 DESCRIPTION:오늘 헌법재판연구원 연구과제 제안 마감
 TRIGGER:-PT1H
 END:VALARM
