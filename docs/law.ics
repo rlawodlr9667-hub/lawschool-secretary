@@ -62,11 +62,6 @@ URL:https://www.sogang.ac.kr/ko/academic-support/calendar
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:D-3 중간시험 시작
-TRIGGER:-P2DT15H
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
 DESCRIPTION:D-1 중간시험 시작
 TRIGGER:-PT15H
 END:VALARM
@@ -920,35 +915,6 @@ TRIGGER:PT9H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:546d777a86f0742e4f08cd59aa42e9f9@law-secretary
-DTSTAMP:20260726T134500Z
-DTSTART;VALUE=DATE:20260719
-DTEND;VALUE=DATE:20260720
-SEQUENCE:0
-SUMMARY:수험표 교부 종료
-DESCRIPTION:[법학적성시험 공지사항] 2027학년도 법학적성시
- 험 시행계획 공고\n근거: 수험표교부 : 2026. 7. 1.(화) ~ 7. 1
- 9.(일)\nhttps://leet.uwayapply.com/board/BoardView.htm?board_id=82&board_
- seqnum=86030
-URL:https://leet.uwayapply.com/board/BoardView.htm?board_id=82&board_seqnum
- =86030
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:459015417051ebad11200abdc9e6f0da@law-secretary
-DTSTAMP:20260726T134500Z
-DTSTART;VALUE=DATE:20260719
-DTEND;VALUE=DATE:20260720
-SEQUENCE:0
-SUMMARY:법학적성시험 시행일
-DESCRIPTION:[법학적성시험 공지사항] 2027학년도 법학적성시
- 험 시행계획 공고\n근거: 시 험 실 시 : 2026. 7. 19.(일)\nhttp
- s://leet.uwayapply.com/board/BoardView.htm?board_id=82&board_seqnum=86030
-URL:https://leet.uwayapply.com/board/BoardView.htm?board_id=82&board_seqnum
- =86030
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:feac97eeb26be26be45569504d0ca090@law-secretary
 DTSTAMP:20260726T134500Z
 DTSTART:20260818T010000Z
@@ -961,21 +927,6 @@ DESCRIPTION:[법학적성시험 공지사항] 2027학년도 법학적성시
  m=86030
 URL:https://leet.uwayapply.com/board/BoardView.htm?board_id=82&board_seqnum
  =86030
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:8a7a714982c69505f433c32f51523e99@law-secretary
-DTSTAMP:20260726T134500Z
-DTSTART:20260719T000000Z
-DTEND:20260719T003000Z
-SEQUENCE:0
-SUMMARY:법학적성시험 시행일
-DESCRIPTION:[법학적성시험 공지사항] 2027학년도 법학적성시
- 험 원서접수 마감 현황\n근거: 시험일시 : 2026. 7. 19.(일)\,
-  09:00~15:50\nhttps://leet.uwayapply.com/board/BoardView.htm?board_id=82&b
- oard_seqnum=86344
-URL:https://leet.uwayapply.com/board/BoardView.htm?board_id=82&board_seqnum
- =86344
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -3227,22 +3178,6 @@ DESCRIPTION:[실무수습] [국방부] 2026년 하계 실무수습 안내 (
  lawschool&pkid=937704
 URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=2706&s
  iteId=lawschool&pkid=937704
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:99a544bf8360597daafe90c3ee11423c@law-secretary
-DTSTAMP:20260728T155823Z
-DTSTART;VALUE=DATE:20260719
-DTEND;VALUE=DATE:20260720
-SEQUENCE:0
-SUMMARY:해양경찰 실무수습 신청 마감
-DESCRIPTION:[실무수습] [학교추천] 2026년 해양경찰 실무수습
-  과정 참여 학생 모집 (신청 ~7/19(일))\n근거: 7월 19일(일)
- 까지 lawschool@sogang.ac.kr 로 메일을 보내주시기 바랍니다.\
- nhttps://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=2706&sit
- eId=lawschool&pkid=938234
-URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=2706&s
- iteId=lawschool&pkid=938234
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
