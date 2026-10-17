@@ -2602,11 +2602,6 @@ DESCRIPTION:[일반공지] [헌법재판연구원] 2027년도 헌법재판
 URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1602&s
  iteId=lawschool&pkid=940948
 TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:오늘 헌법재판연구원 연구과제 제안 마감
-TRIGGER:-PT1H
-END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:92dda8f3c1729dfb23b8b89f0f1e1ec4@law-secretary
@@ -2733,11 +2728,6 @@ DESCRIPTION:[일반공지] [사법연수원] 제18회 가인 법정변론
 URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1602&s
  iteId=lawschool&pkid=941160
 TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:D-3 가인 법정변론대회 신청 시작
-TRIGGER:-P2DT15H
-END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:D-1 가인 법정변론대회 신청 시작
