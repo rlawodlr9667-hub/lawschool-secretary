@@ -10,32 +10,6 @@ X-WR-TIMEZONE:Asia/Seoul
 REFRESH-INTERVAL;VALUE=DURATION:PT1H
 X-PUBLISHED-TTL:PT1H
 BEGIN:VEVENT
-UID:2198552ee89bcfa49da7044cc867ecf2@law-secretary
-DTSTAMP:20200101T000000Z
-DTSTART;VALUE=DATE:20260914
-DTEND;VALUE=DATE:20260915
-SEQUENCE:0
-SUMMARY:서강문화제: CARDINAL 시작
-DESCRIPTION:[서강대 학사일정] 서강문화제: CARDINAL\n근거: 학
- 사일정: 서강문화제: CARDINAL (2026-09-14 ~ 2026-09-18)\nhttps://ww
- w.sogang.ac.kr/ko/academic-support/calendar
-URL:https://www.sogang.ac.kr/ko/academic-support/calendar
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:8f0074b36a866473cf9701b999b10aae@law-secretary
-DTSTAMP:20200101T000000Z
-DTSTART;VALUE=DATE:20260918
-DTEND;VALUE=DATE:20260919
-SEQUENCE:0
-SUMMARY:서강문화제: CARDINAL 마감
-DESCRIPTION:[서강대 학사일정] 서강문화제: CARDINAL\n근거: 학
- 사일정: 서강문화제: CARDINAL (2026-09-14 ~ 2026-09-18)\nhttps://ww
- w.sogang.ac.kr/ko/academic-support/calendar
-URL:https://www.sogang.ac.kr/ko/academic-support/calendar
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:26fc3f3bb97da393fb11f8fe849b0c95@law-secretary
 DTSTAMP:20200101T000000Z
 DTSTART;VALUE=DATE:20260928
@@ -1945,22 +1919,6 @@ TRIGGER:-PT1H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:46ca5b58fc5d4461c149b6444f8498ad@law-secretary
-DTSTAMP:20260728T030000Z
-DTSTART;VALUE=DATE:20260720
-DTEND;VALUE=DATE:20260721
-SEQUENCE:0
-SUMMARY:법과정책 논문 접수 마감
-DESCRIPTION:[일반공지] [제주대] 법과정책연구원 학술등재
- 지 「법과정책」 제32집 제2호 원고 모집 연장 안내\n근
- 거: 1. 논문 접수 마감 : 2026년 07월 20일(월) (논문 발행일:
-  2026년 08월 30일)\nhttps://lawschool.sogang.ac.kr/front/cmsboardview.d
- o?bbsConfigFK=1602&siteId=lawschool&pkid=938352
-URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1602&s
- iteId=lawschool&pkid=938352
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:9ad22e3f8e1b5dfb15f1bb5ecfb04e8a@law-secretary
 DTSTAMP:20260728T030000Z
 DTSTART;VALUE=DATE:20260723
@@ -2681,11 +2639,6 @@ URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1602&s
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:D-1 가인 법정변론대회 신청 시작
-TRIGGER:-PT15H
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
 DESCRIPTION:오늘 가인 법정변론대회 신청 시작
 TRIGGER:PT9H
 END:VALARM
@@ -2844,11 +2797,6 @@ URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1602&s
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:D-3 공정거래 연구 참가신청 마감
-TRIGGER:-P2DT15H
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
 DESCRIPTION:D-1 공정거래 연구 참가신청 마감
 TRIGGER:-PT15H
 END:VALARM
@@ -2997,11 +2945,6 @@ URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1602&s
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:D-3 JUSTICE RUN 참가접수 마감
-TRIGGER:-P3D
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
 DESCRIPTION:D-1 JUSTICE RUN 참가접수 마감
 TRIGGER:-P1D
 END:VALARM
@@ -3148,21 +3091,6 @@ DESCRIPTION:[실무수습] [학교추천] 대한법률구조공단 2026년
  =2706&siteId=lawschool&pkid=937602
 URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=2706&s
  iteId=lawschool&pkid=937602
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:a4c0911d86ebc24e0aad245f0ee97230@law-secretary
-DTSTAMP:20260728T155823Z
-DTSTART;VALUE=DATE:20260720
-DTEND;VALUE=DATE:20260721
-SEQUENCE:0
-SUMMARY:국방부 실무수습 시작
-DESCRIPTION:[실무수습] [국방부] 2026년 하계 실무수습 안내 (
- 신청 ~7/7(화))\n근거: ○ 기간 : ‘26. 7. 20.(월) ~ 7. 31.(금)\n
- https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=2706&site
- Id=lawschool&pkid=937704
-URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=2706&s
- iteId=lawschool&pkid=937704
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
