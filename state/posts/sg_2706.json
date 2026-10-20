@@ -2,6 +2,14 @@
   "posts": [
     {
       "board_name": "실무수습",
+      "date": "2026-10-20",
+      "pinned": false,
+      "post_id": "942025",
+      "title": "법무법인(유한) 화우 - 2027년 동계 법학전문대학원 인턴십 프로그램 안내",
+      "url": "https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=2706&siteId=lawschool&pkid=942025"
+    },
+    {
+      "board_name": "실무수습",
       "date": "2026-10-12",
       "pinned": false,
       "post_id": "941752",
@@ -121,5 +129,5 @@
       "url": "https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=2706&siteId=lawschool&pkid=906126"
     }
   ],
-  "updated": "2026-10-20T14:54:41+09:00"
+  "updated": "2026-10-20T20:23:42+09:00"
 }
