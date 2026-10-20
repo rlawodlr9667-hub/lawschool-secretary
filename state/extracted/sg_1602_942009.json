@@ -1,0 +1,24 @@
+{
+  "board": "일반공지",
+  "events": [
+    {
+      "all_day": false,
+      "confidence": "high",
+      "evidence": "3. 일시: 2026년 10월 23일(금) Conference: 09:30–17:30",
+      "slug": "ciarb-ymg-conference",
+      "start_date": "2026-10-23",
+      "start_time": "09:30",
+      "summary": "CIArb YMG 국제중재 컨퍼런스",
+      "uid": "9f2ba47b91e9af6c33c4808f17eb082a@law-secretary"
+    }
+  ],
+  "extracted_at": "2026-10-20T14:55:53+09:00",
+  "needs_manual": false,
+  "no_events_reason": null,
+  "post_id": "sg_1602:942009",
+  "posted_date": "2026-10-20",
+  "revision": 0,
+  "tab": "sogang",
+  "title": "(변경 재공지)CIArb YMG 국제중재 컨퍼런스",
+  "url": "https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1602&siteId=lawschool&pkid=942009"
+}
