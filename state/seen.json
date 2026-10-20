@@ -19,7 +19,7 @@
     "seeded": true
   },
   "sg_1601": {
-    "fail_streak": 1,
+    "fail_streak": 0,
     "ids": [
       "941724",
       "941362",
@@ -50,10 +50,12 @@
     "seeded": true
   },
   "sg_1602": {
-    "fail_streak": 1,
+    "fail_streak": 0,
     "ids": [
       "941160",
       "939511",
+      "942024",
+      "942009",
       "941997",
       "941986",
       "941944",
@@ -117,7 +119,7 @@
     "seeded": true
   },
   "sg_1603": {
-    "fail_streak": 1,
+    "fail_streak": 0,
     "ids": [
       "941197",
       "939224",
@@ -137,7 +139,7 @@
     "seeded": true
   },
   "sg_2706": {
-    "fail_streak": 1,
+    "fail_streak": 0,
     "ids": [
       "906126",
       "941752",

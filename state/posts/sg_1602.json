@@ -2,6 +2,22 @@
   "posts": [
     {
       "board_name": "일반공지",
+      "date": "2026-10-20",
+      "pinned": false,
+      "post_id": "942024",
+      "title": "[한국지식재산보호원 ] WIPO IP MOOT 공지",
+      "url": "https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1602&siteId=lawschool&pkid=942024"
+    },
+    {
+      "board_name": "일반공지",
+      "date": "2026-10-20",
+      "pinned": false,
+      "post_id": "942009",
+      "title": "(변경 재공지)CIArb YMG 국제중재 컨퍼런스",
+      "url": "https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1602&siteId=lawschool&pkid=942009"
+    },
+    {
+      "board_name": "일반공지",
       "date": "2026-10-19",
       "pinned": false,
       "post_id": "941997",
@@ -489,5 +505,5 @@
       "url": "https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1602&siteId=lawschool&pkid=938296"
     }
   ],
-  "updated": "2026-10-20T02:08:07+09:00"
+  "updated": "2026-10-20T14:54:41+09:00"
 }
