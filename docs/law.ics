@@ -34,11 +34,6 @@ DESCRIPTION:[서강대 학사일정] 중간시험\n근거: 학사일정:
  ic-support/calendar
 URL:https://www.sogang.ac.kr/ko/academic-support/calendar
 TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:오늘 중간시험 시작
-TRIGGER:PT9H
-END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:e0bb6cd436bb4ff027aa7dfdc16499a0@law-secretary
@@ -2767,11 +2762,6 @@ URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1602&s
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:D-1 공정거래 연구 참가신청 마감
-TRIGGER:-PT15H
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
 DESCRIPTION:오늘 공정거래 연구 참가신청 마감
 TRIGGER:PT9H
 END:VALARM
@@ -2821,11 +2811,6 @@ DESCRIPTION:[일반공지] 한반도 차세대 리더 양성 컨퍼런스(1
 URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1602&s
  iteId=lawschool&pkid=941650
 TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:D-3 한반도 리더 컨퍼런스
-TRIGGER:-P3D
-END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:D-1 한반도 리더 컨퍼런스
@@ -2885,11 +2870,6 @@ URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1602&s
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:D-3 CIArb YMG 국제중재 컨퍼런스
-TRIGGER:-P2DT15H
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
 DESCRIPTION:D-1 CIArb YMG 국제중재 컨퍼런스
 TRIGGER:-PT15H
 END:VALARM
@@ -2913,11 +2893,6 @@ DESCRIPTION:[일반공지] [재안내][법률신문] JUSTICE RUN SEOCHO 202
 URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1602&s
  iteId=lawschool&pkid=941944
 TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:D-1 JUSTICE RUN 참가접수 마감
-TRIGGER:-P1D
-END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:오늘 JUSTICE RUN 참가접수 마감
@@ -2968,11 +2943,6 @@ DESCRIPTION:[일반공지] (변경 재공지)CIArb YMG 국제중재 컨퍼
 URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1602&s
  iteId=lawschool&pkid=942009
 TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:D-3 CIArb YMG 국제중재 컨퍼런스
-TRIGGER:-P3D
-END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:D-1 CIArb YMG 국제중재 컨퍼런스
