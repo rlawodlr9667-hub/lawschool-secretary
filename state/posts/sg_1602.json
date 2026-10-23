@@ -2,6 +2,22 @@
   "posts": [
     {
       "board_name": "일반공지",
+      "date": "2026-10-23",
+      "pinned": false,
+      "post_id": "942100",
+      "title": "[제10회 아·태 해양디지털 국제 콘퍼런스] 해양 디지털의 미래를 함께하는 자리에 여러분을 초대합니다!",
+      "url": "https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1602&siteId=lawschool&pkid=942100"
+    },
+    {
+      "board_name": "일반공지",
+      "date": "2026-10-23",
+      "pinned": false,
+      "post_id": "942099",
+      "title": "[서울사회복지공익법센터] 2026년 복지법률 토론회 개최 안내",
+      "url": "https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1602&siteId=lawschool&pkid=942099"
+    },
+    {
+      "board_name": "일반공지",
       "date": "2026-10-20",
       "pinned": false,
       "post_id": "942024",
@@ -505,5 +521,5 @@
       "url": "https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1602&siteId=lawschool&pkid=938296"
     }
   ],
-  "updated": "2026-10-23T09:33:31+09:00"
+  "updated": "2026-10-23T14:15:58+09:00"
 }
