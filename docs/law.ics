@@ -49,11 +49,6 @@ URL:https://www.sogang.ac.kr/ko/academic-support/calendar
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:D-3 중간시험 마감
-TRIGGER:-P2DT15H
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
 DESCRIPTION:D-1 중간시험 마감
 TRIGGER:-PT15H
 END:VALARM
@@ -1651,11 +1646,6 @@ URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1601&s
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:D-3 법무장교 지원서류 행정팀 제출마감
-TRIGGER:-P3D
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
 DESCRIPTION:D-1 법무장교 지원서류 행정팀 제출마감
 TRIGGER:-P1D
 END:VALARM
@@ -1743,11 +1733,6 @@ URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1601&s
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:D-3 형법II 중간시험
-TRIGGER:-P3D
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
 DESCRIPTION:D-1 형법II 중간시험
 TRIGGER:-P1D
 END:VALARM
@@ -1816,11 +1801,6 @@ DESCRIPTION:[학사공지] 2026학년도 2학기 중간시험 일정 및
 URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1601&s
  iteId=lawschool&pkid=941724
 TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:D-3 형사소송법 중간시험
-TRIGGER:-P3D
-END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:D-1 형사소송법 중간시험
@@ -2598,11 +2578,6 @@ URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1602&s
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:D-3 한국법률가대회 시작
-TRIGGER:-P2DT15H
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
 DESCRIPTION:D-1 한국법률가대회 시작
 TRIGGER:-PT15H
 END:VALARM
@@ -2734,11 +2709,6 @@ DESCRIPTION:[일반공지] 한반도 차세대 리더 양성 컨퍼런스(1
 URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1602&s
  iteId=lawschool&pkid=941650
 TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:오늘 한반도 리더 컨퍼런스
-TRIGGER:-PT1H
-END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:91cb3672655a1dd258d6fbb49c55c262@law-secretary
@@ -2786,11 +2756,6 @@ DESCRIPTION:[일반공지] CIArb YMG 국제중재 컨퍼런스 개최 안
 URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1602&s
  iteId=lawschool&pkid=941826
 TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:오늘 CIArb YMG 국제중재 컨퍼런스
-TRIGGER:PT9H
-END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:d714dd9917ee09ebcff297f5d7d02ecd@law-secretary
@@ -2851,11 +2816,6 @@ DESCRIPTION:[일반공지] (변경 재공지)CIArb YMG 국제중재 컨퍼
 URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1602&s
  iteId=lawschool&pkid=942009
 TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:오늘 CIArb YMG 국제중재 컨퍼런스
-TRIGGER:-PT1H
-END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ae497536876f3fb11c1dfde3a46d32a0@law-secretary
@@ -3183,11 +3143,6 @@ DESCRIPTION:[실무수습] [법무법인(유한)로고스] 2027년 동계
 URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=2706&s
  iteId=lawschool&pkid=940427
 TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:D-3 로고스 실무수습 합격자 발표
-TRIGGER:-P2DT15H
-END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:D-1 로고스 실무수습 합격자 발표
