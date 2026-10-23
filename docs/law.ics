@@ -2858,6 +2858,97 @@ TRIGGER:-PT1H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:ae497536876f3fb11c1dfde3a46d32a0@law-secretary
+DTSTAMP:20261023T053000Z
+DTSTART:20261106T050000Z
+DTEND:20261106T053000Z
+SEQUENCE:0
+SUMMARY:토론회 오프라인 신청 마감
+DESCRIPTION:[일반공지] [서울사회복지공익법센터] 2026년 복
+ 지법률 토론회 개최 안내\n근거: ■ 신청 기간: (오프라
+ 인) ~ 2026년 11월 6일 (금) 14:00까지 (※ 선착순 마감)\nhttps:
+ //lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1602&siteId=law
+ school&pkid=942099
+URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1602&s
+ iteId=lawschool&pkid=942099
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:D-3 토론회 오프라인 신청 마감
+TRIGGER:-P3D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:D-1 토론회 오프라인 신청 마감
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:오늘 토론회 오프라인 신청 마감
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:9458feec260f2f16d122b1e66bdc874e@law-secretary
+DTSTAMP:20261023T053000Z
+DTSTART:20261110T050000Z
+DTEND:20261110T053000Z
+SEQUENCE:0
+SUMMARY:토론회 온라인 신청 마감
+DESCRIPTION:[일반공지] [서울사회복지공익법센터] 2026년 복
+ 지법률 토론회 개최 안내\n근거: (온 라 인) ~ 2026년 11월 1
+ 0일 (화) 14:00까지\nhttps://lawschool.sogang.ac.kr/front/cmsboardview.
+ do?bbsConfigFK=1602&siteId=lawschool&pkid=942099
+URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1602&s
+ iteId=lawschool&pkid=942099
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:D-3 토론회 온라인 신청 마감
+TRIGGER:-P3D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:D-1 토론회 온라인 신청 마감
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:오늘 토론회 온라인 신청 마감
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:f4253072a13d423f4dc6ab05c74243ce@law-secretary
+DTSTAMP:20261023T053000Z
+DTSTART:20261113T060000Z
+DTEND:20261113T063000Z
+SEQUENCE:0
+SUMMARY:복지법률 토론회 개최
+DESCRIPTION:[일반공지] [서울사회복지공익법센터] 2026년 복
+ 지법률 토론회 개최 안내\n근거: ■ 일시: 2026. 11. 13.(금) 
+ 15:00 ~ 17:30\nhttps://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsCon
+ figFK=1602&siteId=lawschool&pkid=942099
+URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1602&s
+ iteId=lawschool&pkid=942099
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:D-3 복지법률 토론회 개최
+TRIGGER:-P3D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:D-1 복지법률 토론회 개최
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:오늘 복지법률 토론회 개최
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:8f78d85d74f827d60076457ee849a7f9@law-secretary
 DTSTAMP:20260729T030000Z
 DTSTART;VALUE=DATE:20260810

@@ -1,0 +1,44 @@
+{
+  "board": "일반공지",
+  "events": [
+    {
+      "all_day": false,
+      "confidence": "high",
+      "evidence": "■ 신청 기간: (오프라인) ~ 2026년 11월 6일 (금) 14:00까지 (※ 선착순 마감)",
+      "slug": "offline-apply-close",
+      "start_date": "2026-11-06",
+      "start_time": "14:00",
+      "summary": "토론회 오프라인 신청 마감",
+      "uid": "ae497536876f3fb11c1dfde3a46d32a0@law-secretary"
+    },
+    {
+      "all_day": false,
+      "confidence": "high",
+      "evidence": "(온 라 인) ~ 2026년 11월 10일 (화) 14:00까지",
+      "slug": "online-apply-close",
+      "start_date": "2026-11-10",
+      "start_time": "14:00",
+      "summary": "토론회 온라인 신청 마감",
+      "uid": "9458feec260f2f16d122b1e66bdc874e@law-secretary"
+    },
+    {
+      "all_day": false,
+      "confidence": "high",
+      "evidence": "■ 일시: 2026. 11. 13.(금) 15:00 ~ 17:30",
+      "slug": "event-start",
+      "start_date": "2026-11-13",
+      "start_time": "15:00",
+      "summary": "복지법률 토론회 개최",
+      "uid": "f4253072a13d423f4dc6ab05c74243ce@law-secretary"
+    }
+  ],
+  "extracted_at": "2026-10-23T14:30:00+09:00",
+  "needs_manual": false,
+  "no_events_reason": null,
+  "post_id": "sg_1602:942099",
+  "posted_date": "2026-10-23",
+  "revision": 0,
+  "tab": "sogang",
+  "title": "[서울사회복지공익법센터] 2026년 복지법률 토론회 개최 안내",
+  "url": "https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1602&siteId=lawschool&pkid=942099"
+}
