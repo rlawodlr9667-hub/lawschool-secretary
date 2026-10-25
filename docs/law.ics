@@ -49,11 +49,6 @@ URL:https://www.sogang.ac.kr/ko/academic-support/calendar
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:D-1 중간시험 마감
-TRIGGER:-PT15H
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
 DESCRIPTION:오늘 중간시험 마감
 TRIGGER:PT9H
 END:VALARM
@@ -950,21 +945,6 @@ URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1601&s
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:dab1c37acc0e229299b26b827470c077@law-secretary
-DTSTAMP:20260726T163741Z
-DTSTART;VALUE=DATE:20260727
-DTEND;VALUE=DATE:20260728
-SEQUENCE:0
-SUMMARY:하계 집중휴무 시작
-DESCRIPTION:[학사공지] 2026학년도 하계 집중휴무 시행 안내\
- n근거: 휴무기간 : 2026년 7월 27일(월) ∼ 7월 31일(금) 『5
- 일간』\nhttps://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigF
- K=1601&siteId=lawschool&pkid=938567
-URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1601&s
- iteId=lawschool&pkid=938567
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:85bd9e657a69b66c9460cbd847c9db31@law-secretary
 DTSTAMP:20260726T163741Z
 DTSTART;VALUE=DATE:20260731
@@ -977,22 +957,6 @@ DESCRIPTION:[학사공지] 2026학년도 하계 집중휴무 시행 안내\
  K=1601&siteId=lawschool&pkid=938567
 URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1601&s
  iteId=lawschool&pkid=938567
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:ce583622e2ee9a31ce4d9f159b7e0f6b@law-secretary
-DTSTAMP:20260726T163741Z
-DTSTART;VALUE=DATE:20260727
-DTEND;VALUE=DATE:20260728
-SEQUENCE:0
-SUMMARY:2학기 장학금 신청 시작
-DESCRIPTION:[학사공지] 2026학년도 2학기 법학전문대학원 장
- 학금 신청 안내\n근거: 신청기간 : 2026.7.27.(월) ~ 8.7.(금) 1
- 7:00까지(휴무일에는 이메일 접수만 가능함)\nhttps://lawscho
- ol.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1601&siteId=lawschool&pk
- id=938682
-URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1601&s
- iteId=lawschool&pkid=938682
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -1116,21 +1080,6 @@ ACTION:DISPLAY
 DESCRIPTION:오늘 2학기 종강
 TRIGGER:PT9H
 END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:94ed5b9d8553f2a30a8e6b5ecd445c53@law-secretary
-DTSTAMP:20260805T080207Z
-DTSTART;VALUE=DATE:20260727
-DTEND;VALUE=DATE:20260728
-SEQUENCE:0
-SUMMARY:휴·복학 신청 시작
-DESCRIPTION:[학사공지] 2026학년도 2학기 재학생 등록금 납부
-  및 주요 학사일정 안내\n근거: 1) 휴·복학 신청기간 : 202
- 6년 7월 27일(월) ~ 8월 6일(목) 까지\nhttps://lawschool.sogang.ac.
- kr/front/cmsboardview.do?bbsConfigFK=1601&siteId=lawschool&pkid=938989
-URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1601&s
- iteId=lawschool&pkid=938989
-TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:9ec00e24498ca58f8a45dbfe8c0364d8@law-secretary
@@ -1282,11 +1231,6 @@ DESCRIPTION:[학사공지] 2026학년도 2학기 재학생 등록금 납부
 URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1601&s
  iteId=lawschool&pkid=938989
 TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:D-3 중간시험 종료
-TRIGGER:-P2DT15H
-END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:D-1 중간시험 종료
@@ -1462,11 +1406,6 @@ DESCRIPTION:[학사공지] 2026학년도 2학기 수강신청 안내\n근
 URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1601&s
  iteId=lawschool&pkid=938999
 TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:D-3 중간시험 종료
-TRIGGER:-P2DT15H
-END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:D-1 중간시험 종료
@@ -1646,11 +1585,6 @@ URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1601&s
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:D-1 법무장교 지원서류 행정팀 제출마감
-TRIGGER:-P1D
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
 DESCRIPTION:오늘 법무장교 지원서류 행정팀 제출마감
 TRIGGER:-PT1H
 END:VALARM
@@ -1733,11 +1667,6 @@ URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1601&s
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:D-1 형법II 중간시험
-TRIGGER:-P1D
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
 DESCRIPTION:오늘 형법II 중간시험
 TRIGGER:-PT1H
 END:VALARM
@@ -1756,11 +1685,6 @@ DESCRIPTION:[학사공지] 2026학년도 2학기 중간시험 일정 및
 URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1601&s
  iteId=lawschool&pkid=941724
 TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:D-3 회사법 중간시험
-TRIGGER:-P3D
-END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:D-1 회사법 중간시험
@@ -1801,11 +1725,6 @@ DESCRIPTION:[학사공지] 2026학년도 2학기 중간시험 일정 및
 URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1601&s
  iteId=lawschool&pkid=941724
 TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:D-1 형사소송법 중간시험
-TRIGGER:-P1D
-END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:오늘 형사소송법 중간시험
@@ -2532,11 +2451,6 @@ URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1602&s
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:D-3 가인 법정변론대회 신청 마감
-TRIGGER:-P2DT15H
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
 DESCRIPTION:D-1 가인 법정변론대회 신청 마감
 TRIGGER:-PT15H
 END:VALARM
@@ -2578,11 +2492,6 @@ URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1602&s
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:D-1 한국법률가대회 시작
-TRIGGER:-PT15H
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
 DESCRIPTION:오늘 한국법률가대회 시작
 TRIGGER:PT9H
 END:VALARM
@@ -2601,11 +2510,6 @@ DESCRIPTION:[일반공지] [한국법학원] 제15회 한국법률가대회
 URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1602&s
  iteId=lawschool&pkid=941490
 TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:D-3 한국법률가대회 종료
-TRIGGER:-P2DT15H
-END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:D-1 한국법률가대회 종료
@@ -2954,22 +2858,6 @@ URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=2706&s
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:0befae2b5dfca93b04a5d4af7714266f@law-secretary
-DTSTAMP:20260729T030000Z
-DTSTART;VALUE=DATE:20260727
-DTEND;VALUE=DATE:20260728
-SEQUENCE:0
-SUMMARY:건보공단 실무수습 시작
-DESCRIPTION:[실무수습] [국민건강보험공단] 2026년 법학전문
- 대학원생 실무수습 안내\n근거: (교육기간) ’26.7.27.(월) 
- ~ 7.31.(금)\, 5일간 … 총 40시간(1일 8시간)\nhttps://lawschool.s
- ogang.ac.kr/front/cmsboardview.do?bbsConfigFK=2706&siteId=lawschool&pkid=9
- 37299
-URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=2706&s
- iteId=lawschool&pkid=937299
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:4c4abbd60ace7a90e2a9c9941439c9b9@law-secretary
 DTSTAMP:20260729T030000Z
 DTSTART;VALUE=DATE:20260731
@@ -3143,11 +3031,6 @@ DESCRIPTION:[실무수습] [법무법인(유한)로고스] 2027년 동계
 URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=2706&s
  iteId=lawschool&pkid=940427
 TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:D-1 로고스 실무수습 합격자 발표
-TRIGGER:-PT15H
-END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:오늘 로고스 실무수습 합격자 발표
