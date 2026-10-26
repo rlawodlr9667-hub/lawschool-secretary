@@ -47,11 +47,6 @@ DESCRIPTION:[서강대 학사일정] 중간시험\n근거: 학사일정:
  ic-support/calendar
 URL:https://www.sogang.ac.kr/ko/academic-support/calendar
 TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:오늘 중간시험 마감
-TRIGGER:PT9H
-END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:6b56acbfc7e225dc89f1de8b6a4f439d@law-secretary
@@ -1583,11 +1578,6 @@ DESCRIPTION:[학사공지] [병무청] 2027년도 입영대상 법무장교
 URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1601&s
  iteId=lawschool&pkid=941362
 TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:오늘 법무장교 지원서류 행정팀 제출마감
-TRIGGER:-PT1H
-END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:cf03bdfd994060a59fb670ecc1d56eae@law-secretary
@@ -1665,11 +1655,6 @@ DESCRIPTION:[학사공지] 2026학년도 2학기 중간시험 일정 및
 URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1601&s
  iteId=lawschool&pkid=941724
 TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:오늘 형법II 중간시험
-TRIGGER:-PT1H
-END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:387639f4662893237c9c407746db9b9e@law-secretary
@@ -1725,11 +1710,6 @@ DESCRIPTION:[학사공지] 2026학년도 2학기 중간시험 일정 및
 URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1601&s
  iteId=lawschool&pkid=941724
 TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:오늘 형사소송법 중간시험
-TRIGGER:-PT1H
-END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:d1251352b8619a00112bd7ad1297e683@law-secretary
@@ -2490,11 +2470,6 @@ DESCRIPTION:[일반공지] [한국법학원] 제15회 한국법률가대회
 URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1602&s
  iteId=lawschool&pkid=941490
 TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:오늘 한국법률가대회 시작
-TRIGGER:PT9H
-END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:1e0614b4cfa873b40b81a4b135552622@law-secretary
@@ -2582,11 +2557,6 @@ DESCRIPTION:[일반공지] [한국공정거래조정원] 2026년 공정거
 URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1602&s
  iteId=lawschool&pkid=941492
 TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:D-3 공정거래 학술연구 최종발표회
-TRIGGER:-P3D
-END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:D-1 공정거래 학술연구 최종발표회
@@ -3061,11 +3031,6 @@ DESCRIPTION:[실무수습] [법무법인(유한)로고스] 2027년 동계
 URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=2706&s
  iteId=lawschool&pkid=940427
 TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:오늘 로고스 실무수습 합격자 발표
-TRIGGER:PT9H
-END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:c7b4513d1260814bfa6c8eadd38488d9@law-secretary
