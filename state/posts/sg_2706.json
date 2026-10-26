@@ -2,6 +2,14 @@
   "posts": [
     {
       "board_name": "실무수습",
+      "date": "2026-10-26",
+      "pinned": false,
+      "post_id": "942152",
+      "title": "[법무법인 남산] 2027년 동계 로스쿨 인턴쉽 프로그램 실시",
+      "url": "https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=2706&siteId=lawschool&pkid=942152"
+    },
+    {
+      "board_name": "실무수습",
       "date": "2026-10-20",
       "pinned": false,
       "post_id": "942025",
@@ -129,5 +137,5 @@
       "url": "https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=2706&siteId=lawschool&pkid=906126"
     }
   ],
-  "updated": "2026-10-26T09:08:00+09:00"
+  "updated": "2026-10-26T13:38:09+09:00"
 }
