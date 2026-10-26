@@ -1,0 +1,24 @@
+{
+  "board": "일반공지",
+  "events": [
+    {
+      "all_day": false,
+      "confidence": "high",
+      "evidence": "가. 일시 : 2026. 11. 4.(수) 12:00 ~ 13:00",
+      "slug": "info-session",
+      "start_date": "2026-11-04",
+      "start_time": "12:00",
+      "summary": "군법무관 홍보활동 (공군검찰단)",
+      "uid": "702a127d20a5b33030f3a246d6fe33b5@law-secretary"
+    }
+  ],
+  "extracted_at": "2026-10-26T19:29:55+09:00",
+  "needs_manual": false,
+  "no_events_reason": null,
+  "post_id": "sg_1602:942169",
+  "posted_date": "2026-10-26",
+  "revision": 0,
+  "tab": "sogang",
+  "title": "[공군검찰단] 2027년 군법무관 선발 서강대학교 홍보활동 계획 보고 (11/4 12:00)",
+  "url": "https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1602&siteId=lawschool&pkid=942169"
+}
