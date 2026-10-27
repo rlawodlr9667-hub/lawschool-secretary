@@ -3213,4 +3213,96 @@ DESCRIPTION:오늘 공정거래조정원 실습 종료
 TRIGGER:PT9H
 END:VALARM
 END:VEVENT
+BEGIN:VEVENT
+UID:f3fce6d7f04b07debb80220e4c4e8d19@law-secretary
+DTSTAMP:20261027T064756Z
+DTSTART;VALUE=DATE:20261123
+DTEND;VALUE=DATE:20261124
+SEQUENCE:0
+SUMMARY:공감 실무수습 신청 마감
+DESCRIPTION:[실무수습] [학교추천] 공익인권법재단 공감 2027
+ 년 동계 실무수습 안내 (신청 ~11/23(월))\n근거: 4. 신청 기
+ 한 : 11월 23일(월)까지\nhttps://lawschool.sogang.ac.kr/front/cmsboar
+ dview.do?bbsConfigFK=2706&siteId=lawschool&pkid=942209
+URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=2706&s
+ iteId=lawschool&pkid=942209
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:D-3 공감 실무수습 신청 마감
+TRIGGER:-P2DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:D-1 공감 실무수습 신청 마감
+TRIGGER:-PT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:오늘 공감 실무수습 신청 마감
+TRIGGER:PT9H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:067dcc16a2fbb9ac36ce555271de2585@law-secretary
+DTSTAMP:20261027T064756Z
+DTSTART;VALUE=DATE:20270215
+DTEND;VALUE=DATE:20270216
+SEQUENCE:0
+SUMMARY:공감 동계 실무수습 시작
+DESCRIPTION:[실무수습] [학교추천] 공익인권법재단 공감 2027
+ 년 동계 실무수습 안내 (신청 ~11/23(월))\n근거: 1. 실무수
+ 습 일정 : 2027년 2월 15일 ~ 2026년 2월 26일\nhttps://lawschool.so
+ gang.ac.kr/front/cmsboardview.do?bbsConfigFK=2706&siteId=lawschool&pkid=94
+ 2209
+URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=2706&s
+ iteId=lawschool&pkid=942209
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:D-3 공감 동계 실무수습 시작
+TRIGGER:-P2DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:D-1 공감 동계 실무수습 시작
+TRIGGER:-PT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:오늘 공감 동계 실무수습 시작
+TRIGGER:PT9H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:2d5a948d218a407f7adaa981eeae8780@law-secretary
+DTSTAMP:20261027T064756Z
+DTSTART;VALUE=DATE:20270226
+DTEND;VALUE=DATE:20270227
+SEQUENCE:0
+SUMMARY:공감 동계 실무수습 종료
+DESCRIPTION:[실무수습] [학교추천] 공익인권법재단 공감 2027
+ 년 동계 실무수습 안내 (신청 ~11/23(월))\n근거: 1. 실무수
+ 습 일정 : 2027년 2월 15일 ~ 2026년 2월 26일\nhttps://lawschool.so
+ gang.ac.kr/front/cmsboardview.do?bbsConfigFK=2706&siteId=lawschool&pkid=94
+ 2209
+URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=2706&s
+ iteId=lawschool&pkid=942209
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:D-3 공감 동계 실무수습 종료
+TRIGGER:-P2DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:D-1 공감 동계 실무수습 종료
+TRIGGER:-PT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:오늘 공감 동계 실무수습 종료
+TRIGGER:PT9H
+END:VALARM
+END:VEVENT
 END:VCALENDAR

@@ -1,0 +1,44 @@
+{
+  "board": "실무수습",
+  "events": [
+    {
+      "all_day": true,
+      "confidence": "high",
+      "evidence": "4. 신청 기한 : 11월 23일(월)까지",
+      "slug": "apply-close",
+      "start_date": "2026-11-23",
+      "start_time": null,
+      "summary": "공감 실무수습 신청 마감",
+      "uid": "f3fce6d7f04b07debb80220e4c4e8d19@law-secretary"
+    },
+    {
+      "all_day": true,
+      "confidence": "low",
+      "evidence": "1. 실무수습 일정 : 2027년 2월 15일 ~ 2026년 2월 26일",
+      "slug": "practicum-start",
+      "start_date": "2027-02-15",
+      "start_time": null,
+      "summary": "공감 동계 실무수습 시작",
+      "uid": "067dcc16a2fbb9ac36ce555271de2585@law-secretary"
+    },
+    {
+      "all_day": true,
+      "confidence": "low",
+      "evidence": "1. 실무수습 일정 : 2027년 2월 15일 ~ 2026년 2월 26일",
+      "slug": "practicum-end",
+      "start_date": "2027-02-26",
+      "start_time": null,
+      "summary": "공감 동계 실무수습 종료",
+      "uid": "2d5a948d218a407f7adaa981eeae8780@law-secretary"
+    }
+  ],
+  "extracted_at": "2026-10-27T15:47:56+09:00",
+  "needs_manual": false,
+  "no_events_reason": null,
+  "post_id": "sg_2706:942209",
+  "posted_date": "2026-10-27",
+  "revision": 0,
+  "tab": "sogang",
+  "title": "[학교추천] 공익인권법재단 공감 2027년 동계 실무수습 안내 (신청 ~11/23(월))",
+  "url": "https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=2706&siteId=lawschool&pkid=942209"
+}
