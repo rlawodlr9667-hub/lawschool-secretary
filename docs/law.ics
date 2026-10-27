@@ -3305,4 +3305,149 @@ DESCRIPTION:오늘 공감 동계 실무수습 종료
 TRIGGER:PT9H
 END:VALARM
 END:VEVENT
+BEGIN:VEVENT
+UID:709edb87010435afd1b5fab8b5c7adb1@law-secretary
+DTSTAMP:20261027T131500Z
+DTSTART;VALUE=DATE:20261027
+DTEND;VALUE=DATE:20261028
+SEQUENCE:0
+SUMMARY:희망법 실무수습 지원 시작
+DESCRIPTION:[실무수습] [희망법] 2027 겨울 실무수습 모집 안
+ 내 (신청 ~11/20(목) 18시) (공익인권변호사모임 희망을만
+ 드는법)\n근거: – 지원기간: 2026년 10월 27일(화)부터 11월
+  20일(금) 오후 6시까지\nhttps://lawschool.sogang.ac.kr/front/cmsboa
+ rdview.do?bbsConfigFK=2706&siteId=lawschool&pkid=942214
+URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=2706&s
+ iteId=lawschool&pkid=942214
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:오늘 희망법 실무수습 지원 시작
+TRIGGER:PT9H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:f28694c664f4bc1c2e48d97ee39812ea@law-secretary
+DTSTAMP:20261027T131500Z
+DTSTART:20261120T090000Z
+DTEND:20261120T093000Z
+SEQUENCE:0
+SUMMARY:희망법 실무수습 지원 마감
+DESCRIPTION:[실무수습] [희망법] 2027 겨울 실무수습 모집 안
+ 내 (신청 ~11/20(목) 18시) (공익인권변호사모임 희망을만
+ 드는법)\n근거: – 지원기간: 2026년 10월 27일(화)부터 11월
+  20일(금) 오후 6시까지\nhttps://lawschool.sogang.ac.kr/front/cmsboa
+ rdview.do?bbsConfigFK=2706&siteId=lawschool&pkid=942214
+URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=2706&s
+ iteId=lawschool&pkid=942214
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:D-3 희망법 실무수습 지원 마감
+TRIGGER:-P3D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:D-1 희망법 실무수습 지원 마감
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:오늘 희망법 실무수습 지원 마감
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:12d1f37c1524ac8bf7d8d2c94a05edee@law-secretary
+DTSTAMP:20261027T131500Z
+DTSTART;VALUE=DATE:20261124
+DTEND;VALUE=DATE:20261125
+SEQUENCE:0
+SUMMARY:희망법 실무수습 결과 발표
+DESCRIPTION:[실무수습] [희망법] 2027 겨울 실무수습 모집 안
+ 내 (신청 ~11/20(목) 18시) (공익인권변호사모임 희망을만
+ 드는법)\n근거: – 지원결과: 2026년 11월 24일(화)에 이메
+ 일로 개별 통지해드립니다.\nhttps://lawschool.sogang.ac.kr/front
+ /cmsboardview.do?bbsConfigFK=2706&siteId=lawschool&pkid=942214
+URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=2706&s
+ iteId=lawschool&pkid=942214
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:D-3 희망법 실무수습 결과 발표
+TRIGGER:-P2DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:D-1 희망법 실무수습 결과 발표
+TRIGGER:-PT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:오늘 희망법 실무수습 결과 발표
+TRIGGER:PT9H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:45cbc4c7d6c30da660da4188be68ceae@law-secretary
+DTSTAMP:20261027T131500Z
+DTSTART;VALUE=DATE:20270105
+DTEND;VALUE=DATE:20270106
+SEQUENCE:0
+SUMMARY:희망법 실무수습 시작
+DESCRIPTION:[실무수습] [희망법] 2027 겨울 실무수습 모집 안
+ 내 (신청 ~11/20(목) 18시) (공익인권변호사모임 희망을만
+ 드는법)\n근거: - 2027년 1월 5일(화)부터 1월 29일(금)까지 4
+ 주간\nhttps://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=2
+ 706&siteId=lawschool&pkid=942214
+URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=2706&s
+ iteId=lawschool&pkid=942214
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:D-3 희망법 실무수습 시작
+TRIGGER:-P2DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:D-1 희망법 실무수습 시작
+TRIGGER:-PT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:오늘 희망법 실무수습 시작
+TRIGGER:PT9H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:4bef87f42aa4c66577eddb1040f8cc6b@law-secretary
+DTSTAMP:20261027T131500Z
+DTSTART;VALUE=DATE:20270129
+DTEND;VALUE=DATE:20270130
+SEQUENCE:0
+SUMMARY:희망법 실무수습 종료
+DESCRIPTION:[실무수습] [희망법] 2027 겨울 실무수습 모집 안
+ 내 (신청 ~11/20(목) 18시) (공익인권변호사모임 희망을만
+ 드는법)\n근거: - 2027년 1월 5일(화)부터 1월 29일(금)까지 4
+ 주간\nhttps://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=2
+ 706&siteId=lawschool&pkid=942214
+URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=2706&s
+ iteId=lawschool&pkid=942214
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:D-3 희망법 실무수습 종료
+TRIGGER:-P2DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:D-1 희망법 실무수습 종료
+TRIGGER:-PT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:오늘 희망법 실무수습 종료
+TRIGGER:PT9H
+END:VALARM
+END:VEVENT
 END:VCALENDAR
