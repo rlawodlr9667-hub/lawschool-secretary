@@ -3092,4 +3092,125 @@ DESCRIPTION:오늘 로고스 실무수습 종료
 TRIGGER:PT9H
 END:VALARM
 END:VEVENT
+BEGIN:VEVENT
+UID:33190a02d92abc7b305a5612634688ba@law-secretary
+DTSTAMP:20261027T013000Z
+DTSTART:20261105T033000Z
+DTEND:20261105T040000Z
+SEQUENCE:0
+SUMMARY:율촌 온라인 설명회
+DESCRIPTION:[실무수습] [법무법인(유) 율촌] 2026 동계 온라인
+  설명회(11/5)\n근거: 진행 일시: 2026. 11. 5.(목) 오후 12시 30
+ 분 ~\nhttps://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=27
+ 06&siteId=lawschool&pkid=942190
+URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=2706&s
+ iteId=lawschool&pkid=942190
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:D-3 율촌 온라인 설명회
+TRIGGER:-P3D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:D-1 율촌 온라인 설명회
+TRIGGER:-P1D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:오늘 율촌 온라인 설명회
+TRIGGER:-PT1H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:24ed217a950a11b13d249e2e794b0631@law-secretary
+DTSTAMP:20261027T013000Z
+DTSTART;VALUE=DATE:20261201
+DTEND;VALUE=DATE:20261202
+SEQUENCE:0
+SUMMARY:공정거래조정원 실습 신청 마감
+DESCRIPTION:[실무수습] [한국공정거래조정원] 2027년 법학전
+ 문대학원 동계 공익 법무실습 교육 신청 안내\n근거: 첨
+ 부된 지원서를 작성하여 12월 1일(화)까지 lawschool@sogang.ac
+ .kr 로 메일을 보내주시기 바랍니다.\nhttps://lawschool.sogang.
+ ac.kr/front/cmsboardview.do?bbsConfigFK=2706&siteId=lawschool&pkid=942191
+URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=2706&s
+ iteId=lawschool&pkid=942191
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:D-3 공정거래조정원 실습 신청 마감
+TRIGGER:-P2DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:D-1 공정거래조정원 실습 신청 마감
+TRIGGER:-PT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:오늘 공정거래조정원 실습 신청 마감
+TRIGGER:PT9H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:448be527d2c5363db1dd30fc1a81be8a@law-secretary
+DTSTAMP:20261027T013000Z
+DTSTART;VALUE=DATE:20270118
+DTEND;VALUE=DATE:20270119
+SEQUENCE:0
+SUMMARY:공정거래조정원 실습 시작
+DESCRIPTION:[실무수습] [한국공정거래조정원] 2027년 법학전
+ 문대학원 동계 공익 법무실습 교육 신청 안내\n근거: 운
+ 영시기: 2027. 1. 18.(월) ~ 1. 22.(금)\nhttps://lawschool.sogang.ac.kr
+ /front/cmsboardview.do?bbsConfigFK=2706&siteId=lawschool&pkid=942191
+URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=2706&s
+ iteId=lawschool&pkid=942191
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:D-3 공정거래조정원 실습 시작
+TRIGGER:-P2DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:D-1 공정거래조정원 실습 시작
+TRIGGER:-PT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:오늘 공정거래조정원 실습 시작
+TRIGGER:PT9H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:d7be5bbe015d5ac8d92a00676486b4d5@law-secretary
+DTSTAMP:20261027T013000Z
+DTSTART;VALUE=DATE:20270122
+DTEND;VALUE=DATE:20270123
+SEQUENCE:0
+SUMMARY:공정거래조정원 실습 종료
+DESCRIPTION:[실무수습] [한국공정거래조정원] 2027년 법학전
+ 문대학원 동계 공익 법무실습 교육 신청 안내\n근거: 운
+ 영시기: 2027. 1. 18.(월) ~ 1. 22.(금)\nhttps://lawschool.sogang.ac.kr
+ /front/cmsboardview.do?bbsConfigFK=2706&siteId=lawschool&pkid=942191
+URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=2706&s
+ iteId=lawschool&pkid=942191
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:D-3 공정거래조정원 실습 종료
+TRIGGER:-P2DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:D-1 공정거래조정원 실습 종료
+TRIGGER:-PT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:오늘 공정거래조정원 실습 종료
+TRIGGER:PT9H
+END:VALARM
+END:VEVENT
 END:VCALENDAR

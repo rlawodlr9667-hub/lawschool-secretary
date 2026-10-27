@@ -1,0 +1,44 @@
+{
+  "board": "실무수습",
+  "events": [
+    {
+      "all_day": true,
+      "confidence": "high",
+      "evidence": "첨부된 지원서를 작성하여 12월 1일(화)까지 lawschool@sogang.ac.kr 로 메일을 보내주시기 바랍니다.",
+      "slug": "apply-close",
+      "start_date": "2026-12-01",
+      "start_time": null,
+      "summary": "공정거래조정원 실습 신청 마감",
+      "uid": "24ed217a950a11b13d249e2e794b0631@law-secretary"
+    },
+    {
+      "all_day": true,
+      "confidence": "high",
+      "evidence": "운영시기: 2027. 1. 18.(월) ~ 1. 22.(금)",
+      "slug": "practicum-start",
+      "start_date": "2027-01-18",
+      "start_time": null,
+      "summary": "공정거래조정원 실습 시작",
+      "uid": "448be527d2c5363db1dd30fc1a81be8a@law-secretary"
+    },
+    {
+      "all_day": true,
+      "confidence": "high",
+      "evidence": "운영시기: 2027. 1. 18.(월) ~ 1. 22.(금)",
+      "slug": "practicum-end",
+      "start_date": "2027-01-22",
+      "start_time": null,
+      "summary": "공정거래조정원 실습 종료",
+      "uid": "d7be5bbe015d5ac8d92a00676486b4d5@law-secretary"
+    }
+  ],
+  "extracted_at": "2026-10-27T10:30:00+09:00",
+  "needs_manual": false,
+  "no_events_reason": null,
+  "post_id": "sg_2706:942191",
+  "posted_date": "2026-10-27",
+  "revision": 0,
+  "tab": "sogang",
+  "title": "[한국공정거래조정원] 2027년 법학전문대학원 동계 공익 법무실습 교육 신청 안내",
+  "url": "https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=2706&siteId=lawschool&pkid=942191"
+}
