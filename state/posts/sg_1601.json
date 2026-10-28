@@ -3,7 +3,7 @@
     {
       "board_name": "학사공지",
       "date": "2026-10-08",
-      "pinned": true,
+      "pinned": false,
       "post_id": "941724",
       "title": "2026학년도 2학기 중간시험 일정 및 시험장소 안내",
       "url": "https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1601&siteId=lawschool&pkid=941724"
@@ -11,7 +11,7 @@
     {
       "board_name": "학사공지",
       "date": "2026-09-29",
-      "pinned": true,
+      "pinned": false,
       "post_id": "941362",
       "title": "[병무청] 2027년도 입영대상 법무장교 지원 안내(~10/26(월) 17:00까지 행정팀...",
       "url": "https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1601&siteId=lawschool&pkid=941362"
@@ -19,7 +19,7 @@
     {
       "board_name": "학사공지",
       "date": "2026-09-09",
-      "pinned": true,
+      "pinned": false,
       "post_id": "940611",
       "title": "2026학년도 2학기 개설과목 폐강 안내",
       "url": "https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1601&siteId=lawschool&pkid=940611"
@@ -59,7 +59,7 @@
     {
       "board_name": "학사공지",
       "date": "2026-08-05",
-      "pinned": true,
+      "pinned": false,
       "post_id": "938999",
       "title": "2026학년도 2학기 수강신청 안내",
       "url": "https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1601&siteId=lawschool&pkid=938999"
@@ -201,5 +201,5 @@
       "url": "https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1601&siteId=lawschool&pkid=935645"
     }
   ],
-  "updated": "2026-10-28T16:18:34+09:00"
+  "updated": "2026-10-28T23:25:03+09:00"
 }
