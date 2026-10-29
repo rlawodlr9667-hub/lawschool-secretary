@@ -2735,6 +2735,95 @@ TRIGGER:-PT1H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+UID:d107ced7d94443daa6e53718dbc2b3b9@law-secretary
+DTSTAMP:20261029T014405Z
+DTSTART;VALUE=DATE:20261112
+DTEND;VALUE=DATE:20261113
+SEQUENCE:0
+SUMMARY:주거도시정비박람회 시작
+DESCRIPTION:[일반공지] [대한경제]2026 대한민국 주거 도시정
+ 비박람회 예비 변호사님 및 대학원생 초청\n근거: 대한
+ 경제신문사는 오는 11월 12일부터 14일까지 사흘간 양재
+ 동 소재 aT센터에서 『2026 대한민국 주거·도시정비 박람
+ 회』를 개최합니다.\nhttps://lawschool.sogang.ac.kr/front/cmsboardv
+ iew.do?bbsConfigFK=1602&siteId=lawschool&pkid=942302
+URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1602&s
+ iteId=lawschool&pkid=942302
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:D-3 주거도시정비박람회 시작
+TRIGGER:-P2DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:D-1 주거도시정비박람회 시작
+TRIGGER:-PT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:오늘 주거도시정비박람회 시작
+TRIGGER:PT9H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:8855a7b6cbafcf39aadfddbce7db897c@law-secretary
+DTSTAMP:20261029T014405Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SEQUENCE:0
+SUMMARY:주거도시정비박람회 종료
+DESCRIPTION:[일반공지] [대한경제]2026 대한민국 주거 도시정
+ 비박람회 예비 변호사님 및 대학원생 초청\n근거: 대한
+ 경제신문사는 오는 11월 12일부터 14일까지 사흘간 양재
+ 동 소재 aT센터에서 『2026 대한민국 주거·도시정비 박람
+ 회』를 개최합니다.\nhttps://lawschool.sogang.ac.kr/front/cmsboardv
+ iew.do?bbsConfigFK=1602&siteId=lawschool&pkid=942302
+URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1602&s
+ iteId=lawschool&pkid=942302
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:D-3 주거도시정비박람회 종료
+TRIGGER:-P2DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:D-1 주거도시정비박람회 종료
+TRIGGER:-PT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:오늘 주거도시정비박람회 종료
+TRIGGER:PT9H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:398ba7f50abc684f596e995d98788520@law-secretary
+DTSTAMP:20261029T014405Z
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SEQUENCE:0
+SUMMARY:환경법연구 원고투고 마감
+DESCRIPTION:[일반공지] [한국환경법학회] 환경법연구(등재
+ 지) 제48권 제3호 원고모집 안내(10.31.까지)\n근거: (4) 논
+ 문투고 마감: 2026년 10월 31 일 토요일\nhttps://lawschool.sogang
+ .ac.kr/front/cmsboardview.do?bbsConfigFK=1602&siteId=lawschool&pkid=942306
+URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1602&s
+ iteId=lawschool&pkid=942306
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:D-1 환경법연구 원고투고 마감
+TRIGGER:-PT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:오늘 환경법연구 원고투고 마감
+TRIGGER:PT9H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 UID:8f78d85d74f827d60076457ee849a7f9@law-secretary
 DTSTAMP:20260729T030000Z
 DTSTART;VALUE=DATE:20260810

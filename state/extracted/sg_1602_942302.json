@@ -1,0 +1,34 @@
+{
+  "board": "일반공지",
+  "events": [
+    {
+      "all_day": true,
+      "confidence": "high",
+      "evidence": "대한경제신문사는 오는 11월 12일부터 14일까지 사흘간 양재동 소재 aT센터에서 『2026 대한민국 주거·도시정비 박람회』를 개최합니다.",
+      "slug": "expo-start",
+      "start_date": "2026-11-12",
+      "start_time": null,
+      "summary": "주거도시정비박람회 시작",
+      "uid": "d107ced7d94443daa6e53718dbc2b3b9@law-secretary"
+    },
+    {
+      "all_day": true,
+      "confidence": "high",
+      "evidence": "대한경제신문사는 오는 11월 12일부터 14일까지 사흘간 양재동 소재 aT센터에서 『2026 대한민국 주거·도시정비 박람회』를 개최합니다.",
+      "slug": "expo-end",
+      "start_date": "2026-11-14",
+      "start_time": null,
+      "summary": "주거도시정비박람회 종료",
+      "uid": "8855a7b6cbafcf39aadfddbce7db897c@law-secretary"
+    }
+  ],
+  "extracted_at": "2026-10-29T10:44:05+09:00",
+  "needs_manual": false,
+  "no_events_reason": null,
+  "post_id": "sg_1602:942302",
+  "posted_date": "2026-10-29",
+  "revision": 0,
+  "tab": "sogang",
+  "title": "[대한경제]2026 대한민국 주거 도시정비박람회 예비 변호사님 및 대학원생 초청",
+  "url": "https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1602&siteId=lawschool&pkid=942302"
+}
