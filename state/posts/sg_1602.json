@@ -2,6 +2,22 @@
   "posts": [
     {
       "board_name": "일반공지",
+      "date": "2026-10-29",
+      "pinned": false,
+      "post_id": "942306",
+      "title": "[한국환경법학회] 환경법연구(등재지) 제48권 제3호 원고모집 안내(10.31.까지)",
+      "url": "https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1602&siteId=lawschool&pkid=942306"
+    },
+    {
+      "board_name": "일반공지",
+      "date": "2026-10-29",
+      "pinned": false,
+      "post_id": "942302",
+      "title": "[대한경제]2026 대한민국 주거 도시정비박람회 예비 변호사님 및 대학원생 초청",
+      "url": "https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1602&siteId=lawschool&pkid=942302"
+    },
+    {
+      "board_name": "일반공지",
       "date": "2026-10-28",
       "pinned": false,
       "post_id": "942223",
@@ -545,5 +561,5 @@
       "url": "https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1602&siteId=lawschool&pkid=938296"
     }
   ],
-  "updated": "2026-10-29T04:48:30+09:00"
+  "updated": "2026-10-29T10:43:16+09:00"
 }
