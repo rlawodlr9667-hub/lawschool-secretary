@@ -1,0 +1,44 @@
+{
+  "board": "실무수습",
+  "events": [
+    {
+      "all_day": true,
+      "confidence": "high",
+      "evidence": "법제처 주관 제35기 실무수습 희망자는 첨부된 양식을 작성하여\n11월 24일(화)까지 lawschool@sogang.ac.kr 로 메일을 보내주시기 바랍니다.",
+      "slug": "apply-close",
+      "start_date": "2026-11-24",
+      "start_time": null,
+      "summary": "법제처 실무수습 신청 마감",
+      "uid": "1a2686e78ff681558e8e6231b765dff0@law-secretary"
+    },
+    {
+      "all_day": true,
+      "confidence": "low",
+      "evidence": "가. 실무수습 기간: 2027. 1. 18. (월) ~ 1. 29.(금), 2주(10일, 80시간)",
+      "slug": "practicum-start",
+      "start_date": "2027-01-18",
+      "start_time": null,
+      "summary": "법제처 실무수습 시작",
+      "uid": "64ba9ca811fd39cde38b2f669edf7e27@law-secretary"
+    },
+    {
+      "all_day": true,
+      "confidence": "low",
+      "evidence": "가. 실무수습 기간: 2027. 1. 18. (월) ~ 1. 29.(금), 2주(10일, 80시간)",
+      "slug": "practicum-end",
+      "start_date": "2027-01-29",
+      "start_time": null,
+      "summary": "법제처 실무수습 종료",
+      "uid": "c08886fb3e0f81613bcc1ab1a966981b@law-secretary"
+    }
+  ],
+  "extracted_at": "2026-10-29T08:21:43+09:00",
+  "needs_manual": false,
+  "no_events_reason": null,
+  "post_id": "sg_2706:942328",
+  "posted_date": "2026-10-29",
+  "revision": 0,
+  "tab": "sogang",
+  "title": "[학교추천] 법제처 주관 제35기 실무수습 안내 (신청 ~11/24(화))",
+  "url": "https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=2706&siteId=lawschool&pkid=942328"
+}

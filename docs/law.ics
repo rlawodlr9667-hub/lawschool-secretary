@@ -3456,4 +3456,98 @@ DESCRIPTION:오늘 희망법 실무수습 종료
 TRIGGER:PT9H
 END:VALARM
 END:VEVENT
+BEGIN:VEVENT
+UID:1a2686e78ff681558e8e6231b765dff0@law-secretary
+DTSTAMP:20261028T232143Z
+DTSTART;VALUE=DATE:20261124
+DTEND;VALUE=DATE:20261125
+SEQUENCE:0
+SUMMARY:법제처 실무수습 신청 마감
+DESCRIPTION:[실무수습] [학교추천] 법제처 주관 제35기 실무
+ 수습 안내 (신청 ~11/24(화))\n근거: 법제처 주관 제35기 실
+ 무수습 희망자는 첨부된 양식을 작성하여\n11월 24일(화)
+ 까지 lawschool@sogang.ac.kr 로 메일을 보내주시기 바랍니다.\
+ nhttps://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=2706&sit
+ eId=lawschool&pkid=942328
+URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=2706&s
+ iteId=lawschool&pkid=942328
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:D-3 법제처 실무수습 신청 마감
+TRIGGER:-P2DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:D-1 법제처 실무수습 신청 마감
+TRIGGER:-PT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:오늘 법제처 실무수습 신청 마감
+TRIGGER:PT9H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:64ba9ca811fd39cde38b2f669edf7e27@law-secretary
+DTSTAMP:20261028T232143Z
+DTSTART;VALUE=DATE:20270118
+DTEND;VALUE=DATE:20270119
+SEQUENCE:0
+SUMMARY:법제처 실무수습 시작
+DESCRIPTION:[실무수습] [학교추천] 법제처 주관 제35기 실무
+ 수습 안내 (신청 ~11/24(화))\n근거: 가. 실무수습 기간: 2027
+ . 1. 18. (월) ~ 1. 29.(금)\, 2주(10일\, 80시간)\nhttps://lawschool.s
+ ogang.ac.kr/front/cmsboardview.do?bbsConfigFK=2706&siteId=lawschool&pkid=9
+ 42328
+URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=2706&s
+ iteId=lawschool&pkid=942328
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:D-3 법제처 실무수습 시작
+TRIGGER:-P2DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:D-1 법제처 실무수습 시작
+TRIGGER:-PT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:오늘 법제처 실무수습 시작
+TRIGGER:PT9H
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:c08886fb3e0f81613bcc1ab1a966981b@law-secretary
+DTSTAMP:20261028T232143Z
+DTSTART;VALUE=DATE:20270129
+DTEND;VALUE=DATE:20270130
+SEQUENCE:0
+SUMMARY:법제처 실무수습 종료
+DESCRIPTION:[실무수습] [학교추천] 법제처 주관 제35기 실무
+ 수습 안내 (신청 ~11/24(화))\n근거: 가. 실무수습 기간: 2027
+ . 1. 18. (월) ~ 1. 29.(금)\, 2주(10일\, 80시간)\nhttps://lawschool.s
+ ogang.ac.kr/front/cmsboardview.do?bbsConfigFK=2706&siteId=lawschool&pkid=9
+ 42328
+URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=2706&s
+ iteId=lawschool&pkid=942328
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:D-3 법제처 실무수습 종료
+TRIGGER:-P2DT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:D-1 법제처 실무수습 종료
+TRIGGER:-PT15H
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:오늘 법제처 실무수습 종료
+TRIGGER:PT9H
+END:VALARM
+END:VEVENT
 END:VCALENDAR
