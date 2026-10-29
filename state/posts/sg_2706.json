@@ -2,6 +2,14 @@
   "posts": [
     {
       "board_name": "실무수습",
+      "date": "2026-10-29",
+      "pinned": false,
+      "post_id": "942328",
+      "title": "[학교추천] 법제처 주관 제35기 실무수습 안내 (신청 ~11/24(화))",
+      "url": "https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=2706&siteId=lawschool&pkid=942328"
+    },
+    {
+      "board_name": "실무수습",
       "date": "2026-10-27",
       "pinned": false,
       "post_id": "942214",
@@ -193,5 +201,5 @@
       "url": "https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=2706&siteId=lawschool&pkid=906126"
     }
   ],
-  "updated": "2026-10-29T10:43:16+09:00"
+  "updated": "2026-10-29T17:21:21+09:00"
 }
