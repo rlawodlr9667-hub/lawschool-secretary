@@ -49,11 +49,6 @@ URL:https://www.sogang.ac.kr/ko/academic-support/calendar
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:D-3 2027학년도 1학기 장학금 신청 시작
-TRIGGER:-P2DT15H
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
 DESCRIPTION:D-1 2027학년도 1학기 장학금 신청 시작
 TRIGGER:-PT15H
 END:VALARM
@@ -924,21 +919,6 @@ DESCRIPTION:[학사공지] 2026년 2학기 <리걸클리닉3(법원)-2학
  t/cmsboardview.do?bbsConfigFK=1601&siteId=lawschool&pkid=938297
 URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1601&s
  iteId=lawschool&pkid=938297
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:85bd9e657a69b66c9460cbd847c9db31@law-secretary
-DTSTAMP:20260726T163741Z
-DTSTART;VALUE=DATE:20260731
-DTEND;VALUE=DATE:20260801
-SEQUENCE:0
-SUMMARY:하계 집중휴무 종료
-DESCRIPTION:[학사공지] 2026학년도 하계 집중휴무 시행 안내\
- n근거: 휴무기간 : 2026년 7월 27일(월) ∼ 7월 31일(금) 『5
- 일간』\nhttps://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigF
- K=1601&siteId=lawschool&pkid=938567
-URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1601&s
- iteId=lawschool&pkid=938567
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -2302,11 +2282,6 @@ URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1602&s
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:D-3 횡성 야구캠프 종료
-TRIGGER:-P2DT15H
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
 DESCRIPTION:D-1 횡성 야구캠프 종료
 TRIGGER:-PT15H
 END:VALARM
@@ -2484,11 +2459,6 @@ DESCRIPTION:[일반공지] [한국공정거래조정원] 2026년 공정거
 URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1602&s
  iteId=lawschool&pkid=941492
 TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:오늘 공정거래 학술연구 최종발표회
-TRIGGER:-PT1H
-END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:c09c2781870022cd3a73c80f254464d0@law-secretary
@@ -2520,11 +2490,6 @@ DESCRIPTION:[일반공지] [법률신문] JUSTICE RUN SEOCHO 2026 안내\n
 URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1602&s
  iteId=lawschool&pkid=941661
 TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:D-3 JUSTICE RUN 대회 (오전 7시30분)
-TRIGGER:-P3D
-END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:D-1 JUSTICE RUN 대회 (오전 7시30분)
@@ -2582,11 +2547,6 @@ DESCRIPTION:[일반공지] [재안내][법률신문] JUSTICE RUN SEOCHO 202
 URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1602&s
  iteId=lawschool&pkid=941944
 TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:D-3 JUSTICE RUN SEOCHO 대회
-TRIGGER:-P3D
-END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:D-1 JUSTICE RUN SEOCHO 대회
@@ -2869,22 +2829,6 @@ URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=2706&s
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:4c4abbd60ace7a90e2a9c9941439c9b9@law-secretary
-DTSTAMP:20260729T030000Z
-DTSTART;VALUE=DATE:20260731
-DTEND;VALUE=DATE:20260801
-SEQUENCE:0
-SUMMARY:건보공단 실무수습 종료
-DESCRIPTION:[실무수습] [국민건강보험공단] 2026년 법학전문
- 대학원생 실무수습 안내\n근거: (교육기간) ’26.7.27.(월) 
- ~ 7.31.(금)\, 5일간 … 총 40시간(1일 8시간)\nhttps://lawschool.s
- ogang.ac.kr/front/cmsboardview.do?bbsConfigFK=2706&siteId=lawschool&pkid=9
- 37299
-URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=2706&s
- iteId=lawschool&pkid=937299
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:b4f649ee8e0b877d33f7aa48f0582aaf@law-secretary
 DTSTAMP:20260728T155823Z
 DTSTART;VALUE=DATE:20260810
@@ -2914,21 +2858,6 @@ DESCRIPTION:[실무수습] [학교추천] 대한법률구조공단 2026년
  =2706&siteId=lawschool&pkid=937602
 URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=2706&s
  iteId=lawschool&pkid=937602
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:824ccc0c24e3b41b6cb6d38e555ec6c5@law-secretary
-DTSTAMP:20260728T155823Z
-DTSTART;VALUE=DATE:20260731
-DTEND;VALUE=DATE:20260801
-SEQUENCE:0
-SUMMARY:국방부 실무수습 수료식
-DESCRIPTION:[실무수습] [국방부] 2026년 하계 실무수습 안내 (
- 신청 ~7/7(화))\n근거: ∙ 7. 31.(금) : 설문조사 / 수료식\nhtt
- ps://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=2706&siteId=
- lawschool&pkid=937704
-URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=2706&s
- iteId=lawschool&pkid=937704
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
