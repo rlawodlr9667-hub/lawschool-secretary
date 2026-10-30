@@ -1543,11 +1543,6 @@ URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1601&s
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:D-3 법무장교 병무청 접수(등록) 마감
-TRIGGER:-P2DT15H
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
 DESCRIPTION:D-1 법무장교 병무청 접수(등록) 마감
 TRIGGER:-PT15H
 END:VALARM
@@ -1693,11 +1688,6 @@ DESCRIPTION:[일반공지] [홍진기법률연구재단] 2026년 하반기
 URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1602&s
  iteId=lawschool&pkid=938683
 TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:D-1 유민펠로우 심사발표(예정)
-TRIGGER:-PT15H
-END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:오늘 유민펠로우 심사발표(예정)
@@ -2255,11 +2245,6 @@ URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1602&s
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:D-1 횡성 야구캠프 시작
-TRIGGER:-PT15H
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
 DESCRIPTION:오늘 횡성 야구캠프 시작
 TRIGGER:PT9H
 END:VALARM
@@ -2772,11 +2757,6 @@ DESCRIPTION:[일반공지] [한국환경법학회] 환경법연구(등재
 URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1602&s
  iteId=lawschool&pkid=942306
 TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:D-1 환경법연구 원고투고 마감
-TRIGGER:-PT15H
-END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:오늘 환경법연구 원고투고 마감
