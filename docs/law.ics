@@ -49,11 +49,6 @@ URL:https://www.sogang.ac.kr/ko/academic-support/calendar
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:D-1 2027학년도 1학기 장학금 신청 시작
-TRIGGER:-PT15H
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
 DESCRIPTION:오늘 2027학년도 1학기 장학금 신청 시작
 TRIGGER:PT9H
 END:VALARM
@@ -98,11 +93,6 @@ DESCRIPTION:[서강대 학사일정] 중간성적 제출 마감\n근거:
  //www.sogang.ac.kr/ko/academic-support/calendar
 URL:https://www.sogang.ac.kr/ko/academic-support/calendar
 TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:D-3 중간성적 제출 마감
-TRIGGER:-P2DT15H
-END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:D-1 중간성적 제출 마감
@@ -1688,11 +1678,6 @@ DESCRIPTION:[일반공지] [홍진기법률연구재단] 2026년 하반기
 URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1602&s
  iteId=lawschool&pkid=938683
 TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:오늘 유민펠로우 심사발표(예정)
-TRIGGER:PT9H
-END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:5519461353f86334bd465d52b31d26e5@law-secretary
@@ -2243,11 +2228,6 @@ DESCRIPTION:[일반공지] [전국로스쿨야구협의회] 2026 횡성 야
 URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1602&s
  iteId=lawschool&pkid=941152
 TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:오늘 횡성 야구캠프 시작
-TRIGGER:PT9H
-END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:fc17e64ec0324e22fcd89ef3cd654526@law-secretary
@@ -2265,11 +2245,6 @@ DESCRIPTION:[일반공지] [전국로스쿨야구협의회] 2026 횡성 야
 URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1602&s
  iteId=lawschool&pkid=941152
 TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:D-1 횡성 야구캠프 종료
-TRIGGER:-PT15H
-END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:오늘 횡성 야구캠프 종료
@@ -2477,11 +2452,6 @@ URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1602&s
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:D-1 JUSTICE RUN 대회 (오전 7시30분)
-TRIGGER:-P1D
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
 DESCRIPTION:오늘 JUSTICE RUN 대회 (오전 7시30분)
 TRIGGER:-PT1H
 END:VALARM
@@ -2532,11 +2502,6 @@ DESCRIPTION:[일반공지] [재안내][법률신문] JUSTICE RUN SEOCHO 202
 URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1602&s
  iteId=lawschool&pkid=941944
 TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:D-1 JUSTICE RUN SEOCHO 대회
-TRIGGER:-P1D
-END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:오늘 JUSTICE RUN SEOCHO 대회
@@ -2757,11 +2722,6 @@ DESCRIPTION:[일반공지] [한국환경법학회] 환경법연구(등재
 URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1602&s
  iteId=lawschool&pkid=942306
 TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:오늘 환경법연구 원고투고 마감
-TRIGGER:PT9H
-END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:8f78d85d74f827d60076457ee849a7f9@law-secretary
