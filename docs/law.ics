@@ -47,11 +47,6 @@ DESCRIPTION:[서강대 학사일정] 2027학년도 1학기 장학금 신청
   ~ 2026-11-30)\nhttps://www.sogang.ac.kr/ko/academic-support/calendar
 URL:https://www.sogang.ac.kr/ko/academic-support/calendar
 TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:오늘 2027학년도 1학기 장학금 신청 시작
-TRIGGER:PT9H
-END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:4b2cb7d8b915908c8e76cdca6b27e7df@law-secretary
@@ -116,11 +111,6 @@ DESCRIPTION:[서강대 학사일정] 전공 추가신청 및 변경\n근거
  https://www.sogang.ac.kr/ko/academic-support/calendar
 URL:https://www.sogang.ac.kr/ko/academic-support/calendar
 TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:D-3 전공 추가신청 및 변경 시작
-TRIGGER:-P2DT15H
-END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:D-1 전공 추가신청 및 변경 시작
@@ -1533,11 +1523,6 @@ URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1601&s
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:D-1 법무장교 병무청 접수(등록) 마감
-TRIGGER:-PT15H
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
 DESCRIPTION:오늘 법무장교 병무청 접수(등록) 마감
 TRIGGER:PT9H
 END:VALARM
@@ -2245,11 +2230,6 @@ DESCRIPTION:[일반공지] [전국로스쿨야구협의회] 2026 횡성 야
 URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1602&s
  iteId=lawschool&pkid=941152
 TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:오늘 횡성 야구캠프 종료
-TRIGGER:PT9H
-END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:ecc35e39e06cb6146ec0fba375a9cfe7@law-secretary
@@ -2450,11 +2430,6 @@ DESCRIPTION:[일반공지] [법률신문] JUSTICE RUN SEOCHO 2026 안내\n
 URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1602&s
  iteId=lawschool&pkid=941661
 TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:오늘 JUSTICE RUN 대회 (오전 7시30분)
-TRIGGER:-PT1H
-END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:0c51b3b394817d2c8242679d2b68cf61@law-secretary
@@ -2502,11 +2477,6 @@ DESCRIPTION:[일반공지] [재안내][법률신문] JUSTICE RUN SEOCHO 202
 URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1602&s
  iteId=lawschool&pkid=941944
 TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:오늘 JUSTICE RUN SEOCHO 대회
-TRIGGER:-PT1H
-END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:9f2ba47b91e9af6c33c4808f17eb082a@law-secretary
@@ -2628,11 +2598,6 @@ DESCRIPTION:[일반공지] [공군검찰단] 2027년 군법무관 선발
 URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1602&s
  iteId=lawschool&pkid=942169
 TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:D-3 군법무관 홍보활동 (공군검찰단)
-TRIGGER:-P3D
-END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:D-1 군법무관 홍보활동 (공군검찰단)
@@ -2832,21 +2797,6 @@ DESCRIPTION:[실무수습] [학교추천] 2026년 해양경찰 실무수습
  r/front/cmsboardview.do?bbsConfigFK=2706&siteId=lawschool&pkid=938234
 URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=2706&s
  iteId=lawschool&pkid=938234
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:8d434f00f7dd162606e45fbf72157ae2@law-secretary
-DTSTAMP:20260728T155823Z
-DTSTART;VALUE=DATE:20260803
-DTEND;VALUE=DATE:20260804
-SEQUENCE:0
-SUMMARY:인사이트 로펌 실무수습 시작
-DESCRIPTION:[실무수습] [INSIGHT LAW] 법무법인 인사이트 2026년 
- 하계 실무수습 모집\n근거: 2026. 8. 3. (월) ~ 2026. 8. 14. (금)
-  (2주간) / 주 2회 사무실 근무\nhttps://lawschool.sogang.ac.kr/fro
- nt/cmsboardview.do?bbsConfigFK=2706&siteId=lawschool&pkid=938306
-URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=2706&s
- iteId=lawschool&pkid=938306
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
