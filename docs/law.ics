@@ -90,11 +90,6 @@ URL:https://www.sogang.ac.kr/ko/academic-support/calendar
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:D-1 중간성적 제출 마감
-TRIGGER:-PT15H
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
 DESCRIPTION:오늘 중간성적 제출 마감
 TRIGGER:PT9H
 END:VALARM
@@ -1521,11 +1516,6 @@ DESCRIPTION:[학사공지] [병무청] 2027년도 입영대상 법무장교
 URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1601&s
  iteId=lawschool&pkid=941362
 TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:오늘 법무장교 병무청 접수(등록) 마감
-TRIGGER:PT9H
-END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:0cb7da210a15a7b39f28976534b4bbdc@law-secretary
@@ -2936,11 +2926,6 @@ DESCRIPTION:[실무수습] [법무법인(유) 율촌] 2026 동계 온라인
 URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=2706&s
  iteId=lawschool&pkid=942190
 TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:D-3 율촌 온라인 설명회
-TRIGGER:-P3D
-END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:D-1 율촌 온라인 설명회
