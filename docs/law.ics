@@ -88,11 +88,6 @@ DESCRIPTION:[서강대 학사일정] 중간성적 제출 마감\n근거:
  //www.sogang.ac.kr/ko/academic-support/calendar
 URL:https://www.sogang.ac.kr/ko/academic-support/calendar
 TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:오늘 중간성적 제출 마감
-TRIGGER:PT9H
-END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:0e93c27de547721f651484ccce6784a0@law-secretary
@@ -106,11 +101,6 @@ DESCRIPTION:[서강대 학사일정] 전공 추가신청 및 변경\n근거
  https://www.sogang.ac.kr/ko/academic-support/calendar
 URL:https://www.sogang.ac.kr/ko/academic-support/calendar
 TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:D-1 전공 추가신청 및 변경 시작
-TRIGGER:-PT15H
-END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:오늘 전공 추가신청 및 변경 시작
@@ -2500,11 +2490,6 @@ URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1602&s
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:D-3 토론회 오프라인 신청 마감
-TRIGGER:-P3D
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
 DESCRIPTION:D-1 토론회 오프라인 신청 마감
 TRIGGER:-P1D
 END:VALARM
@@ -2588,11 +2573,6 @@ DESCRIPTION:[일반공지] [공군검찰단] 2027년 군법무관 선발
 URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1602&s
  iteId=lawschool&pkid=942169
 TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:D-1 군법무관 홍보활동 (공군검찰단)
-TRIGGER:-P1D
-END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:오늘 군법무관 홍보활동 (공군검찰단)
