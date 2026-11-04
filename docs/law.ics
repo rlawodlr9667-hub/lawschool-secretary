@@ -101,11 +101,6 @@ DESCRIPTION:[서강대 학사일정] 전공 추가신청 및 변경\n근거
  https://www.sogang.ac.kr/ko/academic-support/calendar
 URL:https://www.sogang.ac.kr/ko/academic-support/calendar
 TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:오늘 전공 추가신청 및 변경 시작
-TRIGGER:PT9H
-END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:0a3aea5040c3d69c4d357e80c51efd96@law-secretary
@@ -1007,21 +1002,6 @@ ACTION:DISPLAY
 DESCRIPTION:오늘 2학기 종강
 TRIGGER:PT9H
 END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:9ec00e24498ca58f8a45dbfe8c0364d8@law-secretary
-DTSTAMP:20260805T080207Z
-DTSTART;VALUE=DATE:20260806
-DTEND;VALUE=DATE:20260807
-SEQUENCE:0
-SUMMARY:휴·복학 신청 마감
-DESCRIPTION:[학사공지] 2026학년도 2학기 재학생 등록금 납부
-  및 주요 학사일정 안내\n근거: 1) 휴·복학 신청기간 : 202
- 6년 7월 27일(월) ~ 8월 6일(목) 까지\nhttps://lawschool.sogang.ac.
- kr/front/cmsboardview.do?bbsConfigFK=1601&siteId=lawschool&pkid=938989
-URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1601&s
- iteId=lawschool&pkid=938989
-TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:8c0960d18680c04779ad144a3076926c@law-secretary
@@ -2102,11 +2082,6 @@ URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1602&s
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:D-3 헌법연구관보 1차 시험
-TRIGGER:-P2DT15H
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
 DESCRIPTION:D-1 헌법연구관보 1차 시험
 TRIGGER:-PT15H
 END:VALARM
@@ -2573,11 +2548,6 @@ DESCRIPTION:[일반공지] [공군검찰단] 2027년 군법무관 선발
 URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1602&s
  iteId=lawschool&pkid=942169
 TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:오늘 군법무관 홍보활동 (공군검찰단)
-TRIGGER:-PT1H
-END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:d107ced7d94443daa6e53718dbc2b3b9@law-secretary
@@ -2906,11 +2876,6 @@ DESCRIPTION:[실무수습] [법무법인(유) 율촌] 2026 동계 온라인
 URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=2706&s
  iteId=lawschool&pkid=942190
 TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:D-1 율촌 온라인 설명회
-TRIGGER:-P1D
-END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:오늘 율촌 온라인 설명회
