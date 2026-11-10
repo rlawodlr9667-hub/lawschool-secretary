@@ -1003,21 +1003,6 @@ TRIGGER:-PT1H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:0d20d30a54a839dd689d89d7a8b09502@law-secretary
-DTSTAMP:20260805T080207Z
-DTSTART:20260812T020000Z
-DTEND:20260812T023000Z
-SEQUENCE:0
-SUMMARY:수강신청 시작
-DESCRIPTION:[학사공지] 2026학년도 2학기 재학생 등록금 납부
-  및 주요 학사일정 안내\n근거: 수강신청 [재학생] 2026. 8.
-  12(수) 11:00 ~ 8. 13(목) 17:00\nhttps://lawschool.sogang.ac.kr/front/cm
- sboardview.do?bbsConfigFK=1601&siteId=lawschool&pkid=938989
-URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1601&s
- iteId=lawschool&pkid=938989
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:c3be344a10e4354dfc491300e543fe90@law-secretary
 DTSTAMP:20260805T080207Z
 DTSTART:20260813T080000Z
@@ -1167,21 +1152,6 @@ ACTION:DISPLAY
 DESCRIPTION:오늘 기말시험 종료
 TRIGGER:PT9H
 END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:e56489376e1ca5060c6c6fa545914a22@law-secretary
-DTSTAMP:20260805T080207Z
-DTSTART:20260812T020000Z
-DTEND:20260812T023000Z
-SEQUENCE:0
-SUMMARY:수강신청 시작
-DESCRIPTION:[학사공지] 2026학년도 2학기 수강신청 안내\n근
- 거: 수강신청 [재학생] 2026. 8. 12(수) 11:00 ~ 8. 13(목) 17:00\nh
- ttps://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1601&siteI
- d=lawschool&pkid=938999
-URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1601&s
- iteId=lawschool&pkid=938999
-TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:a2875e0481839df9af7a0347a95590e0@law-secretary
@@ -2217,11 +2187,6 @@ DESCRIPTION:[일반공지] 학술등재지 「법과정책」 제32집 제3
 URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1602&s
  iteId=lawschool&pkid=941491
 TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:오늘 법과정책 논문 투고 마감
-TRIGGER:PT9H
-END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:016ebeb2f984de3b999975ee2502ec8e@law-secretary
@@ -2377,11 +2342,6 @@ DESCRIPTION:[일반공지] [서울사회복지공익법센터] 2026년 복
 URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1602&s
  iteId=lawschool&pkid=942099
 TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:오늘 토론회 온라인 신청 마감
-TRIGGER:-PT1H
-END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:f4253072a13d423f4dc6ab05c74243ce@law-secretary
@@ -2397,11 +2357,6 @@ DESCRIPTION:[일반공지] [서울사회복지공익법센터] 2026년 복
 URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1602&s
  iteId=lawschool&pkid=942099
 TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:D-3 복지법률 토론회 개최
-TRIGGER:-P3D
-END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:D-1 복지법률 토론회 개최
