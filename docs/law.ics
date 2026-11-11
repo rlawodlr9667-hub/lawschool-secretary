@@ -1003,21 +1003,6 @@ TRIGGER:-PT1H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:c3be344a10e4354dfc491300e543fe90@law-secretary
-DTSTAMP:20260805T080207Z
-DTSTART:20260813T080000Z
-DTEND:20260813T083000Z
-SEQUENCE:0
-SUMMARY:수강신청 마감
-DESCRIPTION:[학사공지] 2026학년도 2학기 재학생 등록금 납부
-  및 주요 학사일정 안내\n근거: 수강신청 [재학생] 2026. 8.
-  12(수) 11:00 ~ 8. 13(목) 17:00\nhttps://lawschool.sogang.ac.kr/front/cm
- sboardview.do?bbsConfigFK=1601&siteId=lawschool&pkid=938989
-URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1601&s
- iteId=lawschool&pkid=938989
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:f641782541bd693e320322283e79eb9c@law-secretary
 DTSTAMP:20260805T080207Z
 DTSTART:20260902T020000Z
@@ -1152,21 +1137,6 @@ ACTION:DISPLAY
 DESCRIPTION:오늘 기말시험 종료
 TRIGGER:PT9H
 END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:a2875e0481839df9af7a0347a95590e0@law-secretary
-DTSTAMP:20260805T080207Z
-DTSTART:20260813T080000Z
-DTEND:20260813T083000Z
-SEQUENCE:0
-SUMMARY:수강신청 마감
-DESCRIPTION:[학사공지] 2026학년도 2학기 수강신청 안내\n근
- 거: 수강신청 [재학생] 2026. 8. 12(수) 11:00 ~ 8. 13(목) 17:00\nh
- ttps://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1601&siteI
- d=lawschool&pkid=938999
-URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1601&s
- iteId=lawschool&pkid=938999
-TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:f81921650dd401f18b0ce0d4434415ef@law-secretary
@@ -1441,11 +1411,6 @@ DESCRIPTION:[학사공지] [병무청] 2027년도 입영대상 법무장교
 URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1601&s
  iteId=lawschool&pkid=941362
 TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:D-1 법무장교 서류 우편제출 마감
-TRIGGER:-PT15H
-END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:오늘 법무장교 서류 우편제출 마감
@@ -2401,11 +2366,6 @@ URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1602&s
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:D-1 주거도시정비박람회 시작
-TRIGGER:-PT15H
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
 DESCRIPTION:오늘 주거도시정비박람회 시작
 TRIGGER:PT9H
 END:VALARM
@@ -2426,11 +2386,6 @@ DESCRIPTION:[일반공지] [대한경제]2026 대한민국 주거 도시정
 URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1602&s
  iteId=lawschool&pkid=942302
 TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:D-3 주거도시정비박람회 종료
-TRIGGER:-P2DT15H
-END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:D-1 주거도시정비박람회 종료
