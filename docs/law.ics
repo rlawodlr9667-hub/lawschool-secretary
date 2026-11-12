@@ -1411,11 +1411,6 @@ DESCRIPTION:[학사공지] [병무청] 2027년도 입영대상 법무장교
 URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1601&s
  iteId=lawschool&pkid=941362
 TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:오늘 법무장교 서류 우편제출 마감
-TRIGGER:PT9H
-END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:9f37c4faebcb120eba952cd279c03aa8@law-secretary
@@ -1536,22 +1531,6 @@ DESCRIPTION:[일반공지] 2026년 을지연습 연계 공습 대비 민방
  =1602&siteId=lawschool&pkid=938952
 URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1602&s
  iteId=lawschool&pkid=938952
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:9f1ef84bb93377692eeceec43fdf3e49@law-secretary
-DTSTAMP:20260806T075931Z
-DTSTART;VALUE=DATE:20260814
-DTEND;VALUE=DATE:20260815
-SEQUENCE:0
-SUMMARY:대한중앙 채용 제출 마감
-DESCRIPTION:[일반공지] [재공지][법무법인 대한중앙] 실무수
- 습 후 연계채용 공고\n근거: 7. 제출기한: 2026. 8. 14.(금)까
- 지(*채용 시 조기 마감 될 수 있습니다*)\nhttps://lawschool.so
- gang.ac.kr/front/cmsboardview.do?bbsConfigFK=1602&siteId=lawschool&pkid=93
- 9042
-URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1602&s
- iteId=lawschool&pkid=939042
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
@@ -2324,11 +2303,6 @@ URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1602&s
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:D-1 복지법률 토론회 개최
-TRIGGER:-P1D
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
 DESCRIPTION:오늘 복지법률 토론회 개최
 TRIGGER:-PT1H
 END:VALARM
@@ -2364,11 +2338,6 @@ DESCRIPTION:[일반공지] [대한경제]2026 대한민국 주거 도시정
 URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1602&s
  iteId=lawschool&pkid=942302
 TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:오늘 주거도시정비박람회 시작
-TRIGGER:PT9H
-END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:8855a7b6cbafcf39aadfddbce7db897c@law-secretary
@@ -2413,21 +2382,6 @@ URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1602&s
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:7a58a091c45be3157644cefea9194205@law-secretary
-DTSTAMP:20260729T030000Z
-DTSTART;VALUE=DATE:20260814
-DTEND;VALUE=DATE:20260815
-SEQUENCE:0
-SUMMARY:언론중재위 연수 종료
-DESCRIPTION:[실무수습] [언론중재위] 2026 하계 예비 법조인 
- 연수(실무수습) 개최 안내\n근거: 가. 연수일정: 2026. 8. 10
- .(월)∼14.(금)\nhttps://lawschool.sogang.ac.kr/front/cmsboardview.do?bb
- sConfigFK=2706&siteId=lawschool&pkid=937154
-URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=2706&s
- iteId=lawschool&pkid=937154
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:48e52acd6cb95e69882cb1a8cb0b2aa8@law-secretary
 DTSTAMP:20260728T155823Z
 DTSTART;VALUE=DATE:20260821
@@ -2458,21 +2412,6 @@ DESCRIPTION:[실무수습] [학교추천] 2026년 해양경찰 실무수습
  r/front/cmsboardview.do?bbsConfigFK=2706&siteId=lawschool&pkid=938234
 URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=2706&s
  iteId=lawschool&pkid=938234
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:16d64358cf8de408864372993cf9c388@law-secretary
-DTSTAMP:20260728T155823Z
-DTSTART;VALUE=DATE:20260814
-DTEND;VALUE=DATE:20260815
-SEQUENCE:0
-SUMMARY:인사이트 로펌 실무수습 종료
-DESCRIPTION:[실무수습] [INSIGHT LAW] 법무법인 인사이트 2026년 
- 하계 실무수습 모집\n근거: 2026. 8. 3. (월) ~ 2026. 8. 14. (금)
-  (2주간) / 주 2회 사무실 근무\nhttps://lawschool.sogang.ac.kr/fro
- nt/cmsboardview.do?bbsConfigFK=2706&siteId=lawschool&pkid=938306
-URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=2706&s
- iteId=lawschool&pkid=938306
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
