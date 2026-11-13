@@ -2301,11 +2301,6 @@ DESCRIPTION:[일반공지] [서울사회복지공익법센터] 2026년 복
 URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1602&s
  iteId=lawschool&pkid=942099
 TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:오늘 복지법률 토론회 개최
-TRIGGER:-PT1H
-END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:702a127d20a5b33030f3a246d6fe33b5@law-secretary
@@ -2357,11 +2352,6 @@ URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1602&s
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:D-1 주거도시정비박람회 종료
-TRIGGER:-PT15H
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
 DESCRIPTION:오늘 주거도시정비박람회 종료
 TRIGGER:PT9H
 END:VALARM
@@ -2395,23 +2385,6 @@ DESCRIPTION:[실무수습] [학교추천] 대한법률구조공단 2026년
  =2706&siteId=lawschool&pkid=937602
 URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=2706&s
  iteId=lawschool&pkid=937602
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:60e8fbfd883e19c505f42afab2579b57@law-secretary
-DTSTAMP:20260728T155823Z
-DTSTART;VALUE=DATE:20260815
-DTEND;VALUE=DATE:20260816
-SEQUENCE:0
-SUMMARY:해양경찰 실무수습 종료
-DESCRIPTION:[실무수습] [학교추천] 2026년 해양경찰 실무수습
-  과정 참여 학생 모집 (신청 ~7/19(일))\n근거: ○ (기간 및 
- 장소) ’26.8.10.(수)~8.15.(금)\, 1주 40시간 / 교육원(여수) / 
- 30명(교육정원) — 명시된 요일(금)이 실제 날짜(2026-08-15\
- , 토요일)와 맞지 않아 확인 필요\nhttps://lawschool.sogang.ac.k
- r/front/cmsboardview.do?bbsConfigFK=2706&siteId=lawschool&pkid=938234
-URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=2706&s
- iteId=lawschool&pkid=938234
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
