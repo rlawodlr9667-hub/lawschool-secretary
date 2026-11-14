@@ -116,11 +116,6 @@ URL:https://www.sogang.ac.kr/ko/academic-support/calendar
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:D-3 전공 추가신청 및 변경 마감
-TRIGGER:-P2DT15H
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
 DESCRIPTION:D-1 전공 추가신청 및 변경 마감
 TRIGGER:-PT15H
 END:VALARM
@@ -2350,11 +2345,6 @@ DESCRIPTION:[일반공지] [대한경제]2026 대한민국 주거 도시정
 URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1602&s
  iteId=lawschool&pkid=942302
 TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:오늘 주거도시정비박람회 종료
-TRIGGER:PT9H
-END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:398ba7f50abc684f596e995d98788520@law-secretary
