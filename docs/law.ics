@@ -129,11 +129,6 @@ URL:https://www.sogang.ac.kr/ko/academic-support/calendar
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:D-1 휴학원서 제출 마감
-TRIGGER:-PT15H
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
 DESCRIPTION:오늘 휴학원서 제출 마감
 TRIGGER:PT9H
 END:VALARM
@@ -786,21 +781,6 @@ TRIGGER:PT9H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:a3f202756f9e4a94cc2a8432acb97338@law-secretary
-DTSTAMP:20260727T133500Z
-DTSTART;VALUE=DATE:20260821
-DTEND;VALUE=DATE:20260822
-SEQUENCE:0
-SUMMARY:리걸클리닉3(법원) 실무수습 종료
-DESCRIPTION:[학사공지] 2026년 2학기 <리걸클리닉3(법원)-2학
- 점> 과목 수강신청 안내( ~7/14 15:00 마감)\n근거: 2. 일정 : 
- 2026. 8. 7.(금) ~ 8. 21.(금) 예정\nhttps://lawschool.sogang.ac.kr/fron
- t/cmsboardview.do?bbsConfigFK=1601&siteId=lawschool&pkid=938297
-URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1601&s
- iteId=lawschool&pkid=938297
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:b26ec9bf23f846e6cd30c36093107e2e@law-secretary
 DTSTAMP:20260805T080207Z
 DTSTART;VALUE=DATE:20260824
@@ -826,37 +806,6 @@ DESCRIPTION:[학사공지] 2026학년도 2학기 재학생 등록금 납부
   및 주요 학사일정 안내\n근거: 나. 납부기간 : 2026년 8월 
  24일(월) ~ 25일(화)\nhttps://lawschool.sogang.ac.kr/front/cmsboardview
  .do?bbsConfigFK=1601&siteId=lawschool&pkid=938989
-URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1601&s
- iteId=lawschool&pkid=938989
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:5efe8a395c3f39359afb77949f4fd495@law-secretary
-DTSTAMP:20260805T080207Z
-DTSTART:20260821T040000Z
-DTEND:20260821T043000Z
-SEQUENCE:0
-SUMMARY:등록금 고지서 출력 시작
-DESCRIPTION:[학사공지] 2026학년도 2학기 재학생 등록금 납부
-  및 주요 학사일정 안내\n근거: 마. 고지서 출력 : 8월 21
- 일(금) 13:00 이후\nhttps://lawschool.sogang.ac.kr/front/cmsboardview.d
- o?bbsConfigFK=1601&siteId=lawschool&pkid=938989
-URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1601&s
- iteId=lawschool&pkid=938989
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:45f164fb3e0e9ba50c5e806659f3a45d@law-secretary
-DTSTAMP:20260805T080207Z
-DTSTART:20260821T040000Z
-DTEND:20260821T043000Z
-SEQUENCE:0
-SUMMARY:장학금 수혜자 발표
-DESCRIPTION:[학사공지] 2026학년도 2학기 재학생 등록금 납부
-  및 주요 학사일정 안내\n근거: 사. 장학금 수혜 대상자 :
-  SAINT 에서 확인 (☞ 8월 21일(금) 13:00 발표 예정)\nhttps://la
- wschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1601&siteId=lawscho
- ol&pkid=938989
 URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1601&s
  iteId=lawschool&pkid=938989
 TRANSP:TRANSPARENT
@@ -920,11 +869,6 @@ DESCRIPTION:[학사공지] 2026학년도 2학기 재학생 등록금 납부
 URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1601&s
  iteId=lawschool&pkid=938989
 TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:D-1 학기 중 휴학원서 제출 마감
-TRIGGER:-P1D
-END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:오늘 학기 중 휴학원서 제출 마감
@@ -2266,22 +2210,6 @@ URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1602&s
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:48e52acd6cb95e69882cb1a8cb0b2aa8@law-secretary
-DTSTAMP:20260728T155823Z
-DTSTART;VALUE=DATE:20260821
-DTEND;VALUE=DATE:20260822
-SEQUENCE:0
-SUMMARY:법률구조공단 실무수습(후기) 종료
-DESCRIPTION:[실무수습] [학교추천] 대한법률구조공단 2026년 
- 하계 실무수습 안내 (신청 ~6/21(일))\n근거: 후기 : 2026. 8. 
- 10.(월) ~ 2026. 8. 21.(금) (2주) / 서강대학교 배정 인원: 후
- 기 1명\nhttps://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK
- =2706&siteId=lawschool&pkid=937602
-URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=2706&s
- iteId=lawschool&pkid=937602
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:53ec7c19cb8511e3fb3f3116d8c8b59d@law-secretary
 DTSTAMP:20260907T050000Z
 DTSTART:20260913T150000Z
@@ -2618,11 +2546,6 @@ DESCRIPTION:[실무수습] [희망법] 2027 겨울 실무수습 모집 안
 URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=2706&s
  iteId=lawschool&pkid=942214
 TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:D-1 희망법 실무수습 지원 마감
-TRIGGER:-P1D
-END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:오늘 희망법 실무수습 지원 마감
