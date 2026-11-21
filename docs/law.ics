@@ -2549,11 +2549,6 @@ URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=2706&s
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:D-3 희망법 실무수습 결과 발표
-TRIGGER:-P2DT15H
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
 DESCRIPTION:D-1 희망법 실무수습 결과 발표
 TRIGGER:-PT15H
 END:VALARM
@@ -2641,11 +2636,6 @@ DESCRIPTION:[실무수습] [학교추천] 법제처 주관 제35기 실무
 URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=2706&s
  iteId=lawschool&pkid=942328
 TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:D-3 법제처 실무수습 신청 마감
-TRIGGER:-P2DT15H
-END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:D-1 법제처 실무수습 신청 마감
