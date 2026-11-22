@@ -776,21 +776,6 @@ TRIGGER:PT9H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:b26ec9bf23f846e6cd30c36093107e2e@law-secretary
-DTSTAMP:20260805T080207Z
-DTSTART;VALUE=DATE:20260824
-DTEND;VALUE=DATE:20260825
-SEQUENCE:0
-SUMMARY:등록금 납부 시작
-DESCRIPTION:[학사공지] 2026학년도 2학기 재학생 등록금 납부
-  및 주요 학사일정 안내\n근거: 나. 납부기간 : 2026년 8월 
- 24일(월) ~ 25일(화)\nhttps://lawschool.sogang.ac.kr/front/cmsboardview
- .do?bbsConfigFK=1601&siteId=lawschool&pkid=938989
-URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1601&s
- iteId=lawschool&pkid=938989
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:24ee906402408f49e5806ba9f729c903@law-secretary
 DTSTAMP:20260805T080207Z
 DTSTART;VALUE=DATE:20260825
@@ -1135,21 +1120,6 @@ ACTION:DISPLAY
 DESCRIPTION:오늘 기말시험 종료
 TRIGGER:PT9H
 END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:11a8d42450f8b6a265ee13eea2ffeded@law-secretary
-DTSTAMP:20260820T080634Z
-DTSTART:20260824T013000Z
-DTEND:20260824T020000Z
-SEQUENCE:0
-SUMMARY:검찰실무1 교재 배부
-DESCRIPTION:[학사공지] 2026학년도 2학기 <검찰실무1> 1회차 
- 수업일(8/25) 및 교재 배부 안내\n근거: 일시 : 2026년 8월 24
- 일(월) 10:30 ~\nhttps://lawschool.sogang.ac.kr/front/cmsboardview.do?bbs
- ConfigFK=1601&siteId=lawschool&pkid=939552
-URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1601&s
- iteId=lawschool&pkid=939552
-TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:197eee5bd9fd60b8f5f162c02572dfa4@law-secretary
@@ -2427,11 +2397,6 @@ DESCRIPTION:[실무수습] [학교추천] 공익인권법재단 공감 2027
 URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=2706&s
  iteId=lawschool&pkid=942209
 TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:D-1 공감 실무수습 신청 마감
-TRIGGER:-PT15H
-END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:오늘 공감 실무수습 신청 마감
