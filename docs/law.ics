@@ -776,21 +776,6 @@ TRIGGER:PT9H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:24ee906402408f49e5806ba9f729c903@law-secretary
-DTSTAMP:20260805T080207Z
-DTSTART;VALUE=DATE:20260825
-DTEND;VALUE=DATE:20260826
-SEQUENCE:0
-SUMMARY:등록금 납부 마감
-DESCRIPTION:[학사공지] 2026학년도 2학기 재학생 등록금 납부
-  및 주요 학사일정 안내\n근거: 나. 납부기간 : 2026년 8월 
- 24일(월) ~ 25일(화)\nhttps://lawschool.sogang.ac.kr/front/cmsboardview
- .do?bbsConfigFK=1601&siteId=lawschool&pkid=938989
-URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1601&s
- iteId=lawschool&pkid=938989
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:465e9cc0a77230f4b40e4c339df35823@law-secretary
 DTSTAMP:20260805T080207Z
 DTSTART;VALUE=DATE:20260901
@@ -1120,21 +1105,6 @@ ACTION:DISPLAY
 DESCRIPTION:오늘 기말시험 종료
 TRIGGER:PT9H
 END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:197eee5bd9fd60b8f5f162c02572dfa4@law-secretary
-DTSTAMP:20260820T080634Z
-DTSTART:20260825T060000Z
-DTEND:20260825T063000Z
-SEQUENCE:0
-SUMMARY:검찰실무1 1회차 수업
-DESCRIPTION:[학사공지] 2026학년도 2학기 <검찰실무1> 1회차 
- 수업일(8/25) 및 교재 배부 안내\n근거: 1회차 수업일 : 2026
- 년 8월 25일(화) 15:00~17:45\nhttps://lawschool.sogang.ac.kr/front/cmsb
- oardview.do?bbsConfigFK=1601&siteId=lawschool&pkid=939552
-URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1601&s
- iteId=lawschool&pkid=939552
-TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:c123018e165024459a1e7303398f55c0@law-secretary
@@ -2397,11 +2367,6 @@ DESCRIPTION:[실무수습] [학교추천] 공익인권법재단 공감 2027
 URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=2706&s
  iteId=lawschool&pkid=942209
 TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:오늘 공감 실무수습 신청 마감
-TRIGGER:PT9H
-END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:067dcc16a2fbb9ac36ce555271de2585@law-secretary
@@ -2514,11 +2479,6 @@ URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=2706&s
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:D-1 희망법 실무수습 결과 발표
-TRIGGER:-PT15H
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
 DESCRIPTION:오늘 희망법 실무수습 결과 발표
 TRIGGER:PT9H
 END:VALARM
@@ -2601,11 +2561,6 @@ DESCRIPTION:[실무수습] [학교추천] 법제처 주관 제35기 실무
 URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=2706&s
  iteId=lawschool&pkid=942328
 TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:D-1 법제처 실무수습 신청 마감
-TRIGGER:-PT15H
-END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:오늘 법제처 실무수습 신청 마감
