@@ -2477,11 +2477,6 @@ DESCRIPTION:[실무수습] [희망법] 2027 겨울 실무수습 모집 안
 URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=2706&s
  iteId=lawschool&pkid=942214
 TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:오늘 희망법 실무수습 결과 발표
-TRIGGER:PT9H
-END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:45cbc4c7d6c30da660da4188be68ceae@law-secretary
@@ -2561,11 +2556,6 @@ DESCRIPTION:[실무수습] [학교추천] 법제처 주관 제35기 실무
 URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=2706&s
  iteId=lawschool&pkid=942328
 TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:오늘 법제처 실무수습 신청 마감
-TRIGGER:PT9H
-END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:64ba9ca811fd39cde38b2f669edf7e27@law-secretary
