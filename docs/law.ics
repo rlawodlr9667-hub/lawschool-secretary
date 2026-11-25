@@ -10,32 +10,6 @@ X-WR-TIMEZONE:Asia/Seoul
 REFRESH-INTERVAL;VALUE=DURATION:PT1H
 X-PUBLISHED-TTL:PT1H
 BEGIN:VEVENT
-UID:8098b72a8be665f1055a8e52c9750d9a@law-secretary
-DTSTAMP:20200101T000000Z
-DTSTART;VALUE=DATE:20261020
-DTEND;VALUE=DATE:20261021
-SEQUENCE:0
-SUMMARY:중간시험 시작
-DESCRIPTION:[서강대 학사일정] 중간시험\n근거: 학사일정: 
- 중간시험 (2026-10-20 ~ 2026-10-26)\nhttps://www.sogang.ac.kr/ko/academ
- ic-support/calendar
-URL:https://www.sogang.ac.kr/ko/academic-support/calendar
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:e0bb6cd436bb4ff027aa7dfdc16499a0@law-secretary
-DTSTAMP:20200101T000000Z
-DTSTART;VALUE=DATE:20261026
-DTEND;VALUE=DATE:20261027
-SEQUENCE:0
-SUMMARY:중간시험 마감
-DESCRIPTION:[서강대 학사일정] 중간시험\n근거: 학사일정: 
- 중간시험 (2026-10-20 ~ 2026-10-26)\nhttps://www.sogang.ac.kr/ko/academ
- ic-support/calendar
-URL:https://www.sogang.ac.kr/ko/academic-support/calendar
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:6b56acbfc7e225dc89f1de8b6a4f439d@law-secretary
 DTSTAMP:20200101T000000Z
 DTSTART;VALUE=DATE:20261101
@@ -1107,36 +1081,6 @@ TRIGGER:PT9H
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:c123018e165024459a1e7303398f55c0@law-secretary
-DTSTAMP:20260826T043000Z
-DTSTART:20260827T060000Z
-DTEND:20260827T063000Z
-SEQUENCE:0
-SUMMARY:형사재판실무 1회차 수업
-DESCRIPTION:[학사공지] 2026학년도 2학기 <형사재판실무> 1회
- 차 수업일(8/27) 및 교재 배부 안내\n근거: 1회차 수업일 : 
- 2026년 8월 27일(목) 15:00~17:45\nhttps://lawschool.sogang.ac.kr/front/
- cmsboardview.do?bbsConfigFK=1601&siteId=lawschool&pkid=939733
-URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1601&s
- iteId=lawschool&pkid=939733
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
-UID:e4c79953247bf0493d5430c7b03e7deb@law-secretary
-DTSTAMP:20260826T043000Z
-DTSTART:20260827T013000Z
-DTEND:20260827T020000Z
-SEQUENCE:0
-SUMMARY:형사재판실무 교재 배부
-DESCRIPTION:[학사공지] 2026학년도 2학기 <형사재판실무> 1회
- 차 수업일(8/27) 및 교재 배부 안내\n근거: 일시 : 2026년 8
- 월 27일(목) 10:30 ~\nhttps://lawschool.sogang.ac.kr/front/cmsboardview.
- do?bbsConfigFK=1601&siteId=lawschool&pkid=939733
-URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1601&s
- iteId=lawschool&pkid=939733
-TRANSP:TRANSPARENT
-END:VEVENT
-BEGIN:VEVENT
 UID:973ea2d43f5004433eff42968243f088@law-secretary
 DTSTAMP:20260827T140521Z
 DTSTART:20260902T020000Z
@@ -1701,11 +1645,6 @@ DESCRIPTION:[일반공지] 2027년도 헌법재판소 헌법연구관(보)
 URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1602&s
  iteId=lawschool&pkid=940754
 TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:D-3 헌법연구관보 2차 시험(개별면접)
-TRIGGER:-P2DT15H
-END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:D-1 헌법연구관보 2차 시험(개별면접)
