@@ -36,11 +36,6 @@ URL:https://www.sogang.ac.kr/ko/academic-support/calendar
 TRANSP:TRANSPARENT
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:D-3 2027학년도 1학기 장학금 신청 마감
-TRIGGER:-P2DT15H
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
 DESCRIPTION:D-1 2027학년도 1학기 장학금 신청 마감
 TRIGGER:-PT15H
 END:VALARM
@@ -1645,11 +1640,6 @@ DESCRIPTION:[일반공지] 2027년도 헌법재판소 헌법연구관(보)
 URL:https://lawschool.sogang.ac.kr/front/cmsboardview.do?bbsConfigFK=1602&s
  iteId=lawschool&pkid=940754
 TRANSP:TRANSPARENT
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:D-1 헌법연구관보 2차 시험(개별면접)
-TRIGGER:-PT15H
-END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:오늘 헌법연구관보 2차 시험(개별면접)
